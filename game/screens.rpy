@@ -230,6 +230,16 @@ style choice_button_text is default:
     properties gui.button_text_properties("choice_button")
 
 
+## Voice Toggle screen ###########################################################
+##
+## This menu allows the user to toggle mute the voices of our various characters.
+
+screen voice_toggle:
+    vbox:
+        textbutton "Mute Eileen" action ToggleVoiceMute("eileen")
+        textbutton "Mute Tristan" action ToggleVoiceMute("tristan")
+
+
 ## Quick Menu screen ###########################################################
 ##
 ## The quick menu is displayed in-game to provide easy access to the out-of-game
@@ -255,6 +265,7 @@ screen quick_menu():
             textbutton _("Save") action ShowMenu('save')
             textbutton _("Q.Save") action QuickSave()
             textbutton _("Q.Load") action QuickLoad()
+            textbutton _("Mute Voices") action ShowMenu('voice_toggle')
             textbutton _("Prefs") action ShowMenu('preferences')
 
 

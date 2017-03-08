@@ -3,7 +3,10 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Eileen")
+
+#IF I PUSH THIS IT'S TO DEMO VOICE TAGS - ECHOFROST
+define e = Character("Eileen", voice_tag="eileen")
+define t = Character("Tristan", voice_tag="tristan")
 
 
 # The game starts here.
@@ -26,9 +29,11 @@ label start:
 
     "Hello, world."
 
-    e "You've created a new Ren'Py game."
+    voice "voice/runexploder2.mp3"
+    e "We run and we explode! I'm gonna blow up!"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    voice "voice/toomanyer.mp3"
+    t "Master Skywalker, there's too many of them. What are we going to do?"
 
     # This ends the game.
 
