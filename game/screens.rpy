@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 ## Initialization
 ################################################################################
 
@@ -328,6 +328,8 @@ screen navigation():
             textbutton _("Main Menu") action MainMenu()
 
         textbutton _("About") action ShowMenu("about")
+
+        textbutton _("Music Box") action ShowMenu("music_box")
 
         if renpy.variant("pc"):
 

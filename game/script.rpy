@@ -29,10 +29,12 @@ label start:
 
     "Hello, world."
 
-    voice "voice/runexploder2.mp3"
+    # Since we defined the filename format on config, there's no need
+    # to indicate the folder.
+    voice "runexploder2.mp3"
     e "We run and we explode! I'm gonna blow up!"
 
-    voice "voice/toomanyer.mp3"
+    voice "toomanyer.mp3"
     t "Master Skywalker, there's too many of them. What are we going to do?"
 
     # This ends the game.

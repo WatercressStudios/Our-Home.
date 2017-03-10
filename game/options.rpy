@@ -1,4 +1,4 @@
-﻿## This file contains options that can be changed to customize your game.
+## This file contains options that can be changed to customize your game.
 ##
 ## Lines beginning with two '#' marks are comments, and you shouldn't uncomment
 ## them. Lines beginning with a single '#' mark are commented-out code, and you
@@ -199,3 +199,13 @@ init python:
 ## by a slash.
 
 # define build.itch_project = "renpytom/test-project"
+
+
+## By doing this, we can use a simpler filename format when calling voice.
+## We could also omit the extension, but since I'm adding this info on the files
+## I'm giving to the VAs, I'd rather keep it so we can use those files as they are.
+##
+## What it does right now is just remove the need for indicating the folder.
+## ~MatKrulli
+
+define config.voice_filename_format = "voice/{filename}"
