@@ -202,7 +202,7 @@ init python:
 
 
 ## By doing this, we can use a simpler filename format when calling voice.
-## We could also omit the extension, but since I'm adding this info on the files
+## We could also ommit the extension, but since I'm adding this info on the files
 ## I'm giving to the VAs, I'd rather keep it so we can use those files as they are.
 ##
 ## What it does right now is just remove the need for indicating the folder.

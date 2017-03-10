@@ -30,7 +30,7 @@ label start:
     "Hello, world."
 
     # Since we defined the filename format on config, there's no need
-    # to indicate the folder.
+    # to indicate the folder. ~MatKrulli
     voice "runexploder2.mp3"
     e "We run and we explode! I'm gonna blow up!"
 
