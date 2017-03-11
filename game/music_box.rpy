@@ -50,23 +50,20 @@ screen music_box():
 
     tag menu
 
-    use game_menu(_("Music Box"), scroll="viewport"):
-        
-        style_prefix "music_box"
+    use game_menu(_("Music Box")):
         
         fixed:
             
             hbox:
-                yalign 0.2
-                xalign 0.3
+                align 0.3, 0.2
 
                 if renpy.music.is_playing():
                     if renpy.music.get_pause():
-                        text "Paused: " xalign 0.5
+                        text "Paused: " align 0.5, 0.5
                     else:
-                        text "Playing: " xalign 0.5
+                        text "Playing: " align 0.5, 0.5
                 else:
-                    text "Stopped: " xalign 0.5
+                    text "Stopped: " align 0.5, 0.5
 
                 vbox:
                     spacing 5
@@ -82,8 +79,7 @@ screen music_box():
                             text music.list[music.delta_pos(i)]
 
             hbox:
-                yalign 0.7
-                xalign 0.3
+                align 0.3, 0.7
                 spacing 30
 
                 textbutton _("Previous") action Function(music.prev)
@@ -93,12 +89,3 @@ screen music_box():
                     textbutton _("Play") action Function(music.play)
                 textbutton _("Stop") action Function(music.stop)
                 textbutton _("Next") action Function(music.next)
-
-style music_box_text is gui_text
-style music_box_button_text is gui_button_text
-
-style music_box_text:
-    yalign 0.5
-    
-style music_box_button_text:
-    yalign 0.5

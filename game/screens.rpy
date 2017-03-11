@@ -331,6 +331,8 @@ screen navigation():
 
         textbutton _("Music Box") action ShowMenu("music_box")
 
+        textbutton _("Gallery") action ShowMenu("gallery")
+
         if renpy.variant("pc"):
 
             ## Help isn't necessary or relevant to mobile devices.
