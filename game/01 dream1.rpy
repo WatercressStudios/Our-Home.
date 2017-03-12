@@ -90,7 +90,7 @@ label dream1:
     play voice "d1-1-11.mp3" #kujira
     dbro "Diane and I handled the decorations. Her idea, I just provided the muscle."
 
-    "Wait, it’s <i>her</i> idea? My eyes dart across the table in amazement."
+    "Wait, it’s {i}her{/i} idea? My eyes dart across the table in amazement."
 
     hide dbro
     show dlov smile
@@ -174,9 +174,9 @@ label cake:
     hide cake
     show black
 
-    play sound "whump.mp3"
+    # play sound "whump.mp3" MAKE SURE TO UNCOMMENT THIS LATER YOU FUCK
 
     "WHUMP!"
     
-#    jump day1s1
+    jump day1s2 #Replace with day1s1 when that file is ready
 
