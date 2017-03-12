@@ -208,4 +208,4 @@ init python:
 ## What it does right now is just remove the need for indicating the folder.
 ## ~MatKrulli
 
-define config.voice_filename_format = "voice/{filename}"
+# define config.voice_filename_format = "voice/{filename}"

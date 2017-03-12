@@ -2,27 +2,27 @@
 # Dream Character Declaration #
 ###############################
 define dn = Character(None, what_color="#FFFFFF", kind=nvl, what_size=32)
-define dbro = Character('Brother', color="#800000", show_two_window=True)
-define dmom = Character('Mother', color="#800000", show_two_window=True)
-define ddad = Character('Father', color="#800000", show_two_window=True)
-define dlov = Character('Diane', color="#800000", show_two_window=True)
+define dbro = Character('Brother', color="#800000")
+define dmom = Character('Mother', color="#800000")
+define ddad = Character('Father', color="#800000")
+define dlov = Character('Diane', color="#800000")
 
 #########################
 # Character Declaration #
 #########################
 define n = Character(None, what_color="#FFFFFF", kind=nvl, what_size=32)
-define pro = Character('Emily', color="#800000", show_two_window=True)
-define lov = Character('Lauren', color="#800000", show_two_window=True)
-define sis = Character('Maria', color="#800000", show_two_window=True)
-define bro = Character('Alex', color="#800000", show_two_window=True)
-define mom = Character('Elizabeth', color="#800000", show_two_window=True)
-define dad = Character('Jonathan', color="#800000", show_two_window=True)
-define tea = Character('Teacher', color="#800000", show_two_window=True)
-define doc = Character('Doctor', color="#800000", show_two_window=True) #Make doctor and nurse the same color
-define nur = Character('Nurse', color="#800000", show_two_window=True) #Make doctor and nurse the same color
-define all = Character('All', color="#800000", show_two_window=True)
-define cho = Character('Choreographer', color="#800000", show_two_window=True)
-define hm = Character('Hall Monitor', color="#800000", show_two_window=True)
+define pro = Character('Emily', color="#800000")
+define lov = Character('Lauren', color="#800000")
+define sis = Character('Maria', color="#800000")
+define bro = Character('Alex', color="#800000")
+define mom = Character('Elizabeth', color="#800000")
+define dad = Character('Jonathan', color="#800000")
+define tea = Character('Miss Reynolds', color="#800000")
+define doc = Character('Dr. Harriet', color="#800000") #Make doctor and nurse the same color
+define nur = Character('Nurse', color="#800000") #Make doctor and nurse the same color
+define all = Character('All', color="#800000")
+define cho = Character('Choreographer', color="#800000")
+define hm = Character('Hall Monitor', color="#800000")
 
 
 ############################
@@ -53,7 +53,7 @@ define hm = Character('Hall Monitor', color="#800000", show_two_window=True)
 #######
 # VFX #
 #######
-
+image watercress = "vfx/splashscreen.png"
 
 
 # Flash the splash screen on launch
@@ -80,4 +80,4 @@ init python:
 # This jumps us to the first scene
 label start:
     
-    jump scene1
+    jump dream1
