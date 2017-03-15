@@ -1,4 +1,5 @@
 label day1s2:
+    
     "You know, why did I ever expect anything different? Of course it'd be the same shit, even on this day. The thought 'today of all days' ruminates in my head for a second, but is quickly replaced with traces of my almost yet not quite forgotten dream."
 
     "Thinking of it, I can't remember any clear events, just the unmistakable feeling of safety, of calm, of peace. Something I can't seem to feel nowadays."

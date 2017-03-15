@@ -1,4 +1,5 @@
 label day2s3:
+    
     $ teaconcern = False
 
     show classroom with dissolve

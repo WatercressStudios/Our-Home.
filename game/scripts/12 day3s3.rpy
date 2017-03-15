@@ -283,4 +283,4 @@ label day3s3:
 
     "We end the outing with little more than idle chatter, and I go home for a small, dreamless nap as a reward for my hard work today."
 
-    jump day4s2
+    jump day5s2
