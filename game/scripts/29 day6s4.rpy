@@ -245,5 +245,5 @@ label day6s4:
 
     "Alright, let's get ready to see Lauren. I have a lot to say to her tonight, and I really don't want to keep her waiting!"
 
-    jump day6s5
+    jump day8s1
 
