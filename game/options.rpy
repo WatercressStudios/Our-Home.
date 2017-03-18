@@ -87,6 +87,23 @@ define config.after_load_transition = None
 
 define config.end_game_transition = dissolve
 
+## A transition that is used when entering the yes/no prompt screen.
+
+define config.enter_yesno_transition = dissolve
+
+## A transition that is used when exiting the yes/no prompt screen.
+
+define config.exit_yesno_transition = dissolve
+
+## The transition used when entering the game menu from the main menu, as is done
+## when clicking "Load Game" or "Preferences."
+
+define config.main_game_transition = dissolve
+
+## The transition that is used to display the main menu after the end of the
+## splashscreen.
+
+define config.end_splash_transition = None
 
 ## A variable to set the transition used when the game starts does not exist.
 ## Instead, use a with statement after showing the initial scene.
@@ -122,7 +139,41 @@ default preferences.text_cps = 90
 ## The default auto-forward delay. Larger numbers lead to longer waits, with 0
 ## to 30 being the valid range.
 
-default preferences.afm_time = 15
+default preferences.afm_time = 10
+
+## This sets the default value of the fullscreen preference. This should be True
+## or False. If None, this is ignored, allowing other code to set the default 
+## value. (It's usually set to False in options.rpy.)
+
+default preferences.fullscreen = True
+
+## The default value of the voice sustain preference. If this is True, the voice
+## will continue past the next interaction. If false, voice will stop when the
+## next interaction begins.
+
+define config.default_voice_sustain = False
+
+## The default value of the wait for voice preference. This determines if Ren'Py
+## should wait for voice to finish before auto-forward takes place.
+
+define config.default_wait_for_voice = True
+
+## The default volume of the music mixer, which is used for the music and movie
+## audio channels. This should be a number between 0.0 and 1.0, with 1.0 being
+## full volume.
+
+default preferences.music_volume = 0.5
+
+## The default volume of the sfx mixer, which is used for the sound audio channel.
+## This should be a number between 0.0 and 1.0, with 1.0 being full volume.
+
+default preferences.sfx_volume = 0.5
+
+## The default volume of the voice mixer, which is used for the voice audio channel
+## (And hence the voice statement, auto-voice, etc.). This should be a number
+## between 0.0 and 1.0, with 1.0 being full volume.
+
+default preferences.voice_volume = 0.5
 
 
 ## Save directory ##############################################################
@@ -140,6 +191,36 @@ default preferences.afm_time = 15
 ## literal string, not an expression.
 
 define config.save_directory = "OurHome-1488760097"
+
+## The number of slots used by autosaves.
+
+define config.autosave_slots = 10
+
+## The number of slots used by quicksaves.
+
+define config.quicksave_slots = 10
+
+## If true, the game will autosave. If false, no autosaving will occur.
+
+define config.has_autosave = True
+
+## Roughly, the number of interactions that will occur before an autosave occurs.
+## To disable autosaving, set config.has_autosave to False, don't change this
+## variable.
+
+define config.autosave_frequency = 200
+
+## If true, Ren'Py will autosave upon encountering an in-game choice.
+## (When renpy.choice_for_skipping() is called.)
+
+define config.autosave_on_choice = True
+
+## If true, Ren'Py will attempt to autosave when the user attempts to quit,
+## return to the main menu, or load a game over the existing game. (To save
+## time, the autosave occurs while the user is being prompted to confirm his or her
+## decision.)
+
+define config.autosave_on_quit = True
 
 
 ## Icon ########################################################################
@@ -204,6 +285,10 @@ init python:
 # define build.itch_project = "renpytom/test-project"
 
 
+## Others ########################################################################
+##
+## Other config variables
+
 ## By doing this, we can use a simpler filename format when calling voice.
 ## We could also ommit the extension, but since I'm adding this info on the files
 ## I'm giving to the VAs, I'd rather keep it so we can use those files as they are.
@@ -212,3 +297,24 @@ init python:
 ## ~MatKrulli
 
 # define config.voice_filename_format = "voice/{filename}"
+
+## If not None, this is the upper limit on the number of frames Ren'Py will attempt
+## to display per second. This is only respected by the software renderer. The GL
+## renderer will synchronize to vertical blank instead.
+## /r/pcmasterrace
+
+define config.framerate = 144
+
+## This is the background that is used when config.developer is True and an
+## undefined image is used in a scene statement. This should be an image name
+## (a string), not a displayable.
+
+# define config.missing_background = "black"
+
+## The mouse is hidden after this number of seconds has elapsed without any mouse
+## input. This should be set to longer than the expected time it will take to read
+## a single screen, so mouse users will not experience the mouse appearing then
+## disappearing between clicks.
+## If None, the mouse will never be hidden.
+
+define config.mouse_hide_time = 30

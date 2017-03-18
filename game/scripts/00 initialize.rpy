@@ -114,14 +114,17 @@ image maria_worry2b = "sprites/maria/sisworry2b.png"
 ########################
 
 
+
 ##################
 # BG Declaration #
 ##################
 
 
+
 #######
 # CGs #
 #######
+
 
 
 #######
