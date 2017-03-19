@@ -242,5 +242,5 @@ label day4s3:
     "I take a breath and head out. I should stop worrying about her for a bit, I know. Alex is probably getting an earful from Mom, and we didn't get to talk much."
     "I miss him."
 
-    jump day5s2
+    jump day4s4
 

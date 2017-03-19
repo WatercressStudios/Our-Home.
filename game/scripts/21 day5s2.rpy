@@ -209,5 +209,5 @@ label day5s2:
 
     "In a sense, yeah. She isn't wrong..."
 
-    jump day6s4
+    jump day5s5
 

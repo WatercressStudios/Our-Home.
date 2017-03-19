@@ -178,5 +178,5 @@ label cake:
 
     "WHUMP!"
     
-    jump day1s2 #Replace with day1s1 when that file is ready
+    jump day1s1
 
