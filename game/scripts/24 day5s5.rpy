@@ -141,7 +141,7 @@ label sleepinroom:
   pro "Good night, Maria."
   
   "I pull the blanket over us and close my eyes."
-  jump dream6
+  jump day6s3 #CHANGE TO DREAM6
 
 ###########################################
 
@@ -171,7 +171,7 @@ label dontworry:
   pro "Good night, Maria."
   
   "I close the door, get into bed, and close my eyes. It's been a long day."
-  jump day6s4
+  jump day6s3
 
 ###########################################
 
