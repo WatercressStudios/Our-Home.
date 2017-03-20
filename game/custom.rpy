@@ -3,23 +3,55 @@ init python:
     custom_gallery.room.transition = dissolve
 
 init python in custom_gallery:
-    cgs = {
-        "alchemy":[
-            "alchemy 1.jpg", "alchemy 2.jpg", "alchemy 3.jpg", "alchemy 4.jpg", "alchemy 5.jpg", "alchemy 6.jpg", "alchemy 7.jpg", "alchemy 8.jpg", "alchemy 9.jpg", "alchemy 10.jpg", "alchemy 11.jpg", "alchemy 12.jpg", "alchemy 13.jpg", "alchemy 14.jpg", "alchemy 15.jpg", "alchemy 15.jpg"
-        ]
-    }
+    cgs = [
+        "BestphotoLI.png",
+        "Birthday Cake.png",
+        ["Composite 3.png", "InkedComposite 3_LI.png"],
+        "Death.png",
+        ["Heroin Box.png", "Heroin Box 2.png"],
+        "Monochrome House.png",
+        ["Park only.png", "Park only (Night).png", "Park with LI.png", "Park with LI (Night).png"],
+        ["Plushie.png", "Plushie Damage.png"],
+        "Scene 67.png",
+        "sleepdead.png"
+    ]
     
+    ## Number of rows and columns on the grid. Change this to change gallery size.
     xgrid = 5
-    ygrid = 3
-    thumb_width = 100
-    thumb_height = 100
+    ygrid = 4
     
-    def cg_path(group, position):
-        return "cgs/" + group + "/" + cgs[group][position]
+    ## Total width and height available for the gallery. Don't mess with those.
+    width = 1410
+    height = 840
     
-    for i in range(len(cgs["alchemy"])):
-        room.button(cg_path("alchemy", i))
-        room.image(cg_path("alchemy", i))
+    ## Aspect ratio for the images used. Shouldn't need to mess with this one.
+    aspect_ratio = 16.0 / 9.0
+    
+    ## Optional minimum border between images, given in pixels.
+    border = 10
+    
+    ## Define what size should the thumbnails have according to the variables defined above.
+    if (float(width) / xgrid) / (float(height) / ygrid) > aspect_ratio:
+        thumb_height = height / ygrid - border
+        thumb_width = thumb_height * aspect_ratio
+    else:
+        thumb_width = width / xgrid - border
+        thumb_height = thumb_width / aspect_ratio
+    
+    ## Add the buttons
+    for i in range(len(cgs)):
+        if isinstance(cgs[i], list):
+            room.button("cgs/" + cgs[i][0])
+            for cg in cgs[i]:
+                room.image("cgs/" + cg)
+        else:
+            room.button("cgs/" + cgs[i])
+            room.image("cgs/" + cgs[i])
+    
+    ## Create a list of buttons to allow us to create the buttons automatically on the Scene
+    buttons = [None] * len(room.buttons)
+    for k, v in room.buttons.iteritems():
+        buttons[v.index] = (k, v.images[0].displayables[0])
 
 init python in custom_music:
     list = [
@@ -67,16 +99,18 @@ screen gallery():
         grid custom_gallery.xgrid custom_gallery.ygrid:
             xfill True
             yfill True
+            
+            $ custom_gallery.counter = 0
 
-            for i in range(custom_gallery.xgrid):
-                for j in range(custom_gallery.ygrid):
-                    if i + j * custom_gallery.xgrid < len(custom_gallery.cgs["alchemy"]):
-                        add custom_gallery.room.make_button(
-                            custom_gallery.cg_path("alchemy", i + j * custom_gallery.xgrid),
-                            im.Scale(custom_gallery.cg_path("alchemy", i + j * custom_gallery.xgrid), custom_gallery.thumb_width, custom_gallery.thumb_height),
-                            xalign = 0.5, yalign = 0.5, xsize = custom_gallery.thumb_width, ysize = custom_gallery.thumb_height)
-                    else:
-                        null
+            for b in custom_gallery.buttons:
+                if custom_gallery.counter < custom_gallery.xgrid * custom_gallery.ygrid:
+                    add custom_gallery.room.make_button(
+                        b[0],
+                        im.Scale(b[1], custom_gallery.thumb_width, custom_gallery.thumb_height),
+                        xalign = 0.5, yalign = 0.5, xsize = custom_gallery.thumb_width, ysize = custom_gallery.thumb_height)
+                    $ custom_gallery.counter += 1
+            for i in range(custom_gallery.xgrid * custom_gallery.ygrid - custom_gallery.counter):
+                null
 
 screen music_box():
 
