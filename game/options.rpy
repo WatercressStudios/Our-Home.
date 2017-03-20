@@ -103,7 +103,7 @@ define config.main_game_transition = dissolve
 ## The transition that is used to display the main menu after the end of the
 ## splashscreen.
 
-define config.end_splash_transition = None
+define config.end_splash_transition = dissolve
 
 ## A variable to set the transition used when the game starts does not exist.
 ## Instead, use a with statement after showing the initial scene.
@@ -296,7 +296,7 @@ init python:
 ## What it does right now is just remove the need for indicating the folder.
 ## ~MatKrulli
 
-# define config.voice_filename_format = "voice/{filename}"
+define config.voice_filename_format = "voice/{filename}"
 
 ## If not None, this is the upper limit on the number of frames Ren'Py will attempt
 ## to display per second. This is only respected by the software renderer. The GL

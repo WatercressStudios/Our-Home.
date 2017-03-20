@@ -41,7 +41,7 @@ label dream1:
 
     "I definitely asked them not to make a big event out of it, but here they are. God, my cheeks are flushing..."
 
-    show dbro smile
+    show brother_neutral_smile
 
     play voice "d1-1-4.mp3" #kujira
     dbro "Sweet eighteen, sis! Took your sweet time gettin' here, huh?"

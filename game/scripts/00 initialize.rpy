@@ -2,28 +2,28 @@
 # Dream Character Declaration #
 ###############################
 define dn = Character(None, what_color="#FFFFFF", kind=nvl, what_size=32)
-define dbro = Character('Brother', color="#800000")
-define dmom = Character('Mother', color="#800000")
-define ddad = Character('Father', color="#800000")
-define dlov = Character('Diane', color="#800000")
+define dbro = Character('Brother', color="#800000", voice_tag="brother")
+define dmom = Character('Mother', color="#800000", voice_tag="mother")
+define ddad = Character('Father', color="#800000", voice_tag="father")
+define dlov = Character('Diane', color="#800000", voice_tag="diane")
 
 
 #########################
 # Character Declaration #
 #########################
 define n = Character(None, what_color="#FFFFFF", kind=nvl, what_size=32)
-define pro = Character('Emily', color="#800000")
-define lov = Character('Lauren', color="#800000")
-define sis = Character('Maria', color="#800000")
-define bro = Character('Alex', color="#800000")
-define mom = Character('Elizabeth', color="#800000")
-define dad = Character('Jonathan', color="#800000")
-define tea = Character('Miss Reynolds', color="#800000")
-define doc = Character('Dr. Harriet', color="#800000") #Make doctor and nurse the same color
-define nur = Character('Nurse', color="#800000") #Make doctor and nurse the same color
-define all = Character('All', color="#800000")
-define cho = Character('Choreographer', color="#800000")
-define hm = Character('Hall Monitor', color="#800000")
+define pro = Character('Emily', color="#800000", voice_tag="emily")
+define lov = Character('Lauren', color="#800000", voice_tag="lauren")
+define sis = Character('Maria', color="#800000", voice_tag="sister")
+define bro = Character('Alex', color="#800000", voice_tag="brother")
+define mom = Character('Elizabeth', color="#800000", voice_tag="mother")
+define dad = Character('Jonathan', color="#800000", voice_tag="father")
+define tea = Character('Miss Reynolds', color="#800000", voice_tag="teacher")
+define doc = Character('Dr. Harriet', color="#800000", voice_tag="doctor") #Make doctor and nurse the same color
+define nur = Character('Nurse', color="#800000", voice_tag="doctor") #Make doctor and nurse the same color
+define all = Character('All', color="#800000", voice_tag="all")
+define cho = Character('Choreographer', color="#800000", voice_tag="others")
+define hm = Character('Hall Monitor', color="#800000", voice_tag="others")
 
 
 ############################
@@ -62,7 +62,8 @@ image mother_worried = "sprites/mother/Worried.png"
 ######################
 # Sprite Declaration #
 ######################
-image emily = "sprites/emily/mclines.png" #We may never reference this but just in case :p
+image emily = "sprites/emily/mclines.png"
+image emily_happy= "sprites/emily/mclineshappy.png"
 image lauren_angry = "sprites/lauren/l1angry.png"
 image lauren_angry2 = "sprites/lauren/l1angry2.png"
 image lauren_angry2b = "sprites/lauren/l1angry2b.png"

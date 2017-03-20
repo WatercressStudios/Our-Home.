@@ -229,15 +229,39 @@ style choice_button is default:
 style choice_button_text is default:
     properties gui.button_text_properties("choice_button")
 
+## Temp image hover screen ###########################################################
+##
+## This menu displays an image. 
+
+screen the_img(img):
+    add img xalign .85 yalign -.2 zoom .4
+    
 
 ## Voice Toggle screen ###########################################################
 ##
 ## This menu allows the user to toggle mute the voices of our various characters.
 
 screen voice_toggle:
-    vbox:
-        textbutton "Mute Eileen" action ToggleVoiceMute("eileen")
-        textbutton "Mute Tristan" action ToggleVoiceMute("tristan")
+
+    tag menu
+    
+    use game_menu(_("Voice"), scroll="viewport"):
+        vbox:
+            align 0.3, 0.5
+            textbutton "Mute Emily" action ToggleVoiceMute("emily") hovered ShowTransient("the_img", transition=dissolve, img="sprites/emily/mclineshappy.png") unhovered Hide("the_img", transition=dissolve)
+            textbutton "Mute Lauren" action ToggleVoiceMute("lauren") hovered ShowTransient("the_img", transition=dissolve, img="sprites/lauren/l2happy2b.png") unhovered Hide("the_img", transition=dissolve)
+            textbutton "Mute Diane" action ToggleVoiceMute("diane") hovered ShowTransient("the_img", transition=dissolve, img="sprites/diane/Happy- Speaking.png") unhovered Hide("the_img", transition=dissolve)
+            textbutton "Mute Mother" action ToggleVoiceMute("mother") hovered ShowTransient("the_img", transition=dissolve, img="sprites/mother/Eyes Closed Smile.png") unhovered Hide("the_img", transition=dissolve)
+            textbutton "Mute Father" action ToggleVoiceMute("father") hovered ShowTransient("the_img", transition=dissolve, img="sprites/father/Happy Speaking.png") unhovered Hide("the_img", transition=dissolve)
+            textbutton "Mute Brother" action ToggleVoiceMute("brother") hovered ShowTransient("the_img", transition=dissolve, img="sprites/brother/Happy Speaking.png") unhovered Hide("the_img", transition=dissolve)
+            textbutton "Mute Alex" action ToggleVoiceMute("brother")
+            textbutton "Mute Maria" action ToggleVoiceMute("sister") hovered ShowTransient("the_img", transition=dissolve, img="sprites/maria/sishappy2b.png") unhovered Hide("the_img", transition=dissolve)
+            textbutton "Mute Jonathon" action ToggleVoiceMute("father")
+            textbutton "Mute Elizabeth" action ToggleVoiceMute("mother")
+            textbutton "Mute Teacher" action ToggleVoiceMute("teacher")
+            textbutton "Mute Doctor" action ToggleVoiceMute("doctor")
+            textbutton "Mute Others" action ToggleVoiceMute("others")
+            textbutton "Mute All Chorus" action ToggleVoiceMute("all")
 
 
 ## Quick Menu screen ###########################################################
@@ -267,7 +291,7 @@ screen quick_menu():
             textbutton _("Q.Load") action QuickLoad()
             textbutton _("Mute Voices") action ShowMenu('voice_toggle')
             textbutton _("Prefs") action ShowMenu('preferences')
-
+            
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
 ## the player has not explicitly hidden the interface.
@@ -318,7 +342,7 @@ screen navigation():
         textbutton _("Load") action ShowMenu("load")
 
         textbutton _("Preferences") action ShowMenu("preferences")
-
+        
         if _in_replay:
 
             textbutton _("End Replay") action EndReplay(confirm=True)
@@ -332,7 +356,12 @@ screen navigation():
         textbutton _("Music Box") action ShowMenu("music_box")
 
         textbutton _("Gallery") action ShowMenu("gallery")
-
+        
+        textbutton _("Voices") action ShowMenu('voice_toggle')
+        
+#        textbutton _("Credits") action Start(credits)
+        
+        
         if renpy.variant("pc"):
 
             ## Help isn't necessary or relevant to mobile devices.
