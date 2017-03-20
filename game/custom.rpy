@@ -82,12 +82,14 @@ screen music_box():
 
     tag menu
 
+    style_prefix "music_box"
+
     use game_menu(_("Music Box")):
         
-        fixed:
+        frame:
             
             hbox:
-                align 0.3, 0.2
+                align 0.5, 0.4
 
                 if renpy.music.is_playing():
                     if renpy.music.get_pause():
@@ -111,7 +113,7 @@ screen music_box():
                             text custom_music.list[custom_music.delta_pos(i)]
 
             hbox:
-                align 0.3, 0.7
+                align 0.5, 0.9
                 spacing 30
 
                 textbutton _("Previous") action Function(custom_music.move, -1)
@@ -121,3 +123,8 @@ screen music_box():
                     textbutton _("Play") action Function(custom_music.play)
                 textbutton _("Stop") action Function(custom_music.stop)
                 textbutton _("Next") action Function(custom_music.move, 1)
+
+style music_box_frame is empty
+
+style music_box_frame:
+    background Frame(im.MatrixColor("gui/frame.png", im.matrix.opacity(0.7)))
