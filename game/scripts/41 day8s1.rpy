@@ -51,7 +51,7 @@ label day8s1:
     play voice "8-1-7.mp3" #lacTheWatcher
     dad "Didn't get much sleep. Liz just… got up in the middle'a the night and… came down."
     play voice "8-1-8.mp3" #lacTheWatcher
-    dad "I couldn't either. I put on coffee. Want a cup?"
+    dad "I put on coffee. Want a cup?"
 
     "He lifts his cup… no, more like drags it a few centimeters. Maria and I have the same thought as we exchange glances."
 
@@ -91,7 +91,7 @@ label day8s1:
     play voice "8-1-21.mp3" #potato
     pro "..."
     play voice "8-1-22.mp3" #amree
-    sis "I'm sorry, but… dad's gonna help us, so it's okay, right?"
+    sis "I'm sorry, but… Dad's gonna help us, so it's okay, right?"
     play voice "8-1-23.mp3" #potato
     pro "...Yeah. Of course, you did good, Maria."
     play voice "8-1-24.mp3" #amree
@@ -101,7 +101,7 @@ label day8s1:
     play voice "8-1-26.mp3" #lacTheWatcher
     dad "So, Emily, can you tell me what you know?"
     play voice "8-1-27.mp3" #potato
-    pro "...I found about the heroin, about a week ago."
+    pro "...I found out about the heroin, about a week ago."
     play voice "8-1-28.mp3" #lacTheWatcher
     dad "A week, huh…"
     play voice "8-1-29.mp3" #potato
@@ -133,7 +133,7 @@ label day8s1:
     "He takes another swig of coffee, before turning to Maria."
     play voice "8-1-39.mp3" #lacTheWatcher
     dad "That's some good work you did, sweety. I'm proud of you."
-    "Maria beams in response. God she was the cutest thing…" 
+    "Maria beams in response. God she's the cutest thing…" 
 
     play voice "8-1-40.mp3" #lacTheWatcher
     dad "I'm pulling some money aside to get the boy some professional help. It's gonna be expensive, but…"
@@ -146,12 +146,16 @@ label day8s1:
     sis "Don't cry, big sis, it's not your fault."
     play voice "8-1-44.mp3" #lacTheWatcher
     dad "You did what you could. I have my own regrets, but… we'll have to move forward."
+    #REDUB VOICE LINE
     play voice "8-1-45.mp3" #lacTheWatcher
-    dad "...I just wish I could see him. The doctor's not allowing family visits."
+    dad "...I just wish I could see him. The doctor's still not allowing family visits."
     play voice "8-1-46.mp3" #potato
     pro "...What? Why not?"
+    #NEED A VOICELINE HERE
+    dad "He's stable, but he's still in the ICU. I asked if I could see him…"
+    #REDUB VOICE LINE
     play voice "8-1-47.mp3" #lacTheWatcher
-    dad "She suspects the family situation would only aggravate him, and he's in bad shape."
+    dad "She suspects the family situation would only aggravate his current condition, but..."
     play voice "8-1-48.mp3" #lacTheWatcher
     dad "I need to see him… to tell him I'm sorry. I don't know how it got this way, but I'm going to do my damndest to fix it!"
     play voice "8-1-49.mp3" #kaito
@@ -173,7 +177,7 @@ label day8s1:
     play voice "8-1-53.mp3" #lacTheWatcher
     dad "Liz? Wait, come back here, Liz!? LIZ!"
 
-    "I've never seen dad this distraught before. But I know he's already in bad shape, he just pulled an allnighter."
+    "I've never seen dad this distraught before. But I know he's already in bad shape, he just pulled an all-nighter."
     "What should I do…?"
 
     menu:
@@ -208,9 +212,16 @@ label day8s1:
     play voice "8-1-60.mp3" #lacTheWatcher
     dad "Y, yeah, fine, just… just a little tumble, I'll be okay. I need to-"
     play voice "8-1-61.mp3" #potato
-    pro "What you need is some rest. You've been up for god knows how long."
+    pro "What you need is some rest. You've been up for God knows how long."
 
     label helpdad:
+        
+    #NEED VOICE LINE
+    dad "I'm just… so worried. I want to see him."
+    #NEED VOICE LINE
+    dad "The doc says he's not in critical condition, but… the damage, he…"
+    #NEED VOICE LINE
+    dad "I just… want to see if it's still him. He's always gonna be my son, but I…"
     play voice "8-1-62.mp3" #potato
     pro "Listen, dad… I'm gonna go for a walk, and if I see Mom, I'll talk to her, and bring her back here. You need to get some rest."
     play voice "8-1-63.mp3" #lacTheWatcher

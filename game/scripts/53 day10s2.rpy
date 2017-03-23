@@ -1,5 +1,4 @@
-label day10s2:
-
+eyn
     scene hallway with dissolve 
 
     "Finally made it! Hopefully I didn't miss too much of my classes." 
@@ -105,7 +104,7 @@ label day10s2:
     play voice "10-3-30.mp3" #skinimini
     tea "...oh darn, I just gave the lot of you a thesis, didn't I? Okay, argue what you like, but you can't use that, okay?"
 
-    "I should probably be paying more attention to Miss Reynold's lecture, but I'm still fuming over that snafu with the hallway monitor."
+    "I should probably be paying more attention to Miss Reynolds' lecture, but I'm still fuming over that snafu with the hallway monitor."
     "That wouldn't have happened if mom hadn't bailed on us. What the fuck is she thinking…" 
     "It's been days, now. My brother's in the hospital, dad's killing himself at a work desk, and she decides to just disappear?"
     "...Maybe she got into trouble. Maybe I should feel a bit more guilty, but… this is her fault."

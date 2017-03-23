@@ -28,11 +28,11 @@ label day4s3:
     pro "'Your brother's out of the hospital. Mom."
     play voice "4-3-2.mp3" #potato
     pro "...Huh?"
-    "They threw him out that quickly? if it was an overdose, I thought they'd hold him for longer..."
-    "I guess he's okay? ...I guess he is! What a relief."
-    "I exhale a sigh of relief I wasn't aware I was holding. Ugh, what an idiot…"
-    "...Still, I wish I could've seen him. He must still be in awful shape."
-    "...Well, I'll see him at home. That's what's important."
+    "They threw him out that quickly? If it was an overdose, I thought they'd hold him for longer..."
+    "I guess he's okay? ...I guess he is."
+    "...I should be more worried than I am, but… I guess he ended up getting what he deserved."
+    "At least he survived. He's fine now. Everything's fine."
+    "Everything's fine."
     play voice "4-3-3.mp3" #skinimini
     tea "Um, Emily? School's over. You can go home now."
     play voice "4-3-4.mp3" #potato

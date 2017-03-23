@@ -106,6 +106,29 @@ label day3s1:
 
     play voice "3-1-21.mp3" #potato
     pro "Why? Why would you worry about her? She's an adult, she can handle herself."
+    
+    #NEED VOICE
+    sis "Mom is… she's really strict, but she still takes care of us. I… I don't wanna forget that."
+
+    #NEED VOICE
+    sis "She must be so stressed all of the time. It must be hard so… I wanna help Mom too."
+
+    #NEED VOICE
+    sis "She loves us and… I love her too."
+
+    #NEED VOICE
+    pro "Huh. She has a funny way of showing it…"
+
+    #NEED VOICE
+    pro "...I guess you wear your heart on your sleeve. You always were the purest little cinnamon roll."
+
+    #NEED VOICE
+    sis "Heheh! It's cuz I'm sweet, right??"
+
+    "That got a laugh out of her."
+
+    #NEED VOICE
+    sis "Still, it… it's hard, not to worry, I mean…"
 
     play voice "3-1-22.mp3" #amree
     sis "You're an adult, but I still worry about you…"
