@@ -151,12 +151,32 @@ label day3s1:
 
     play voice "3-1-25.mp3" #potato
     pro "Yeah, o-of course."
+    
+    #we're editing a few lines in this to make Maria sound more like a kid and adding some lines
 
+    #VOICE REDUB (honestly this existing line take is perfect if we go into audacity and cut "DEAL?" from the end)
     play voice "3-1-26.mp3" #amree
-    sis "I'll still worry about you… and Mom, and Dad, and everyone else. I swear it! So, don't do anything to make me worry more, please. Deal?"
+    Sis "I'll still worry about you… and Mom, and Dad, and everyone else. I swear it! So, don't do anything to make me worry more, please."
 
+    #VOICE NEW
+    play voice "3-1-26_2.mp3" #amree
+    maria "Promise?"
+
+    "Maria extends her pinky to me."
+
+    #VOICE REDUB
     play voice "3-1-27.mp3" #potato
-    pro "Deal."
+    pro "Promise."
+
+    "We make the pinky promise. The pact is sealed…"
+
+    #VOICE NEW
+    play voice "3-1-28.mp3" #amree
+    sis "Okay! Pinkie promises are super important, so now you gotta!"
+
+    #VOICE NEW
+    play voice "3-1-29.mp3" #potato
+    pro "Hehe, yeah. I know."
 
     "I'll try to hold myself to that, but I might not have the energy. I'll have to wait and see, I suppose."
 

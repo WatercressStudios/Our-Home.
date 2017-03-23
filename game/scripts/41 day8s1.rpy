@@ -213,6 +213,7 @@ label day8s1:
     dad "Y, yeah, fine, just… just a little tumble, I'll be okay. I need to-"
     play voice "8-1-61.mp3" #potato
     pro "What you need is some rest. You've been up for God knows how long."
+    jump helpdad
 
     label helpdad:
         
