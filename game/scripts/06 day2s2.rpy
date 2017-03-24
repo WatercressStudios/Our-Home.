@@ -70,7 +70,7 @@ label day2s2:
     play voice "2-2-20.mp3" #amree
     sis "Do you love Mom?"
 
-    "Well fuck. Maria, why do you always have to ask the hard questions?"
+    "Agh, Maria, why do you always have to ask the hard questions? First thing in the morning, too..."
 
     menu:
         "Of course I love her.":
@@ -165,8 +165,12 @@ label day2s2:
     play voice "2-2-37.mp3" #potato
     pro "Alright, later."
 
-    "As she scampers off, I linger a bit at her locker, leaning against it. Fuck class, man. I'm not thrilled at all for this. It's been a shitty few days, and I feel like I'm in molasses - even my thoughts are slow, dragging on today."
-
+    "As she scampers off, I linger a bit at her locker, leaning against it."
+    
+    "Agh, screw class. I'm not thrilled at all for this. It's been a crummy few days, and I feel like I'm in molasses."
+    
+    "Even my thoughts are slow, dragging on today."
+    
     "...But I have to go anyways. I don't want to deal with the blowback of yet another absence. Mother would kill me."
 
     "Well, that'd probably be preferable to the alternative."

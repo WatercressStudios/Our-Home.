@@ -196,6 +196,6 @@
 
     "I sit back, leaning against her to enjoy this fleeting moment, but it, too, passes."
 
-    "We part ways, and I find myself back at my house. I'm late, and I'm sure Mom'll interrogate me, but it's all so, so worth it."
+    "We part ways, and for the first time in forever, my mind’s filled with only warm thoughts."
 
     jump day6s6

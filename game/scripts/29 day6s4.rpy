@@ -4,7 +4,8 @@ label day6s4:
 
     #REVISIT THE SHIT OUT OF THIS LATER FOR TRANSITIONS. I NEED TO KNOW HOW INTERVENTION scene GETS WRITTEN
 
-    "Working in my sewing room has always been a good opportunity to clear my head. I think it's doing me better today than it used to."
+    "Working in my bedroom has always been a good opportunity to clear my head. I think it's doing me better today than it used to."
+    "The repeated motions of the sewing machine has something of a therapeutic quality to it. Calming, relaxing..."
     "After today's intervention, I definitely need something a little quieter, slower paced to wind down."
     "Another busy day in the Westenson household… I guess it's better to stay busy."
     

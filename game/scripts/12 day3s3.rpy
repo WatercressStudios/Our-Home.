@@ -27,6 +27,16 @@ label day3s3:
 
     play voice "3-3-8.mp3" #starleeter
     lov "But I want some coffee nowww…"
+    
+    #VOICE EDIT: THE VOICE CLIP REQUIRES AUDACITY SURGERY TO CUT EXTRANEOUS LINES
+    play voice "3-2-111.mp3" #starleeter
+    lov "There's a cafe not too far from here! Their parfaits are to die for! What do you say?"
+    
+    play voice "3-2-112.mp3" #potato
+    pro "Parfaits? ...I guess they'd suit you."
+    
+    play voice "3-2-113.mp3" #starleeter
+    lov "Yeah, they're fruity and creamy and perfectly sweet, like me!" 
 
     "I sigh, avoiding her gaze. I shove my face into my book, closing it around me, my messy hair getting tangled up and matted down."
 
@@ -281,6 +291,10 @@ label day3s3:
     play voice "3-3-59.mp3" #potato
     pro "That's good to hear, thank you."
 
-    "We end the outing with little more than idle chatter, and I go home for a small, dreamless nap as a reward for my hard work today."
+    "We end the outing with little more than idle chatter. Today's been an exhausting day. More running around than I'm used to."
+
+    "I can never keep up with Lauren's energy… I'm so tired. Time to head home."
+
+    "I wave farewell to Lauren as we go our separate ways."
 
     jump dream4

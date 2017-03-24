@@ -406,14 +406,6 @@ label day3s2:
     play voice "3-2-103.mp3" #potato
     pro "...Haha… true."
 
-    "Lauren leans back in her chair, reclining almost to the point of no return. My hand hovers out, stretched to catch her if she falls, as she is wont to do." 
-
-    play voice "3-2-104.mp3" #starleeter
-    lov "Hoo! I'm bushed!"
-    play voice "3-2-105.mp3" #potato
-    pro "We, uh, didn't really do all that much, did we…?"
-    play voice "3-2-106.mp3" #starleeter
-    lov "Oh pish posh, you were a big help! You gave me a lot to think about today!"
 
     if slumberparty == True:
         play voice "3-2-107.mp3" #starleeter
@@ -426,20 +418,15 @@ label day3s2:
         #show lauren smile
         play voice "3-2-110.mp3" #starleeter
         lov "For a friend, I don't mind. But that's beside the point!"
-
-    play voice "3-2-111.mp3" #starleeter
-    lov "Anyway, Emily, there's a cafe not too far from here! Their parfaits are to die for! What do you say? My treat!"
-    play voice "3-2-112.mp3" #potato
-    pro "Parfaits? ...I guess they'd suit you."
-    play voice "3-2-113.mp3" #starleeter
-    lov "Yeah, they're fruity and creamy and perfectly sweet, like me!" 
-    play voice "3-2-114.mp3" #potato
-    pro "Haha, no kiddin'. Alright, I'm game, let's go."
-    play voice "3-2-115.mp3" #starleeter
-    lov "YES! You won't regret it!"
-    play voice "3-2-116.mp3" #potato
-    pro "Ah, my hand, ow, OW, you're cutting off my circulation…!"
+        
+    play voice "3-2-104.mp3" #starleeter
+    lov "Hoo! I'm bushed!"
+    play voice "3-2-105.mp3" #potato
+    pro "We, uh, didn't really do all that much, did we…?"
+        
+        
+    "Lauren leans back in her chair, reclining almost to the point of no return. My hand hovers out, stretched to catch her if she falls, as she is wont to do." 
+    "Is she already losing speed on this homework project!? Oy... time to double down…"
 
     scene black with dissolve
     jump day3s3
-

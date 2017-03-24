@@ -17,8 +17,14 @@ label day3s1:
     play voice "3-1-3.mp3" #amree
     sis "I, uhh, okay…"
 
-    "She hugs back with a fervor that I wasn't quite expecting. That's probably a result of a lack of attention; no one ever seems to hug Maria, unless it's myself or Lauren, and even so, that's on a rare enough occasion to warrant such a reaction."
-
+    "She hugs back with a fervor that I wasn't quite expecting."
+   
+    "That's probably a result of a lack of attention; I think she really craves affection, something she doesn't really get from the rest of the family."
+  
+    "So… during the few times I humor her, she's on me tighter than a corset."
+    
+    "It's… confusing. But I don't hate it. It's fun for the both of us."
+  
     "She pulls away, and looks at me inquisitively."
 
     play voice "3-1-4.mp3" #amree
