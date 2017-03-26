@@ -1,4 +1,5 @@
-eyn
+label day10s2:
+    
     scene hallway with dissolve 
 
     "Finally made it! Hopefully I didn't miss too much of my classes." 
