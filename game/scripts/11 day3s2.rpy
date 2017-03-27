@@ -136,17 +136,17 @@ label day3s2:
     menu:
 
         "What's wrong?":
-            jump wrong
+            jump day3s2wrong
 
         "You're staring at me.":
         #+1 lovE
-            jump stare
+            jump day3s2stare
 
         "Pay attention.":
         #-1 lovE
-            jump rude
+            jump day3s2rude
 
-    label wrong:
+label day3s2wrong:
     play voice "3-2-31.mp3" #potato
     pro "Is something wrong? You seem out of it."
 
@@ -161,9 +161,9 @@ label day3s2:
 
     play voice "3-2-34.mp3" #starleeter
     lov "I-I'm so sorry, it's just…"
-    jump bags
+    jump day3s2bags
 
-    label stare:
+label day3s2stare:
     play voice "3-2-35.mp3" #potato
     pro "You're staring at me. Is there something on my face?"
     play voice "3-2-36.mp3" #starleeter
@@ -187,9 +187,9 @@ label day3s2:
     pro "S-sorry, just… you're not making much sense, is all."
     play voice "3-2-41.mp3" #starleeter
     lov "Haha… I know. It's just…"
-    jump bags
+    jump day3s2bags
 
-    label rude:
+label day3s2rude:
     play voice "3-2-42.mp3" #potato
     pro "Yo, snap out of it, okay? We're doing work right now."
     show lauren timit
@@ -201,9 +201,9 @@ label day3s2:
 
     play voice "3-2-44.mp3" #starleeter
     lov "It's about you though, just… I was looking, and…"
-    jump bags 
+    jump day3s2bags 
 
-    label bags:
+label day3s2bags:
     play voice "3-2-45.mp3" #starleeter
     lov "Emily, you know you got, like, really bad bags under your eyes, right?"
     play voice "3-2-46.mp3" #potato
@@ -222,16 +222,16 @@ label day3s2:
         "Aren't you tired?":
             $ slumberparty = True
             #+1 lovE
-            jump tired
+            jump day3s2tired
 
         "Don't you feel used?":
             # -1 lovE
-            jump used
+            jump day3s2used
 
         "I couldn't handle that.":
-            jump handle
+            jump day3s2handle
 
-    label tired:
+label day3s2tired:
     play voice "3-2-51.mp3" #potato
     pro "Aren't you tired? All this running around, it has to be terribly exhausting."
 
@@ -257,9 +257,9 @@ label day3s2:
     "She's so optimistic and chipper all of the time. The sparkle in her eyes… she really believed what she was saying."
     "I don't believe she's fabricating that story. I always assumed she had her own struggles, it just… feels weird for her to open up about them like that."
     "She was really strong."
-    jump future
+    jump day3s2future
 
-    label used:
+label day3s2used:
     play voice "3-2-58.mp3" #potato
     pro "Don't you feel used? Maybe some of these people are leaning on you too hard and-"
 
@@ -285,9 +285,9 @@ label day3s2:
 
     play voice "3-2-64.mp3" #starleeter
     lov "It's okay… we're friends, I know you're worried. But I'm fine, okay?"
-    jump future
+    jump day3s2future
 
-    label handle:
+label day3s2handle:
     play voice "3-2-65.mp3" #potato
     pro "I don't think I could handle everything so well like… like you've been handling it all. It's really impressive and…"
     play voice "3-2-66.mp3" #starleeter
@@ -308,9 +308,9 @@ label day3s2:
 
     "It's a little too obvious she's trying to make me feel better, but the effort's appreciated."
 
-    jump future
+    jump day3s2future
 
-    label future:
+label day3s2future:
 
     show lauren angrypout
 

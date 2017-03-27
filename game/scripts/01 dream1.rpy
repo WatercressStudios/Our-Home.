@@ -160,15 +160,15 @@ label dream1:
     menu: 
 
         "I wish for this moment to last.":
-            jump cake
+            jump dream1cake
 
         "I wish for a better tomorrow.":
-            jump cake
+            jump dream1cake
 
         "I wish for world peace.":
-            jump cake
+            jump dream1cake
 
-label cake:
+label dream1cake:
     "I take a deep breath, and…"
 
     hide cake

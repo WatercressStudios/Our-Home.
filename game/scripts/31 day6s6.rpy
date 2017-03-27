@@ -1,4 +1,4 @@
-﻿label day6s6:
+label day6s6:
 
   show stars with dissolve
   # cricket ambience sound?
@@ -142,7 +142,7 @@ label day6s6dad:
   play voice "6-6-29.mp3" #potato
   pro "Good night, Emi."
     
-  jump day7s4 #Change dream7
+  jump dream7
 
   #else:
 
@@ -150,5 +150,5 @@ label day6s6dad:
   "I lift the blanket and jump in."
   "I can't help but think about Lauren in the moonlight as I fall asleep."
 
-  jump day7s4 #Change dream7
+  jump dream7
 

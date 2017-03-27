@@ -1,4 +1,4 @@
-﻿label day4s2:
+label day4s2:
 
   $ go_hospital = False
   $ bring_sis = False
@@ -127,13 +127,13 @@ label hospital1:
   
   menu:
     "\"There's no one else.\"":
-      jump nosister
+      jump day4s2nosister
     "\"We need to get Maria.\"":
       jump withsister
       
 ###########################################
 
-label nosister:
+label day4s2nosister:
 
   play voice "4-2-19.mp3" #starleeter
   lov "Understood. Don't worry, Emily. I'll get you there!"

@@ -1,4 +1,4 @@
-﻿label dream4:
+label dream4:
  
     # I don’t know what backgrounds you guys have, and since this is a dream I opted to be loose on the context where I could. Either way, new backgrounds shouldn’t be necessary.
     # Likewise, any calm-feeling song should do.
@@ -212,4 +212,4 @@
     play voice "d4-1-61.mp3" #kaito
     dmom "Did you want a little sister?"
 
-    jump day4s2 #CHANGE TO day4s1 when able
+    jump day4s1

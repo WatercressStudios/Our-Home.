@@ -186,4 +186,4 @@ label day1s2:
 
     "Finally, my favorite part of the day. Sleep."
     
-    jump day2s2 #Replace with day1swhatever when that file is ready
+    jump dream2

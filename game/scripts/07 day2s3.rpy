@@ -41,39 +41,39 @@ label day2s3:
     menu: 
 
         "He's terrified.":
-            jump terrified
+            jump day2s3terrified
 
         "He's gloomy.":
-            jump gloomy
+            jump day2s3gloomy
 
         "He's relatable.": 
-            jump relatable
+            jump day2s3relatable
 
-    label terrified: 
+label day2s3terrified: 
     play voice "2-3-9.mp3" #potato
     pro "He's terrified of his surroundings, and really of the power of The Party."
-    jump normal
+    jump day2s3normal
 
-    label gloomy:
+label day2s3gloomy:
     play voice "2-3-10.mp3" #potato
     pro "He's gloomy, because he doesn't think there's much of a future to look forward to."
-    jump normal
+    jump day2s3normal
 
-    label relatable:
+label day2s3relatable:
     $ teaconcern = True
     play voice "2-3-11.mp3" #potato
     pro "He's kind of relatable, in his thinking. I… guess a lot of people have a lot to be afraid of, lately. Hard to be optimistic."
-    jump concern
+    jump day2s3concern
 
-    label normal:
+label day2s3normal:
     play voice "2-3-12.mp3" #skinimini
     tea "Yes, that's an apt start. Thank you, Emily."
 
     "I relax back in my seat as the teacher resumes her lesson. Somebody had to take one for the team, I guess that just had to be me."
 
-    jump lecture
+    jump day2s3lecture
 
-    label concern:
+label day2s3concern:
     "I think I might've said a little too much. Or maybe it was something on my face?"
     "Either or, she gives me a momentary look of almost palpable pity."
 
@@ -82,9 +82,9 @@ label day2s3:
 
     "She turned her back and headed back to the front to continue her lecture."
 
-    jump lecture
+    jump day2s3lecture
 
-    label lecture:
+label day2s3lecture:
 
     play voice "2-3-14.mp3" #skinimini
     tea "Winston as a character is, well, best described as a fatalist."
@@ -341,31 +341,31 @@ label day2s3:
     menu: 
 
         "I'm pretty good, yeah.":
-            jump ocelot
+            jump day2s3ocelot
 
         "I'm pretty rusty.":
-            jump rusty
+            jump day2s3rusty
 
         "Talk about Halloween plans.":
-            jump halloween
+            jump day2s3halloween
 
-    label ocelot:
+label day2s3ocelot:
     play voice "2-3-75.mp3" #potato
     pro "Yeah. Done it as a hobby for a while now, got a sewing machine at home. What'd, you need something…?"
     #show lauren bigsmile
     play voice "2-3-76.mp3" #starleeter
     lov "Yeah! You think you could help me?"
-    jump favour
+    jump day2s3favour
 
-    label rusty:
+label day2s3rusty:
     play voice "2-3-77.mp3" #potato
     pro "I dunno if I could help you much, I'm pretty rusty and, ah, out of practice…"
     #show lauren small smile
     play voice "2-3-78.mp3" #starleeter
     lov "Oh, I think you'll do just fine! Here, lemme explain…"
-    jump favour
+    jump day2s3favour
 
-    label halloween:
+label day2s3halloween:
     #Placeholder, want it to be funny
     $ halloween = True
     play voice "2-3-79.mp3" #potato
@@ -378,10 +378,10 @@ label day2s3:
     play voice "2-3-82.mp3" #starleeter
     lov "WOW, um… not… {i}quite{/i} what I had in mind, haha!"
     "Her cheeks lit up like Christmas decorations. It's fun to rile her up."
-    jump favour
+    jump day2s3favour
 
 
-    label favour:
+label day2s3favour:
     play voice "2-3-83.mp3" #starleeter
     lov "I was hoping you could help me a bit with the costume design for the show, um..."
     play voice "2-3-84.mp3" #starleeter
@@ -400,21 +400,21 @@ label day2s3:
 
         "Accept with grace": 
         #lovE+1 CAREER+1
-            jump grace
+            jump day2s3grace
 
         "Decline":
         #lovE+0 CAREER+0. 
-            jump decline
+            jump day2s3decline
 
-    label grace:
+label day2s3grace:
     play voice "2-3-88.mp3" #potato
     pro "Yeah, sure, anytime. Text me if you need me. I could even make an outfit, if you needed me to."
     #show lauren bigsmile
     play voice "2-3-89.mp3" #starleeter
     lov "Omigosh, thank you {i}so much,{/i} Emily! That'd be a huge help! I knew I could count on you!~"
-    jump accept
+    jump day2s3accept
 
-    label decline:
+label day2s3decline:
     play voice "2-3-90.mp3" #potato
     pro "I mean, it looks like a nice bunch of people, but I… I'm not sure I can…"
     #show lauren frown 
@@ -427,9 +427,9 @@ label day2s3:
     play voice "2-3-93.mp3" #starleeter
     lov "YAAAAY!~ Thank you!!~~~"
     "I couldn't say no. I couldn't. Ugh, what'd I get myself into…"
-    jump accept
+    jump day2s3accept
 
-    label accept:
+label day2s3accept:
     play voice "2-3-94.mp3" #starleeter
     lov "I'll call you later with more details, okay? They need me over with the dancers right now."
     play voice "2-3-95.mp3" #starleeter
@@ -455,4 +455,4 @@ label day2s3:
 
     scene black with dissolve
 
-    jump dream3
+    jump day2s4

@@ -255,5 +255,5 @@ label day8s1:
     "Looking down both ways of the street, I didn't see any sign of her."
     "...Maybe going for a walk will clear my head a bit. It's nice weather, and… I'm tired of feeling helpless."
 
-    jump dream10
+    jump day8s2
 

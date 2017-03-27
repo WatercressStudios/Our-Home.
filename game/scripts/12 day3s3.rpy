@@ -297,4 +297,4 @@ label day3s3:
 
     "I wave farewell to Lauren as we go our separate ways."
 
-    jump dream4
+    jump day3s4

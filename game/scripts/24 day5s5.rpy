@@ -1,4 +1,4 @@
-﻿label day5s5:
+label day5s5:
 
   show stars with dissolve
   # cricket ambience sound?
@@ -171,11 +171,4 @@ label dontworry:
   pro "Good night, Maria."
   
   "I close the door, get into bed, and close my eyes. It's been a long day."
-  jump day6s3
-
-###########################################
-
-#label dream6
-
-  #### JUMP TO DREAM 6, CLAIMED BY TUTTY AND SAGE
-
+  jump dream6

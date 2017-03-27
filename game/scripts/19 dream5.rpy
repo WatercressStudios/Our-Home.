@@ -1,4 +1,4 @@
-﻿label dream5:
+label dream5:
 
   show dhome with dissolve
 
@@ -156,10 +156,4 @@ label dream5lover:
   pro "Huh?"
   
   jump day5s1
-  
-###########################################
-
-#label day5s1:
-
-  #### JUMP TO DAY 5 SCENE 1, CLAIMED BY ZODAI
 

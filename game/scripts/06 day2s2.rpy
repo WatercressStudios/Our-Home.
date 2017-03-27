@@ -74,12 +74,12 @@ label day2s2:
 
     menu:
         "Of course I love her.":
-            jump love
+            jump day2s2love
 
         "I-I think I do.":
-            jump nolove
+            jump day2s2nolove
 
-    label love:
+    label day2s2love:
     play voice "2-2-21.mp3" #potato
     pro "Yeah, I love her. She's not a perfect person, but no one is… I think."
 
@@ -88,16 +88,16 @@ label day2s2:
 
     play voice "2-2-23.mp3" #amree
     sis "I-I think that makes sense…"
-    jump movingon
+    jump day2s2movingon
     
-    label nolove:
+    label day2s2nolove:
     play voice "2-2-24.mp3" #potato
     pro "I think? It's hard to say. She's not… she's not what I wish she'd be. I… I'm not sure."
 
     "Maria frowns, and doesn't respond. I'm not sure exactly what she was expecting. It's our mother. She's a terrible human being, even if she has some good parts to her. She's too far gone."
-    jump movingon
+    jump day2s2movingon
 
-    label movingon:
+    label day2s2movingon:
     "The rest of the walk is relatively uneventful, and I make my way to my own school after I've dropped Maria off."
 
     "I kinda like the walks I take. I have a set endpoint, and there's nothing interfering with me along the way. Sure, the anxiety of class isn't the best thing in the world, but it's like the calm before the storm."

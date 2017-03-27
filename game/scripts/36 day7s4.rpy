@@ -1,4 +1,4 @@
-﻿label day7s4:
+label day7s4:
 
   # TODO: hide background with dissolve
 
@@ -90,5 +90,4 @@
   show bedroom with dissolve
   "I don't reply either. I stumble away into my room and close my eyes."
 
-  jump day8s1 #change dream8
-
+  jump dream8
