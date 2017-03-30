@@ -69,7 +69,7 @@ label prehomecoming:
 
     if love < 4 or career < 4:
         jump forcedreamending
-    else
+    else:
         jump homecoming
 
 label homecoming:
