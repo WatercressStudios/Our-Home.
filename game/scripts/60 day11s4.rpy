@@ -334,9 +334,9 @@ label endings:
     #### JUMP TO ENDINGS, STITCHED BY SAGE
 
     if family < 8:
-        jump badfamilyending
+        jump badFamilyEnding
     else:
-        jump goodfamilyending
+        jump goodFamilyEnding
 
 label composite_future1:
     
@@ -346,20 +346,20 @@ label composite_future1:
         jump supergoodending
 
     if career < 8:
-        jump badcareerending        
+        jump badCareerEnding        
     else:
-        jump goodcareerending
+        jump goodCareerEnding
 
 label composite_future2:
     
     if family < 8:
         jump badfamilyending_future
     else:
-        jump goodfamilyending_future
+        jump goodFamilyEnding_future
 
 label composite_future3:
     
     if love < 8:
-        jump badloveending
+        jump badLoveEnding
     else:
-        jump goodloveending
+        jump goodLoveEnding
