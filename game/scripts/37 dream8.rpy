@@ -66,9 +66,11 @@ label prehomecoming:
 #    POINTCHECK -> Love Point Check and Career Point Check
 #    IF: < 3 for at least one, THEN: jump forcedreamend
 #    IF: =/> 3 for both, THEN: jump homecoming
-    # TODO not sure what this is all about,
-    # thus will just push things forward for now.
-    jump day8s1
+
+    if love < 3 or career < 3:
+        jump forcedreamending
+    else
+        jump homecoming
 
 label homecoming:
     "That's just it, though. Throughout each and every one of these dreams, I've had the opportunity to think through what's always troubling me."
@@ -101,7 +103,7 @@ label homecoming:
 
     "I've come to a powerful realization."
 
-    "<i>I'm not alone.</i>"
+    "{i}I'm not alone.{/i}"
 
     "I never had to be."
 
@@ -151,9 +153,10 @@ label familypointcheck:
 #    POINTCHECK -> Family Point Check 
 #    IF: < 3, THEN: jump funeralend
 #    IF: =/> 3, THEN: jump day8s1
-    # TODO not sure what this is all about,
-    # thus will just push things forward for now.
-    jump day8s1
+    if family < 3:
+        jump funeralending
+    else:
+        jump day8s1
     
 
 label homeless:
@@ -200,6 +203,14 @@ label homeless:
 #
 #        "This is my home.":
 #            jump dreamend
-    # TODO not sure what this is all about,
-    # thus will just push things forward for now.
-    jump day8s1
+    if love < 3 or career < 3:
+        menu:
+            "None of this matters anyways.":
+                jump suicideending
+    else:
+        menu:
+            "I go home.":
+                jump familypointcheck
+
+            "This is my home.":
+                jump dreamend

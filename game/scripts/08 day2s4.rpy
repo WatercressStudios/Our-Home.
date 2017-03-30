@@ -1,4 +1,6 @@
-label d2s4:
+label day2s4:
+    $ plushie = False
+
     # Home BG
     "I’m exhausted by the time I get home."
     "It was fun going through the show with Lauren but it was way more involved than I expected."
@@ -13,7 +15,7 @@ label d2s4:
     "My things have probably rolled down behind that."
     "I dig in behind his desk. It’s dusty as hell back here. I’m terrified to think what else might be behind here…"
 
-    if tendollars:
+    if tendollar:
         "Huh. Is this the quarter that he mentioned the other day?"
         "Don’t mind if I do."
         "I’ll call it interest on the ten dollars he owes me and keep searching."
@@ -131,7 +133,8 @@ label d2s4:
     menu:
         #Option 1
         "Suck it up and work on it.":
-            # career+1
+            $ career += 1
+            $ plushie = True
             "I hate my conscience sometimes, but it’s right. Maria shouldn’t be punished for what Alex is doing."
             "I drag myself out of bed and sit down at my desk."
             "It’s still pretty early, so I should be okay to use the sewing machine later."
@@ -143,14 +146,14 @@ label d2s4:
 
         #option 2
         "I just need a break right now.":
-            # career +0
             "I just found out Alex is taking heroin, for God’s sake! There’s no way I can concentrate today.."
-            #after choice merge
-            "I get into bed and get comfortable under the covers."
-            "Just go to sleep."
-            "It can wait another day or two. It’s not the end of the world."
-            "Besides, doing the plush while I’m tired will just mess it up, right?"
-            "I roll onto one side, my back to the desk."
-            "Sleep comes almost immediately."
-            "I guess I was more tired than I realised."
+
+    #after choice merge
+    "I get into bed and get comfortable under the covers."
+    "Just go to sleep."
+    "It can wait another day or two. It’s not the end of the world."
+    "Besides, doing the plush while I’m tired will just mess it up, right?"
+    "I roll onto one side, my back to the desk."
+    "Sleep comes almost immediately."
+    "I guess I was more tired than I realised."
     jump dream3

@@ -1,6 +1,6 @@
 label dream5:
 
-  show dhome with dissolve
+  scene dhome with dissolve
 
   "I take a sip of the warm tea my brother likes so much."
 
@@ -77,7 +77,7 @@ label brostayyes:
 
 label brostayno:
 
-  # TODO: CAREER+
+  $ career += 1
 
   play voice "d5-1-18.mp3" #kujira
   dbro "No?"

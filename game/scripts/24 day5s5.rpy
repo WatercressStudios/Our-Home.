@@ -1,6 +1,8 @@
 label day5s5:
 
-  show stars with dissolve
+  $ sleepinroom = False
+
+  scene stars with dissolve
   # cricket ambience sound?
   "As I fish out my keys by my front door, I hesitate. What if Mom's waiting for me inside again? It was dark in the house last night, too."
   "I sigh."
@@ -66,7 +68,7 @@ label day5s5:
   "The argument between them is getting worse, and it's like they don't even remember I'm there."
   "Not wanting to be a part of it, I sneak away and go into my room."
   
-  show bedroom with dissolve
+  scene bedroom with dissolve
   
   # sfx of some strange sounds next door (brother's going through a rough withdrawal)
   "TAP! TAP! TAP!"
@@ -109,6 +111,8 @@ label day5s5:
 
 label sleepinroom:
 
+  $ sleepinroom = True
+
   "Maria nods quickly and enthusiastically as a look of relief washes over her face."
   "The fight between our parents must be affecting her more than she let on."
   
@@ -141,7 +145,7 @@ label sleepinroom:
   pro "Good night, Maria."
   
   "I pull the blanket over us and close my eyes."
-  jump day6s3 #CHANGE TO DREAM6
+  jump dream6
 
 ###########################################
 

@@ -2,14 +2,14 @@ label day2s3:
     
     $ teaconcern = False
 
-    show classroom with dissolve
+    scene classroom with dissolve
 
     #music used in this scene should be pretty chill, lowkey. Potentially use of percussion drums and bass guitar. Musicians can have fun with this one?
 
     play voice "2-3-1.mp3" #skinimini
     tea "...Now that we are a few weeks into our required reading, I trust many of you have taken the requisite time to digest the chapters from our assigned readings."
     play voice "2-3-2.mp3" #skinimini
-    tea "While the choice of {i}Nineteen Eighty Four</.i> is a rather… interesting pick from the school board, I find many of you will come out of this inspired."
+    tea "While the choice of {i}Nineteen Eighty Four{/i} is a rather… interesting pick from the school board, I find many of you will come out of this inspired."
     play voice "2-3-3.mp3" #skinimini
     tea "We're going to learn a lot from this round-table, I can feel it."
 
@@ -99,7 +99,7 @@ label day2s3lecture:
 
     scene black with dissolve
 
-    "... … …"
+    "... ... ..."
 
     scene classroom with dissolve
 
@@ -143,7 +143,7 @@ label day2s3lecture:
 
     scene black with dissolve
     
-    "... … …"
+    "... ... ..."
 
     scene drama with dissolve
 
@@ -398,12 +398,12 @@ label day2s3favour:
 
     menu: 
 
-        "Accept with grace": 
-        #lovE+1 CAREER+1
+        "Accept with grace":
+            $ love += 1
+            $ career += 1
             jump day2s3grace
 
         "Decline":
-        #lovE+0 CAREER+0. 
             jump day2s3decline
 
 label day2s3grace:

@@ -120,7 +120,7 @@ label day3s2:
 
     scene black with dissolve
 
-    "... … …"
+    "... ... ..."
 
     scene library with dissolve
     show lauren concern
@@ -139,11 +139,10 @@ label day3s2:
             jump day3s2wrong
 
         "You're staring at me.":
-        #+1 lovE
+            $ love += 1
             jump day3s2stare
 
         "Pay attention.":
-        #-1 lovE
             jump day3s2rude
 
 label day3s2wrong:
@@ -220,12 +219,11 @@ label day3s2bags:
 
     menu: 
         "Aren't you tired?":
+            $ love += 1
             $ slumberparty = True
-            #+1 lovE
             jump day3s2tired
 
         "Don't you feel used?":
-            # -1 lovE
             jump day3s2used
 
         "I couldn't handle that.":
@@ -407,7 +405,7 @@ label day3s2future:
     pro "...Haha… true."
 
 
-    if slumberparty == True:
+    if slumberparty:
         play voice "3-2-107.mp3" #starleeter
         lov "I was thinking we should have a slumber party one day, and I'll finally get to teach you all my makeup tricks from theatre!~"
         play voice "3-2-108.mp3" #potato

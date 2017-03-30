@@ -8,13 +8,12 @@ label day7s2:
 
     "The road to hell is paved with good intentions, right? Fuck, I can't even rationalize what just happened… let alone justify my behavior during it all."
 
-    #if unforgivable in last scene
-    "I fueled the fire."
+    if scoldalex:
+        "I fueled the fire."
 
-    #if unfortunate in last scene
-    "I let the fire burn."
+    else:
+        "I let the fire burn."
 
-    #merge
     "I only made it worse. How could I've been so blind? My brother's in obvious pain…"
 
     "More importantly, how could our own mother be so blind? She must know that she's tearing him apart… right?"

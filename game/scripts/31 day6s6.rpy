@@ -127,28 +127,27 @@ label day6s6dad:
   play voice "6-6-26.mp3" #potato
   pro "Okay. I'm right here if you need me."
 
-  ####Fix later, will need to change tabs
-  #if sis_sleep:
-  "Someone knocks on my door at the moment. I go over and open it."
-  
-  play voice "6-6-27.mp3" #potato
-  pro "Hey Maria. You wanna sleep in my room again?"
-    
-  "She nods and walks into my room."
-  "I lift the blanket for Maria to jump in before pulling the blanket over us."
-    
-  play voice "6-6-28.mp3" #potato
-  pro "Good night, sis."
-  play voice "6-6-29.mp3" #potato
-  pro "Good night, Emi."
-    
-  jump dream7
+  if sleepinroom:
+    "Someone knocks on my door at the moment. I go over and open it."
 
-  #else:
+    play voice "6-6-27.mp3" #potato
+    pro "Hey Maria. You wanna sleep in my room again?"
 
-  "There's nothing else I can do for Alex, so I walk over to my bed."
-  "I lift the blanket and jump in."
-  "I can't help but think about Lauren in the moonlight as I fall asleep."
+    "She nods and walks into my room."
+    "I lift the blanket for Maria to jump in before pulling the blanket over us."
 
-  jump dream7
+    play voice "6-6-28.mp3" #potato
+    pro "Good night, sis."
+    play voice "6-6-29.mp3" #potato
+    pro "Good night, Emi."
+
+    jump dream7
+
+  else:
+
+    "There's nothing else I can do for Alex, so I walk over to my bed."
+    "I lift the blanket and jump in."
+    "I can't help but think about Lauren in the moonlight as I fall asleep."
+
+    jump dream7
 

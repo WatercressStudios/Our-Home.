@@ -162,11 +162,11 @@ label day3s1:
 
     #VOICE REDUB (honestly this existing line take is perfect if we go into audacity and cut "DEAL?" from the end)
     play voice "3-1-26.mp3" #amree
-    Sis "I'll still worry about you… and Mom, and Dad, and everyone else. I swear it! So, don't do anything to make me worry more, please."
+    sis "I'll still worry about you… and Mom, and Dad, and everyone else. I swear it! So, don't do anything to make me worry more, please."
 
     #VOICE NEW
     play voice "3-1-26_2.mp3" #amree
-    maria "Promise?"
+    sis "Promise?"
 
     "Maria extends her pinky to me."
 

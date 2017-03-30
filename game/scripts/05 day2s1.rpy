@@ -60,20 +60,16 @@ label day2s1:
     menu:
 
         "You dug this hole for yourself. Don’t drag me in with you.":
-            #Family +0
-            #Common Sense +1
-            #There isn’t actually a common sense check
-            #Ignore me
             jump d2s1no
 
         "Fine, but you owe me.":
-            #Family +1
+            $ family += 1
             $ tendollar = True
             jump d2s1yes
 
     # # #
 
-    label d2s1no:
+label d2s1no:
 
     "You dug this hole for yourself. Don’t drag me in with you."
 
@@ -104,7 +100,7 @@ label day2s1:
 
     # # #
 
-    label d2s1yes:
+label d2s1yes:
 
     "Fine, but you owe me."
 
@@ -229,7 +225,7 @@ label day2s1:
 
     # # #
 
-    label d2s1merge:
+label d2s1merge:
 
     play voice "2-1-43.mp3" #kujira
     bro "Well, I have a biology test today, so..."

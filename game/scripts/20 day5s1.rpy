@@ -3,20 +3,15 @@
     #bedroom
      
     "The morning sun’s assault on my retinas marks the start of a new day."
-     
     "If today is anything like yesterday, I think I’ll pass."
-     
     "Okay, okay, I know ‘five more minutes’ is cliche, but it’s a solid compromise."
-     
     "...Fine, world. You win. I’ll get up."
-     
     "..."
-     
     "Slowly."
      
     #Transition to breakfast
      
-    "The fact that there was only one person left at the breakfast table when I arrived told me that I was a bit <i>too</i> slow."
+    "The fact that there was only one person left at the breakfast table when I arrived told me that I was a bit {i}too{/i} slow."
      
     play voice "5-1-1.mp3" #potato
     pro "Morning, sunshine."
@@ -40,31 +35,27 @@
     #If I messed up and it’s not clear, I’m making the player choose the passive option twice to get the good outcome, but choosing angrily either time gets the bad outcome.
     #Thank you for all that you do
      
-    menu:
-     
+    menu:     
         "Brush it off":
             jump brushitoff
      
         "Fight back":
-            #Family+0
             jump d5s1bad
      
-    label brushitoff:
+label brushitoff:
      
     "Seriously?"
-     
     "I barely even said anything! I can’t just let him talk to me like that!"
      
     menu:
-
         "Let him have it.":
             jump d5s1bad
      
         "Just take a deep breath.":
-            #Family+1
+            $ family += 1
             jump d5s1good
      
-    label d5s1bad:
+label d5s1bad:
      
     play voice "5-1-5.mp3" #potato
     pro "It’s too damn early for me to put up with that shit, Alex."
@@ -81,7 +72,7 @@
      
     jump d5s1merged
      
-    label d5s1good:
+label d5s1good:
      
     "This is fine. Nothing a bit of oxygen can’t fix."
      
@@ -104,7 +95,7 @@
      
     jump d5s1merged
      
-    label d5s1merged:
+label d5s1merged:
      
     "Just as I was about to head for school, a tug on the back of my skirt reminded me of what I was missing."
      

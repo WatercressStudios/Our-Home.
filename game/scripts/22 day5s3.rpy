@@ -2,7 +2,7 @@ label day5s3:
 
   $ carrot_cubes = False
 
-  show diningroom with dissolve
+  scene diningroom with dissolve
 
   "When I get home, Mom's already cooking in the kitchen. I head straight into my room and prepare grandma’s sewing machine for transport."
   "Once it’s boxed up, I consider carrying it to the front door, but I don’t want Mom asking too many questions."
@@ -485,7 +485,7 @@ label dinnerover:
   
   "At least the fighting has stopped."
 
-  show bedroom with dissolve
+  scene bedroom with dissolve
 
   "After we quietly finish the rest of our dinner, Maria and I go back to our rooms."
 
@@ -502,12 +502,12 @@ label dinnerover:
   
   "It's not too heavy. I can totally do this."
 
-  show diningroom with dissolve
+  scene diningroom with dissolve
 
   "I leave my room and peek into the dining room."
   "Mom and Dad are washing up the dishes silently. Something's weird about it, but I can't put a finger on it."
 
-  show stars with dissolve
+  scene stars with dissolve
 
   "Balancing the sewing machine on my thigh, I open the front door quietly. It's not until I close the door behind me that I release the breath I've been holding."
   

@@ -3,7 +3,7 @@ label day4s2:
   $ go_hospital = False
   $ bring_sis = False
 
-  show classroom with dissolve
+  scene classroom with dissolve
 
   # TODO: use whatever music track’s usually used for the classroom
 
@@ -59,13 +59,14 @@ label hospital1:
 
   $ go_hospital = True
   
-  # TODO: LOVE+ and FAMILY+ 
+  $ family += 1
+  $ love += 1
 
   "No! What am I thinking? I have to get to the hospital!"
   "I quickly push my chair back and stand up. I consider saying something to the teacher, but I don't."
   "Instead, I snatch my bag and dash out of the classroom."
   
-  show hallway with dissolve
+  scene hallway with dissolve
 
   "I can hear the teacher calling out to me, but I don't have time to deal with anything else right now."
   play voice "4-2-5.mp3" #starleeter
@@ -149,7 +150,7 @@ label withsister:
 
   $ bring_sis = True
 
-  # TODO: CAREER+ 
+  $ career += 1 
   
   play voice "4-2-22.mp3" #starleeter
   lov "Maria's your sister, right?"
@@ -167,7 +168,7 @@ label withsister:
 
 label hospital2:
 
-  show hospital with dissolve
+  scene hospital with dissolve
 
   if bring_sis:
     "As soon as we reach the hospital, Maria and I jump out of the car and run into the lobby."
@@ -283,7 +284,8 @@ label hospital2:
       
 label talkbrother:
 
-  # TODO: FAMILY+ 
+  $ family += 1
+
   play voice "4-2-56.mp3" #starleeter
   lov "Take your time, Emily. I'll wait here."
   if bring_sis:
@@ -310,7 +312,7 @@ label talkbrother:
     "I nod at my friend and take off in my quest of finding my brother."
     "Purposefully avoiding Mom, I make my way over to Ward C."
 
-  show ward with dissolve
+  scene ward with dissolve
 
   "There he is, sitting on the edge of the bed with his right foot up."
   "The nurse is in the process of bandaging it."
@@ -458,7 +460,7 @@ label carryon:
   "Nothing's wrong..."
 
   # TODO: Fade to a short dream scene at home... foreshadow the bad dream end.
-  show dhome with dissolve
+  scene dhome with dissolve
 
   play voice "4-2-99.mp3" #kujira
   dbro "Hey sis, what are you doing?"
@@ -471,7 +473,7 @@ label carryon:
   play voice "4-2-103.mp3" #potato
   pro "No, it isn't."
 
-  show classroom with dissolve
+  scene classroom with dissolve
 
   # TODO: School bell!!
   

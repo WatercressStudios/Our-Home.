@@ -4,7 +4,7 @@
 
   "As I approach my front door, I catch my smiling face in the reflection of a window."
   "At first I'm confused. What am I so happy about? It must be because Alex is fine, I tell myself."
-  "Yet, my mind wanders over to Lauren and I replay the time we spent together in my head."
+  "Yet, my mind wanders over to Lauren. I keep replaying the time we spent together in my head."
   
   # TODO: show mom's angry expression against the black background. Tint it grey if possible, since she's in the dark and I want her to look scary.
   play voice "4-4-1.mp3" #kaito
@@ -125,7 +125,7 @@ label momcareer:
   # TODO: hide mom
   "By the time she finally finishes, it's already past nine thirty.."
 
-  show bedroom with dissolve
+  scene bedroom with dissolve
 
   "Whatever good mood I had before is thoroughly rinsed away."
 
@@ -134,7 +134,9 @@ label momcareer:
   play voice "4-4-30.mp3" #potato
   pro "Huh?"
   
-  "My sewing machine is broken. Of course it is."
+  "It just stopped..."
+  "I push my foot down on the pedal again and again but it refuses to work."
+  "My sewing machine is dead. Of course it is."
   "I sigh."
   
   # sfx of some strange sounds next door (brother's going through a rough withdrawal)

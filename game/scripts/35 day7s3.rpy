@@ -234,19 +234,10 @@ label day7s3:
     #### I'm not sure if someone else will heck this, so I'm using the
     #### Bat, I mean, Sagi-signal to make sure it gets checked!
     #### ~MatKrulli
-    "Can’t say I’ve seen him."
-    "Nope, not here."
-    "Not since yesterday."
-    "Haven’t seen him."
-    "Been out of town."
-    "Who?"
-    "Why do you even care?"
-    "Hope you find him."
-    "Fuck off, I’m busy today."
-    "Don’t know, don’t care."
-    "There’s nothing to worry about, why even bother?"
+    '"Can’t say I’ve seen him." "Nope, not here." "Not since yesterday." "Haven’t seen him." "Been out of town." "Who?" "Why do you even care?" "Hope you find him." "Fuck off, I’m busy today." "Don’t know, don’t care." "There’s nothing to worry about, why even bother?"'
     #### Super Zodai clutter end
 
+    "No luck with the contacts Lauren sent me."
     "What about his less savory friends? I think they sometimes hang out behind the school for pot and stuff. Check there, maybe?"
     "I make my way over to the school as soon as I hang up the last call."
     "Up above, the stars shine faintly. A cold, chilling wind sweeps through the street. It’s quieter than usual, today."
@@ -312,3 +303,5 @@ label day7s3:
     "His skin is pale. Lifeless and faint, without movement to it at all. His lips are a faint blue color and his eyes are stuck open and staring into nothing. Bags of heroin and needles are littered around an empty box."
     "My heart stops."
     "It’s Alex."
+    
+    jump day7s4

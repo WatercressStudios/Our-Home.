@@ -10,23 +10,20 @@ label day6s4:
     "Another busy day in the Westenson household… I guess it's better to stay busy."
     
     #MAKE SURE TO UNCOMMENT ALL LOGIC STUFF YOU FUCK!!
-    #if goodtalk = True
-    "I think today went really well. Lauren was a big help in all of this."
+    if goodtalk:
+        "I think today went really well. Lauren was a big help in all of this."
 
-    #if little sis helps, set a flag during research and bring it back here
-    "And Maria… she's growing up so fast. Surprisingly mature. I'm glad we were all able to talk it out a bit."
-    #jump calm
+        #if little sis helps, set a flag during research and bring it back here
+        "And Maria… she's growing up so fast. Surprisingly mature. I'm glad we were all able to talk it out a bit."
 
 
-    #if goodtalk = False
-    "The intervention could've gone a bit better on my part, but… it was a good attempt."
-    "Alex agreed to cut the habit, so as long as I support him through it, it'll all be okay."
+    else:
+        "The intervention could've gone a bit better on my part, but… it was a good attempt."
+        "Alex agreed to cut the habit, so as long as I support him through it, it'll all be okay."
 
-    #if little sis helps, set a flag during research and bring it back here
-    #And Maria will help too. Bless her heart…"
-    jump calm
+        #if little sis helps, set a flag during research and bring it back here
+        "And Maria will help too. Bless her heart…"
 
-    label calm:
     "We didn't have to get mom involved, which is fine by me. She would've probably made things a lot worse anyway."
     "I'll just have to help Alex through this." 
     "And on an even better note, I'm making some really solid progress on this outfit for lauren. Think she's gonna love the polka dot patterns…"
@@ -82,7 +79,7 @@ label day6s4:
         "Why are you doing this!?":
             jump outrage
 
-    label give:
+label give:
     play voice "6-4-12.mp3" #potato
     pro "You can't just give up like this! You're better than this! Smarter than this!"
     play voice "6-4-13.mp3" #kujira
@@ -91,7 +88,7 @@ label day6s4:
     bro "I can't do it. I need you to do something for me."
     jump disposal
 
-    label alone:
+label alone:
     play voice "6-4-15.mp3" #potato
     pro "Alex, it's okay. You don't have to do this alone. We talked about this."
     play voice "6-4-16.mp3" #potato
@@ -102,7 +99,7 @@ label day6s4:
     pro "What is it?"
     jump disposal
 
-    label outrage:
+label outrage:
     play voice "6-4-19.mp3" #potato
     pro "Why are you doing this, Alex!? We agreed to get over this together!"
     play voice "6-4-20.mp3" #potato
@@ -115,7 +112,7 @@ label day6s4:
     bro "I'm {i}not{/i}. We're not debating this. Just listen. I need you to do something for me."
     jump disposal
 
-    label disposal:
+label disposal:
     "He rummaged in his pockets, fishing for something."
     "His movements… they were shaking. He was trembling."
     "Withdrawal symptoms. He must have it really bad…" 
@@ -127,10 +124,10 @@ label day6s4:
 
     show drugs
     #show a tin box with various drug components
-    "He pulled out a tin box, one with no label and considerable use."
-    "Inside were… pill-looking things, syringes, some weird tool that looks like a razor."
-    "The colour drained from my face. This was the reality we're facing."
-    "It's easy to pay a blind eye to it and pretend it's out of sight, out of mind, but… when this stuff is in front of you, it's scary."
+    "He pulls out a tin box, one with no label and considerable use."
+    "Inside are… satchels of white powder, syringes, some weird tool that looks like a razor."
+    "The color drains from my face. This is the reality we're facing."
+    "It's easy to turn a blind eye to it and pretend it's out of sight, out of mind, but… when this stuff is in front of you, it's scary."
     "I can feel the colour drain from my face, before I swallow my apprehension."
     play voice "6-4-26.mp3" #potato
     pro "Alex… why didn't you get rid of this? You said you dropped the habit."

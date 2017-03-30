@@ -158,4 +158,8 @@ init python:
 # This jumps us to the first scene
 label start:
     
+    $ family = 0
+    $ love = 0
+    $ career = 0
+    
     jump dream1

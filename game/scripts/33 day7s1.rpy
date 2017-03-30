@@ -1,4 +1,6 @@
-label d7s1:
+label day7s1:
+
+    $ scoldalex = False
  
     #Protag’s Bedroom
     #It’s Saturday, so if any characters normally wear uniforms, they need casual clothes for days 7 and 8.
@@ -39,7 +41,7 @@ label d7s1:
 
     "Oh God."
 
-    #Flashback to d6s4 where the protag rushes and spills the powder.
+    # TODO: Flashback to d6s4 where the protag rushes and spills the powder.
 
     "Did I...?"
 
@@ -139,10 +141,12 @@ label d7s1:
 
         "Alex, what the fuck?!":
             #Family +0
+            $ scoldalex = True
             jump d7s1unforgiveable
 
         "Don’t say anything.":
             #Family +1
+            $ family += 1
             jump d7s1unfortunate
 
     # # #

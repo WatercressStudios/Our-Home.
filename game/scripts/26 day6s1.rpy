@@ -1,31 +1,33 @@
 label day6s1:
 
-    Pro "Hey, sis, time to go. I need to be at school at a reasonable time this morning, so open up."
+    $ yessister = False
+
+    pro "Hey, sis, time to go. I need to be at school at a reasonable time this morning, so open up."
 
     play voice "6-1-1.mp3" #amree
-    Sis "J-just one second, just one more sock…"
+    sis "J-just one second, just one more sock…"
 
     "Have you ever tried to hear someone whisper through a door? Yeah, that's what this is like, but it's my sister so it's even more difficult than that."
 
     "Thankfully, I'm used to this whole charade by now, so even if I misunderstood her exact words, I can put the puzzle together with relative ease."
 
     play voice "6-1-2.mp3" #potato
-    Pro "Oof!"
+    pro "Oof!"
 
     "Maria opens the door and runs right into me - she was probably expecting me to wait outside this time."
 
     play voice "6-1-3.mp3" #amree
-    Sis "S-sorry!"
+    sis "S-sorry!"
 
     "I don't blame her one bit. For some reason, I wanted to keep her a bit close to me this time around."
 
     play voice "6-1-4.mp3" #potato
-    Pro "Ah, don't worry about it. I assume you're ready?"
+    pro "Ah, don't worry about it. I assume you're ready?"
 
-    Si "Yeah…"
+    sis "Yeah…"
 
     play voice "6-1-5.mp3" #potato
-    Pro "Alright, good."
+    pro "Alright, good."
 
     "Grabbing her hand in mine, we make our way towards her school, as we've done the last hundred times."
 
@@ -34,30 +36,30 @@ label day6s1:
     "Something's on her mind."
 
     play voice "6-1-6.mp3" #potato
-    Pro "Hey, Maria?"
+    pro "Hey, Maria?"
 
     play voice "6-1-7.mp3" #amree
-    Sis "Yeah?"
+    sis "Yeah?"
 
     play voice "6-1-8.mp3" #potato
-    Pro "What's wrong?"
+    pro "What's wrong?"
 
     play voice "6-1-9.mp3" #amree
-    Sis "Well…"
+    sis "Well…"
 
     "She kicks a rock, watching it soar off the side of the road. She fidgets, looking away and avoiding the question."
 
     play voice "6-1-10.mp3" #potato
-    Pro "C'mon, I won't bite"
+    pro "C'mon, I won't bite"
 
     play voice "6-1-11.mp3" #amree
-    Sis "I'm… I'm worried about Alex."
+    sis "I'm… I'm worried about Alex."
 
     play voice "6-1-12.mp3" #potato
-    Pro "Alex?"
+    pro "Alex?"
 
     play voice "6-1-13.mp3" #amree
-    Sis "Yeah. He's been acting really funny, and I don't like it. It's weird and not like him and kinda scary."
+    sis "Yeah. He's been acting really funny, and I don't like it. It's weird and not like him and kinda scary."
 
     "Symptoms of drug use. I've been noticing the same exact thing. If Maria's noticed it, then I'm almost positive the rest of the family has."
 
@@ -75,6 +77,7 @@ label day6s1:
 
         "It's her brother, too. It's only fair.":
             $ yessister = True
+            $ career += 1
             jump yessister
 
 label nosister:

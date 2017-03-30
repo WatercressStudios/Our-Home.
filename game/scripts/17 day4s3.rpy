@@ -10,36 +10,37 @@ label day4s3:
 
     "Classes were finally over. What an exhausting day…"
 
-    #if go_hospital == True:
-    "Lauren and I were able to make it back in time for our last class of the day."
-    "Can't say geology is the most thrilling subject to end the otherwise high-energy day on."
-    "Lauren even had to excuse herself partway through. She looked fidgety and restless the entire time."
-    "She must've had a ton of other stuff to do when she left."
-    "It was in that moment I rather envied her plethora of other commitments, because, well…"
-    "...Let's be real, this class moves slower than the tectonic plates. I'd rather be anywhere but here."
-    "...Wait, I didn't {i}learn something{/i}, did I??"
-    "Anyway, that was then, this is now. Class is finally, mercifully over. Let's get on with our lives."
-    scene black with dissolve
+    if go_hospital:
+        "Lauren and I were able to make it back in time for our last class of the day."
+        "Can't say geology is the most thrilling subject to end the otherwise high-energy day on."
+        "Lauren even had to excuse herself partway through. She looked fidgety and restless the entire time."
+        "She must've had a ton of other stuff to do when she left."
+        "It was in that moment I rather envied her plethora of other commitments, because, well…"
+        "...Let's be real, this class moves slower than the tectonic plates. I'd rather be anywhere but here."
+        "...Wait, I didn't {i}learn something{/i}, did I??"
+        "Anyway, that was then, this is now. Class is finally, mercifully over. Let's get on with our lives."
+        scene black with dissolve
 
-    #if go_hospital == False:
-    "I check my phone almost reflexively, cursing under my breath as I mess up my passcode entry twice in a row."
-    "Fuck, what'd he get into… what? Another text from mom?"
-    play voice "4-3-1.mp3" #potato
-    pro "'Your brother's out of the hospital. Mom."
-    play voice "4-3-2.mp3" #potato
-    pro "...Huh?"
-    "They threw him out that quickly? If it was an overdose, I thought they'd hold him for longer..."
-    "I guess he's okay? ...I guess he is."
-    "...I should be more worried than I am, but… I guess he ended up getting what he deserved."
-    "At least he survived. He's fine now. Everything's fine."
-    "Everything's fine."
-    play voice "4-3-3.mp3" #skinimini
-    tea "Um, Emily? School's over. You can go home now."
-    play voice "4-3-4.mp3" #potato
-    pro "...O-oh, right, uh… 'scuse me."
-    "Why does it seem that Miss Reynolds teaches every class in this school??"
-    "ANYWAY. Packing my shit, I vacate the premises as quickly as humanly possible."
-    scene black with dissolve
+    else:
+        # TODO: Play text message sound
+        "I check my phone almost reflexively, cursing under my breath as I mess up my passcode entry twice in a row."
+        "Fuck, what'd he get into… what? Another text from mom?"
+        play voice "4-3-1.mp3" #potato
+        pro "'Your brother's out of the hospital. Mom.'"
+        play voice "4-3-2.mp3" #potato
+        pro "...Huh?"
+        "They threw him out that quickly? If it was an overdose, I thought they'd hold him for longer..."
+        "I guess he's okay? ...I guess he is."
+        "...I should be more worried than I am, but… I guess he ended up getting what he deserved."
+        "At least he survived. He's fine now. Everything's fine."
+        "Everything's fine."
+        play voice "4-3-3.mp3" #skinimini
+        tea "Um, Emily? School's over. You can go home now."
+        play voice "4-3-4.mp3" #potato
+        pro "...O-oh, right, uh… 'scuse me."
+        "Why does it seem that Miss Reynolds teaches every class in this school??"
+        "ANYWAY. Packing my shit, I vacate the premises as quickly as humanly possible."
+        scene black with dissolve
 
     scene hallway with dissolve
     #play sound cellphonechime
@@ -115,102 +116,100 @@ label day4s3:
     play voice "4-3-25.mp3" #starleeter
     lov "I just wanted to see how you were doing, that was all."
 
-    #if go_hospital == False:
-    play voice "4-3-26.mp3" #starleeter
-    lov "The way you were looking at your phone during math class. It didn't sound okay…"
-    play voice "4-3-27.mp3" #starleeter
-    lov "Are you {i}sure{/i} nothing's wrong?"
-    play voice "4-3-28.mp3" #potato
-    pro "..."
-    "I don't know what I should say. I didn't want to make a scene in class, but… she's smarter than she lets on."
-    "Or maybe I'm just way too easy to read? She was always good at the 'emotional' part of people."
-    "In a moment of weakness, I confess."
-    play voice "4-3-29.mp3" #potato
-    pro "It's my brother. He was admitted to the hospital."
-    play voice "4-3-30.mp3" #starleeter
-    lov "What!?"
-    #lauren should be gasping
-    "Her face contorts in utter shock. I rise and try to calm her down."
-    play voice "4-3-31.mp3" #potato
-    pro "I-it's okay, it's okay, he's home now!"
-    play voice "4-3-32.mp3" #starleeter
-    lov "R-really? B-but, you should go see him, right??"
-    "I can feel my mouth curl at that. She was absolutely right, and I hesitated."
-    play voice "4-3-33.mp3" #potato
-    pro "I-I didn't want to cause a scene in class, or… or make you worry."
-    play voice "4-3-34.mp3" #starleeter
-    lov "Hey, it's family we're talking about! I'll be fine!"
-    show lauren pout
-    play voice "4-3-35.mp3" #starleeter
-    lov "Seriously, you should go see him right now, or I'm gonna get really mad!"
-    play voice "4-3-36.mp3" #potato
-    pro "I mean... I was thinking about it, until {i}someone{/i} asked me to rush over here to help with something…"
-    play voice "4-3-37.mp3" #starleeter
-    lov "Ah? I, ah… I was thinking of you… you could've used a distraction." 
-    "Oh God, she was an expert at eliciting sympathy. I couldn't stay mad even if I wanted to."
-    play voice "4-3-38.mp3" #potato
-    pro "Hey, it was a joke, no big deal."
-    #jump mj
+    if not go_hospital:
+        play voice "4-3-26.mp3" #starleeter
+        lov "The way you were looking at your phone during math class. It didn't sound okay…"
+        play voice "4-3-27.mp3" #starleeter
+        lov "Are you {i}sure{/i} nothing's wrong?"
+        play voice "4-3-28.mp3" #potato
+        pro "..."
+        "I don't know what I should say. I didn't want to make a scene in class, but… she's smarter than she lets on."
+        "Or maybe I'm just way too easy to read? She was always good at the 'emotional' part of people."
+        "In a moment of weakness, I confess."
+        play voice "4-3-29.mp3" #potato
+        pro "It's my brother. He was admitted to the hospital."
+        play voice "4-3-30.mp3" #starleeter
+        lov "What!?"
+        #lauren should be gasping
+        "Her face contorts in utter shock. I rise and try to calm her down."
+        play voice "4-3-31.mp3" #potato
+        pro "I-it's okay, it's okay, he's home now!"
+        play voice "4-3-32.mp3" #starleeter
+        lov "R-really? B-but, you should go see him, right??"
+        "I can feel my mouth curl at that. She was absolutely right, and I hesitated."
+        play voice "4-3-33.mp3" #potato
+        pro "I-I didn't want to cause a scene in class, or… or make you worry."
+        play voice "4-3-34.mp3" #starleeter
+        lov "Hey, it's family we're talking about! I'll be fine!"
+        show lauren pout
+        play voice "4-3-35.mp3" #starleeter
+        lov "Seriously, you should go see him right now, or I'm gonna get really mad!"
+        play voice "4-3-36.mp3" #potato
+        pro "I mean... I was thinking about it, until {i}someone{/i} asked me to rush over here to help with something…"
+        play voice "4-3-37.mp3" #starleeter
+        lov "Ah? I, ah… I was thinking of you… you could've used a distraction." 
+        "Oh God, she was an expert at eliciting sympathy. I couldn't stay mad even if I wanted to."
+        play voice "4-3-38.mp3" #potato
+        pro "Hey, it was a joke, no big deal."
 
-    #if go_hospital == True:
-    play voice "4-3-39.mp3" #potato
-    pro "Don't worry. I'm fine, I'll survive. Today was a pretty crazy day, after all…"
-    play voice "4-3-40.mp3" #starleeter
-    lov "Yeah, no kidding… wow."
-    play voice "4-3-41.mp3" #starleeter
-    lov "Especially the geology lecture."
-    play voice "4-3-42.mp3" #potato
-    pro "What? You couldn't wait to get out of that."
-    play voice "4-3-43.mp3" #starleeter
-    lov "Yeah, I was on the edge of my seat the whole time.~"
-    play voice "4-3-44.mp3" #potato
-    pro "Pfft. I think that was the first time I ever envied you and your extracurriculars."
-    play voice "4-3-45.mp3" #potato
-    pro "Must make for a great Get Out Of Jail Free card."
-    play voice "4-3-46.mp3" #starleeter
-    lov "Oh, it has its perks… the teacher wasn't as mad at me for chauffeuring you around. Miss Reynolds is used to it by now.~"
+    else:
+        play voice "4-3-39.mp3" #potato
+        pro "Don't worry. I'm fine, I'll survive. Today was a pretty crazy day, after all…"
+        play voice "4-3-40.mp3" #starleeter
+        lov "Yeah, no kidding… wow."
+        play voice "4-3-41.mp3" #starleeter
+        lov "Especially the geology lecture."
+        play voice "4-3-42.mp3" #potato
+        pro "What? You couldn't wait to get out of that."
+        play voice "4-3-43.mp3" #starleeter
+        lov "Yeah, I was on the edge of my seat the whole time.~"
+        play voice "4-3-44.mp3" #potato
+        pro "Pfft. I think that was the first time I ever envied you and your extracurriculars."
+        play voice "4-3-45.mp3" #potato
+        pro "Must make for a great Get Out Of Jail Free card."
+        play voice "4-3-46.mp3" #starleeter
+        lov "Oh, it has its perks… the teacher wasn't as mad at me for chauffeuring you around. Miss Reynolds is used to it by now.~"
 
-    #if bring_sis == True:
-    play voice "4-3-47.mp3" #starleeter
-    lov "And I even got to see little Maria again! She's really getting big!~"
-    play voice "4-3-48.mp3" #potato
-    pro "Hey, you sound like a mom when you talk like that, heheh."
-    play voice "4-3-49.mp3" #starleeter
-    lov "Heh. I always wanted to be a mom, but for now I can settle for being her cool big sis!"
-    play voice "4-3-50.mp3" #potato
-    pro "W-wait, you can't… you can't do that, {i}I'm{/i} her cool big sister. Me, right here."
-    play voice "4-3-51.mp3" #starleeter
-    lov "Oh, you're just a huge dork underneath all that edge and snark!"
-    play voice "4-3-52.mp3" #potato
-    pro "D-dork…?"
-    play voice "4-3-53.mp3" #starleeter
-    lov "See, there it is! You're blushinggg!"
-    play voice "4-3-54.mp3" #potato
-    pro "I'm not… y-you just can't claim people as your own flesh and blood out of the blue!"
-    play voice "4-3-55.mp3" #starleeter
-    lov "Pfft, of course not, I'm just gonna adopt her."
-    play voice "4-3-56.mp3" #potato
-    pro "Back off, she's mine, you wicked harpy."
-    play voice "4-3-57.mp3" #starleeter
-    lov "'Harpy'??? I'm hurt, Em!"
-    play voice "4-3-58.mp3" #potato
-    pro "You can settle for being her crazy Aunt, okay?"
-    play voice "4-3-59.mp3" #starleeter
-    lov "Whaaaat? I'm not crazy…"
+        if bring_sis:
+            play voice "4-3-47.mp3" #starleeter
+            lov "And I even got to see little Maria again! She's really getting big!~"
+            play voice "4-3-48.mp3" #potato
+            pro "Hey, you sound like a mom when you talk like that, heheh."
+            play voice "4-3-49.mp3" #starleeter
+            lov "Heh. I always wanted to be a mom, but for now I can settle for being her cool big sis!"
+            play voice "4-3-50.mp3" #potato
+            pro "W-wait, you can't… you can't do that, {i}I'm{/i} her cool big sister. Me, right here."
+            play voice "4-3-51.mp3" #starleeter
+            lov "Oh, you're just a huge dork underneath all that edge and snark!"
+            play voice "4-3-52.mp3" #potato
+            pro "D-dork…?"
+            play voice "4-3-53.mp3" #starleeter
+            lov "See, there it is! You're blushinggg!"
+            play voice "4-3-54.mp3" #potato
+            pro "I'm not… y-you just can't claim people as your own flesh and blood out of the blue!"
+            play voice "4-3-55.mp3" #starleeter
+            lov "Pfft, of course not, I'm just gonna adopt her."
+            play voice "4-3-56.mp3" #potato
+            pro "Back off, she's mine, you wicked harpy."
+            play voice "4-3-57.mp3" #starleeter
+            lov "'Harpy'??? I'm hurt, Em!"
+            play voice "4-3-58.mp3" #potato
+            pro "You can settle for being her crazy Aunt, okay?"
+            play voice "4-3-59.mp3" #starleeter
+            lov "Whaaaat? I'm not crazy…"
 
-    play voice "4-3-60.mp3" #starleeter
-    lov "But anyway… I'm just glad your brother was alright… boy was that an anti-climax…"
-    play voice "4-3-61.mp3" #potato
-    pro "...Yeah… no kidding…"
-    jump mj
+        play voice "4-3-60.mp3" #starleeter
+        lov "But anyway… I'm just glad your brother was alright… boy was that an anti-climax…"
+        play voice "4-3-61.mp3" #potato
+        pro "...Yeah… no kidding…"
 
-    label mj:
     play voice "4-3-62.mp3" #potato
     pro "I guess it's a relief though, but… it's gonna be an awful time, going home to see him."
     play voice "4-3-63.mp3" #potato
     pro "Mom's the one who found out, and she's gonna blow a gasket."
-    play voice "4-3-64.mp3" #starleeter
-    lov "It can't be that bad, right?? if he was let out the same day, I mean…" 
+    if not go_hospital:
+        play voice "4-3-64.mp3" #starleeter
+        lov "It can't be that bad, right?? If he was let out the same day, I mean…" 
     play voice "4-3-65.mp3" #potato
     pro "I'm worried, like… she's probably gonna throw him out of the house."
     play voice "4-3-66.mp3" #starleeter
@@ -239,7 +238,10 @@ label day4s3:
     "But there was concern in her eyes. She's worried too, and… I think she's figuring it out."
     "God, I wish I wasn't such a coward about this. I know I should trust her, she's the sweetest thing in the school, but…" 
     "It would burden her. I don't want to burden her with my problems, I guess. She has so much to take care of already."
-    "I take a breath and head out. I should stop worrying about her for a bit, I know. Alex is probably getting an earful from Mom, and we didn't get to talk much."
+    if not go_hospital:
+        "I take a breath and head out. I should stop worrying about her for a bit, I know. Alex is probably getting an earful from Mom."
+    else:
+        "I take a breath and head out. I should stop worrying about her for a bit, I know. Alex is probably getting an earful from Mom, and we didn't get to talk much."
     "I miss him."
 
     jump day4s4

@@ -1,5 +1,7 @@
 ﻿label day6s3:
  
+    $ goodtalk = False
+ 
     #Outside the brother’s room with the sister and love interest showing
      
     "Every inch of my being crawled with apprehension."
@@ -114,19 +116,20 @@
     menu:
      
         "Drugs are bad for you.":
-            #Love +0 Family +0 Career +0
             jump d6s3elementaryschool
      
         "This affects more than just you.":
-            #Love +0 Family +0 Career +0
             jump d6s3ouch
      
-    "You don’t need drugs to make it through this."
-    #Love +1 Family +1 Career +1"
-    jump d6s3sugary
+        "You don’t need drugs to make it through this."
+            $ goodtalk = True
+            $ family += 1
+            $ love += 1
+            $ career += 1
+            jump d6s3sugary
      
      
-    label d6s3elementaryschool:
+label d6s3elementaryschool:
      
     play voice "6-3-27.mp3" #kujira
     bro "Are you fucking kidding me?"
@@ -140,7 +143,7 @@
     jump d6s3salty
      
      
-    label d6s3ouch:
+label d6s3ouch:
      
     play voice "6-3-30.mp3" #kujira
     bro "Do you seriously think I don’t know that?"
@@ -153,7 +156,7 @@
      
     jump d6s3salty
      
-    label d6s3salty:
+label d6s3salty:
      
     play voice "6-3-33.mp3" #kujira
     bro "I’m not this way because I want to be! It’s just... it’s just the only way I’ve been able to keep myself sane, okay?"
@@ -187,7 +190,7 @@
     jump d6s3merge2
      
      
-    label d6s3sugary:
+label d6s3sugary:
      
     play voice "6-3-42.mp3" #kujira
     bro "Do you really mean it, or are you just saying that?"
@@ -222,7 +225,7 @@
     jump d6s3merge2
      
 
-    label d6s3merge2:
+label d6s3merge2:
 
     play voice "6-3-52.mp3" #amree
     sis "S-so it’s over? Everything is okay now?"
@@ -245,20 +248,21 @@
     "This definitely isn’t over, but it looks like we finally have a spot of hope."
      
     "...Hey, wait, what’s that about {i}two{/i} adorable sisters?"
-     
-    play voice "6-3-58.mp3" #kujira
-    bro "Actually, there is something you could help me with."
-     
-    play voice "6-3-59.mp3" #kujira
-    bro "I still have some, uh, materials left over, but..."
 
-    bro" I don’t think I can trust myself to throw them away."
-     
-    play voice "6-3-60.mp3" #kujira
-    bro "If it’s not too much trouble, Emily, could you...?"
-     
-    play voice "6-3-61.mp3" #potato
-    pro "Consider it done."
+# NOTE: removed following lines due to clash
+#     play voice "6-3-58.mp3" #kujira
+#     bro "Actually, there is something you could help me with."
+#      
+#     play voice "6-3-59.mp3" #kujira
+#     bro "I still have some, uh, materials left over, but..."
+# 
+#     bro" I don’t think I can trust myself to throw them away."
+#      
+#     play voice "6-3-60.mp3" #kujira
+#     bro "If it’s not too much trouble, Emily, could you...?"
+#      
+#     play voice "6-3-61.mp3" #potato
+#     pro "Consider it done."
      
     play voice "6-3-62.mp3" #starleeter
     lov "Woohoo! I’m sure everything’ll turn out okay for you guys."

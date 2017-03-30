@@ -86,9 +86,10 @@
             jump movingforward
 
         "There's no harm in it…":
+            $ love += 1
             jump toofuckincute
 
-    label toofuckincute:
+label toofuckincute:
 
     play voice "6-5-8.mp3" #potato
     pro"You look really beautiful today, you know that?"
@@ -126,8 +127,10 @@
     "She struggles to get her voice back together, her chipper mood coming back."
 
     "I wipe her tears away, and scooch up next to her so I can get a good look at the book in front of us."
+    
+    jump movingforward
 
-    label movingforward:
+label movingforward:
     "Looking back at her book, it's unsurprisingly a book about drug abuse. Lauren opens the book to her bookmark nestled neatly in front of the chapter labeled heroin."
 
     "While we've already explored a lot of the heroin symptoms, we haven't really touched what it's like to go through withdrawal."

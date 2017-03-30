@@ -71,7 +71,7 @@ label day7s4:
   play voice "7-4-23.mp3" #lacTheWatcher
   dad "Sleep early, Maria. It's late... we'll talk tomorrow."
   play voice "7-4-24.mp3" #amree
-  sis "Okay dad..."
+  sis "Okay Dad..."
   
   "Maria walks away sullenly."
   

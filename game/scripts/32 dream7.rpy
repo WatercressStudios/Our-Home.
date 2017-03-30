@@ -110,7 +110,7 @@ label dream7:
 
     play voice "d7-1-31.mp3" #kujira
     dbro "Try to trust in people more. See the good in them, not just the bad. Do you think you can do that?"
-    #decides to trust people more: FAMILY+1, if not: FAMILY+1.
+    #decides to trust people more: FAMILY+1, if not: FAMILY+0.
 
     menu:
 
@@ -118,6 +118,7 @@ label dream7:
             jump trust
 
         "It will be hard, but I can try.":
+            $ family += 1
             jump trust
 
 label trust:
@@ -168,7 +169,7 @@ label trust:
     play voice "d7-1-44.mp3" #vivi
     dlov "Her in the real world, or me, in here?"
 
-    #Choice: Who do you want to be with?  The me here, or the her in the other world? Love Interest LOVE+1, You LOVE+1.
+    #Choice: Who do you want to be with?  The me here, or the her in the other world? Love Interest LOVE+1, You LOVE+0.
 
     menu:
 
@@ -176,6 +177,7 @@ label trust:
             jump me
 
         "Her. She's done so much for me. How could I not?":
+            $ love += 1
             jump her
 
 label me:
@@ -238,6 +240,8 @@ label trustfalls:
     menu:
 
         "I guess it is.":
+            $ career += 1
+            $ love += 1
             jump realworld
 
         "I don't want to lose you.":
@@ -263,6 +267,7 @@ label realworld:
     play voice "d7-1-60.mp3" #potato
     pro "I don't think so…"
     jump endofafantasy
+
 label dreamworld:
     play voice "d7-1-61.mp3" #potato
     pro "I can't bring myself to do it. I can't let you go."

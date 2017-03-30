@@ -1,4 +1,6 @@
 label day5s2:
+
+    $ jotnotes = False
     
     scene classroom with dissolve
 
@@ -18,15 +20,15 @@ label day5s2:
         "Transcribe the whole lecture.":
             jump essay
 
-    label jot:
+label jot:
     "She doesn't need me to be thorough. I'll isolate the important bits."
     jump lecture1
 
-    label essay:
+label essay:
     "Let's give her as much as I can, and she can sift through it all laterish."
     jump lecture1
 
-    label lecture1: 
+label lecture1: 
     play voice "4-2-3.mp3" #skinimini
     tea "Of course, this is nonsense to us, but it's meant to be a challenge to the intellectual notions that we consider fundamental to reality as we see it." 
     play voice "4-2-4.mp3" #skinimini
@@ -74,7 +76,7 @@ label day5s2:
     lov "Oh, thank you! Lesse…"
     "Taking the papers from me, she rustles them scanning them…" 
 
-    if teaconcern == True:
+    if jotnotes:
         play voice "4-2-15.mp3" #starleeter
         lov "'2+2=5'? I'm not so good at math, but even I know better than that…"
         play voice "4-2-16.mp3" #potato
@@ -85,7 +87,7 @@ label day5s2:
         pro "Ooh boy…"
         "What else was I supposed to write? The entire lecture was like… rambling. Fanboyism? Fangirlism?"
 
-    if teaconcern == False:
+    else:
         play voice "4-2-19.mp3" #starleeter
         lov "'2+2=5' is meant to symbolize the end result of an alternate reality fabricated by the rejection of intellectual notions of objective reality."
         play voice "4-2-20.mp3" #potato
