@@ -124,7 +124,7 @@ label disposal:
 
     show drugs
     #show a tin box with various drug components
-    "He pulls out a tin box, one with no label and considerable use."
+    "He pulls out that awful box I encountered only a few days ago."
     "Inside are… satchels of white powder, syringes, some weird tool that looks like a razor."
     "The color drains from my face. This is the reality we're facing."
     "It's easy to turn a blind eye to it and pretend it's out of sight, out of mind, but… when this stuff is in front of you, it's scary."

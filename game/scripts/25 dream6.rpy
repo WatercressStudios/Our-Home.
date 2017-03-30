@@ -105,7 +105,7 @@ label dream6:
     "I nod."
     play voice "d6-1-48.mp3" #potato
     pro "O-okay…"
-    "Diana puts her arms around me."
+    "Diane puts her arms around me."
     play voice "d6-1-49.mp3" #vivi
     dlov "This is the world you want to live in and I’m who you wanted to be at your side."
     "I nod."
