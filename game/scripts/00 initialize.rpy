@@ -29,7 +29,7 @@ define hm = Character('Hall Monitor', color="#800000", voice_tag="others")
 ############################
 # Dream Sprite Declaration #
 ############################
-image diane_angry = "sprites/diane/Angry1.png"
+image diane_angry = "sprites/diane/Angry 1.png"
 image diane_angry_speaking = "sprites/diane/Angry Speaking.png"
 image diane_determined_mischievous = "sprites/diane/Determined Mischievous.png"
 image diane_frown = "sprites/diane/Frown.png"
