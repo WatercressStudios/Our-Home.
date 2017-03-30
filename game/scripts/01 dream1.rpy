@@ -6,6 +6,15 @@ label dream1:
     #this is a good resource for the kitchen in particular. I adore the first photo, aim for something like that
     #as for music, defining a style might be tricky, but it should probably sound older and not 100% hi def. Aim for something slow. Good examples I can think of are this and this
 
+    #This stuff below is temporary. I'll move it later!
+    show diane_angry: 
+        xalign 0.05
+    show brother_angry:
+        xalign 0.35
+    show father_smirk:
+        xalign 0.65
+    show mother_worried:
+        xalign .9
 
     "I always enjoy coming back to this place."
 
