@@ -1,6 +1,6 @@
 label day8s4:
 
-    "Stepping out of the cap, I find myself back at our home. It looks different than I remember, oddly enough. It's dark, vacant, lifeless."
+    "Stepping out of the cab, I find myself back at our home. It looks different than I remember, oddly enough. It's dark, vacant, lifeless."
 
     "I hate my mother, and yet, the house is fragmented without her. It's missing its heart."
 

@@ -69,18 +69,16 @@ label day8s3:
     "I failed him. I wanted to ignore it. I avoided thinking about it because I didn’t want to care. I told myself whatever happened to him wouldn’t be a big deal. I justified abandoning him because it was too much of a hassle. I hurt him because I didn’t want to make an effort."
     "And worse, I’m not even strong enough to hate myself for it. Maybe if someone would, it wouldn’t be so painful. Maybe being scorned would let me forgive myself."
 
-    #If player chose to tell Alex he doesn’t need drugs in day 6 scene 3
+    if goodtalk:
 
-    #Show flashback to d6s3 line where bro says "But thinking about it, I should shoot for something better than self-pity."
-    "That’s right."
-    "I’m not proud of all of the decisions I’ve made, but acting on good thoughts will do a lot more good than thinking about bad ones."
-    "I manage to stay positive for the rest of the trip to the hospital."
+        #TODO: Show flashback to d6s3 line where bro says "But thinking about it, I should shoot for something better than self-pity."
+        "That’s right."
+        "I’m not proud of all of the decisions I’ve made, but acting on good thoughts will do a lot more good than thinking about bad ones."
+        "I manage to stay positive for the rest of the trip to the hospital."
 
-    #Else
+    else:
 
-    "I keep stewing on thoughts like these until I finally make it to the hospital."
-
-    #Merge
+        "I keep stewing on thoughts like these until I finally make it to the hospital."
 
     #Transition to hospital
 

@@ -1,4 +1,4 @@
-label d9s4:
+label day9s4:
     "Lauren is hanging around outside by the time I get back from the hospital."
     "Honestly, I didn’t expect her to get here so fast."
     play voice "9-4-1.mp3" #starleeter
@@ -107,8 +107,8 @@ label d9s4:
     menu:
 
         "Don’t say that! You can do it.":
-            # love+=1
-            # career+=1
+            $ love += 1
+            $ career += 1
             "Lauren sat up."
             play voice "9-4-40.mp3" #starleeter
             lov "Do you really think so?"

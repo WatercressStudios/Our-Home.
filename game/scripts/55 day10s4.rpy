@@ -1,4 +1,7 @@
 label day10s4:
+
+    $ laurendrives = False
+
     scene outside with dissolve
 
     "Walking Maria home from school again. I think Maria's still worried about Mom, so it's a quiet walk so far…"
@@ -160,7 +163,7 @@ label upstairs:
         #Choice to call LI (LOVE+1), or not (LOVE+0).
         "Ask Lauren for help":
             $ laurendrives = True
-            $ love = +1
+            $ love += 1
             jump carpool
 
         "Call a taxi":

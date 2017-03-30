@@ -1,5 +1,7 @@
 label day10s5:
 
+    $ sappyalex = False
+
     bro "Hey, Maria?"
 
     "Alex sticks his head into the front door."
@@ -215,12 +217,7 @@ label reunion:
 
     "It's our dream, too."
 
-
-
-
-
-
-
+    jump day10s5continue
 
 label bedtime:
     play voice "10-5-43.mp3" #potato
@@ -385,9 +382,8 @@ label bedtime:
     "I turn off her lamp, giving her one last look before backing out."
 
     if not laurendrives:
-        "It's best if I get to bed now. It's been a long day, and I have to be ready for whatever comes my way tomorrow."
 
-        "The pieces are finally coming back together. This fragmented home still has hope yet."
+        "It's best if I get to bed now. It's been a long day, and I have to be ready for whatever comes my way tomorrow."
 
     else:
         "I head back to the living room, where Lauren sits quietly."
@@ -462,6 +458,10 @@ label bedtime:
         "It's best if I get to bed now. It's been a long day, and I have to be ready for whatever comes my way tomorrow."
 
         "I go back to my room, putting the picture in a frame large enough to fit it. I rest it center stage of my desk, serving as a reminder as to just why I'm here."
+
+    jump day10s5continue
+
+label day10s5continue:
 
     "The pieces are finally coming back together. This fragmented home still has hope yet."
 

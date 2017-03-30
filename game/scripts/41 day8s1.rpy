@@ -188,7 +188,7 @@ label day8s1:
         "Let him go.":
             jump letgo
 
-    label stophim:
+label stophim:
     play voice "8-1-54.mp3" #potato
     pro "dad, stop!"
     play voice "8-1-55.mp3" #lacTheWatcher
@@ -202,7 +202,7 @@ label day8s1:
     "He slams his fist on the table, shaking everything on it with remarkable force. Maria jumps from her seat and to her feet."
     jump helpdad
 
-    label letgo:
+label letgo:
     "He rushes from his seat and scrambles to the door."
     play voice "8-1-58.mp3" #lacTheWatcher
     dad "...Urgh…"
@@ -215,7 +215,7 @@ label day8s1:
     pro "What you need is some rest. You've been up for God knows how long."
     jump helpdad
 
-    label helpdad:
+label helpdad:
         
     #NEED VOICE LINE
     dad "I'm just… so worried. I want to see him."

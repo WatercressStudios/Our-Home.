@@ -107,9 +107,10 @@ label day11s3:
             pro "Yeah…"
 
         "If there’s any time to be cheesy, it’s now.":
+            $ love += 1
+
             play voice "11-3-42.mp3" #potato
             pro "Thank you so much for everything. I couldn’t do half of what I do without you."
-            # love+=1
             "Lauren giggles awkwardly, trying to hide her cheeks."
             play voice "11-3-43.mp3" #starleeter
             lov "Oh… wow… You just came out with that, huh?"

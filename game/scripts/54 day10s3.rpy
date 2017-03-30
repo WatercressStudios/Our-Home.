@@ -113,10 +113,10 @@ label day10s3:
 
     "Kinda."
 
-    #Choice
     #Choice to alleviate dad’s stress by offering to get the siblings to do more at home (FAMILY+1), or keep quiet (FAMILY+0).
     menu:
         "I should elicit the help of my siblings, too.":
+            $ family += 1
             jump bloodbonds
 
         "It's best if I help him on my own.":

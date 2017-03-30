@@ -1,4 +1,4 @@
-label d9s2:
+label day9s2:
     "My stomach reminds me that it’s lunchtime."
     "Ugh..."
     "I can definitely feel that I never ate breakfast."

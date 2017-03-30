@@ -1,4 +1,6 @@
 label day10s2:
+
+    $ detention = False
     
     scene hallway with dissolve 
 
@@ -29,14 +31,14 @@ label day10s2:
 
     menu:
         "Get mad":
-            #$ career+=1
+            $ career += 1
             jump mad
 
         "Take the write-up":
-            #$ detention = True
+            $ detention = True
             jump writeup
 
-    label writeup:
+label writeup:
     "I heave a sigh, extending my hand as he stuffs a yellow slip of paper into it."
     "I don't have time for this, so let's just cut the bullshit."
     play voice "10-3-9.mp3" #other
@@ -46,7 +48,7 @@ label day10s2:
     scene black with dissolve
     jump runninglate
 
-    label mad:
+label mad:
     "Yeah, I'm not taking this shit from him. Not today. Not after the week I've been having."
     play voice "10-3-11.mp3" #potato
     pro "Excuse me? 'Delinquent punk'? Excuse you!"
@@ -74,7 +76,7 @@ label day10s2:
     scene black with dissolve
     jump runninglate
 
-    label runninglate:
+label runninglate:
     scene classroom with dissolve
 
     play voice "10-3-21.mp3" #potato
@@ -134,8 +136,8 @@ label day10s2:
 
     "I guess I'll see him soon."
 
-    #if detention = True:
-    "...After detention that is. Jackass hall monitor…" 
+    if detention:
+        "...After detention that is. Jackass hall monitor…" 
 
     jump day10s3
 

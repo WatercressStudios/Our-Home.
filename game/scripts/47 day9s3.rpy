@@ -1,4 +1,4 @@
-label d9s3:
+label day9s3:
 
     #The music here should fit a melancholic tone
 
@@ -256,13 +256,12 @@ label d9s3:
     menu:
 
         "You need to call someone you trust.":
-#            Family+0
             jump nobodywillpickthisunlesstheyspecificallywantabadendingbutokay
 
 
         "You can call me.":
-#            Family+1
-            jump d7s3good
+            $ family += 1
+            jump d9s3good
 
 
     # # #
@@ -277,11 +276,11 @@ label nobodywillpickthisunlesstheyspecificallywantabadendingbutokay:
     play voice "9-3-75.mp3" #kujira
     bro "So if I’m not thinking straight, I just need to talk to someone who is, huh? Yeah, I think I like the sound of that."
 
-    jump d7s3merge
+    jump d9s3merge
 
     # # #
 
-label d7s3good:
+label d9s3good:
 
     play voice "9-3-76.mp3" #potato
     pro "You can call me."
@@ -292,11 +291,11 @@ label d7s3good:
     play voice "9-3-78.mp3" #kujira
     bro "Heh. Yeah, ditto. If you ever go off the deep end, you can bet your ass I’m reeling you right back in."
 
-    jump d7s3merge
+    jump d9s3merge
 
     # # #
 
-label d7s3merge:
+label d9s3merge:
 
     play voice "9-3-79.mp3" #kujira
     bro "Come to think of it, there’ve been a lot of people looking out for me, huh? There’s you, Maria, and even that Lauren girl."

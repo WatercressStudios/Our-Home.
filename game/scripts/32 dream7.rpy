@@ -235,13 +235,11 @@ label trustfalls:
     play voice "d7-1-56.mp3" #vivi
     dlov "Do you think that's a good thing? Do you think this newfound distance is okay, a step in the right direction?"
 
-    #Choice: Yes CAREER+1 LOVE+1, No CAREER+0 LOVE+0.
-
     menu:
 
         "I guess it is.":
             $ career += 1
-            $ love += 1
+#             $ love += 1
             jump realworld
 
         "I don't want to lose you.":

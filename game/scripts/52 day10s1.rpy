@@ -78,13 +78,13 @@ label day10s1:
     menu:
 
         "My compliments to the chef!":
-            #$ career+=1
+            $ career += 1
             jump compliment
 
         "Needs more seasoning.":
             jump seasoning
 
-    label compliment:
+label compliment:
     play voice "10-2-21.mp3" #potato
     pro "My compliments to the chef! Best way to start the morning!"
     play voice "10-2-22.mp3" #potato
@@ -94,7 +94,7 @@ label day10s1:
     "We share a laugh, raising our glasses of orange juice in good cheer."
     jump pancakes
 
-    label seasoning:
+label seasoning:
     play voice "10-2-24.mp3" #potato
     pro "Mm… could use a little extra spice. More zing."
     play voice "10-2-25.mp3" #amree
@@ -102,7 +102,7 @@ label day10s1:
     play voice "10-2-26.mp3" #potato
     pro "Y'know, like, {i}pow{/i}. Have you tried cayenne pepper?"
     play voice "10-2-27.mp3" #amree
-    sis "O, on a pancake??"
+    sis "O-On a pancake??"
 
     "Her eyes widen with some mixture of trepidation and intrigue. Oh goodness, she was actually considering it."
 
@@ -116,7 +116,7 @@ label day10s1:
     pro "Teasing you is fun, though.~"
     jump pancakes
 
-    label pancakes:
+label pancakes:
     play voice "10-2-32.mp3" #amree
     sis "I… think I overcooked them a little, honestly. But I'm a little new to all this, so…"
     play voice "10-2-33.mp3" #potato
@@ -129,14 +129,14 @@ label day10s1:
     "I see. She was just trying to help…" 
 
     menu:
-        "Praise Maria":
-            #$ career+=1
+        "\"Thanks Maria.\"":
+#             $ career += 1
             jump praise
 
-        "Lecture Maria":
+        "\"Be careful when cooking.\"":
             jump stopusinglectureasalabel
 
-    label praise:
+label praise:
     play voice "10-2-36.mp3" #potato
     pro "I think you did a really good thing, today. It was good of you to show initiative, and I appreciate a good meal."
     play voice "10-2-37.mp3" #amree
@@ -149,7 +149,7 @@ label day10s1:
     "I couldn't wish for a better sister."
     jump hotcakes
 
-    label stopusinglectureasalabel:
+label stopusinglectureasalabel:
     play voice "10-2-40.mp3" #potato
     pro "It's dangerous to be working around the stove alone, Maria. I'm glad you came out of it okay, but…"
     play voice "10-2-41.mp3" #amree
@@ -157,12 +157,12 @@ label day10s1:
     play voice "10-2-42.mp3" #potato
     pro "Yeah, but… you should really… get Mom to show you how to do it next time."
     play voice "10-2-43.mp3" #amree
-    sis "...But mom isn't here right now…" 
+    sis "...But Mom isn't here right now…" 
     "Her head droops, as does mine. Mom isn't here. She's walked out on us, and we have no idea when she's getting back."
     "I wish she was here right now… I bet Maria feels the same way."
     jump hotcakes
 
-    label hotcakes:
+label hotcakes:
     play voice "10-2-44.mp3" #amree
     sis "Mom isn't here right now, so I figured… m-maybe I could be, like, a replacement mother."
     play voice "10-2-45.mp3" #amree

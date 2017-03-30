@@ -140,7 +140,7 @@ label dream10:
         "This isn't goodbye.":
             jump isntgoodbye
 
-    label missyou:
+label missyou:
     play voice "d10-1-45.mp3" #potato
     pro "I'm really gonna miss you, Diane."
     play voice "d10-1-46.mp3" #vivi
@@ -160,7 +160,7 @@ label dream10:
     "I feel tears forming in the corners of my eyes. This is really goodbye, isn't it…"
     jump another
 
-    label dreamlove:
+label dreamlove:
     play voice "d10-1-51.mp3" #potato
     pro "Diane, I… I think I love you."
     play voice "d10-1-52.mp3" #vivi
@@ -183,7 +183,7 @@ label dream10:
     dlov "I know."
     jump another
 
-    label isntgoodbye:
+label isntgoodbye:
     play voice "d10-1-58.mp3" #potato
     pro "This isn't goodbye, Diane. I'll come visit you. I'll miss our conversations too much."
     play voice "d10-1-59.mp3" #vivi
@@ -199,7 +199,7 @@ label dream10:
     "We share a smile, like we used to…"
     jump another
 
-    label another:
+label another:
     play voice "d10-1-64.mp3" #vivi
     dlov "Now then… tomorrow's another day, Emily. Take care of yourself out there, okay?"
     play voice "d10-1-65.mp3" #potato

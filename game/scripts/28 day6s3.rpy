@@ -121,7 +121,7 @@
         "This affects more than just you.":
             jump d6s3ouch
      
-        "You don’t need drugs to make it through this."
+        "You don’t need drugs to make it through this.":
             $ goodtalk = True
             $ family += 1
             $ love += 1

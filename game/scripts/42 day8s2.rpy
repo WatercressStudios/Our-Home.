@@ -1,4 +1,4 @@
-label d8s2:
+label day8s2:
     # Bedroom
     "The walk didn’t end up doing much good."
     "When I got back I went up to my room, I just hid. I really wasn’t in the mood to talk to anyone."
@@ -115,7 +115,7 @@ label d8s2:
             jump listening
 
         "Ask Lauren about her day":
-            # love+=1
+            $ love += 1
             jump laurentalk
 
 label listening:
@@ -282,4 +282,4 @@ label day8s2merge:
     "We walk outside and say our goodbyes."
     "My walk back doesn’t feel as depressing as I expected."
     "Lauren really helped me out today. I hope I can make it up to her."
-    jump d8s3
+    jump day8s3

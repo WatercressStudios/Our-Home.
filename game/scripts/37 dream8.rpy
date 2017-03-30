@@ -67,7 +67,7 @@ label prehomecoming:
 #    IF: < 3 for at least one, THEN: jump forcedreamend
 #    IF: =/> 3 for both, THEN: jump homecoming
 
-    if love < 3 or career < 3:
+    if love < 4 or career < 4:
         jump forcedreamending
     else
         jump homecoming
@@ -153,7 +153,7 @@ label familypointcheck:
 #    POINTCHECK -> Family Point Check 
 #    IF: < 3, THEN: jump funeralend
 #    IF: =/> 3, THEN: jump day8s1
-    if family < 3:
+    if family < 4:
         jump funeralending
     else:
         jump day8s1
@@ -203,7 +203,7 @@ label homeless:
 #
 #        "This is my home.":
 #            jump dreamend
-    if love < 3 or career < 3:
+    if love < 4 or career < 4:
         menu:
             "None of this matters anyways.":
                 jump suicideending

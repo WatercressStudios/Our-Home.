@@ -129,11 +129,14 @@ label day9s1:
     "Should I  text her?"
 
     #Choices
-    "No, she needs time to recover."
+    menu:
+        "No, she needs time to recover.":
+            jump recover
+        "Yes, she needs to know we care.":
+            $ family += 1
+            jump showcare
 
-    "Yes, she needs to know we care."
-
-    #Recover:
+label recover:
 
     play voice "9-1-26.mp3" #potato
     pro "I don't think that would be the best plan, honestly. She needs some time to recover. Shit's been… a mess lately."
@@ -144,7 +147,9 @@ label day9s1:
 
     "She nods in half agreement, and doesn't push the discussion any further."
 
-    #Show we care:
+    jump day9s1continue
+
+label showcare:
 
     play voice "9-1-27.mp3" #potato
     pro "Yeah, that's a good idea. Even if she doesn't answer, at least she'll know we want her around, yeah?"
@@ -159,7 +164,9 @@ label day9s1:
     play voice "9-1-29.mp3" #potato
     pro "I am too, I am too."
 
-    #After choices
+    jump day9s1continue
+
+label day9s1continue:
 
     "A painful silence hangs over the both of us. Neither of us are really trying to open up."
 

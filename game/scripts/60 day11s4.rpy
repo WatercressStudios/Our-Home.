@@ -203,7 +203,8 @@ label yesforgive:
 
     $ forgive = True
 
-    # TODO: CAREER+ and FAMILY+
+    $ career += 1
+    $ family += 1
 
     "None of us are the same as we were a week ago. Not even me."
     "If everyone else in my family can change, then the least I can do is try to forgive Mom for all the shit she's put us through."
@@ -331,3 +332,34 @@ label day11finale:
 label endings:
 
     #### JUMP TO ENDINGS, STITCHED BY SAGE
+
+    if family < 8:
+        jump badfamilyending
+    else:
+        jump goodfamilyending
+
+label composite_future1:
+    
+    if family < 8 and love < 8 and career < 8:
+        jump superbadending
+    if family > 7 and love > 7 and career > 7:
+        jump supergoodending
+
+    if career < 8:
+        jump badcareerending        
+    else:
+        jump goodcareerending
+
+label composite_future2:
+    
+    if family < 8:
+        jump badfamilyending_future
+    else:
+        jump goodfamilyending_future
+
+label composite_future3:
+    
+    if love < 8:
+        jump badloveending
+    else:
+        jump goodloveending
