@@ -31,7 +31,8 @@ label badFamilyEnding_future:
     if career < 8:
         "I sometimes think about the day Mom left."
     else:
-        "Whenever I come home for the holidays, I think about the day Mom left."
+        "The long awaited holiday is finally here, and I've come home to see my family."
+        "Whenever I come home, I think about the day Mom left."
     
     "I remember how Alex words lingered in the air, and I remember waiting for the response that never came."
     "She never came back home, and since then we haven't heard a single word from her."

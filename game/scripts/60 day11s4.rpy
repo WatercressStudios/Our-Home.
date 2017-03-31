@@ -339,12 +339,15 @@ label endings:
         jump goodFamilyEnding
 
 label composite_future1:
-    
+        
     if family < 8 and love < 8 and career < 8:
+        "Five years later..."
         jump superBadEnding
     if family > 7 and love > 7 and career > 7:
+        "One year later..."
         jump superGoodEnding
 
+    "Three years later..."
     if career < 8:
         jump badCareerEnding        
     else:

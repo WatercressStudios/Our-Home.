@@ -1,8 +1,16 @@
 label goodLoveEnding:
 
-    #TODO: FLASHBACK FILTER
+    "After dinner is over, I sit in my room and think about the past."
+    "I think about Lauren's theatre show in highschool."
 
-    "After the performance was over, I decided to ask Lauren out."
+    #TODO: FLASHBACK FILTER
+    "The audience roars with applause as Lauren's time on the center stage comes to an end."
+    "The theater is filled to the brim. I'd say this was quite successful for her. Seeing her act on stage was super cute, especially knowing that I'd helped her with many of her lines."
+    "She was probably very nervous, but she didn't let it show, not one bit."
+    "She's good like that."
+    "The applause finishes, and I go out to meet up with her after the performance."
+    "Compared to her, I'm a nervous wreck."
+    "Today's the day… the day I ask her out."
     "It took a lot of nerve, but eventually I was able to get the words out while Lauren was getting changed out of her costume."
     "I could hear her stop moving behind the sheet they put up to give people something to hide behind while changing."
     play voice "20-10-1.mp3" #starleeter

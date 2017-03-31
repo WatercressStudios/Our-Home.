@@ -1,5 +1,8 @@
 label badLoveEnding:
 
+    "After dinner is over, I sit in my room and think about the past."
+    "I think about Lauren's theatre show in highschool."
+
     #TODO: FLASHBACK FILTER
     "The audience roars with applause as Lauren's time on the center stage comes to an end."
     "The theater is filled to the brim. I'd say this was quite successful for her. Seeing her act on stage was super cute, especially knowing that I'd helped her with many of her lines."
