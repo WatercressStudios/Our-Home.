@@ -64,7 +64,7 @@ label superGoodEnding:
     "I don't know what's gotten into Mom lately. She seems… so much less on edge lately."
     "She's still tough on us. She's been particularly vocal about the plans for this trip, but…"
     "Sitting next to Dad like this, she looks… more at peace."
-    "She must be a lot happier now. The last few years have been pretty good for her."
+    "She must be a lot happier now. This year has been pretty good for her."
     "I wish I could be happier, but it just feels… weird? Like that feeling that an ambush is about to get me."
     "But she's… well, still high-strung, but she finds time to relax, nowadays."
     "She's going back to school, too. She teaches physics at community college, but knowing her, she'll claw her way up to a university before long."
@@ -278,6 +278,9 @@ label superGoodEnding:
     "But stitching everything together… it's been difficult, time-consuming, and maybe many people will think it's an ugly collage of mismatched sorts."
     "But I love every part of it. I love how we all come together. And I want to keep adding to it."
     "And sitting here, beside Lauren, the person I want to be with."
+    "Imagine that in just a year from now, we'll move in together and attend the same college."
+    "Wait, I'm jumping ahead of myself. There's so much of the present I should enjoy."
+    "I look around me. Maria and Alex laughing about a shared joke. My parents cuddling by the waterfall. Lauren's deep eyes looking into mine."
     "I think this is it. It's been a long journey, but…"
     "I'm finally home."
 
