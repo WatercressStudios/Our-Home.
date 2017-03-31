@@ -30,7 +30,7 @@ label dream1:
 
     "I can’t help grinning. They aren’t seriously gonna do that, are they?"
 
-    play voice "d1-1-1.mp3" #potato
+    voice "d1-1-1.mp3" #potato
     pro "Heh, alright, guess there's no avoiding it, you dorks."
 
     "Pacing over to the door, I brace myself for the inevitable…"
@@ -38,10 +38,10 @@ label dream1:
     scene dkitchen
     with dissolve
 
-    play voice "d1-1-2.mp3" #all
+    voice "d1-1-2.mp3" #all
     all "Happy birthday!"
 
-    play voice "d1-1-3.mp3" #potato
+    voice "d1-1-3.mp3" #potato
     pro "Aww, guys…" 
 
     "They remember. It’s my birthday. Number eighteen."
@@ -52,18 +52,18 @@ label dream1:
 
     show brother_neutral_smile
 
-    play voice "d1-1-4.mp3" #kujira
+    voice "d1-1-4.mp3" #kujira
     dbro "Sweet eighteen, sis! Took your sweet time gettin' here, huh?"
 
-    play voice "d1-1-5.mp3" #potato
+    voice "d1-1-5.mp3" #potato
     pro "Heh, you do know it's called a sweet sixteen, right?"
 
     #brother should have an expression of surprise
 
-    play voice "d1-1-6.mp3" #kujira
+    voice "d1-1-6.mp3" #kujira
     dbro "Ah, right! Well, uh, regardless, I don't really get your point. Like, every birthday's supposed to be sweet, y'know?"
 
-    play voice "d1-1-7.mp3" #potato
+    voice "d1-1-7.mp3" #potato
     pro "Ah, yes, of course, you're right. My mistake.~" 
 
     hide dbro
@@ -75,17 +75,17 @@ label dream1:
     show dmom smile at left
     show ddad smile at right
 
-    play voice "d1-1-8.mp3" #lacTheWatcher
+    voice "d1-1-8.mp3" #lacTheWatcher
     ddad "Happy birthday, sweetie. Hate to surprise you like this, but we all got a little ahead of ourselves this year…" 
 
     #mom's mouth should open wide, indicate more excitement
 
-    play voice "d1-1-9.mp3" #kaito
+    voice "d1-1-9.mp3" #kaito
     dmom "Old John getting excited for something, oh yes! You went to Samantha's and brought back the flour and sugar, right?"
 
     #close dad's eyes, indicate pensive thought, still smiling
 
-    play voice "d1-1-10.mp3" #lacTheWatcher
+    voice "d1-1-10.mp3" #lacTheWatcher
     ddad "Mm, yeah, I sure did. Did a hell of a job with the centerpiece, I gotta say."
 
     "Even in this festive atmosphere, Dad carries an air of gentle calm and dignity. I don't know how anyone can keep such a straight face with all of these gaudy streamers strung up."
@@ -96,7 +96,7 @@ label dream1:
     hide dad
     show dbro smile
 
-    play voice "d1-1-11.mp3" #kujira
+    voice "d1-1-11.mp3" #kujira
     dbro "Diane and I handled the decorations. Her idea, I just provided the muscle."
 
     "Wait, it’s {i}her{/i} idea? My eyes dart across the table in amazement."
@@ -114,18 +114,18 @@ label dream1:
 
     "God, she can read me like a book… I feel my cheeks flushing with redness."
 
-    play voice "d1-1-12.mp3" #potato
+    voice "d1-1-12.mp3" #potato
     pro "This is too much guys, really…" 
 
     show dbro excited
     #pan dream girl to left before brother comes in
 
-    play voice "d1-1-13.mp3" #kujira
+    voice "d1-1-13.mp3" #kujira
     dbro "Hey, no sweat! Just means you'll have to pay the family back later!"
-    play voice "d1-1-14.mp3" #kujira
+    voice "d1-1-14.mp3" #kujira
     dbro "Mom 'n Pop's anniversary's coming up, right?"
 
-    play voice "d1-1-15.mp3" #potato
+    voice "d1-1-15.mp3" #potato
     pro "Ah, of course."
 
     hide dlov
@@ -146,18 +146,18 @@ label dream1:
 
     "The candles are arranged in a perfect circle. Eighteen of them. I can feel the heat emanating from them."
 
-    play voice "d1-1-16.mp3" #kaito
+    voice "d1-1-16.mp3" #kaito
     dmom "Do you know what you're going to wish for?"
 
-    play voice "d1-1-17.mp3" #kujira
+    voice "d1-1-17.mp3" #kujira
     dbro "Don't pry it from her, Ma! It's gotta be a secret"
 
-    play voice "d1-1-18.mp3" #lacTheWatcher
+    voice "d1-1-18.mp3" #lacTheWatcher
     ddad "Haha, that is true… you don't have to tell us if you don't want to."
 
     "I smirk at this exchange. My lil’ brother is always looking out for me, even over the silliest details."
 
-    play voice "d1-1-19.mp3" #potato
+    voice "d1-1-19.mp3" #potato
     pro "It's all right up in here."
 
     "I tap my forehead affirmatively, a wry grin spreading across my cheeks."

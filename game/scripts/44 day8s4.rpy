@@ -20,34 +20,34 @@ label day8s4:
 
     "I approach her carefully, trying to avoid waking her. I gently pull her close to me, lifting her from the couch, carrying her to her room."
 
-    play voice "8-4-1.mp3" #amree
+    voice "8-4-1.mp3" #amree
     sis "Daddy… had to go to work. He said he's sorry…"
 
     "Fuck, I woke her up."
 
-    play voice "8-4-2.mp3" #potato
+    voice "8-4-2.mp3" #potato
     pro "Ahh, that's okay. He's working really hard to keep this family together. I'm here for you, anyways."
 
     "I whisper to her, lowering her to her bed. Kissing her on the forehead, I wrap her in a blanket."
 
-    play voice "8-4-3.mp3" #amree
+    voice "8-4-3.mp3" #amree
     sis "A-are you?"
 
     "What?"
 
-    play voice "8-4-4.mp3" #potato
+    voice "8-4-4.mp3" #potato
     pro "Of course I am. You don't need to worry about me, remember?"
 
-    play voice "8-4-5.mp3" #amree
+    voice "8-4-5.mp3" #amree
     sis "I was worried about you."
 
-    play voice "8-4-6.mp3" #potato
+    voice "8-4-6.mp3" #potato
     pro "Well, don't. I'm here to stay, I promise."
 
-    play voice "8-4-7.mp3" #amree
+    voice "8-4-7.mp3" #amree
     sis "What about Alex?"
 
-    play voice "8-4-8.mp3" #potato
+    voice "8-4-8.mp3" #potato
     pro "He…"
 
     "I want to tell her that it will end up okay."
@@ -64,7 +64,7 @@ label day8s4:
 
     "I shake it out of my mind."
 
-    play voice "8-4-9.mp3" #potato
+    voice "8-4-9.mp3" #potato
     pro "I don't know… but don't worry about him, okay? Get some sleep."
 
     "She gives me one last pained look before turning away, covering herself with the warm blankets and pillows surrounding her."

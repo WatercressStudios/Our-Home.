@@ -24,9 +24,9 @@ label dreamending:
     "I can feel the presence of others in this old house. Focusing my hearing, I can pick up dull murmuring coming from… the dining room?"
     "I can’t help grinning. They aren’t seriously gonna do that, are they?"
 
-    play voice "20-5-1.mp3" #potato
+    voice "20-5-1.mp3" #potato
     pro "Heh, alright, guess there's no avoiding it, you dorks."
-    play voice "20-5-2.mp3" #potato
+    voice "20-5-2.mp3" #potato
     pro "...huh?"
 
     "Something about this feels familiar. Like I've lived through this before."
@@ -35,9 +35,9 @@ label dreamending:
     # play bgm, any creepy-ish song will do. My initial idea was some creep children's song
     scene dkitchen with dissolve
 
-    play voice "20-5-3.mp3" #all
+    voice "d1-1-2.mp3" #all
     all "Happy birthday!"
-    play voice "20-5-4.mp3" #potato
+    voice "20-5-4.mp3" #potato
     pro "Aww, guys…" 
 
     "They remember. It’s my birthday."
@@ -46,15 +46,15 @@ label dreamending:
 
     show dbro smile
 
-    play voice "20-5-5.mp3" #kujira
+    voice "20-5-5.mp3" #kujira
     dbro "Sweet eighteen, sis! Took your sweet time gettin' here, huh?"
-    play voice "20-5-6.mp3" #potato
+    voice "20-5-6.mp3" #potato
     pro "Heh, no need to flatter me. I'm twenty one, you can say it."
 
     #brother should have an expression of surprise
-    play voice "20-5-7.mp3" #kujira
+    voice "20-5-7.mp3" #kujira
     dbro "Huh? What are you talking about, sis? You're only eighteen!"
-    play voice "20-5-8.mp3" #potato
+    voice "20-5-8.mp3" #potato
     pro "I am? Ah, yes, of course, you're right. My mistake.~" 
 
     hide dbro
@@ -64,14 +64,14 @@ label dreamending:
     "Dad just got another promotion in the office, and he only needs to work half days now."
 
     # show a flash of unhappy/crying dad in the real world, any location
-    play voice "20-5-9.mp3" #lacTheWatcher
+    voice "20-5-9.mp3" #lacTheWatcher
     ddad "...and then, my boss just says, 'Jonathan, you are too good at your job to not promote. You are now the Vice President!'"
 
     "We clap our hands at Dad's happy story. Alex and I grin at each other. Dad can spend even more time at home with us now."
     "It is Mom's turn, next. She tells us about how she has finally finished organizing our month-long vacation to Niagara Falls..."
 
     # show a flash of unhappy/crying mom in the real world, any location
-    play voice "20-5-10.mp3" #kaito
+    voice "20-5-10.mp3" #kaito
     dmom "...and we can probably leave in a week or two, kids! Are you excited?"
 
     "We shout 'yes' and clap our hands at Mom's happy story. Niagara Falls! I've always wanted to go!"
@@ -79,30 +79,30 @@ label dreamending:
     "Then it is Alex's turn. My genius brother has aced his exams again, but more excitingly, he made a new friend in chemistry class."
 
     # show a flash of unhappy/crying bro in the real world, any location
-    play voice "20-5-11.mp3" #kujira
+    voice "20-5-11.mp3" #kujira
     dbro "...and Charlotte just screams 'Stop!' as I poured the vinegar into the solution! White foam started spewing everywhere and the whole class laughed!"
 
     "We laugh with him and clap our hands at Alex's happy story. It's always nice to see my brother making new friends... and recently he's been talking a lot about girls."
 
-    play voice "20-5-12.mp3" #potato
+    voice "20-5-12.mp3" #potato
     pro "What about... umm..."
-    play voice "20-5-13.mp3" #kujira
+    voice "20-5-13.mp3" #kujira
     dbro "Who?"
-    play voice "20-5-14.mp3" #potato
+    voice "20-5-14.mp3" #potato
     pro "I'm not sure. I feel like we're forgetting someone important. What's her name again..."
 
     # show a flash of unhappy/crying Lauren in the real world, any location
     "My family laughs good-naturedly."
 
-    play voice "20-5-15.mp3" #lacTheWatcher
+    voice "20-5-15.mp3" #lacTheWatcher
     ddad "There's no one else in our family, Emily."
-    play voice "20-5-16.mp3" #potato
+    voice "20-5-16.mp3" #potato
     pro "Oh! I remember! What about Diane? How is she?"
-    play voice "20-5-17.mp3" #kaito
+    voice "20-5-17.mp3" #kaito
     dmom "Who's Diane?"
-    play voice "20-5-18.mp3" #kujira
+    voice "20-5-18.mp3" #kujira
     dbro "We don't know anyone by that name, sis."
-    play voice "20-5-19.mp3" #potato
+    voice "20-5-19.mp3" #potato
     pro "W-We don't? Oh... yeah, you're right. Of course we don't."
 
     "That’s weird. Why do I think there’s someone else."
@@ -111,24 +111,24 @@ label dreamending:
     # show a flash of unhappy/crying Maria in the real world, any location
     "No. There’s no one else. I don’t want to think about this anymore. I don’t like this."
 
-    play voice "20-5-20.mp3" #lacTheWatcher
+    voice "20-5-20.mp3" #lacTheWatcher
     ddad "Anyway, it's your turn, Emily. How's your day been? How do you feel?"
-    play voice "20-5-21.mp3" #potato
+    voice "20-5-21.mp3" #potato
     pro "I feel older."
 
     "My family laughs at my joke. Except it was only half a joke."
 
-    play voice "20-5-22.mp3" #potato
+    voice "20-5-22.mp3" #potato
     pro "No, I mean it. I feel like I'm older, somehow..."
-    play voice "20-5-23.mp3" #kujira
+    voice "20-5-23.mp3" #kujira
     dbro "You {i}are{/i} older, dummy!"
-    play voice "20-5-24.mp3" #potato
+    voice "20-5-24.mp3" #potato
     pro "Yes, but I mean, even older than that."
-    play voice "20-5-25.mp3" #kaito
+    voice "20-5-25.mp3" #kaito
     dmom "Don't worry about it, Emily. Here, have some tea with us."
-    play voice "20-5-26.mp3" #lacTheWatcher
+    voice "20-5-26.mp3" #lacTheWatcher
     ddad "Yes, tea is a good idea. Have a sip. You'll feel better."
-    play voice "20-5-27.mp3" #kujira
+    voice "20-5-27.mp3" #kujira
     dbro "Yes, Emily. Have some tea with us. Your family."
 
     "The tea, huh."

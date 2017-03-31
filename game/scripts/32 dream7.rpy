@@ -4,111 +4,111 @@ label dream7:
 
     "Here he is, my brother. Sitting across from me, as he has many times before. Difference is, however, that I now know that this isn't real. It's all a dream."
 
-    play voice "d7-1-1.mp3" #potato
+    voice "d7-1-1.mp3" #potato
     pro "Thank you… This is, uh, still new to me."
 
-    play voice "d7-1-2.mp3" #kujira
+    voice "d7-1-2.mp3" #kujira
     dbro "Now that you understand just what this is, it's a completely different beast, isn't it?"
 
     "I fidget awkwardly. It's so weird. He's acting like nothing is different, but it's all incredibly different."
 
-    play voice "d7-1-3.mp3" #potato
+    voice "d7-1-3.mp3" #potato
     pro "Yeah. Very much so. It's so odd. Is this normal?"
 
-    play voice "d7-1-4.mp3" #kujira
+    voice "d7-1-4.mp3" #kujira
     dbro "Is your situation normal?"
 
     "Thinking about it, it isn't. How many people can really say that they've lived the life that I have? The broken home, the scraps left behind, the desperate attempt at an escape, it's all unique to me."
 
-    play voice "d7-1-5.mp3" #potato
+    voice "d7-1-5.mp3" #potato
     pro "I guess not."
 
-    play voice "d7-1-6.mp3" #kujira
+    voice "d7-1-6.mp3" #kujira
     dbro "No, it's more normal than one would think, actually."
 
-    play voice "d7-1-7.mp3" #potato
+    voice "d7-1-7.mp3" #potato
     pro "Really?"
 
     "Bullshit."
 
-    play voice "d7-1-8.mp3" #kujira
+    voice "d7-1-8.mp3" #kujira
     dbro "Humans are inherently flawed creatures."
 
-    play voice "d7-1-9.mp3" #potato
+    voice "d7-1-9.mp3" #potato
     pro "This flawed, though?"
 
-    play voice "d7-1-10.mp3" #kujira
+    voice "d7-1-10.mp3" #kujira
     dbro "Yes."
 
     "No, I'm alone. Right? If I'm not alone, then this world is even worse than I originally thought."
 
-    play voice "d7-1-11.mp3" #potato
+    voice "d7-1-11.mp3" #potato
     pro "It's hard to imagine, knowing how much pain I've endured…"
 
-    play voice "d7-1-12.mp3" #kujira
+    voice "d7-1-12.mp3" #kujira
     dbro "The world is a painful place. It's worsened by how terrible we all are at communication."
 
     "I can't really argue with that."
 
-    play voice "d7-1-13.mp3" #potato
+    voice "d7-1-13.mp3" #potato
     pro "That's true. We're really bad at being good to each other."
 
-    play voice "d7-1-14.mp3" #kujira
+    voice "d7-1-14.mp3" #kujira
     dbro "No, that's not what I meant."
 
-    play voice "d7-1-15.mp3" #potato
+    voice "d7-1-15.mp3" #potato
     pro "Oh?"
 
-    play voice "d7-1-16.mp3" #kujira
+    voice "d7-1-16.mp3" #kujira
     dbro "We're really bad at expressing what's wrong."
 
     "It doesn't matter, though. Idle chatter about the root of all evil doesn't solve a damn thing."
 
-    play voice "d7-1-17.mp3" #potato
+    voice "d7-1-17.mp3" #potato
     pro "Yeah, but talking about it isn't going to solve the issue."
 
-    play voice "d7-1-18.mp3" #kujira
+    voice "d7-1-18.mp3" #kujira
     dbro "Which is?"
 
-    play voice "d7-1-19.mp3" #potato
+    voice "d7-1-19.mp3" #potato
     pro "The fact that we don't tell others what's wrong, like you said."
 
-    play voice "d7-1-20.mp3" #kujira
+    voice "d7-1-20.mp3" #kujira
     dbro "Well…"
 
-    play voice "d7-1-21.mp3" #potato
+    voice "d7-1-21.mp3" #potato
     pro "Well?"
 
     "I'm not sure what he's asking. He's being cryptic, and it's frustrating me. Normally, dreams have the opposite effect, but this time around? It's different."
 
-    play voice "d7-1-22.mp3" #kujira
+    voice "d7-1-22.mp3" #kujira
     dbro "What's your solution?"
 
-    play voice "d7-1-23.mp3" #potato
+    voice "d7-1-23.mp3" #potato
     pro "My solution?"
 
-    play voice "d7-1-24.mp3" #kujira
+    voice "d7-1-24.mp3" #kujira
     dbro "Yes."
 
-    play voice "d7-1-25.mp3" #potato
+    voice "d7-1-25.mp3" #potato
     pro "I guess it'd be to be more open to others. As much as I wish I could, I can't exactly force others to do things the right way."
 
-    play voice "d7-1-26.mp3" #potato
+    voice "d7-1-26.mp3" #potato
     pro "But it just frustrates me to no end. I hate my mother, and I hate everything about my family. I can't even begin to comprehend just what it took to create that… monster."
 
-    play voice "d7-1-27.mp3" #kujira
+    voice "d7-1-27.mp3" #kujira
     dbro "Wouldn't it do you some good to think about why she behaves the way she does? It serves no purpose to be blindly angry at someone. Think about the <i>why</i>, not the what."
 
-    play voice "d7-1-28.mp3" #potato
+    voice "d7-1-28.mp3" #potato
     pro "That's it, though. I have no idea what could've happened. I'm lost, and every time I think about it, I just get angrier and angrier."
 
-    play voice "d7-1-29.mp3" #kujira
+    voice "d7-1-29.mp3" #kujira
     dbro "Here's my last piece of advice, from you to you. Everyone has a reason for why they do what they do. Sometimes, it isn't as sinister, nor is it as hardwired as you think it is."
 
-    play voice "d7-1-30.mp3" #kujira
+    voice "d7-1-30.mp3" #kujira
     dbro "Look into the past, look into the present. Everything happens for a reason, just not in a divine sense."
 
-    play voice "d7-1-31.mp3" #kujira
+    voice "d7-1-31.mp3" #kujira
     dbro "Try to trust in people more. See the good in them, not just the bad. Do you think you can do that?"
     #decides to trust people more: FAMILY+1, if not: FAMILY+0.
 
@@ -128,45 +128,45 @@ label trust:
 
     "With a simple thought, she appears in front of me."
 
-    play voice "d7-1-32.mp3" #vivi
+    voice "d7-1-32.mp3" #vivi
     dlov "Hey, Emily. It's good to see you again."
 
     "She gives me her sweet smile, something I've become accustomed to after so many dreams"
 
-    play voice "d7-1-33.mp3" #potato
+    voice "d7-1-33.mp3" #potato
     pro "Yeah, it's good to see you too."
 
-    play voice "d7-1-34.mp3" #vivi
+    voice "d7-1-34.mp3" #vivi
     dlov "So. Have you thought about my question?"
 
-    play voice "d7-1-35.mp3" #potato
+    voice "d7-1-35.mp3" #potato
     pro "I have, but I'm not sure I'm ready to answer it yet. I'm not sure if I can trust myself with the answer, let alone trust anyone else."
 
-    play voice "d7-1-36.mp3" #vivi
+    voice "d7-1-36.mp3" #vivi
     dlov "Honey, there are plenty of people that you can trust. You just have to think about it! Sometimes, they are right in front of you."
 
-    play voice "d7-1-37.mp3" #potato
+    voice "d7-1-37.mp3" #potato
     pro "You're here, I guess, but isn't that just me trusting myself?"
 
-    play voice "d7-1-38.mp3" #vivi
+    voice "d7-1-38.mp3" #vivi
     dlov "I wasn't talking about me, silly."
 
-    play voice "d7-1-39.mp3" #potato
+    voice "d7-1-39.mp3" #potato
     pro "Then wh- oh. Lauren…"
 
-    play voice "d7-1-40.mp3" #vivi
+    voice "d7-1-40.mp3" #vivi
     dlov "You've grown very close to her. I daresay you might even love her."
 
-    play voice "d7-1-41.mp3" #potato
+    voice "d7-1-41.mp3" #potato
     pro "I-uhh, I dunno."
 
-    play voice "d7-1-42.mp3" #vivi
+    voice "d7-1-42.mp3" #vivi
     dlov "Emily, who do you want to be with?"
 
-    play voice "d7-1-43.mp3" #potato
+    voice "d7-1-43.mp3" #potato
     pro "What do you mean?"
 
-    play voice "d7-1-44.mp3" #vivi
+    voice "d7-1-44.mp3" #vivi
     dlov "Her in the real world, or me, in here?"
 
     #Choice: Who do you want to be with?  The me here, or the her in the other world? Love Interest LOVE+1, You LOVE+0.
@@ -181,13 +181,13 @@ label trust:
             jump her
 
 label me:
-    play voice "d7-1-45.mp3" #potato
+    voice "d7-1-45.mp3" #potato
     pro "There's only one person in this world that I can trust. That's me."
 
-    play voice "d7-1-46.mp3" #vivi
+    voice "d7-1-46.mp3" #vivi
     dlov "I see."
 
-    play voice "d7-1-47.mp3" #potato
+    voice "d7-1-47.mp3" #potato
     pro "So, in the end, I have to choose you, right?"
 
     "It's the only right answer. I'm the only one that truly knows what it's like to be me, and I'm the only one I can be certain of."
@@ -198,18 +198,18 @@ label me:
     jump trustfalls
 
 label her:
-    play voice "d7-1-48.mp3" #potato
+    voice "d7-1-48.mp3" #potato
     pro "Of course it's her. We've been together for so long, and she's always there for me - without fail."
 
-    play voice "d7-1-49.mp3" #potato
+    voice "d7-1-49.mp3" #potato
     pro "I owe her my life."
 
     "Diane smiles, nodding to my words."
 
-    play voice "d7-1-50.mp3" #vivi
+    voice "d7-1-50.mp3" #vivi
     dlov "I love it when you say things like that. You really care about her, don't you?"
 
-    play voice "d7-1-51.mp3" #potato
+    voice "d7-1-51.mp3" #potato
     pro "Yeah, I do."
     jump trustfalls
 
@@ -220,19 +220,19 @@ label trustfalls:
 
     "We fall quiet, the still air completely silent, unnatural."
 
-    play voice "d7-1-52.mp3" #potato
+    voice "d7-1-52.mp3" #potato
     pro "I am afraid of one thing, however."
 
-    play voice "d7-1-53.mp3" #vivi
+    voice "d7-1-53.mp3" #vivi
     dlov "Yes?"
 
-    play voice "d7-1-54.mp3" #potato
+    voice "d7-1-54.mp3" #potato
     pro "I'm afraid of losing you. I've become so close to Lauren, and to Maria, I feel like I'm neglecting you. Even if you are just a part of me, a piece of the puzzle that is Emily, I still don't want to lose you."
 
-    play voice "d7-1-55.mp3" #potato
+    voice "d7-1-55.mp3" #potato
     pro "...It's lonely without you."
 
-    play voice "d7-1-56.mp3" #vivi
+    voice "d7-1-56.mp3" #vivi
     dlov "Do you think that's a good thing? Do you think this newfound distance is okay, a step in the right direction?"
 
     menu:
@@ -247,42 +247,42 @@ label trustfalls:
 
 label realworld:
 
-    play voice "d7-1-57.mp3" #potato
+    voice "d7-1-57.mp3" #potato
     pro "I have to move on sometime, don't I? I don't want to leave you, but if it's you or her…"
 
-    play voice "d7-1-58.mp3" #vivi
+    voice "d7-1-58.mp3" #vivi
     dlov "I understand, don't worry."
 
     "Approaching me, I feel the warmth of her hand against my face."
 
     "Gently, she strokes my hair, my face, my lips… Her smile is happy, and yet sad at the same time."
 
-    play voice "d7-1-59.mp3" #vivi
+    voice "d7-1-59.mp3" #vivi
     dlov "I'm not the real one, am I?"
 
     "I didn't know I could cry in a dream, but I guess I can. My vision blurs as I stare back at her."
 
-    play voice "d7-1-60.mp3" #potato
+    voice "d7-1-60.mp3" #potato
     pro "I don't think so…"
     jump endofafantasy
 
 label dreamworld:
-    play voice "d7-1-61.mp3" #potato
+    voice "d7-1-61.mp3" #potato
     pro "I can't bring myself to do it. I can't let you go."
 
-    play voice "d7-1-62.mp3" #vivi
+    voice "d7-1-62.mp3" #vivi
     dlov "I understand, don't worry."
 
     "Approaching me, I feel the warmth of her hand against my face."
 
     "Gently, she strokes my hair, my face, my lips… Her smile is happy, and yet sad at the same time."
 
-    play voice "d7-1-63.mp3" #vivi
+    voice "d7-1-63.mp3" #vivi
     dlov "I'm not the real one, though, am I?"
 
     "I didn't know I could cry in a dream, but I guess I can. My vision blurs as I stare back at her."
 
-    play voice "d7-1-64.mp3" #potato
+    voice "d7-1-64.mp3" #potato
     pro "I don't know..."
     jump endofafantasy
 

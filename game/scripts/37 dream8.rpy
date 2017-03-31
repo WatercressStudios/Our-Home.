@@ -16,43 +16,43 @@ label dream8:
 
     "Diane stands quietly, waiting. She shows no emotion. She's perfectly still, unnaturally so, just like the air around me. A staple of this world lately."
 
-    play voice "d8-1-1.mp3" #potato
+    voice "d8-1-1.mp3" #potato
     pro "I don't know how you can ask that, still."
 
-    play voice "d8-1-2.mp3" #vivi
+    voice "d8-1-2.mp3" #vivi
     dlov "I don't want to… I have to."
 
-    play voice "d8-1-3.mp3" #potato
+    voice "d8-1-3.mp3" #potato
     pro "Now?"
 
-    play voice "d8-1-4.mp3" #vivi
+    voice "d8-1-4.mp3" #vivi
     dlov "Yes."
 
-    play voice "d8-1-5.mp3" #vivi
+    voice "d8-1-5.mp3" #vivi
     dlov "I'm sorry. I wish I didn't have to, but…"
 
-    play voice "d8-1-6.mp3" #vivi
+    voice "d8-1-6.mp3" #vivi
     dlov "You're making yourself choose."
 
-    play voice "d8-1-7.mp3" #potato
+    voice "d8-1-7.mp3" #potato
     pro "But how? How do I choose?"
 
-    play voice "d8-1-8.mp3" #vivi
+    voice "d8-1-8.mp3" #vivi
     dlov "Think about everything that's happened up to this point."
 
-    play voice "d8-1-9.mp3" #potato
+    voice "d8-1-9.mp3" #potato
     pro "The pain, the hurt…"
 
-    play voice "d8-1-10.mp3" #vivi
+    voice "d8-1-10.mp3" #vivi
     dlov "And the happiness in between."
 
-    play voice "d8-1-11.mp3" #potato
+    voice "d8-1-11.mp3" #potato
     pro "My brother just overdosed. Why would I ever want to return to a world where I'm doomed to live a shitty life?"
 
-    play voice "d8-1-12.mp3" #vivi
+    voice "d8-1-12.mp3" #vivi
     dlov "That's up to you to decide, but the choice is solely yours."
 
-    play voice "d8-1-13.mp3" #vivi
+    voice "d8-1-13.mp3" #vivi
     dlov "Is life in the real world worth living in, if it causes you so much pain?"
 
     menu:
@@ -125,15 +125,15 @@ label homecoming:
 
     "And I can accept that."
 
-    play voice "d8-1-14.mp3" #potato
+    voice "d8-1-14.mp3" #potato
     pro "Yes. Despite it all, yes."
 
-    play voice "d8-1-15.mp3" #potato
+    voice "d8-1-15.mp3" #potato
     pro "I can't give up now."
 
     "Pulling me into a close embrace, Diane whispers into my ear."
 
-    play voice "d8-1-16.mp3" #vivi
+    voice "d8-1-16.mp3" #vivi
     dlov "You've grown so much, you know that?"
 
     "It's an odd feeling, being complimented. It feels…"
@@ -180,10 +180,10 @@ label homeless:
 
     "Yes, that's the decision I'm going to make."
 
-    play voice "d8-1-17.mp3" #potato
+    voice "d8-1-17.mp3" #potato
     pro "It's not worth it, not at all. The real world is a bad place, and no one is going to force me to stay there. As you said, it's my decision to make."
 
-    play voice "d8-1-18.mp3" #vivi
+    voice "d8-1-18.mp3" #vivi
     dlov "Yes, it is."
 
     "With that, she dissipates."
