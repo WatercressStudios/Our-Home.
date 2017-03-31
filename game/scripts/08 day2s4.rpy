@@ -8,10 +8,12 @@ label day2s4:
     "We're having dinner as a family again, too. Surpriiiise. Happy birthday to me."
     "Maria is in her room and I have no idea where Alex is. Probably at his friend’s, I guess."
     "I'm just gonna duck in my room and lay low until Mom starts hollering..."
+    #CHANGE SCENE
     # Transition to Bedroom
     "What the heck?! My desk is a mess!"
     "Ugh. Alex is always coming in here and ‘borrowing’ my stuff. I can’t count the number of pens and pencils he’s never returned."
     "Well, he’s not here, so I guess I can go into his room and get my things back."
+    #CHANGE SCENE
     # Transition to brother’s bedroom
     "There are clothes and candy wrappers scattered everywhere. That boy is basically an animal."
     "There’s bits of paper and worksheets covering what passes for his desk."

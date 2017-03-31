@@ -14,58 +14,99 @@
     "Warm orange beams of sunshine cut through the blinds as the sun begins to dip toward the horizon. I stretch and yawn as I wake from my nap. There are still going to be a few long hours ahead of me."
     "…"
     "Worst birthday ever. And we haven’t even started dinner yet."
-    ##scene transition to kitchen/ dining room
+    ##SCENE CHANGE
     ##some sort of consistent/repeating dinner sounding/clackering utensils sound.  Show character sprites as they’re mentioned.
     "The five of us sit around the table."
+    
+    show mom sad3 at center
+    with dissolve
+    show dad neutral2 at left 
+    with dissolve
+    show maria happy1 at right
+    with dissolve
+    
     "Mom sits at the head of the table, opposite of me. Father sits to her right, texting someone, and has a particularly worried look on his face. Alex sits to my right poking at his food with his fork."
-    "Maria, my little sister, sits to my left, practically bouncing in her chair."
+    "Maria, my little sister, sits to my right, practically bouncing in her chair."
 
     ##maybe some soothing/calming BGM around here.
     play voice "1-1-2.mp3" #amree
+    hide mom 
+    with dissolve
+    hide dad
+    with dissolve
+    hide maria 
+    with dissolve
+    show maria happy3 
     sis "Emily! How was your trip with Lauren?"
+    show maria happy1 
     play voice "1-1-3.mp3" #potato
     pro "Oh, yeah – it went well, sis."
     "Maria seems so full of energy, barely able to contain herself. Watching her hyperactive ventures is always very entertaining - I choke on my water trying to keep myself from laughing at her."
     play voice "1-1-4.mp3" #amree
+    show maria worry1b 
     sis "Hey!  What’s so funny?"
-    "Oh, shit."
     play voice "1-1-5.mp3" #potato
     pro "It’s nothing, Maria. Just thinking about something she said earlier."
+    show maria worry2
     "…"
+    hide maria
+    with dissolve
     "It’s a normal day. It’s not as good as it could have been, but we’re all getting along just fine. I really can't complain with how things are going so far."
     "Maybe…"
     "I was wrong to be afraid. It’s just a family dinner, after all."
     "Yeah, I’m just thinking too much about everything. It’s nothing to worry about, nothing at all."
     "I pick up my fork and take a bite of the small steak-kind of thing Mom made. It's actually pretty good. If anything, that’s at least a sign that things are improving."
     play voice "1-1-6.mp3" #kujira
+    show bro grin1
+    with dissolve
     bro "Emily? I’m having a bit of trouble with this biology sheet. Could you help me study for the test next week?"
     play voice "1-1-7.mp3" #potato
+    show bro grin2
     pro "Jesus Christ, Alex.  I was hoping I’d never have to deal with Mr. Karbunkle again.  Just look up the material on the internet. Some of the sites out there do a better job explaining it than him."
+    show bro sad2
     "In all honesty, people's' first impression of him is often that he doesn't even care about school."
     ##phone ringing sfx
+    hide bro
+    with dissolve
     "The phone rings from behind me."
     play voice "1-1-8.mp3" #potato
     pro "Ah, I’ll get—"
+    show mom sad3
+    with dissolve
     play voice "1-1-9.mp3" #kaito
     mom "I’ve got it."
+    show mom angry1
     "Mom gets up from the table and picks up the phone."
+    show mom angry2
     play voice "1-1-10.mp3" #kaito
     mom "Hello?"
     play voice "1-1-11.mp3" #kaito
     mom "..."
+    show mom happy1
     play voice "1-1-12.mp3" #kaito
     mom "Yes, this is Elizabeth."
+    show mom 
     play voice "1-1-13.mp3" #kaito
+    show mom angry2
     mom "..."
     play voice "1-1-14.mp3" #kaito
+    show mom angry1
     mom "…Yes.  I understand."
     "Mom hangs up the phone."
     play voice "1-1-15.mp3" #kaito
+    hide mom
+    with dissolve
+    show mom angry2 at left
+    with dissolve
+    show bro sad1 at right
+    with dissolve
     mom "Come here, Alex."
+    show bro sad2 at right
     play voice "1-1-16.mp3" #kujira
     bro "Ah, can't I finish my food first? I—"
     ##harsh cut, BGM stops
     play voice "1-1-17.mp3" #kaito
+    
     mom "Come here, Alex."
     "Dinner stops. Whatever we had going here before has died. Plain and simple, like always."
     play voice "1-1-18.mp3" #kaito

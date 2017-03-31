@@ -16,6 +16,9 @@ label day1s2:
     pro "Come in."
 
     "I speak out to her calmly. I don't want anyone else to hear me through the thin walls we have in this house."
+    
+    show maria cry
+    with dissolve
 
     "The door opens slowly, the little one creeping in, her face red from what only could be tears."
 
@@ -32,12 +35,16 @@ label day1s2:
     "I can't bring myself to leave my bed, but I can at least muster the energy to sit up."
 
     "She trudges over, sitting next to me, nuzzling in a close hug."
+    
+    show maria sad1b
 
     play voice "1-2-4.mp3" #amree
     sis "I hate when they…"
 
     play voice "1-2-5.mp3" #potato
     pro "Fight?"
+    
+    show maria sad2b
 
     play voice "1-2-6.mp3" #amree
     sis "...Yeah."
@@ -49,9 +56,11 @@ label day1s2:
 
     play voice "1-2-8.mp3" #potato
     pro "Give… give it time, and things will work out, probably."
+    
+    show maria worry2b
 
     play voice "1-2-9.mp3" #amree
-    sis "probably?"
+    sis "Probably?"
 
     "Her voice is shy and reserved. If she weren't so close, I wouldn't be able to hear a single word."
 
@@ -59,36 +68,52 @@ label day1s2:
 
     play voice "1-2-10.mp3" #potato
     pro "...Yeah. We'll see."
+    
+    show maria worry1b
 
     "She remains quiet. Of course, I can't convince her. Why would I, if I can't even convince myself? I have zero faith in my brother, and even less faith in my mother."
 
     play voice "1-2-11.mp3" #potato
     pro "You know what? I can do something to cheer you up. Whaddya say?"
+    
+    show maria sad1b
 
     play voice "1-2-12.mp3" #amree
     sis "N-no, I'm okay…"
 
     play voice "1-2-13.mp3" #potato
     pro "Nope. I'm going to do something for you, you'll see. How about you catch some rest, huh?"
+    
+    show maria worry2b
 
     play voice "1-2-14.mp3" #amree
     sis "But-"
 
     play voice "1-2-15.mp3" #potato
     pro "No buts. It's been a long day. You need a warm, comfy bed to sleep in. I'll get to work on something for you, you'll see."
+    
+    show maria happy1b
 
     play voice "1-2-16.mp3" #amree
     sis "Fiiine, I guess."
 
     "She wraps her arms further around my waist, hugging me tightly."
+    
+    show maria worry1b
 
     play voice "1-2-17.mp3" #amree
     sis "Thank you."
 
     "She reluctantly releases me, giving me one last pitiful look."
+    
+    show maria sad1b
 
     "Standing up, I ruffle her hair a bit before taking a seat at my desk. She situates herself under the covers before dozing off."
+    
+    hide maria
+    with dissolve
 
+    ##SCENE CHANGE
     "Okay, time for me to do something for her."
 
     "Hmm. I can't exactly do anything to fix the situation, nor would it be a good idea to get involved. Maybe I can get her a gift?"
@@ -146,39 +171,55 @@ label day1s2:
     "Flipping out my phone, I admire my lock screen. It's a picture of Lauren and I, smiling on a beach. Damn, it's been ages…"
 
     "I find her in my recent contacts before I tap the video call button. It's almost immediately answered."
+    
+    ##SCENE CHANGE
+    show lauren happy
+    with dissolve
 
     play voice "1-2-18.mp3" #starleeter
     lov "Heya! Took ya long enough! Doesn't matter. How's your day? Err, night by now? Yes. 'Sup?"
+    
+    show lauren happy2
 
     "As hyper as always. It takes a bit for the camera to focus on her, struggling with her erratic movements."
 
     play voice "1-2-19.mp3" #potato
     pro "Ehh, could've been better. Another fight between my brother and my mom, nothing new."
+    
+    show lauren shy2
 
     play voice "1-2-20.mp3" #starleeter
     lov "Oh, I'm sorry to hear that. Well, I'm always here, remember that! So. How's she been, your sister? I know she gets a bit nervous."
 
     play voice "1-2-21.mp3" #potato
     pro "She's actually sleeping in my bed right now. I've been working on a gift for her to help her feel better, actually."
+    
+    show lauren happy2b
 
     play voice "1-2-22.mp3" #starleeter
     lov "Oh? See, this is why I love you. Well, we should keep this chat short then, so we don't wake her up."
 
     play voice "1-2-23.mp3" #potato
     pro "Yeah, that would be best."
+    
+    show lauren happy2
 
     play voice "1-2-24.mp3" #starleeter
     lov "Alrighty, well my day was good. I'll see you tomorrow at school, right?"
 
-    "She gives me a stern gaze, only breaking it to give a quiet giggle."
-
     play voice "1-2-25.mp3" #potato
     pro "Don't worry, I'll be there. See you tomorrow?"
+    
+    show lauren happy
 
     play voice "1-2-26.mp3" #starleeter
     lov "See ya!"
+    
+    hide lauren
+    with dissolve
 
-    "With a quick pout, she ends the call."
+    ##SCENE CHANGE
+    "She ends the call, just like that."
 
     "I'm tired. Nothing new. At least the bed will be warm, right?"
 

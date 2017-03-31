@@ -7,24 +7,30 @@ label day2s2:
 
     "I yell into the house through the front door, hoping Maria will hurry her little ass up. The door slams as she rushes out, slinging her bag onto her back as she goes."
 
+    show maria worry1
+    with dissolve 
+    
     play voice "2-2-2.mp3" #amree
     sis "S-sorry! Got distracted…"
 
     play voice "2-2-3.mp3" #potato
     pro "Uhh, by what?"
 
+    
+    show maria worry2
     play voice "2-2-4.mp3" #amree
     sis "Nothing in particular."
 
     play voice "2-2-5.mp3" #potato
     pro "Suuure."
-
+    
     play voice "2-2-6.mp3" #amree
     sis "So, are you excited for school?"
 
     play voice "2-2-7.mp3" #potato
     pro "Are you?"
 
+    show maria sad2
     play voice "2-2-8.mp3" #amree
     sis "Not exactly…"
 
@@ -33,23 +39,27 @@ label day2s2:
 
     "I'm lying, of course. I mean, I don't like school, but I don't like the prospect of what comes after it, either. To be frank, I'm not excited about any bit of anything right now."
 
+    show maria happy1
     play voice "2-2-10.mp3" #amree
     sis "Ahh, that's true. You're almost all grown up!"
 
     play voice "2-2-11.mp3" #potato
     pro "You could say that, I guess."
 
+    show maria happy2
     play voice "2-2-12.mp3" #amree
     sis "Yeah! You're super old now."
 
     play voice "2-2-13.mp3" #potato
     pro "Thanks?"
 
+    show maria worry2b
     play voice "2-2-14.mp3" #amree
     sis "I mean, no, uhh…"
 
     "She hides her face, failing to find the right words."
 
+    show maria happy1b
     play voice "2-2-15.mp3" #amree
     sis "You're a grownup now. Like Mom."
 
@@ -58,15 +68,18 @@ label day2s2:
     play voice "2-2-16.mp3" #potato
     pro "I sure hope not."
 
+    show maria worry1
     play voice "2-2-17.mp3" #amree
     sis "I-I guess."
 
+    
     play voice "2-2-18.mp3" #amree
     sis "Hey... Emily?"
 
     play voice "2-2-19.mp3" #potato
     pro "Yeah?"
 
+    show maria worry2
     play voice "2-2-20.mp3" #amree
     sis "Do you love Mom?"
 
@@ -86,6 +99,7 @@ label day2s2:
     play voice "2-2-22.mp3" #potato
     pro "She's human, and despite her flaws, she's our mother."
 
+    show maria smile1
     play voice "2-2-23.mp3" #amree
     sis "I-I think that makes sense…"
     jump day2s2movingon
@@ -93,11 +107,18 @@ label day2s2:
     label day2s2nolove:
     play voice "2-2-24.mp3" #potato
     pro "I think? It's hard to say. She's not… she's not what I wish she'd be. I… I'm not sure."
+    
+    show maria sad2
 
     "Maria frowns, and doesn't respond. I'm not sure exactly what she was expecting. It's our mother. She's a terrible human being, even if she has some good parts to her. She's too far gone."
     jump day2s2movingon
 
     label day2s2movingon:
+        
+    #SCENE CHANGE
+    hide maria
+    with dissolve 
+    
     "The rest of the walk is relatively uneventful, and I make my way to my own school after I've dropped Maria off."
 
     "I kinda like the walks I take. I have a set endpoint, and there's nothing interfering with me along the way. Sure, the anxiety of class isn't the best thing in the world, but it's like the calm before the storm."
@@ -109,6 +130,8 @@ label day2s2:
     "Speaking of, I wonder if she'll make it to class today? She's been awfully busy with the play."
 
     "I guess I'll have to wait and see."  
+    
+    #SCENE CHANGE
 
     "I arrive at the school, moving quickly towards the senior lockers - Lauren'll be nearby, surely. We  have a habit of meeting up before class, and it always brightens my day."
 
@@ -121,7 +144,10 @@ label day2s2:
     "In the distance, I see it."
 
     "The bright red hair, the slightly risque uniform, the bright blue eyes. She spots me and waives enthusiastically."
-
+    
+    show lauren happy
+    with dissolve
+    
     play voice "2-2-25.mp3" #starleeter
     lov "Heya, Emily! How's it going?"
 
@@ -129,29 +155,39 @@ label day2s2:
 
     play voice "2-2-26.mp3" #potato
     pro "Shh, Lauren, not so loud…"
+    
+    show lauren shy2
 
     play voice "2-2-27.mp3" #starleeter
     lov "Oh, you spoilsport."
 
     play voice "2-2-28.mp3" #potato
     pro "So, are you having theater today?"
+    
+    show lauren happyh
 
     play voice "2-2-29.mp3" #starleeter
     lov "Yes! We're getting ready for our next play! So, uhh, I won't be in class today. Sorry!"
 
     play voice "2-2-30.mp3" #potato
     pro "Eh, I expected it."
+    
+    show lauren angry
 
     "She pouts, poking me in the cheek."
 
     play voice "2-2-31.mp3" #potato
     pro "Hey-"
+    
+    show lauren happy2h
 
     play voice "2-2-32.mp3" #starleeter
     lov "Stop that. Class isn't that long anyways. Meet me after, promise?"
 
     play voice "2-2-33.mp3" #potato
     pro "Yeah, yeah."
+    
+    show lauren happy
 
     play voice "2-2-34.mp3" #starleeter
     lov "Okay, sweet! I'll catch you after class then!"
@@ -164,6 +200,9 @@ label day2s2:
 
     play voice "2-2-37.mp3" #potato
     pro "Alright, later."
+    
+    hide lauren
+    with dissolve
 
     "As she scampers off, I linger a bit at her locker, leaning against it."
     
