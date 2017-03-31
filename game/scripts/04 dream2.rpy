@@ -18,8 +18,8 @@ label dream2:
     pro "Y-yeah."
     play voice "d2-1-7.mp3" #vivi
     dlov "You got trouble at home?"
-    "I look around. This is Diana's bedroom, right?"
-    "I've been here a lot but normally Diana isn't kissing me."
+    "I look around. This is Diane's bedroom, right?"
+    "I've been here a lot but normally Diane isn't kissing me."
     "Why does she think I kiss her? Did something change and I forgot?"
     play voice "d2-1-8.mp3" #potato
     pro "No, it's nothing like that."
@@ -52,7 +52,7 @@ label dream2:
     dlov "Ice it, Emi. It doesn't matter."
     play voice "d2-1-21.mp3" #potato
     pro "Alright."
-    "Diana took my hand."
+    "Diane took my hand."
     play voice "d2-1-22.mp3" #vivi
     dlov "You know you can talk to me about anything, right? I'm always here for you."
     play voice "d2-1-23.mp3" #potato
@@ -66,12 +66,12 @@ label dream2:
     pro "What do you mean?"
     play voice "d2-1-27.mp3" #vivi
     dlov "Let me put a record on and we can talk."
-    "I kind of liked the kissing but maybe Diana is right. I'm not really in the mood..."
+    "I kind of liked the kissing but maybe Diane is right. I'm not really in the mood..."
     play voice "d2-1-28.mp3" #potato
     pro "Sure."
     play voice "d2-1-29.mp3" #vivi
     dlov "Alright."
-    "Diana got up, moving over to her record collection and pulling out one."
+    "Diane got up, moving over to her record collection and pulling out one."
     play voice "d2-1-30.mp3" #vivi
     dlov "You're going to like this one. It's one of your favourites right?"
     "She put the record into the player and started it up."

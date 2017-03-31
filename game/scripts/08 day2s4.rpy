@@ -3,8 +3,11 @@ label day2s4:
 
     # Home BG
     "I’m exhausted by the time I get home."
-    "It was fun going through the show with Lauren but it was way more involved than I expected."
-    "It’s pretty quiet downstairs. Mom’s in the kitchen, Maria is in her room and I have no idea where Alex is. Probably at his friend’s, I guess."
+    "It was fun going through the show with Lauren, but it was way more involved than I expected."
+    "It’s pretty quiet downstairs. Mom’s in the kitchen... of course she is. I really don't want to see her right now..."
+    "We're having dinner as a family again, too. Surpriiiise. Happy birthday to me."
+    "Maria is in her room and I have no idea where Alex is. Probably at his friend’s, I guess."
+    "I'm just gonna duck in my room and lay low until Mom starts hollering..."
     # Transition to Bedroom
     "What the heck?! My desk is a mess!"
     "Ugh. Alex is always coming in here and ‘borrowing’ my stuff. I can’t count the number of pens and pencils he’s never returned."
@@ -29,8 +32,9 @@ label day2s4:
     play voice "2-4-1.mp3" #potato
     pro "What the fuck is this?!"
     "I’m pretty sure you don’t take adderall with a needle."
-    "Is this heroin?"
-    "I... should probably leave."
+    "This looks really, {i}really{/i} sketchy... is this heroin? Like, the stuff you see on cop dramas?"
+    "I can't really think of what else it could be, but... Alex can't be doing shit like that, right??"
+    "I... should probably leave. This really isn't my problem. Let's not get involved."
     # Door Opens
     show bro angry
     "Shit. Seriously?"
@@ -41,8 +45,10 @@ label day2s4:
     "I throw the box on the floor in front of him."
     play voice "2-4-4.mp3" #potato
     pro "What the hell is this?!"
+    "Alex's eyes lower to the box in my hands. His face contorts painful, before he glares at me."
     play voice "2-4-5.mp3" #kujira
     bro "That’s none of your damn business!"
+    "Oh God... Alex, what'd you get yourself into?"
     play voice "2-4-6.mp3" #potato
     pro "How the hell did you get ahold of stuff like that?!"
     play voice "2-4-7.mp3" #kujira
@@ -64,6 +70,8 @@ label day2s4:
     "Maria pokes her head out of her door, but I’m already in my room before she gets a chance to speak."
     # Transition to bedroom
     "I slam my pencils and pens down on my desk and flop onto my bed."
+    "The way Alex exploded on me, I guess it only confirms my suspicions."
+    "A sinking feeling wallows in the pit of my stomach."
     "I can’t believe Alex. How could he get himself into heroin? He’s only fourteen!"
     "What should I do?"
     "I’d tell Mom, but she might actually kill Alex if I told her."

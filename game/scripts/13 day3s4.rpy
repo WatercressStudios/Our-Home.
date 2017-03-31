@@ -1,4 +1,6 @@
 label day3s4:
+    "After Lauren left, the family all split off into their separate nightly rituals."
+    "I'm back in my room. It's late. I really should think of going to bed."
     "I want to sleep, but finishing this plushie for Maria is more important."
     "I glance at my bed."
     "The temptation is strong, but I manage to hang on by the skin of my teeth and pick up the half-made plushie."
