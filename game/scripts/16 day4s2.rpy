@@ -51,7 +51,7 @@ label day4s2:
     "Pretend nothing's happening.":
       jump carryon
     "Go to the hospital.":
-      jump hospital
+      jump hospital1
 
 ###########################################
 
