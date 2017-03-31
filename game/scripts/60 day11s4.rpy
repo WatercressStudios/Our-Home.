@@ -341,9 +341,9 @@ label endings:
 label composite_future1:
     
     if family < 8 and love < 8 and career < 8:
-        jump superbadending
+        jump superBadEnding
     if family > 7 and love > 7 and career > 7:
-        jump supergoodending
+        jump superGoodEnding
 
     if career < 8:
         jump badCareerEnding        
@@ -353,7 +353,7 @@ label composite_future1:
 label composite_future2:
     
     if family < 8:
-        jump badfamilyending_future
+        jump badFamilyEnding_future
     else:
         jump goodFamilyEnding_future
 

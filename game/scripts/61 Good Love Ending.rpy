@@ -1,4 +1,7 @@
 label goodLoveEnding:
+
+    #TODO: FLASHBACK FILTER
+
     "After the performance was over, I decided to ask Lauren out."
     "It took a lot of nerve, but eventually I was able to get the words out while Lauren was getting changed out of her costume."
     "I could hear her stop moving behind the sheet they put up to give people something to hide behind while changing."
@@ -41,17 +44,26 @@ label goodLoveEnding:
     pro "Ah, of course, how could I forget…"
     "That... kind of set the tone for our relationship going forwards, but I wasn’t upset about it."
     "We dated and things just kept going from strength to strength!"
-    "Honestly, I didn’t really expect it would go so well. After everything that had happened to get to this point, it was hard not to fall back into pessimism."
-    "Once we left school, we moved in together."
+    
+    if family > 7:
+        "Honestly, I didn’t really expect things would go so well. Mom's changed for the better and Lauren's my girlfriend. Who knew things would turn out this way."
+    else:
+        "Honestly, I didn’t really expect it would go so well. After everything that had happened with Alex and with Mom, it was hard not to fall back into pessimism."
 
-    #With Good Career
-    "We’d sort of planned that already for college, but it ended up being for love too."
+    if career > 7:
+        "Once we left school, we moved in together."
+        "We’d sort of planned that already for college, but it ended up being for love too."
+    else:
+        "Once we left school, Lauren went to college but I had to stay home."
+        "We made it work, though. We'd visit each other often and we video chat every night."
 
     "It was wonderful, to say the least. I could never feel sad for long with her bubbliness in the air."
     "After a year of dating, Lauren said we should go to a café to celebrate."
     "I couldn’t say no to her when she put it like that."
     "That became our traditional celebration for our anniversary."
-    # End Flashback
+
+    #TODO: FLASHBACK FILTER ENDS
+
     play voice "20-10-16.mp3" #starleeter
     lov "Happy Anniversary, Emily!"
     play voice "20-10-17.mp3" #potato
@@ -88,4 +100,5 @@ label goodLoveEnding:
     lov "I love you."
     play voice "20-10-29.mp3" #potato
     pro "I love you, too."
-    return
+
+    jump dreamEpilogue

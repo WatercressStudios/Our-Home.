@@ -216,5 +216,4 @@ label superBadEnding:
     "Slowly, I turn to it and look at myself, and what I've become..."
 
     #### THE END
-
-    return
+    jump dreamEpilogue

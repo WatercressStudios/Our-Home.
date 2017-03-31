@@ -54,7 +54,12 @@ label goodFamilyEnding:
 
 label goodFamilyEnding_future:
 
-    "I walk in the front door and kick off my shoes. It's been a long day and I can't wait to relax a little."
+    if career < 8:
+        "I walk in the front door and kick off my shoes. It's been a long day and I can't wait to relax a little."
+    else:
+        "The long awaited holiday is finally here, and I've come home to see my family."
+        "My bedroom hasn't changed at all. I guess they kept it for me."
+
     "I can smell dinner wafting in from the kitchen."
 
     play voice "20-9-15.mp3" #potato
@@ -73,6 +78,8 @@ label goodFamilyEnding_future:
     sis "T-Thanks, Alex."
 
     "Maria takes his textbook from him. Yes. Out of the three of us, Maria's the one who truly inherited Mom's brains."
+    if love > 7:
+        "Even Lauren was surprised when I told her, and she's the expert in rolling with things."
 
     play voice "20-9-20.mp3" #kujira
     bro "No problem. I won't need that in the College of Music and Arts in Chicago after all."
@@ -82,7 +89,15 @@ label goodFamilyEnding_future:
     bro "Have you heard the jazz piece I arranged and performed?"
 
     "I laugh at that. Alex may only be seventeen, but he's right. The boy has talent. He plays more jazz instruments than I can count, and he's a brilliant composer."
-    "After dropping off my bag in my room, I start setting the table while Dad scoops his stew into our bowls."
+    if career < 8:
+        "After dropping off my bag in my room, I start setting the table while Dad scoops his stew into our bowls."
+    else:
+        "At Dad's request, I start setting the table while he scoops his stew into our bowls."
+
+    if love < 8:
+        "For some reason, I think about the time Lauren cooked dinner for us. She really knew how to cook."
+    else:
+        "It's too bad Lauren can't join us tonight. I miss her already."
 
     play voice "20-9-23.mp3" #potato
     pro "Maria, don't study at the dinner table."
@@ -124,8 +139,6 @@ label goodFamilyEnding_future:
     play voice "20-9-37.mp3" #kaito
     mom "Hi kids. How's everyone? Tell me about your day..."
 
-    jump composite_future2
+    jump composite_future3
 
     #### THE END
-
-    return

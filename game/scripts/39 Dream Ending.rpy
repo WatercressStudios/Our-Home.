@@ -1,4 +1,4 @@
-label forcedreamend:
+label forcedreamending:
 
     "That's just it, though. Throughout each and every one of these dreams, I've had the opportunity to think through what's always troubling me."
     "I've designed this world for that very specific purpose, even if it took me this long to realize."
@@ -6,11 +6,11 @@ label forcedreamend:
     "If pain's a part of life, then I don't want a part of that."
     "This place, right here, this is my real home."
 
-    jump dreamend
+    jump dreamending
 
 ###########################################
 
-label dreamend:
+label dreamending:
 
     #Credits
     #Epilogue
@@ -33,7 +33,7 @@ label dreamend:
     "Shaking my head, I pace over to the door and brace myself for the inevitable..."
 
     # play bgm, any creepy-ish song will do. My initial idea was some creep children's song
-    show dkitchen with dissolve
+    scene dkitchen with dissolve
 
     play voice "20-5-3.mp3" #all
     all "Happy birthday!"
@@ -141,6 +141,7 @@ label dreamend:
 
     # slowly fade into the CG of the dream end... which I believe is the MC in the real world looking blankly at nothing in silence.
     
+    ".:. Dream Ending (9/11)"
     return
 
     #### THE END

@@ -281,4 +281,4 @@ label superGoodEnding:
     "I think this is it. It's been a long journey, but…"
     "I'm finally home."
 
-    return
+    jump dreamEpilogue

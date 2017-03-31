@@ -1,6 +1,6 @@
 label dreamEpilogue:
 
-    Dpro "It's been awhile hasn't it?"
+    dpro "It's been awhile hasn't it?"
 
     "The world around me is bright, but not blindingly so. It's new, and it's refreshing."
 
@@ -9,7 +9,7 @@ label dreamEpilogue:
     play voice "20-6-1.mp3" #potato
     pro "It's been years…"
 
-    Dpro "That, it has."
+    dpro "That, it has."
 
     "In front of me stands, well, me."
 
@@ -18,65 +18,81 @@ label dreamEpilogue:
     play voice "20-6-2.mp3" #potato
     pro "Why am I here?"
 
-    Dpro "Because you've been wanting some finality. The dreams you used to have disappeared with little warning."
+    dpro "Because you've been wanting some finality. The dreams you used to have disappeared with little warning."
 
-    Dpro "You wanted your story to wrap up, nice and tidy."
+    dpro "You wanted your story to wrap up, nice and tidy."
 
     "It's true, the dreams did fade away. Sometimes, I still miss them. Now, however? I don't need them. Sure, many aspects of my life didn't go exactly the way I had planned, but…"
 
     "At least I'm here, right?"
 
-    Dpro "I wanted to thank you."
+    dpro "I wanted to thank you."
 
     play voice "20-6-3.mp3" #potato
     pro "Thank me?"
 
-    Dpro "Yes. You made a decision, and that single decision brought you to this point. If you would have chosen wrong, you very well could have been in a much, much more tragic place."
+    dpro "Yes. You made a decision, and that single decision brought you to this point. If you would have chosen wrong, you very well could have been in a much, much more tragic place."
 
-    Dpro "You are here because you decided to make something of yourself. You chose the real world. You chose to go home."
+    dpro "You are here because you decided to make something of yourself. You chose the real world. You chose to go home."
 
     play voice "20-6-4.mp3" #potato
     pro "I guess that's true. It's interesting, how a single decision could hold so much weight, especially given how many decisions one makes on a daily basis."
 
-    Dpro "Many of them don't matter, but sometimes…"
+    dpro "Many of them don't matter, but sometimes…"
 
     play voice "20-6-5.mp3" #potato
     pro "You'll find yourself on a crossroads."
 
-    Dpro "You'll find yourself asking the {i}right questions{/i}."
+    dpro "You'll find yourself asking the {i}right questions{/i}."
 
     play voice "20-6-6.mp3" #potato
     pro "And I made the right choice?"
 
-    Dpro "That, you did."
+    dpro "That, you did."
 
-    Dpro "No matter how well or poorly your life is going so far, it's much better than the alternative."
+    dpro "No matter how well or poorly your life is going so far, it's much better than the alternative."
 
-    Dpro "You chose to live, and you chose to start living - two things that are not necessarily the same thing."
+    dpro "You chose to live, and you chose to start living - two things that are not necessarily the same thing."
 
     play voice "20-6-7.mp3" #potato
     pro "But they aren't always mutually exclusive, either."
 
-    Dpro "Right."
+    dpro "Right."
 
     play voice "20-6-8.mp3" #potato
     pro "Yeah, you're right. I'm in a better place than I used to be."
 
-    Dpro "And you did that all on your own."
+    dpro "And you did that all on your own."
 
     "She comes close, putting a hand on my shoulder."
 
-    Dpro "You chose our home."
+    dpro "You chose our home."
 
-    Dpro "And Emily?"
+    dpro "And Emily?"
 
     play voice "20-6-9.mp3" #potato
     pro "Yeah?"
 
     #Next line should occupy the middle of the screen if possible. Larger text, it should stand out. It's the last four words that the player will see each time they get an Act 2 ending.
 
-    Dpro "I'm proud of you."
+    dpro "I'm proud of you."
 
     #GAMEEND
 
+    if family > 7 and love > 7 and career > 7:
+        ".:. Super Good Ending (1/11)"
+    elif family < 8 and love < 8 and career < 8:
+        ".:. Super Bad Ending (2/11)"
+    elif family > 7 and love > 7 and career < 8:
+        ".:. Neutral+ Ending A (3/11)"
+    elif family > 7 and love < 8 and career > 7:
+        ".:. Neutral+ Ending B (4/11)"
+    elif family < 8 and love > 7 and career > 7:
+        ".:. Neutral+ Ending C (5/11)"
+    elif family < 8 and love < 8 and career > 7:
+        ".:. Neutral- Ending A (6/11)"
+    elif family < 8 and love > 7 and career < 8:
+        ".:. Neutral- Ending B (7/11)"
+    elif family > 7 and love < 8 and career < 8:
+        ".:. Neutral- Ending C (8/11)"
     return

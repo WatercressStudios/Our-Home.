@@ -1,4 +1,4 @@
-label funeralend:
+label funeralending:
 
     #Don’t change the screen or music from Dream 8 just yet.
 
@@ -98,4 +98,5 @@ label funeralend:
     #Door slam sound effect
     #Credits
     
+    ".:. Funeral Ending (10/11)"
     return

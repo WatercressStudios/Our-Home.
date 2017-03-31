@@ -1,23 +1,15 @@
 label badLoveEnding:
 
+    #TODO: FLASHBACK FILTER
     "The audience roars with applause as Lauren's time on the center stage comes to an end."
-
     "The theater is filled to the brim. I'd say this was quite successful for her. Seeing her act on stage was super cute, especially knowing that I'd helped her with many of her lines."
-
     "She was probably very nervous, but she didn't let it show, not one bit."
-
     "She's good like that."
-
     "The applause finishes, and I go out to meet up with her after the performance."
-
     "Compared to her, I'm a nervous wreck."
-
     "Today's the day… the day I ask her out."
-
     "I've had these feelings for a while now, but I only recently realized just what the feelings were."
-
     "I love her. I love Lauren, from the bottom of my heart."
-
     "But… I don't know if I can actually follow through."
 
     play voice "20-4-1.mp3" #starleeter
@@ -56,47 +48,36 @@ label badLoveEnding:
     lov "As a friend… yeah. Why not?"
 
     "She looks away with a small smile."
-
     "Maybe it's better if I wait. I'll get around to it eventually…"
-
     "I really don't want to ruin her good day. If I were to put her in the position where she'd have to say no…"
-
     "Not today. I will get to it eventually."
 
-    #Flashback end
+    #TODO: FLASHBACK FILTER ENDS
 
     "That was a long time ago, and of course…"
-
     "I didn't."
-
     "I never got around to it."
-
     "Shortly after, she was asked out by one of her other friends."
-
     "I still remember the day. She even came to me and asked if it was okay."
-
     "Of course it wasn't, but I wasn't about to say that."
-
-    "I couldn't."
-
+    "I couldn't."    
     "I just wanted her to be happy. Sometimes I wonder if she would have been happier with me, but that's just selfish."
-
     "Maybe, when she asked me, she was trying to tell me something. Either way, nothing came of it. Nothing came of my love."
+    "Eventually, Alex and Maria noticed me moping around and I had to make up an excuse."
 
-    "And here I am, sitting across the mall, watching Lauren and her girlfriend have their romantic date."
-
+    if family > 7:
+        "Even Mom looked at me sadly and cooked my favorite meals for a week."
+        "I think she always knew how I felt about Lauren."
+    else:
+        "I don't think I was very convincing, though."
+    
+    "And here I am, today, sitting across the mall, watching Lauren and her girlfriend have their romantic date."
     "And I'm alone."
-
     "Every once in awhile, I hear Lauren giggle, in the same way she used to around me…"
-
     "And it hurts so, so much. I miss her. I haven't been able to hang out with her lately."
-
     "I keep telling myself it's because I don't want to remain a burden on her, or that I want to give her more space for her girlfriend, but in reality I just can't stand it."
-
     "I can't stand the feelings that I still hold for her, and I can't take knowing that I could have been with her, but my own cowardice ruined it."
-
     "True love was right in front of me, and I fucked it all up."
-
     "Lauren and her girlfriend stand up from their seats, passing me as they go. I pretend to work on my laptop, hoping they don't notice me."
 
     play voice "20-4-10.mp3" #starleeter
@@ -139,11 +120,13 @@ label badLoveEnding:
     lov "See ya later!"
 
     "With that, they leave. I couldn't help but notice her significant other was awkwardly quiet the entire time."
-
     "I really can't follow through with my promise. I'm sorry Lauren, but I can't do it."
-
-    "It's best if we just… never see each other again. Maybe then I could move on from you."
-
+    "It's best if we just… never see each other again."
+    if career > 7:
+        "I'll pour all my energy into up-coming fashion show. I'll be too busy for anything else then."
+    else:
+        "I'll even pick up a third dead-end job. I'll be too busy for anything else then."
+    "Maybe then I could move on from you."
     "Maybe then I could forget you."
 
-    return
+    jump dreamEpilogue

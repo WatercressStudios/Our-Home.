@@ -121,4 +121,5 @@ label suicideending:
 
     "And no matter how much I cry out, she'll never come back to me."
 
+    ".:. Suicide Ending (11/11)"
     return

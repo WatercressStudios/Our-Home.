@@ -23,15 +23,22 @@ label badCareerEnding:
     "Packing my bag, I nearly head out the door, before something catches my eye."
     "Maria's drawing. Of all of us, together."
 
+    if family > 7:
+        "Mom, Dad, Alex, Maria, and me."
+    else:
+        "Mom's in the drawing, too. I wonder if Maria misses her."
 
-    #if Lauren good ending is achieved
-    "And look, she added Lauren in a little after. She's basically part of the family now, isn't she…"
+    if love > 7:
+        "And look, she added Lauren in a little after. She's basically part of the family now, isn't she…"
 
     "Yeah. I put this up here to remind myself of what's important. Why I'm putting myself through these trials."
     "It can be a personal hell just to drag myself out of day, crawl over to work to work hours cobbled together by a monkey using a dart board…"
     "...And having to deal with ungrateful shits with the fakest smile I can muster."
-    "But I know it's worth it. Because at the end of the day, I can catch up with my family. The ones I love the most."
-    "It's not much, but…I'm gonna do my best. It's all I can offer, really."
+    if love > 7:
+        "But I know it's worth it. Because at the end of the day, I can catch up with my family and Lauren. The ones I love the most."
+    else:
+        "But I know it's worth it. Because at the end of the day, I can catch up with my family. The ones I love the most."
+    "It's not much, but… I'm gonna do my best. It's all I can offer, really."
     "This is my home, after all..."
 
-    return
+    jump composite_future2
