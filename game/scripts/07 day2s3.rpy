@@ -141,14 +141,11 @@ label day2s3lecture:
     "I don't think I used the right tone with Reynolds either. Did I sound annoyed? I didn't want to give her attitude, but…"
     "Well, let's get going."
 
-    scene black with dissolve
+    ##SCENE CHANGE
     
     "... ... ..."
 
-    scene drama with dissolve
-
-    #this is a good ref
-    #music should be more upbeat, peppy, energetic. Consider a theme for the love interest
+    ##SCENE CHANGE
 
     "There's a lot of energy in this room. The choreographer's running a group of maybe a dozen juniors through a series of motions."
     "They don't look in sync yet. It's a little exhausting to look at. Don't think I'd be cut out for that."
@@ -177,15 +174,18 @@ label day2s3lecture:
     "She's coming over…!"
 
     hide cg_LIdrama2 with dissolve
-    #show lauren surprise
+    
+    show lauren confusedh
+    with dissolve 
     voice "2-3-29.mp3" #starleeter
     lov "Emily! What're you doing here?"
-    #show lauren big smile
+    show lauren happyh
     voice "2-3-30.mp3" #starleeter
     lov "Oh, and happy birthday!~"
     voice "2-3-31.mp3" #potato
     pro "Whoa, Lauren, you remembered? Gee, thanks. How're you?"
     voice "2-3-32.mp3" #starleeter
+    show lauren happy
     lov "Pretty good, pretty good! I hope you weren't looking to audition, the casting calls were wrapped up a while ago."
     voice "2-3-33.mp3" #potato
     pro "Nah, not quite, acting isn't really for me. Ms. Reynolds wanted me to, uh, deliver some notes to you. For our English class?"
@@ -193,57 +193,57 @@ label day2s3lecture:
     "Raising the folder to my chest, I catch Lauren looking over the folder incredulous, before reaching forward to take it."
     "Opening it up, she began to thumb through it." 
 
-    #show lauren concern
-
+    show lauren shy
     lov  "Lesse… oh, hm…!"
     voice "2-3-34.mp3" #potato
     pro "You look concerned."
     
-    #show lauren smile 
+    show lauren shy2
     voice "2-3-35.mp3" #starleeter
     lov "Oh, no, it's just, ah, extra credit. My attendance mark in that class is gonna hurt a lot, so… I asked if there was something else I could do."
-
     voice "2-3-36.mp3" #starleeter
     lov "It's just some extra lil' short stories, I'll be okay!"
     voice "2-3-37.mp3" #potato
     pro "What about the other assigned reading, though?"
 
-    #show lauren panic
-
+    show lauren confused2bh
     voice "2-3-38.mp3" #starleeter
     lov "Wh-what other assigned reading?"
     voice "2-3-39.mp3" #potato
     pro "...{i}Nineteen Eighty Four{/i}? There's class talks and everything."
-
-    #show lauren morepanic (widen eyes a bit)
-
+    show lauren shy2b
     voice "2-3-40.mp3" #starleeter
     lov "Ohhhh, I forgot! I've been really busy over here, I hadn't even opened it at all!"
     voice "2-3-41.mp3" #starleeter
+    show lauren shyb
     lov "I've been so busy with the show and the rehearsals and… I just got the script, I've been pouring over that!"
     voice "2-3-42.mp3" #potato
     pro "Yo, it's okay, you aren't missing much. Don't think anyone else read much does much in our class either."
-
-    #show lauren neutral
-
+    show lauren happy2
     voice "2-3-43.mp3" #starleeter
     lov "Oh? I see..."
+    show lauren happy
     voice "2-3-44.mp3" #starleeter
     lov "Alright! Grading curve's gonna bail me out of this one!~"
     voice "2-3-45.mp3" #potato
     pro "...I guess that's one way to see it."
 
     "Poor Lauren. Horrendously overworked, as per usual, but she keeps her chin up, somehow."
-
     voice "2-3-46.mp3" #potato
     pro "So, uh… what are you doing in here? I guess you got a role?"
     lov "Oh, they gave me a huuuge role! We're doing {i}Bye Bye Birdie{/i} this year, and I got one of the lead roles!"
 
-
+    hide lauren
+    with dissolve
+    
     "Lauren bent over to lift the script she had left on the carpet, rustling the sheets as she did."
     "That was, uh… a big script. At least a hundred pages."
 
+
+    show lauren happy
+    with dissolve
     voice "2-3-47.mp3" #starleeter
+
     lov "See, look, look! I'm Rose, the secretary! I have all my lines highlighted!"
 
     voice "2-3-48.mp3" #potato
@@ -256,17 +256,28 @@ label day2s3lecture:
 
     voice "2-3-50.mp3" #potato
     pro "Must be a lot of work if it's something you have to miss class for, though…"
+    
+    show lauren happy2
     voice "2-3-51.mp3" #starleeter
     lov "Ahhh, well, I wanna go into acting school after this, so I feel this'd be way better for me."
+    
+    show lauren happy
     lov "There's never any shortage of things to do… oh, Em, could you help me rehearse a bit??"
     voice "2-3-52.mp3" #potato
     pro "Rehearse? What? I'm not an-"
+    show lauren happy2
     voice "2-3-53.mp3" #starleeter
+
     lov "I just need to try to remember my lines a bit. Can you be Albert?"
     voice "2-3-54.mp3" #potato
     pro "I, uh, hadn't thought of being a guy before, but… I'll give it a try."
+    show lauren happy2h
     voice "2-3-55.mp3" #starleeter
+
     lov "Just read his lines! Lemme flip tooooooo… ah, here we are!"
+    
+    hide lauren
+    with dissolve
 
     "I narrow my eyes to look at the passage she wants me to go over. Well, here goes nothing…"
 
@@ -276,64 +287,86 @@ label day2s3lecture:
     "In the corner of my eye, I see her lips pursing. Was I not putting my all into it? I said I wasn't much of an actor…"
     "In contrast to my stiff demeanor, her arm flows forward like a woven thread and… hangs it in front of me."
 
+    show lauren happy
+    with dissolve 
     voice "2-3-57.mp3" #starleeter
+
     lov "'Here.~'"
 
     "Oh, am I supposed to take… 'it'? Sure, whatever."
+    show lauren happy2
     "...Wait, not quite."
 
     voice "2-3-58.mp3" #potato
     pro "'Not so much, break it in half.'"
     voice "2-3-59.mp3" #starleeter
+    show lauren angry2
+
     lov "'You're thirty-three years old, {i}Albert{/i}. You can take a whole aspirin, right?'"
 
+    show lauren happy2b
     "She winked as she spoke this. That wasn't in the script. She was already making her own flourishes. Wonder what the director would have to say about that."
 
+    show lauren happy2
     voice "2-3-60.mp3" #potato
+
     pro "'I'm not thirty-three. I'm a long way from thirty-three. I won't be turning thirty-three until tomorrow… u-uh, water?'"
 
     "I guess I should've shouted that, but I was feeling weird about this whole thing. Lauren was already at the ready with an invisible glass of water."
 
     voice "2-3-61.mp3" #potato
     pro "(What?)"
-
-    #show lauren neutral 
+    show lauren confused 
     voice "2-3-62.mp3" #starleeter
     lov "(It's a glass water.)"
-    #show lauren pouty
     voice "2-3-63.mp3" #potato
     pro "(I was, uh, a little thirsty, maybe you could...)"
     voice "2-3-64.mp3" #starleeter
+    show lauren shy2h
     lov "(Can't you just pretend a lil' bit longer for meee…?)"
 
     "Her pouty face's enough for me to crack up a bit. I take the pretend water glass, pretending to pound it back."
     "The pretend water, pretending to be refreshing, would have to do for now. I raise my pretend glass in pretend cheer."
-    #show lauren smile
+    show lauren happy2
     "More refreshing is the chuckle I got out of her from that pretend gesture."
 
+    show lauren angry
     voice "2-3-65.mp3" #starleeter
+
     lov "'It's no use, Albert, my mind's made up. I've been with Alme… Almater… Alma mater…?'"
     voice "2-3-66.mp3" #potato
     pro "...It's, uh, Almaelou."
+    show lauren shyh
     voice "2-3-67.mp3" #starleeter
     lov "Ahhh, shoot, I always bungle that one…" 
+    show lauren confused2h
     voice "2-3-68.mp3" #starleeter
+    
     lov "...'F-for eight years now! A-and you well know, I've been a lot more than a secretary to you!'"
     voice "2-3-69.mp3" #potato
     pro "Little shaky on that last one, wanna go again?"
     
     voice "2-3-70.mp3" #other
     cho "Hey, Lauren, can I see you for a bit? Need to work on steps!"
+
+    show lauren confusedh
     voice "2-3-71.mp3" #starleeter
+
     lov "Oh, be right over Katie, just gimme a moment!"
 
     "Her eyes locked with mine. She must be in a rush."
 
+
+    show lauren shy
     voice "2-3-72.mp3" #starleeter
+
     lov "H-hey, Em, I just wanted to ask you for a big favour, could you help me out?"
     voice "2-3-73.mp3" #potato
     pro "Uh, sure, what's up?"
+
+    show lauren shy2
     voice "2-3-74.mp3" #starleeter
+
     lov "It's just, you make clothing right?"
 
     "Huh? That came out of left field…"
@@ -352,16 +385,19 @@ label day2s3lecture:
 label day2s3ocelot:
     voice "2-3-75.mp3" #potato
     pro "Yeah. Done it as a hobby for a while now, got a sewing machine at home. What'd, you need something…?"
-    #show lauren bigsmile
+
+    show lauren happy
     voice "2-3-76.mp3" #starleeter
+
     lov "Yeah! You think you could help me?"
     jump day2s3favour
 
 label day2s3rusty:
     voice "2-3-77.mp3" #potato
     pro "I dunno if I could help you much, I'm pretty rusty and, ah, out of practice…"
-    #show lauren small smile
+    show lauren happy2
     voice "2-3-78.mp3" #starleeter
+
     lov "Oh, I think you'll do just fine! Here, lemme explain…"
     jump day2s3favour
 
@@ -371,11 +407,14 @@ label day2s3halloween:
     voice "2-3-79.mp3" #potato
     pro "Yeah, I was thinking about my Halloween costume. I was gonna go for a velociraptor."
     voice "2-3-80.mp3" #starleeter
+    show lauren confusedh
+
     lov "A velociraptor??"
     voice "2-3-81.mp3" #potato
     pro "A sexy velociraptor."
-    #blushing
+    show lauren shy2bh
     voice "2-3-82.mp3" #starleeter
+
     lov "WOW, um… not… {i}quite{/i} what I had in mind, haha!"
     "Her cheeks lit up like Christmas decorations. It's fun to rile her up."
     jump day2s3favour
@@ -383,16 +422,23 @@ label day2s3halloween:
 
 label day2s3favour:
     voice "2-3-83.mp3" #starleeter
+    show lauren confused2h
+
     lov "I was hoping you could help me a bit with the costume design for the show, um..."
     voice "2-3-84.mp3" #starleeter
     lov "We need a series of, like, fifties inspired costumes, and I think you'd have a better eye for costume design for me.."
+    show lauren happy2
     voice "2-3-85.mp3" #starleeter
+
     lov "So, ah, could we meet up in the library sometime this week! I wanna do some research and get some of your opinions!"
     voice "2-3-86.mp3" #potato
     pro "Wait, you're overseeing costumes too?"
     voice "2-3-87.mp3" #starleeter
+    show lauren happy
+
     lov "Haha, I, well, seem to be seeing over a lot of things… everyone's relying on me, so I can't let them down. You'll help me out, right?"
 
+    show lauren happy2
     "I feel a bit conflicted, honestly. She's putting herself in a bad spot here, and dragging me with her, but…"
     "I can't really leave her to do this alone, can I?"
 
@@ -409,22 +455,29 @@ label day2s3favour:
 label day2s3grace:
     voice "2-3-88.mp3" #potato
     pro "Yeah, sure, anytime. Text me if you need me. I could even make an outfit, if you needed me to."
-    #show lauren bigsmile
+
+    show lauren happy
     voice "2-3-89.mp3" #starleeter
+
     lov "Omigosh, thank you {i}so much,{/i} Emily! That'd be a huge help! I knew I could count on you!~"
     jump day2s3accept
 
 label day2s3decline:
     voice "2-3-90.mp3" #potato
     pro "I mean, it looks like a nice bunch of people, but I… I'm not sure I can…"
-    #show lauren frown 
+
+    show lauren shy2
     voice "2-3-91.mp3" #starleeter
+
     lov "...?"
     voice "2-3-92.mp3" #potato
     pro "..."
     "...Curse Lauren. She's giving me that damn pouty face again. I know she's not actually heartbroken, but it's like dealing with a puppy."
     lov "...Alright, I'll do it… I guess you'd need an outfit too, right?"
+
     voice "2-3-93.mp3" #starleeter
+    show lauren happy
+
     lov "YAAAAY!~ Thank you!!~~~"
     "I couldn't say no. I couldn't. Ugh, what'd I get myself into…"
     jump day2s3accept
@@ -432,15 +485,25 @@ label day2s3decline:
 label day2s3accept:
     voice "2-3-94.mp3" #starleeter
     lov "I'll call you later with more details, okay? They need me over with the dancers right now."
+
     voice "2-3-95.mp3" #starleeter
+    show lauren happy2
     lov "Thanks again for bringing me my notes too!"
     "She wrapped her arms around me and gave me a tight squeeze. I could feel the life getting squeezed out of my diaphragm!"
     voice "2-3-96.mp3" #potato
     pro "OH! Ah, n-no problem, Lauren. J-just text me to talk when you're free."
+
+    show lauren happy
     voice "2-3-97.mp3" #starleeter
+
     lov "Mmhm! See ya later!~"
 
+    hide lauren
+    with dissolve
+    
     "We part ways, she bouncing over to the rest of the energetic, rowdy crowd, and myself towards the door."
+    
+    #SCENE CHANGE
     "I'm getting mixed feelings about this whole thing. She might've dragged me into this, somewhat, I guess, but… she's nice to be around. It won't be all bad."
     "I reach into my pocket, grabbing my phone. Kind of a reflexive tic when I'm alone, I guess."
     "Let's check our messages, uh… oh."
