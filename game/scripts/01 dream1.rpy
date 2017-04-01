@@ -16,7 +16,7 @@ label dream1:
 #     show dmom worried:
 #         xalign .9
 
-
+i see the green font
     "I always enjoy coming back to this place."
     "Opening the door into the living room, I’m hit with the enchanting fragrance of fresh pine."
 
