@@ -20,89 +20,89 @@ label day9s1:
 
     "Something taps my head lightly. Something small and delicate, but oddly capable."
 
-    play voice "9-1-1.mp3" #amree
+    voice "9-1-1.mp3" #amree
     sis "I'm hungry…"
 
-    play voice "9-1-2.mp3" #potato
+    voice "9-1-2.mp3" #potato
     pro "...SHIT."
 
     "I didn't make any food, and Mom isn't home to make anything either. Fuck me, I totally didn't think about that. So much for making things seem normal…"
 
-    play voice "9-1-3.mp3" #potato
+    voice "9-1-3.mp3" #potato
     pro "Well, fuck, I totally forgot. We don't really have time to get food on the way to school either… I'm sorry."
 
     "She nods with a pout, offering me a hand to stand up from the couch."
 
     "I accept it, putting most of my weight on the couch so I don't destroy her poor little arms."
 
-    play voice "9-1-4.mp3" #amree
+    voice "9-1-4.mp3" #amree
     sis "It's okay. I'll eat at school anyways."
 
-    play voice "9-1-5.mp3" #potato
+    voice "9-1-5.mp3" #potato
     pro "You have enough money for that?"
 
-    play voice "9-1-6.mp3" #amree
+    voice "9-1-6.mp3" #amree
     sis "Yeah, Dad gave me some."
 
-    play voice "9-1-7.mp3" #potato
+    voice "9-1-7.mp3" #potato
     pro "Hmm, that was good of him."
 
-    play voice "9-1-8.mp3" #amree
+    voice "9-1-8.mp3" #amree
     sis "It was…"
 
-    play voice "9-1-9.mp3" #potato
+    voice "9-1-9.mp3" #potato
     pro "Okay! So, off to school then?"
 
-    play voice "9-1-10.mp3" #amree
+    voice "9-1-10.mp3" #amree
     sis "Yep."
 
     "With that, we're off. The trip starts off awfully quiet, my sister avoiding eye contact and being her normal shy self."
 
     "It wouldn't be out of the ordinary, if she weren't holding my hand with the strength of a hydraulic press."
 
-    play voice "9-1-11.mp3" #potato
+    voice "9-1-11.mp3" #potato
     pro "Hey, sis, is everything okay?"
 
-    play voice "9-1-12.mp3" #amree
+    voice "9-1-12.mp3" #amree
     sis "Is Mom ever coming home?"
 
     "Jesuuus."
 
-    play voice "9-1-13.mp3" #potato
+    voice "9-1-13.mp3" #potato
     pro "That's… that's a complicated question. I hope so."
 
-    play voice "9-1-14.mp3" #amree
+    voice "9-1-14.mp3" #amree
     sis "You do?"
 
-    play voice "9-1-15.mp3" #potato
+    voice "9-1-15.mp3" #potato
     pro "I mean, she's made a lot of mistakes, but she's still part of the family, you know?"
 
-    play voice "9-1-16.mp3" #amree
+    voice "9-1-16.mp3" #amree
     sis "D-don't you think things are... better without her?"
 
-    play voice "9-1-17.mp3" #potato
+    voice "9-1-17.mp3" #potato
     pro "I don't think so… at least, not in the way I would want."
 
-    play voice "9-1-18.mp3" #potato
+    voice "9-1-18.mp3" #potato
     pro "Sure, arguments happen less, and she's not around to talk our ears off about how we’re useless wastes of space, but…"
 
     "But? I'm not making the best argument here."
 
-    play voice "9-1-19.mp3" #potato
+    voice "9-1-19.mp3" #potato
     pro "But she might be able to change, get better, if we try hard enough."
 
-    play voice "9-1-20.mp3" #amree
+    voice "9-1-20.mp3" #amree
     sis "Yeah… I miss her. I wish she'd let us know when she's coming back home…"
 
-    play voice "9-1-21.mp3" #potato
+    voice "9-1-21.mp3" #potato
     pro "I could ask her?"
 
     "She looks over to me with a jerk of her head."
 
-    play voice "9-1-22.mp3" #amree
+    voice "9-1-22.mp3" #amree
     sis "You could?"
 
-    play voice "9-1-23.mp3" #potato
+    voice "9-1-23.mp3" #potato
     pro "Why not?"
 
     "Pulling out my phone with my free hand, I dial her number."
@@ -117,10 +117,10 @@ label day9s1:
 
     "And goes to voicemail."
 
-    play voice "9-1-24.mp3" #potato
+    voice "9-1-24.mp3" #potato
     pro "Well, at least we tried."
 
-    play voice "9-1-25.mp3" #amree
+    voice "9-1-25.mp3" #amree
     sis "Could you text her? Maybe then…"
 
     #Choice to send text message to mom (FAMILY+1) or not (FAMILY+0).
@@ -138,7 +138,7 @@ label day9s1:
 
 label recover:
 
-    play voice "9-1-26.mp3" #potato
+    voice "9-1-26.mp3" #potato
     pro "I don't think that would be the best plan, honestly. She needs some time to recover. Shit's been… a mess lately."
 
     "Pardon my french, but I can't sugarcoat it any longer."
@@ -151,17 +151,17 @@ label recover:
 
 label showcare:
 
-    play voice "9-1-27.mp3" #potato
+    voice "9-1-27.mp3" #potato
     pro "Yeah, that's a good idea. Even if she doesn't answer, at least she'll know we want her around, yeah?"
 
     "I text her something simple, 'I hope things are okay. We need you back home soon.'"
 
     "I put my phone away, not expecting any response."
 
-    play voice "9-1-28.mp3" #amree
+    voice "9-1-28.mp3" #amree
     sis "Thank you… I'm worried about her."
 
-    play voice "9-1-29.mp3" #potato
+    voice "9-1-29.mp3" #potato
     pro "I am too, I am too."
 
     jump day9s1continue
@@ -174,51 +174,51 @@ label day9s1continue:
 
     "Maria stops along the sidewalk, unmoving. Her head tilts forward. I can't see her face."
 
-    play voice "9-1-30.mp3" #amree
+    voice "9-1-30.mp3" #amree
     sis "Emily… are we still a family?"
 
-    play voice "9-1-31.mp3" #amree
+    voice "9-1-31.mp3" #amree
     sis "Mom… isn't here. I-I don't know when she's coming back."
 
-    play voice "9-1-32.mp3" #amree
+    voice "9-1-32.mp3" #amree
     sis "And Big Bro… A-Alex is gone too…"
 
-    play voice "9-1-33.mp3" #potato
+    voice "9-1-33.mp3" #potato
     pro "...I don't know what's going to happen, Maria, but…"
 
-    play voice "9-1-34.mp3" #potato
+    voice "9-1-34.mp3" #potato
     pro "We're still a family. You'll always have me, okay?"
 
     "I hear her fighting back tears… she was sobbing."
 
-    play voice "9-1-35.mp3" #amree
+    voice "9-1-35.mp3" #amree
     sis "Alex… hates me, doesn't he…?"
 
-    play voice "9-1-36.mp3" #potato
+    voice "9-1-36.mp3" #potato
     pro "No, no, of course he doesn't…! He couldn't hate you! He's just… he's in a lot of pain."
 
     "I had to think of something. Who knows what the Hell's been crossing his mind lately…" 
 
-    play voice "9-1-37.mp3" #amree
+    voice "9-1-37.mp3" #amree
     sis "Mommy told me not to cry in public…!"
 
-    play voice "9-1-38.mp3" #potato
+    voice "9-1-38.mp3" #potato
     pro "No, no, Maria, come here…!"
 
     "I hold her tightly to my chest. Oh God, now I'm gonna start crying soon."
 
-    play voice "9-1-39.mp3" #potato
+    voice "9-1-39.mp3" #potato
     pro "Maria, it's okay, I'm here… we can go home, do you want to go home!?"
 
     "Maria rubs her head into my chest. I think she.. she's shaking her head."
 
-    play voice "9-1-40.mp3" #amree
+    voice "9-1-40.mp3" #amree
     sis "*sniff* I… I miss Alex… I miss Mom, and Dad, and…"
 
-    play voice "9-1-41.mp3" #amree
+    voice "9-1-41.mp3" #amree
     sis "I want my family back!"
 
-    play voice "9-1-42.mp3" #potato
+    voice "9-1-42.mp3" #potato
     pro "It's okay… it's okay…"
 
     "Maria was being so strong for so long. She didn't think much of yesterday…"
@@ -227,19 +227,19 @@ label day9s1continue:
 
     "I gently hold her head, kneeling down so our eyes meet."
 
-    play voice "9-1-43.mp3" #potato
+    voice "9-1-43.mp3" #potato
     pro "Maria… I'm gonna see Alex at the hospital today, alright? I'll ask him if I can bring you next time."
 
-    play voice "9-1-44.mp3" #amree
+    voice "9-1-44.mp3" #amree
     sis "O… okay… I miss him…"
 
-    play voice "9-1-45.mp3" #potato
+    voice "9-1-45.mp3" #potato
     pro "I know… it's so hard, and you're being so strong. I want you to be strong for a little bit longer, okay?"
 
-    play voice "9-1-46.mp3" #potato
+    voice "9-1-46.mp3" #potato
     pro "I won't abandon you. I'll see you at home. So no more tears, okay?"
 
-    play voice "9-1-47.mp3" #amree
+    voice "9-1-47.mp3" #amree
     sis "...I… I know you won't leave me, sis…"
 
     "We hold each other for a little while longer…" 

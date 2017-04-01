@@ -1,4 +1,4 @@
-﻿label day6s5:
+label day6s5:
 
     "The walk to the park goes straight along my normal school route, which serves to cool my nerves a bit before meeting up with Lauren. After everything we've gone through today, I really need a break."
 
@@ -40,31 +40,31 @@
 
     "I can't stare too long. I end up giving up the moment, allowing it to be lost to time. I sit next to her, and she turns to me with a smile on her face."
 
-    play voice "6-5-1.mp3" #starleeter
+    voice "6-5-1.mp3" #starleeter
     lov "Heyyy."
 
-    play voice "6-5-2.mp3" #potato
+    voice "6-5-2.mp3" #potato
     pro"Hi, Lauren."
 
-    play voice "6-5-3.mp3" #starleeter
+    voice "6-5-3.mp3" #starleeter
     lov "How're you doing?"
 
     "She's awfully calm right now. It's odd. It's off. I'm probably just thinking too far into it."
 
-    play voice "6-5-4.mp3" #potato
+    voice "6-5-4.mp3" #potato
     pro"I'm doing okay, I guess. Been a busy few days, but I feel better than usual."
 
     "She nods in response, and I interrupt the pregnant pause."
 
-    play voice "6-5-5.mp3" #potato
+    voice "6-5-5.mp3" #potato
     pro"Thanks to you."
 
     "She blushes, looking away, clutching the book closer to her chest."
 
-    play voice "6-5-6.mp3" #starleeter
+    voice "6-5-6.mp3" #starleeter
     lov "It's nothing, really."
 
-    play voice "6-5-7.mp3" #potato
+    voice "6-5-7.mp3" #potato
     pro"No, it isn't nothing. You've saved my ass, and you've done it on top of your already busy schedule. It means more than you can possibly know." 
 
     "I reach over and hug her - much to her surprise. She makes a small 'eep' before accepting, and reciprocating. I'm not a physical person, but she's earned it."
@@ -91,18 +91,18 @@
 
 label toofuckincute:
 
-    play voice "6-5-8.mp3" #potato
+    voice "6-5-8.mp3" #potato
     pro"You look really beautiful today, you know that?"
 
-    play voice "6-5-9.mp3" #starleeter
+    voice "6-5-9.mp3" #starleeter
     lov "I-uh, thank you! That was-uh, so out of left field! You flatter me..."
 
     "Jesus, her skin matches her hair now. I'm not sure if this is a good thing or not, but she seems to have taken it nicely at least."
 
-    play voice "6-5-10.mp3" #potato
+    voice "6-5-10.mp3" #potato
     pro"It's true! You're a beautiful person, too. I don't think you get to hear that enough… You're always helping me, and everyone else, and you don't get enough praise. You're really my favorite person in the world."
 
-    play voice "6-5-11.mp3" #starleeter
+    voice "6-5-11.mp3" #starleeter
     lov "You don't need to say things like that…"
 
     "Tears well up in her eyes, ruining her mascara."
@@ -121,7 +121,7 @@ label toofuckincute:
 
     "Once more, we let go."
 
-    play voice "6-5-12.mp3" #starleeter
+    voice "6-5-12.mp3" #starleeter
     lov "I, uhhh, brought a book. Yeah! So we can learn more about your brother! Yeah, so we are prepared, so we know what he's going through."
 
     "She struggles to get her voice back together, her chipper mood coming back."
@@ -137,10 +137,10 @@ label movingforward:
 
     "The list is bleakly long."
 
-    play voice "6-5-13.mp3" #starleeter
+    voice "6-5-13.mp3" #starleeter
     lov "Oh… He's going through a loooot."
 
-    play voice "6-5-14.mp3" #potato
+    voice "6-5-14.mp3" #potato
     pro"Yeah, he is."
 
     "Everything from pain, to lack of sleep, to loss of bodily control… Much more than a simple desire for more of the drug."
@@ -155,23 +155,23 @@ label movingforward:
 
     "We're both silent as we stare at the page."
 
-    play voice "6-5-15.mp3" #starleeter
+    voice "6-5-15.mp3" #starleeter
     lov "...Drugs are bad, kids."
 
     "I stifle a laugh, rolling my eyes at her. It's dark humor, but it's appropriate."
 
     "Dear god, is it appropriate."
 
-    play voice "6-5-16.mp3" #potato
+    voice "6-5-16.mp3" #potato
     pro"Well, it's really good to know all of this. Thank you for bringing it."
 
-    play voice "6-5-17.mp3" #starleeter
+    voice "6-5-17.mp3" #starleeter
     lov "Of course! That's what I'm here for~"
 
-    play voice "6-5-18.mp3" #potato
+    voice "6-5-18.mp3" #potato
     pro"You're here for more than just that. I can't always let you support me like this without any reciprocation. We're together on this, and don't forget that if you ever have any issues, come to me right away."
 
-    play voice "6-5-19.mp3" #starleeter
+    voice "6-5-19.mp3" #starleeter
     lov "Fine fine fiiine. If I ever do, I'll talk to you, right away!"
 
     "She closes the book, having absorbed all of the knowledge we needed. She takes a look up at the sky, and I follow suit."
@@ -182,13 +182,13 @@ label movingforward:
 
     "So, so far away, and yet all gathered here right here, as if they were just for the two of us to enjoy."
 
-    play voice "6-5-20.mp3" #potato
+    voice "6-5-20.mp3" #potato
     pro"You weren't kidding. It's beautiful."
 
-    play voice "6-5-21.mp3" #starleeter
+    voice "6-5-21.mp3" #starleeter
     lov "Isn't it!? I love the stars! They're kinda lonely, but not at the same time. But they burn so bright! Just think, they're thousands of miles away from us, and here they are!"
 
-    play voice "6-5-22.mp3" #potato
+    voice "6-5-22.mp3" #potato
     pro"They are a bit farther away than that, but yeah."
 
     "I sense her pout before I even get a chance to say anything. Ahh, I'm just kidding around anyways."

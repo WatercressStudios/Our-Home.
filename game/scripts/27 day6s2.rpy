@@ -1,52 +1,52 @@
 label day6s2:
     scene classroom with dissolve
 
-    play voice "6-2-1.mp3" #skinimini
+    voice "6-2-1.mp3" #skinimini
     tea "...So, you can see how we continue to tell retellings of the same stories as told from a millenia ago."
-    play voice "6-2-2.mp3" #skinimini
+    voice "6-2-2.mp3" #skinimini
     tea "Religion often plays a part in the binding threads of these narratives, but like any hero myth, there's room for exaggeration." 
 
     "I keep looking up at the clock in the middle of this lecture." 
     "Lauren's inconspicuously missing from class. I assume it's more drama department work."
     "I'll beeline there when this class is finally… mercifully over."
 
-    play voice "6-2-3.mp3" #skinimini
+    voice "6-2-3.mp3" #skinimini
     tea "Not all religious stories get treated with equal reverence around the world. In the West, Norse gods are more at home within comic book movies."
-    play voice "6-2-4.mp3" #skinimini
+    voice "6-2-4.mp3" #skinimini
     tea "And if you look over in Japan, Christianity in media is more of an aesthetic than a religion…" 
 
     play sound schoolbell
 
     "DOO DO DOO DO!"
 
-    play voice "6-2-5.mp3" #skinimini
+    voice "6-2-5.mp3" #skinimini
     tea "W-wait, I didn't get to finish…!"
 
     "Nope, not staying here a second longer."
 
     scene hallway with dissolve 
 
-    play voice "6-2-6.mp3" #starleeter
+    voice "6-2-6.mp3" #starleeter
     lov "Emily, Emily! Ready to go?"
-    play voice "6-2-7.mp3" #potato
+    voice "6-2-7.mp3" #potato
     pro "Uh, go where?" 
-    play voice "6-2-8.mp3" #potato
+    voice "6-2-8.mp3" #potato
     pro "Also, you missed class, I thought you'd be over with the drama folk."
-    play voice "6-2-9.mp3" #starleeter
+    voice "6-2-9.mp3" #starleeter
     lov "Skipped it!"
-    play voice "6-2-10.mp3" #potato
+    voice "6-2-10.mp3" #potato
     pro "What???"
-    play voice "6-2-11.mp3" #starleeter
+    voice "6-2-11.mp3" #starleeter
     lov "Yeah! Did some running around! Let's head to the parking lot, we're going for a drive!"
-    play voice "6-2-12.mp3" #potato
+    voice "6-2-12.mp3" #potato
     pro "To uh… where?"
-    play voice "6-2-13.mp3" #starleeter
+    voice "6-2-13.mp3" #starleeter
     lov "The library of course! You know your way around there, right?"
-    play voice "6-2-14.mp3" #potato
+    voice "6-2-14.mp3" #potato
     pro "I mean, yeah, but…"
-    play voice "6-2-15.mp3" #starleeter
+    voice "6-2-15.mp3" #starleeter
     lov "Alright, no dawdling! Let's go!~"
-    play voice "6-2-16.mp3" #potato
+    voice "6-2-16.mp3" #potato
     pro "Nn, gah, my arm!"
 
     "Nearly yanking my arm off, her boisterous presence carves a path through the throngs of people crowding the hallway."
@@ -55,41 +55,41 @@ label day6s2:
     "What happened next feels like a transient blur. In a mad rush, she drops me off in the passenger seat of her car, and we're on our way…" 
 
     scene car with dissolve
-    play voice "6-2-17.mp3" #potato
+    voice "6-2-17.mp3" #potato
     pro "I figured we'd be going to a clinic or the hospital by ourselves, but…" 
-    play voice "6-2-18.mp3" #starleeter
+    voice "6-2-18.mp3" #starleeter
     lov "Ah, no need! I did some running around earlier today and picked up some brochures."
-    play voice "6-2-19.mp3" #potato
+    voice "6-2-19.mp3" #potato
     pro "'Brochures'?"
 
     "Lauren's hand gestures towards a small stack of leaflets in the back. Reaching behind me, I grab a few."
 
-    play voice "6-2-20.mp3" #potato
+    voice "6-2-20.mp3" #potato
     pro "'How to Stage a Successful Intervention... the first step is to talk to friends and family of the person, and talk about planning for an intervention'."
-    play voice "6-2-21.mp3" #potato
+    voice "6-2-21.mp3" #potato
     pro "It's important to select people they care about to attend..."
-    play voice "6-2-22.mp3" #potato
+    voice "6-2-22.mp3" #potato
     pro "It's also important to keep the intervention a surprise, so the addict cannot avoid the situation…"
-    play voice "6-2-23.mp3" #potato
+    voice "6-2-23.mp3" #potato
     pro "Hey, did you really skip all your drama work to grab these things…?"
-    play voice "6-2-24.mp3" #starleeter
+    voice "6-2-24.mp3" #starleeter
     lov "Ah, not the whole thing, but… I ducked out a little early, and did some running around."
-    play voice "6-2-25.mp3" #starleeter
+    voice "6-2-25.mp3" #starleeter
     lov "Trust me Em, I'm <i>really</i> good at multitasking!~"
-    play voice "6-2-26.mp3" #potato
+    voice "6-2-26.mp3" #potato
     pro "I can see, it's just…" 
-    play voice "6-2-27.mp3" #potato
+    voice "6-2-27.mp3" #potato
     pro "...Well, I'm really glad you're doing this for me. I don't know anyone who'd go out of their way like this for me…" 
-    play voice "6-2-28.mp3" #starleeter
+    voice "6-2-28.mp3" #starleeter
     lov "It's okay Em. I know it's been really hard for you lately."
-    play voice "6-2-29.mp3" #starleeter
+    voice "6-2-29.mp3" #starleeter
     lov "I've had to bounce back from some rough patches myself, so… you can talk to me whenever, okay?"
-    play voice "6-2-30.mp3" #starleeter
+    voice "6-2-30.mp3" #starleeter
     lov "Times like this we ought to stick together, yeah?"
-    play voice "6-2-31.mp3" #potato
+    voice "6-2-31.mp3" #potato
     pro "...Yeah. Thank you."
     "I thumb through the pamphlets. There's some good stuff here to touch on…"
-    play voice "6-2-32.mp3" #starleeter
+    voice "6-2-32.mp3" #starleeter
     lov "Alright, we're here!~"
     "...Wish I had more time to read all this."
 
@@ -103,67 +103,67 @@ label day6s2:
 
     scene library with dissolve
 
-    play voice "6-2-33.mp3" #potato
+    voice "6-2-33.mp3" #potato
     pro "So, I guess we'll just look at something on drug use and-"
-    play voice "6-2-34.mp3" #starleeter
+    voice "6-2-34.mp3" #starleeter
     lov "Hey, is that Maria over there…?"
 
     if yessister:
-        play voice "6-2-35.mp3" #potato
+        voice "6-2-35.mp3" #potato
         pro "Huh. Guess she beat us here."
-        play voice "6-2-36.mp3" #starleeter
+        voice "6-2-36.mp3" #starleeter
         lov "Oh, you invited her here?"
-        play voice "6-2-37.mp3" #potato
+        voice "6-2-37.mp3" #potato
         pro "She's family too, so… I figured it'd be okay."
-        play voice "6-2-38.mp3" #starleeter
+        voice "6-2-38.mp3" #starleeter
         lov "Yeah, she'll be a big help, I'm sure."
-        play voice "6-2-39.mp3" #potato
+        voice "6-2-39.mp3" #potato
         pro "Hey, Maria! There you are!"
-        play voice "6-2-40.mp3" #amree
+        voice "6-2-40.mp3" #amree
         sis "...? Oh!"
         "Maria jogged over to us, a smile on her face."
     else:
-        play voice "6-2-41.mp3" #potato
+        voice "6-2-41.mp3" #potato
         pro "Yeah, it is, but…"
         "What's Maria doing here?? I didn't want her to get involved."
         "What she's doing at the library."
-        play voice "6-2-42.mp3" #starleeter
+        voice "6-2-42.mp3" #starleeter
         lov "Hey, we should have your sister help with the intervention! She's family, right?"
-        play voice "6-2-43.mp3" #potato
+        voice "6-2-43.mp3" #potato
         pro "M, maybe we should think about that a little-"
-        play voice "6-2-44.mp3" #starleeter
+        voice "6-2-44.mp3" #starleeter
         lov "Hey! Maria, over here!"
-        play voice "6-2-45.mp3" #amree
+        voice "6-2-45.mp3" #amree
         sis "...? Oh!"
         "With Lauren waving her over, Maria came over to us in a hurry."
 
-    play voice "6-2-46.mp3" #potato
+    voice "6-2-46.mp3" #potato
     pro "What's that you got there?"
-    play voice "6-2-47.mp3" #amree
+    voice "6-2-47.mp3" #amree
     sis "Um... I wanted to see if there was anything I could help Big Brother with, so I came here." 
-    play voice "6-2-48.mp3" #amree
+    voice "6-2-48.mp3" #amree
     sis "I didn't find anything that would help though… it's hard to find anything."
-    play voice "6-2-49.mp3" #potato
+    voice "6-2-49.mp3" #potato
     pro "The sorting system is a little obtuse, isn't it…"
-    play voice "6-2-50.mp3" #starleeter
+    voice "6-2-50.mp3" #starleeter
     lov "Hey, Maria, we're gonna have a talk with your brother later. Want to help us rehearse?"
-    play voice "6-2-51.mp3" #starleeter
+    voice "6-2-51.mp3" #starleeter
     lov "It'll be a little like… roleplaying!"
-    play voice "6-2-52.mp3" #amree
+    voice "6-2-52.mp3" #amree
     sis "Oh, like pretend right? I can help!"
 
     if yessister:
-        play voice "6-2-53.mp3" #potato
+        voice "6-2-53.mp3" #potato
         pro "Yeah, I think this is gonna turn out alright."
-        play voice "6-2-54.mp3" #potato
+        voice "6-2-54.mp3" #potato
         pro "Although… how'd you even get here? You couldn't've gotten a drive, right?"
-        play voice "6-2-55.mp3" #amree
+        voice "6-2-55.mp3" #amree
         sis "Oh, I took the city bus after school!"
-        play voice "6-2-56.mp3" #potato
+        voice "6-2-56.mp3" #potato
         pro "...You figured out their bus schedules??"
-        play voice "6-2-57.mp3" #starleeter
+        voice "6-2-57.mp3" #starleeter
         lov "Pretty clever sister you got, Em.~"
-        play voice "6-2-58.mp3" #potato
+        voice "6-2-58.mp3" #potato
         pro "Heh. No kidding."
     else:
         "I grimace a bit. Lauren thought it was a good idea to bring Maria into this."
@@ -171,149 +171,149 @@ label day6s2:
         "...Whatever, maybe I'm in the wrong here. Maria seems pumped up enough for it."
         "What is Lauren planning, though?"
 
-    play voice "6-2-59.mp3" #potato
+    voice "6-2-59.mp3" #potato
     pro "So we should probably find a corner to work, then…" 
 
     scene roundtable with dissolve
 
     "We all find a place to sit at the corner of the library. I reopen one of the pamphlets, scanning its contents."
 
-    play voice "6-2-60.mp3" #potato
+    voice "6-2-60.mp3" #potato
     pro "We should probably prepare personalized speeches to tell Alex when we do the intervention…"
-    play voice "6-2-61.mp3" #amree
+    voice "6-2-61.mp3" #amree
     sis "Ah… I-I'm not good at… speeches…"
-    play voice "6-2-62.mp3" #starleeter
+    voice "6-2-62.mp3" #starleeter
     lov "Hm… you can get some practice in with us. How's that sound?"
-    play voice "6-2-63.mp3" #starleeter
+    voice "6-2-63.mp3" #starleeter
     lov "Here, I'll play the role of Alex! It'll be easy!"
-    play voice "6-2-64.mp3" #amree
+    voice "6-2-64.mp3" #amree
     sis "I… b-but you can't be Alex."
-    play voice "6-2-65.mp3" #amree
+    voice "6-2-65.mp3" #amree
     sis "You're too nice. Alex is really grumpy..."
-    play voice "6-2-66.mp3" #potato
+    voice "6-2-66.mp3" #potato
     pro "Pffft… hehehe..."
 
     "I couldn't help snickering at that. Maria really was ruthless sometimes."
 
-    play voice "6-2-67.mp3" #potato
+    voice "6-2-67.mp3" #potato
     pro "I know Alex loves you very much, Maria…"
-    play voice "6-2-68.mp3" #starleeter
+    voice "6-2-68.mp3" #starleeter
     lov "Yeah, how about we just pretend? Pretend I'm Alex, okay?"
-    play voice "6-2-69.mp3" #amree
+    voice "6-2-69.mp3" #amree
     sis "...S-sure, I can try."
-    play voice "6-2-70.mp3" #starleeter
+    voice "6-2-70.mp3" #starleeter
     lov "Great. How about you tell me what you have on your mind? What do you wanna tell Alex?"
-    play voice "6-2-71.mp3" #amree
+    voice "6-2-71.mp3" #amree
     sis "...I…"
 
     "Maria cautiously looks in my direction. I nod slightly, as if to encourage her."
     "She takes a breath."
-    play voice "6-2-72.mp3" #amree
+    voice "6-2-72.mp3" #amree
     sis "I… B-Big Bro… Alex…? I-I love you, a-a-a lot, and it…"
-    play voice "6-2-73.mp3" #potato
+    voice "6-2-73.mp3" #potato
     pro "Take a breath, Maria. Take it slow, no rush."
-    play voice "6-2-74.mp3" #amree
+    voice "6-2-74.mp3" #amree
     sis "Ah… I…"
-    play voice "6-2-75.mp3" #amree
+    voice "6-2-75.mp3" #amree
     sis "Alex, I love you, so much… y-you're the only brother I have, and…"
-    play voice "6-2-76.mp3" #amree
+    voice "6-2-76.mp3" #amree
     sis "I-I wanna be there for you, as you get better! A-and then you.. You'll be my brother again."
     #VA tip: LI drops character at this point
-    play voice "6-2-77.mp3" #potato
+    voice "6-2-77.mp3" #potato
     pro "...What'd you think?"
-    play voice "6-2-78.mp3" #starleeter
+    voice "6-2-78.mp3" #starleeter
     lov "Good delivery! Just needs more rehearsing."
 
     "Lauren took Maria's hand."
 
-    play voice "6-2-79.mp3" #starleeter
+    voice "6-2-79.mp3" #starleeter
     lov "It'll be okay, sweety. Just speak from the heart and be honest, and you'll do just fine, okay?"
-    play voice "6-2-80.mp3" #amree
+    voice "6-2-80.mp3" #amree
     sis "...Oh, okay… L, Laurie."
-    play voice "6-2-81.mp3" #starleeter
+    voice "6-2-81.mp3" #starleeter
     lov "That's a good girl.~"
-    play voice "6-2-82.mp3" #potato
+    voice "6-2-82.mp3" #potato
     pro "Hey, Maria, why don't you find a pen and paper, and you can start writing down your feelings? I'm sure it'll be a good speech."
-    play voice "6-2-83.mp3" #amree
+    voice "6-2-83.mp3" #amree
     sis "Okay! I-I'll check with the lady up front!"
 
     "Pushing back her chair, Maria darts off to the front of the library. Grinning, I turn to Lauren."
 
-    play voice "6-2-84.mp3" #potato
+    voice "6-2-84.mp3" #potato
     pro "Whew. I knew you did acting, but I didn't think you were a coach as well."
-    play voice "6-2-85.mp3" #starleeter
+    voice "6-2-85.mp3" #starleeter
     lov "Ah, it was nothing. Just stuff I had taught to me when I was a kid."
-    play voice "6-2-86.mp3" #potato
+    voice "6-2-86.mp3" #potato
     pro "Started young?"
-    play voice "6-2-87.mp3" #starleeter
+    voice "6-2-87.mp3" #starleeter
     lov "Yeah. It's been fun."
-    play voice "6-2-88.mp3" #potato
+    voice "6-2-88.mp3" #potato
     pro "...Hey, Lauren, I have a question."
-    play voice "6-2-89.mp3" #starleeter
+    voice "6-2-89.mp3" #starleeter
     lov "Mm? What is it?"
-    play voice "6-2-90.mp3" #potato
+    voice "6-2-90.mp3" #potato
     pro "It's not a big deal, but… you've been getting a really close look at my family the last few days, and…"
-    play voice "6-2-91.mp3" #potato
+    voice "6-2-91.mp3" #potato
     pro "I was wondering what it was like with your family?"
-    play voice "6-2-92.mp3" #starleeter
+    voice "6-2-92.mp3" #starleeter
     lov "...Heh. Is that all?"
 
     "She pauses, her eyes lowering to the table. Why's she so quiet all of a sudden?"
 
-    play voice "6-2-93.mp3" #starleeter
+    voice "6-2-93.mp3" #starleeter
     lov "I live with my dad. He's a high-up in a chain of movie theaters."
-    play voice "6-2-94.mp3" #starleeter
+    voice "6-2-94.mp3" #starleeter
     lov "We make time to go to a movie a few times a month. I always get a big bag of popcorn.~"
-    play voice "6-2-95.mp3" #starleeter
+    voice "6-2-95.mp3" #starleeter
     lov "...Maybe it's too much…"
-    play voice "6-2-96.mp3" #potato
+    voice "6-2-96.mp3" #potato
     pro "I, uh, didn't notice anything weird about your figure."
-    play voice "6-2-97.mp3" #potato
+    voice "6-2-97.mp3" #potato
     pro "What about your mother?"
-    play voice "6-2-98.mp3" #starleeter
+    voice "6-2-98.mp3" #starleeter
     lov "...Ah, that's the thing, I… never really met my mom."
-    play voice "6-2-99.mp3" #starleeter
+    voice "6-2-99.mp3" #starleeter
     lov "She died in childbirth, so it's just been me and Dad."
-    play voice "6-2-100.mp3" #potato
+    voice "6-2-100.mp3" #potato
     pro "...What?"
 
     "Lauren lost her mother? At such a young age too. There's a sinking feeling in my gut."
 
-    play voice "6-2-101.mp3" #potato
+    voice "6-2-101.mp3" #potato
     pro "I didn't know, I… couldn't imagine."
-    play voice "6-2-102.mp3" #starleeter
+    voice "6-2-102.mp3" #starleeter
     lov "Heyy, Em, you can stop looking so sad, okay? It's fine. I never really knew her anyway."
-    play voice "6-2-103.mp3" #potato
+    voice "6-2-103.mp3" #potato
     pro "But… you must miss her, right?"
-    play voice "6-2-104.mp3" #starleeter
+    voice "6-2-104.mp3" #starleeter
     lov "Heh. The thought's crossed my mind, but… I love my Dad."
-    play voice "6-2-105.mp3" #starleeter
+    voice "6-2-105.mp3" #starleeter
     lov "He raised me right, and when he couldn't do everything himself, he got some help."
-    play voice "6-2-106.mp3" #starleeter
+    voice "6-2-106.mp3" #starleeter
     lov "...Is it weird to have a maid…?"
-    play voice "6-2-107.mp3" #potato
+    voice "6-2-107.mp3" #potato
     pro "Huh? I… guess it's unusual, but… given the circumstances, I…"
-    play voice "6-2-108.mp3" #starleeter
+    voice "6-2-108.mp3" #starleeter
     lov "...Heh. Guess I was special."
-    play voice "6-2-109.mp3" #starleeter
+    voice "6-2-109.mp3" #starleeter
     lov "Dad must've missed Mom a lot. I guess he took off more time just to take care of me."
-    play voice "6-2-110.mp3" #starleeter
+    voice "6-2-110.mp3" #starleeter
     lov "I was a lucky daughter. I've had a nice upbringing. Comfortable one."
-    play voice "6-2-111.mp3" #potato
+    voice "6-2-111.mp3" #potato
     pro "Yeah. And you making people happy every day."
-    play voice "6-2-112.mp3" #starleeter
+    voice "6-2-112.mp3" #starleeter
     lov "I like looking ahead to the future. Thinking about things if they had been a little different is… hard."
-    play voice "6-2-113.mp3" #starleeter
+    voice "6-2-113.mp3" #starleeter
     lov "Sorry for dumping all this on ya, Em… I don't really talk about these things, haha."
-    play voice "6-2-114.mp3" #potato
+    voice "6-2-114.mp3" #potato
     pro "Why? It's nothing to be ashamed of."
-    play voice "6-2-115.mp3" #starleeter
+    voice "6-2-115.mp3" #starleeter
     lov "...Mm. It's not, but…"
-    play voice "6-2-116.mp3" #starleeter
+    voice "6-2-116.mp3" #starleeter
     lov "People start looking at me different when they hear about that sort of thing. I don't really wanna be pitied."
-    play voice "6-2-117.mp3" #starleeter
+    voice "6-2-117.mp3" #starleeter
     lov "I just wanna put some smiles on people's faces, every day. I'm happy enough just doing that."
-    play voice "6-2-118.mp3" #potato
+    voice "6-2-118.mp3" #potato
     pro "Lauren…" 
 
     menu: 
@@ -324,67 +324,67 @@ label day6s2:
             jump differently
 
 label brave:
-    play voice "6-2-119.mp3" #potato
+    voice "6-2-119.mp3" #potato
     pro "Lauren… you must be the bravest person I know."
-    play voice "6-2-120.mp3" #starleeter
+    voice "6-2-120.mp3" #starleeter
     lov "Hahaha… I'm not brave."
-    play voice "6-2-121.mp3" #starleeter
+    voice "6-2-121.mp3" #starleeter
     lov "I'm fine. I'm had a pretty cushy life, all things considered."
-    play voice "6-2-122.mp3" #starleeter
+    voice "6-2-122.mp3" #starleeter
     lov "I'm more worried about you, honestly."
-    play voice "6-2-123.mp3" #potato
+    voice "6-2-123.mp3" #potato
     pro "...Ha. Is that so…" 
-    play voice "6-2-124.mp3" #potato
+    voice "6-2-124.mp3" #potato
     pro "...I still think you're incredible. I wanna strive to be more like you."
-    play voice "6-2-125.mp3" #starleeter
+    voice "6-2-125.mp3" #starleeter
     lov "Haha, oh gosh, you're making me blush…!"
-    play voice "6-2-126.mp3" #potato
+    voice "6-2-126.mp3" #potato
     pro "Heh… was that too mushy?"
-    play voice "6-2-127.mp3" #starleeter
+    voice "6-2-127.mp3" #starleeter
     lov "Maybeee… but that's what I like about you."
-    play voice "6-2-128.mp3" #starleeter
+    voice "6-2-128.mp3" #starleeter
     lov "You're honest."
     jump speechwrite
 
 label differently:
-    play voice "6-2-129.mp3" #potato
+    voice "6-2-129.mp3" #potato
     pro "It's okay, Lauren. I won't see you any differently."
-    play voice "6-2-130.mp3" #potato
+    voice "6-2-130.mp3" #potato
     pro "You'll always be a friend to me. So don't be afraid to talk to me whenever you need, okay?"
-    play voice "6-2-131.mp3" #starleeter
+    voice "6-2-131.mp3" #starleeter
     lov "...Honestly, that's a bit of a relief. Thanks Em."
-    play voice "6-2-132.mp3" #starleeter
+    voice "6-2-132.mp3" #starleeter
     lov "I don't… {i}try{/i} to hide things from people, it just… doesn't really come up."
-    play voice "6-2-133.mp3" #starleeter
+    voice "6-2-133.mp3" #starleeter
     lov "If it seems like I was keeping a secret from you, it's not like that, I just-"
-    play voice "6-2-134.mp3" #potato
+    voice "6-2-134.mp3" #potato
     pro "It's okay, Lauren. I understand."
-    play voice "6-2-135.mp3" #potato
+    voice "6-2-135.mp3" #potato
     pro "Let's just… be more open with each other, okay?"
-    play voice "6-2-136.mp3" #starleeter
+    voice "6-2-136.mp3" #starleeter
     lov "Heh. You wanna be more open with each other? We could play truth or dare…~"
-    play voice "6-2-137.mp3" #potato
+    voice "6-2-137.mp3" #potato
     pro "...Oh, my, uh… maybe now's not the best time. Or place?"
-    play voice "6-2-138.mp3" #starleeter
+    voice "6-2-138.mp3" #starleeter
     lov "The die has been cast, Em. There's no escaping it.~"
-    play voice "6-2-139.mp3" #potato
+    voice "6-2-139.mp3" #potato
     pro "Oh no…" 
     jump speechwrite
 
 label speechwrite:
-    play voice "6-2-140.mp3" #amree
+    voice "6-2-140.mp3" #amree
     sis "Hey, Laurie, Big Sis! They don't have writing stuff, s-so I guess we'll have to use a computer…"
-    play voice "6-2-141.mp3" #potato
+    voice "6-2-141.mp3" #potato
     pro "Oh, hey Maria! Ah, that's no big deal."
-    play voice "6-2-142.mp3" #potato
+    voice "6-2-142.mp3" #potato
     pro "I'm a pretty quick typer. I'll transcribe your speech for you."
-    play voice "6-2-143.mp3" #amree
+    voice "6-2-143.mp3" #amree
     sis "'Transcribe'...?"
-    play voice "6-2-144.mp3" #starleeter
+    voice "6-2-144.mp3" #starleeter
     lov "She's gonna be your secretary, Maria!~"
-    play voice "6-2-145.mp3" #amree
+    voice "6-2-145.mp3" #amree
     sis "...Wowie."
-    play voice "6-2-146.mp3" #potato
+    voice "6-2-146.mp3" #potato
     pro "N, not quite like that."
 
     "Settling down from girl talk, we change gears. We have to get our feelings out in writing, and make sure Alex hears it from us, from our hearts."

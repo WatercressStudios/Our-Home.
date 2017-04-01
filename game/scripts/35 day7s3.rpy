@@ -14,38 +14,38 @@ label day7s3:
 
     "Someone’s knocking on the wall."
 
-    play voice "7-3-1.mp3" #amree
+    voice "7-3-1.mp3" #amree
     sis "Emi? Are you awake?"
 
     "My sister’s voice is coming through the wall. It makes sense, her bedroom’s behind this wall. It’s the first time she’s doing this, though. There’s an exhaustion in her voice that tells me Maria’s tired and struggling to stay awake."
 
-    play voice "7-3-2.mp3" #potato
+    voice "7-3-2.mp3" #potato
     pro "I’m… managing, Maria. What’s up?"
-    play voice "7-3-3.mp3" #amree
+    voice "7-3-3.mp3" #amree
     sis "Where’s Alex?"
 
     "For a moment, I don’t remember what my sister’s talking about. And then I remember him fleeing the house."
 
-    play voice "7-3-4.mp3" #potato
+    voice "7-3-4.mp3" #potato
     pro "He’s outside somewhere. Maybe with his friends or something, you know?"
-    play voice "7-3-5.mp3" #amree
+    voice "7-3-5.mp3" #amree
     sis "This feels strange... c-can we find Alex, please?"
-    play voice "7-3-6.mp3" #potato
+    voice "7-3-6.mp3" #potato
     pro "Strange? What do you mean?"
-    play voice "7-3-7.mp3" #amree
+    voice "7-3-7.mp3" #amree
     sis "I-I don’t know… Alex ran away… this feels strange!"
-    play voice "7-3-8.mp3" #potato
+    voice "7-3-8.mp3" #potato
     pro "Yes, but he ran away before—"
-    play voice "7-3-9.mp3" #amree
+    voice "7-3-9.mp3" #amree
     sis "But he’s never hurt me before! P-Please! Can we find Alex?"
 
     "I understand what Maria is trying to say. He’s hurt our little sister. If I had done that..."
 
-    play voice "7-3-10.mp3" #potato
+    voice "7-3-10.mp3" #potato
     pro "I’ll give Alex a call right now. Get some rest, Maria."
-    play voice "7-3-11.mp3" #amree
+    voice "7-3-11.mp3" #amree
     sis "B-but…"
-    play voice "7-3-12.mp3" #potato
+    voice "7-3-12.mp3" #potato
     pro "Please rest. I’ll call Alex."
 
     "I open up my phone and grab Alex’s number from the contacts list. I’m pretty sure he had his phone on him when he left."
@@ -54,29 +54,29 @@ label day7s3:
     "BEEP~ The number you are calling is currently unavailable. BEEP~"
     "…did he run out of charge? His friends probably don’t have a charger. That would explain it."
 
-    play voice "7-3-13.mp3" #potato
+    voice "7-3-13.mp3" #potato
     pro "Hi, Alex! How are you doing??"
 
     "I speak into the empty receiver for Maria. She looks so worried, and I’m afraid if I say anything else, she’ll run out looking for Alex herself."
 
-    play voice "7-3-14.mp3" #potato
+    voice "7-3-14.mp3" #potato
     pro "Oh, I’m glad to hear you’re doing well! Will you be home soon? Sure, thanks for telling me. Bye Alex—"
-    play voice "7-3-15.mp3" #amree
+    voice "7-3-15.mp3" #amree
     sis "H-hey, let me talk to him!"
 
     "Maria reaches for the phone and tries to pull it from my hand. I hit the end button with my thumb as it falls to the ground. She picks it up and looks at the screen."
 
-    play voice "7-3-16.mp3" #amree
+    voice "7-3-16.mp3" #amree
     sis "H-He hung up…"
-    play voice "7-3-17.mp3" #potato
+    voice "7-3-17.mp3" #potato
     pro "Maria, don’t move around so much, or you’ll open your wound and Mom will have to redo your bandage. You should go back to your room and rest."
-    play voice "7-3-18.mp3" #amree
+    voice "7-3-18.mp3" #amree
     sis "B-but…"
-    play voice "7-3-19.mp3" #potato
+    voice "7-3-19.mp3" #potato
     pro "Or, do you want to sleep in my room? It’s totally cool if you do."
-    play voice "7-3-20.mp3" #amree
+    voice "7-3-20.mp3" #amree
     sis "N-No… I think we should find Alex...."
-    play voice "7-3-21.mp3" #potato
+    voice "7-3-21.mp3" #potato
     pro "No, Maria. You need to rest. For me, please?" 
 
     "She nods. Her face is facing the ground, and she slowly walks back to her room."
@@ -88,107 +88,107 @@ label day7s3:
     "Mom gently inspects the bandages before nodding and saying it’s fine. It occurs to me Mom hasn’t mentioned Alex since the fight this morning."
     "Around the corner, the locks on the front door clang open. Maria immediately turns around."
 
-    play voice "7-3-22.mp3" #amree
+    voice "7-3-22.mp3" #amree
     sis "Alex?"
-    play voice "7-3-23.mp3" #lacTheWatcher
+    voice "7-3-23.mp3" #lacTheWatcher
     dad "I’m home."
 
     "Dad enters the dining room, walking in small steps. There’s the usual stressed, anxiety-ridden look on his face."
 
-    play voice "7-3-24.mp3" #potato
+    voice "7-3-24.mp3" #potato
     pro "Oh, you’re back here earlier than usual, even by weekend’s standards."
-    play voice "7-3-25.mp3" #lacTheWatcher
+    voice "7-3-25.mp3" #lacTheWatcher
     dad "Yeah. Work was…hellish, to put it bluntly. Twelve hours straight of crunch and by-the-minute deadlines. But, we finished. Boss let me head home early today for that."
 
     "Dad stops when he sees Maria."
 
-    play voice "7-3-26.mp3" #lacTheWatcher
+    voice "7-3-26.mp3" #lacTheWatcher
     dad "Maria? What happened to you?"
-    play voice "7-3-27.mp3" #kaito
+    voice "7-3-27.mp3" #kaito
     mom "Ask your addict of a son."
-    play voice "7-3-28.mp3" #lacTheWatcher
+    voice "7-3-28.mp3" #lacTheWatcher
     dad "Alex did this?"
-    play voice "7-3-29.mp3" #amree
+    voice "7-3-29.mp3" #amree
     sis "I-It was an accident..."
-    play voice "7-3-30.mp3" #kaito
+    voice "7-3-30.mp3" #kaito
     mom "Don’t mince words. We all saw what happened. Alex threw you into a wall."
 
     "Dad looks at me. There’s a horrified expression on his face."
 
-    play voice "7-3-31.mp3" #lacTheWatcher
+    voice "7-3-31.mp3" #lacTheWatcher
     dad "Emily? Is this true?"
 
     "I can’t bring myself to say it out loud, so I just nod."
 
-    play voice "7-3-32.mp3" #lacTheWatcher
+    voice "7-3-32.mp3" #lacTheWatcher
     dad "I’ll… I’ll go talk to him."
-    play voice "7-3-33.mp3" #potato
+    voice "7-3-33.mp3" #potato
     pro "Alex isn’t home, Dad. He ran off right after what happened."
-    play voice "7-3-34.mp3" #amree
+    voice "7-3-34.mp3" #amree
     sis "Daddy, please find Alex..."
-    play voice "7-3-35.mp3" #lacTheWatcher
+    voice "7-3-35.mp3" #lacTheWatcher
     dad "How long has he been gone?"
 
     "Mom’s surprisingly quiet. Usually she has something to say about everything."
 
-    play voice "7-3-36.mp3" #potato
+    voice "7-3-36.mp3" #potato
     pro "Since…10-ish? He’s probably staying at a friend’s house or something."
-    play voice "7-3-37.mp3" #amree
+    voice "7-3-37.mp3" #amree
     sis "No… this feels strange… please… find Alex..."
-    play voice "7-3-38.mp3" #lacTheWatcher
+    voice "7-3-38.mp3" #lacTheWatcher
     dad "Liz, do you know where Alex is?"
-    play voice "7-3-39.mp3" #kaito
+    voice "7-3-39.mp3" #kaito
     mom "No. Probably out doing god-knows-what. He could use some time to reflect on himself, I’d say."
-    play voice "7-3-40.mp3" #lacTheWatcher
+    voice "7-3-40.mp3" #lacTheWatcher
     dad "What about his food? If he’s been gone all day he hasn’t had anything to eat, right?"
-    play voice "7-3-41.mp3" #kaito
+    voice "7-3-41.mp3" #kaito
     mom "He’ll come home when he’s hungry."
-    play voice "7-3-42.mp3" #lacTheWatcher
+    voice "7-3-42.mp3" #lacTheWatcher
     dad "Either way, we should find him, Liz. Come on, let’s go."
-    play voice "7-3-43.mp3" #kaito
+    voice "7-3-43.mp3" #kaito
     mom "I’m not leaving Maria. She might have a concussion. And the boy needs to learn from his mistakes. If we’re always there to pander to his feelings he won’t ever grow. You’re being too soft on him, Jon."
-    play voice "7-3-44.mp3" #lacTheWatcher
+    voice "7-3-44.mp3" #lacTheWatcher
     dad "But—"
-    play voice "7-3-45.mp3" #kaito
+    voice "7-3-45.mp3" #kaito
     mom "Just leave it be! Shooting up drugs is one thing, but hurting Maria… that’s unforgivable."
-    play voice "7-3-46.mp3" #lacTheWatcher
+    voice "7-3-46.mp3" #lacTheWatcher
     dad "Shooting up? What do you mean? It’s just the study pills, right??"
 
     "Mom doesn’t answer Dad. He looks at me pleadingly, and I don’t say anything either. I don’t want to make a bad situation worse by spelling it out."
 
-    play voice "7-3-47.mp3" #amree
+    voice "7-3-47.mp3" #amree
     sis "I-It’s heroin..."
 
     "We all look at Maria at that. Mom’s face stiffens and Dad’s eyes widens."
 
-    play voice "7-3-48.mp3" #lacTheWatcher
+    voice "7-3-48.mp3" #lacTheWatcher
     dad "H-Heroin?!"
-    play voice "7-3-49.mp3" #kaito
+    voice "7-3-49.mp3" #kaito
     mom "Maria, you knew about it? Emily… I take it you knew too?"
 
     "I don’t answer her, but I don’t think I need to. I’m pretty sure it’s a rhetorical question..."
     "Dad turns to me and puts a hand on my shoulder."
 
-    play voice "7-3-50.mp3" #lacTheWatcher
+    voice "7-3-50.mp3" #lacTheWatcher
     dad "This is serious, Emily. We should find Alex."
-    play voice "7-3-51.mp3" #potato
+    voice "7-3-51.mp3" #potato
     pro "I… I should be here with Maria, Dad."
-    play voice "7-3-52.mp3" #amree
+    voice "7-3-52.mp3" #amree
     sis "N-No! I’m fine, Emi. See! Please find Alex..."
-    play voice "7-3-53.mp3" #lacTheWatcher
+    voice "7-3-53.mp3" #lacTheWatcher
     dad "Your sister has your mom. I need your help to find your brother."
 
     "I look at Maria’s worried face and Dad’s tired face. I guess they’re right. Mom’s taking care of sis so I don’t really have to be here."
 
-    play voice "7-3-54.mp3" #potato
+    voice "7-3-54.mp3" #potato
     pro "...okay. Umm, but where do we look?"
-    play voice "7-3-55.mp3" #lacTheWatcher
+    voice "7-3-55.mp3" #lacTheWatcher
     dad "Everywhere. You take the southern side. That’s where your school and all your friends are, right? I’ll handle the north where all the offices are – grab your phone and call everyone who knows him."
-    play voice "7-3-56.mp3" #potato
+    voice "7-3-56.mp3" #potato
     pro "Everywhere and everyone?"
-    play voice "7-3-57.mp3" #lacTheWatcher
+    voice "7-3-57.mp3" #lacTheWatcher
     dad "Yes. Get your coat on, we’re going."
-    play voice "7-3-58.mp3" #potato
+    voice "7-3-58.mp3" #potato
     pro "…okay."
 
     "I put on my coat and grab my phone from my desk before setting out with Dad."
@@ -203,25 +203,25 @@ label day7s3:
     "Alex isn’t here. He probably never even came here to begin with. If he wanted to go somewhere, he’d have stayed there. He isn’t the kind who moves much if he’s comfortable where he wants to be."
     "I sigh. Maybe I’ll call Lauren after all. I pull out my phone and dial her number."
 
-    play voice "7-3-59.mp3" #starleeter
+    voice "7-3-59.mp3" #starleeter
     lov "Hi Em~! How are you doing tonight?"
-    play voice "7-3-60.mp3" #potato
+    voice "7-3-60.mp3" #potato
     pro "Fine, thanks. Have you seen Alex anywhere today?"
-    play voice "7-3-61.mp3" #starleeter
+    voice "7-3-61.mp3" #starleeter
     lov "No… why, did something happen?"
-    play voice "7-3-62.mp3" #potato
+    voice "7-3-62.mp3" #potato
     pro "He and mom had a big fight earlier, and he ran off. Dad and Maria are making me find him now."
-    play voice "7-3-63.mp3" #starleeter
+    voice "7-3-63.mp3" #starleeter
     lov "Oh… I’m sorry to hear that. What was the fight about?"
-    play voice "7-3-64.mp3" #potato
+    voice "7-3-64.mp3" #potato
     pro "Mom found out about the drugs. It was the worst fight we’ve ever had. Even Dad’s driving around looking for him—"
-    play voice "7-3-65.mp3" #starleeter
+    voice "7-3-65.mp3" #starleeter
     lov "Oh, I can get in the car in a few minutes and do the same!"
-    play voice "7-3-66.mp3" #potato
+    voice "7-3-66.mp3" #potato
     pro "Nonono, no need. I can handle this on foot. He can’t be too far off — his foot’s not fully healed yet. Besides, he’ll probably make it back on his own even if we don’t find him. But, do you happen to know the numbers of some of his friends at school?"
-    play voice "7-3-67.mp3" #starleeter
+    voice "7-3-67.mp3" #starleeter
     lov "Yeah. Well, not really, but I know how to get them. I send a text over as soon as I can."
-    play voice "7-3-68.mp3" #potato
+    voice "7-3-68.mp3" #potato
     pro "Thanks, Lauren."
 
     "The conversation ends shortly after that. She sends me about a dozen contacts or so she thinks are related to him in some way."
@@ -248,38 +248,38 @@ label day7s3:
     "<b>DOODLE DOODLE DOODLE DOO DOOT DOOT!</b>"
     "I answer up my phone and Dad’s voice comes up the other end."
 
-    play voice "7-3-69.mp3" #lacTheWatcher
+    voice "7-3-69.mp3" #lacTheWatcher
     dad "No Alex yet, but I bumped into one of his friends’ parents. They said they saw him near the school around noon. Are you near it?"
-    play voice "7-3-70.mp3" #potato
+    voice "7-3-70.mp3" #potato
     pro "Yeah, I’m on my way there. I’ll let you know if I see him."
 
     "I’m able to find the group of pot smokers behind the school fairly easily. There’s six, seven of them at least, supposedly with more on the way."
 
-    play voice "7-3-71.mp3" #potato
+    voice "7-3-71.mp3" #potato
     pro "Have any of you seen Alex?"
 
     "One of them just ‘hmph’s at me. The other glares at me without a word."
 
-    play voice "7-3-72.mp3" #other
+    voice "7-3-72.mp3" #other
     pot "Hey man, we haven't seen him in aaages."
-    play voice "7-3-73.mp3" #other
+    voice "7-3-73.mp3" #other
     pot "We're kinda busy, good luck with it man..."
 
     "The youngest-looking pothead there suddenly groans audibly, whispering to the one who's speaking."
 
-    play voice "7-3-74.mp3" #other
+    voice "7-3-74.mp3" #other
     pot "The young one’s sayin’ he knows where Alex is. He, like, saw him earlier today. His cousin has a stash—reeeal hard stuff—hidden in a park next town over. Alex was, like, headin’ that way, y’know?"
 
     "I pull out a map on my phone, showing it to him."
 
-    play voice "7-3-75.mp3" #other
+    voice "7-3-75.mp3" #other
     pot "Oh we don’t know which park. That’s the town, though. Good luck, dude."
 
     "I thank them and immediately call Lauren."
 
-    play voice "7-3-76.mp3" #potato
+    voice "7-3-76.mp3" #potato
     pro "Umm, we need the car after all."
-    play voice "7-3-77.mp3" #starleeter
+    voice "7-3-77.mp3" #starleeter
     lov "R-Right, Em! On my way!"
 
     "…That’s far away. I’d probably have passed out before making it over."
@@ -290,14 +290,14 @@ label day7s3:
     "Please, let Alex be here somewhere. He has to be here!"
     "The kid said the drug stash was hidden, right? So he wouldn’t be in plain sight. He’d be around the edges, or in a corner where nobody would see him. He’s more comfortable if he isn’t noticed, right?"
 
-    play voice "7-3-78.mp3" #potato
+    voice "7-3-78.mp3" #potato
     pro "Alex! Where are you!? Alex!"
 
     "I pull out my phone’s flashlight and shine it onto the faroff grass."
     "I can feel my focus blurring this late at night. There’s nothing. No matter how far I look I don’t see anything – where could he be? Did he go home while we were out and Mom didn’t bother to let us know? No, no Maria would call us if he came home. So he should at least be—"
     "A shoe. I recognise that shoe. I shift my eyes a little upwards. Someone has collapsed behind a shrub."
 
-    play voice "7-3-79.mp3" #potato
+    voice "7-3-79.mp3" #potato
     pro "Please, no..."
 
     "His skin is pale. Lifeless and faint, without movement to it at all. His lips are a faint blue color and his eyes are stuck open and staring into nothing. Bags of heroin and needles are littered around an empty box."

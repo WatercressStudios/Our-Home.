@@ -9,43 +9,43 @@ label day8s2:
     "I sigh. I’m tempted not to answer but I know I should."
     "Lauren would just get worried if I didn’t and that’d just make things worse."
     "I accept the call."
-    play voice "8-2-1.mp3" #potato
+    voice "8-2-1.mp3" #potato
     pro "Hey."
-    play voice "8-2-2.mp3" #starleeter
+    voice "8-2-2.mp3" #starleeter
     lov "I heard what happened to your brother. Is he okay?"
-    play voice "8-2-3.mp3" #potato
+    voice "8-2-3.mp3" #potato
     pro "He’s alive. I don’t know about okay."
-    play voice "8-2-4.mp3" #starleeter
+    voice "8-2-4.mp3" #starleeter
     lov "I’m sorry. I wanted to call sooner but everything has just been so crazy at school."
     "She sighs and shakes her head."
-    play voice "8-2-5.mp3" #starleeter
+    voice "8-2-5.mp3" #starleeter
     lov "Anyway, how are you doing? You okay?"
-    play voice "8-2-6.mp3" #potato
+    voice "8-2-6.mp3" #potato
     pro "I’m fine, I guess."
-    play voice "8-2-7.mp3" #starleeter
+    voice "8-2-7.mp3" #starleeter
     lov "Really?"
-    play voice "8-2-8.mp3" #potato
+    voice "8-2-8.mp3" #potato
     pro "Fine… considering."
     "I sigh."
-    play voice "8-2-9.mp3" #potato
+    voice "8-2-9.mp3" #potato
     pro "It’s bad, okay? Probably the worst thing that’s happened here, and that’s saying something."
-    play voice "8-2-10.mp3" #potato
+    voice "8-2-10.mp3" #potato
     pro "I just… I guess I’m just numb."
-    play voice "8-2-11.mp3" #starleeter
+    voice "8-2-11.mp3" #starleeter
     lov "You want to meet me for some coffee or something? Get out of the house and just have some company?"
     "I really don’t deserve a friend like Lauren. Who else would be willing to give up their time just to listen to me whine about how miserable my life is?"
-    play voice "8-2-12.mp3" #potato
+    voice "8-2-12.mp3" #potato
     pro "Can we go right now?"
-    play voice "8-2-13.mp3" #starleeter
+    voice "8-2-13.mp3" #starleeter
     lov "Uh… Sure, I guess?"
-    play voice "8-2-14.mp3" #potato
+    voice "8-2-14.mp3" #potato
     pro "You know where to meet me, right?"
-    play voice "8-2-15.mp3" #starleeter
+    voice "8-2-15.mp3" #starleeter
     lov "Same place your dad goes to?"
     "I grimace. Well Dad won’t be there, I guess."
-    play voice "8-2-16.mp3" #potato
+    voice "8-2-16.mp3" #potato
     pro "Yeah, that’s the one."
-    play voice "8-2-17.mp3" #starleeter
+    voice "8-2-17.mp3" #starleeter
     lov "I’ll see ya there!"
     "She hangs up and I get ready to go."
     "It’s quiet in the hallway again. I think Maria is with Dad, but I don’t really know."
@@ -55,59 +55,59 @@ label day8s2:
     "It’s pretty busy in the shop, but I spot Lauren near the back."
     "She’s managed to claim a table, although it’s a tiny one that’s barely big enough for both of us."
     "I shrug, make my order, and join her."
-    play voice "8-2-18.mp3" #starleeter
+    voice "8-2-18.mp3" #starleeter
     lov "Hey!"
-    play voice "8-2-19.mp3" #potato
+    voice "8-2-19.mp3" #potato
     pro "Hi…"
-    play voice "8-2-20.mp3" #starleeter
+    voice "8-2-20.mp3" #starleeter
     lov "So how's your brother?"
     "Lauren always gets straight to the point, doesn’t she?"
-    play voice "8-2-21.mp3" #potato
+    voice "8-2-21.mp3" #potato
     pro "Well, he's not in critical condition anymore, but… it was a pretty bad overdose."
-    play voice "8-2-22.mp3" #potato
+    voice "8-2-22.mp3" #potato
     pro "The doctors are hopeful it won’t do permanent damage, but there’s no way of knowing with these things."
-    play voice "8-2-23.mp3" #potato
+    voice "8-2-23.mp3" #potato
     pro "If he really got messed up, he could be a whole different person…"
-    play voice "8-2-24.mp3" #potato
+    voice "8-2-24.mp3" #potato
     pro "He's such an…"
     "I want to add ‘idiot’ to the end of my sentence, but choose otherwise."
     "I’m still mad at Alex, but... wasn’t he trying to find a way out, like me?."
     "He just chose a less legal way of doing it."
-    play voice "8-2-25.mp3" #starleeter
+    voice "8-2-25.mp3" #starleeter
     lov "I hope he’ll be okay."
     "I nod."
     "The Barista yells out our names."
-    play voice "8-2-26.mp3" #starleeter
+    voice "8-2-26.mp3" #starleeter
     lov "I’ll get it! You keep our seat!"
     "I nod again. I’m comfortable just letting Lauren do all the work right now."
     "Fortunately, I soon have a coffee in front of me."
     "The last thing Lauren needs is more energy, but she’s gulping that thing down like she just escaped a desert."
-    play voice "8-2-27.mp3" #starleeter
+    voice "8-2-27.mp3" #starleeter
     lov "How is Maria taking it?"
-    play voice "8-2-28.mp3" #potato
+    voice "8-2-28.mp3" #potato
     pro "Probably the best out of all of us."
-    play voice "8-2-29.mp3" #starleeter
+    voice "8-2-29.mp3" #starleeter
     lov "What about your Dad and Mom?"
     "I pause, shaking my head."
-    play voice "8-2-30.mp3" #starleeter
+    voice "8-2-30.mp3" #starleeter
     lov "Not well, huh?"
     "I nod."
-    play voice "8-2-31.mp3" #starleeter
+    voice "8-2-31.mp3" #starleeter
     lov "I’m glad you came out to meet me."
     "She put her empty cup down."
     "...How is it already empty?!"
-    play voice "8-2-32.mp3" #starleeter
+    voice "8-2-32.mp3" #starleeter
     lov "I was worried you wouldn’t come or answer my calls."
-    play voice "8-2-33.mp3" #potato
+    voice "8-2-33.mp3" #potato
     pro "Why?"
-    play voice "8-2-34.mp3" #starleeter
+    voice "8-2-34.mp3" #starleeter
     lov "Well I know you like to be alone when things aren’t going well."
-    play voice "8-2-35.mp3" #potato
+    voice "8-2-35.mp3" #potato
     pro "I’m... trying to get over that."
-    play voice "8-2-36.mp3" #starleeter
+    voice "8-2-36.mp3" #starleeter
     lov "So I’m really happy you’re here."
     "I can’t help but smile a little. Lauren’s cheerfulness can be so infectious."
-    play voice "8-2-37.mp3" #starleeter
+    voice "8-2-37.mp3" #starleeter
     lov "Is there anything I can do to help?"
     menu:
 
@@ -120,48 +120,48 @@ label day8s2:
 
 label listening:
     "Do you mind just listening?"
-    play voice "8-2-38.mp3" #starleeter
+    voice "8-2-38.mp3" #starleeter
     lov "Of course!"
-    play voice "8-2-39.mp3" #potato
+    voice "8-2-39.mp3" #potato
     pro "I guess I’ll start with what you just said about... about always wanting to be alone."
-    play voice "8-2-40.mp3" #potato
+    voice "8-2-40.mp3" #potato
     pro "I’m not proud of it."
-    play voice "8-2-41.mp3" #potato
+    voice "8-2-41.mp3" #potato
     pro "I feel like I run away from my problems a lot. When things get tough, I just... hardly ever felt like I have the strength to deal with them."
-    play voice "8-2-42.mp3" #potato
+    voice "8-2-42.mp3" #potato
     pro "And even when I did feel strong enough, sometimes I just didn’t want to deal with them, because I was tired or whatever."
-    play voice "8-2-43.mp3" #potato
+    voice "8-2-43.mp3" #potato
     pro "But the crazy thing is that I thought that was fine! I’d tell myself that there’s no point in doing things if they just frustrate me, so it’s a better use of my time to just ignore them and be happy."
-    play voice "8-2-44.mp3" #potato
+    voice "8-2-44.mp3" #potato
     pro "Like... If the real world was too hard, I could just imagine a better one."
-    play voice "8-2-45.mp3" #potato
+    voice "8-2-45.mp3" #potato
     pro "Mom, Alex, school, life after high school... I was honestly happier just pretending things like that didn’t exist."
-    play voice "8-2-46.mp3" #potato
+    voice "8-2-46.mp3" #potato
     pro "But I don’t think I want to be happy. I mean, I do, I really do want to be happy, but not like that, you know?"
-    play voice "8-2-47.mp3" #potato
+    voice "8-2-47.mp3" #potato
     pro "When I looked at Alex, I saw what I was doing to myself. I don’t mean literally, just that he was just escaping in his own way."
-    play voice "8-2-48.mp3" #potato
+    voice "8-2-48.mp3" #potato
     pro "He’s been going through the same shit as me. Same Mom, same... Well, okay, his siblings are way less moody,"
-    play voice "8-2-49.mp3" #starleeter
+    voice "8-2-49.mp3" #starleeter
     lov "*cough*"
-    play voice "8-2-50.mp3" #potato
+    voice "8-2-50.mp3" #potato
     pro "Hey!"
-    play voice "8-2-51.mp3" #starleeter
+    voice "8-2-51.mp3" #starleeter
     lov "Just kidding, just kidding~!"
-    play voice "8-2-52.mp3" #potato
+    voice "8-2-52.mp3" #potato
     pro "But anyways, I saw that he was just running away from his problems, too. I saw what that looks like from the outside. It’s not pretty."
-    play voice "8-2-53.mp3" #starleeter
+    voice "8-2-53.mp3" #starleeter
     lov "Eh, I think you could pull off that look."
     "Huh?"
-    play voice "8-2-54.mp3" #starleeter
+    voice "8-2-54.mp3" #starleeter
     lov "Kidding~!"
-    play voice "8-2-55.mp3" #potato
+    voice "8-2-55.mp3" #potato
     pro "M-moving on. With everything that’s happened to Alex, I see that I’ve been doing something wrong."
-    play voice "8-2-56.mp3" #potato
+    voice "8-2-56.mp3" #potato
     pro "I’ve never really been able to help him, and now look what’s happened. I know it’s not all my fault, but I definitely could have done something."
-    play voice "8-2-57.mp3" #potato
+    voice "8-2-57.mp3" #potato
     pro "So I’m going to change."
-    play voice "8-2-58.mp3" #potato
+    voice "8-2-58.mp3" #potato
     pro "I value the things that I’ll lose if I don’t face my problems, so I can’t afford to run away."
 
     #Transition to indicate the passage of time, have the scene get dark
@@ -170,85 +170,85 @@ label listening:
     "Lauren just sat there and listened."
     "Sometimes she’d ask a question if she didn’t understand something I said, but for the most part she stayed quiet."
     "Honestly, I was grateful for it."
-    play voice "8-2-59.mp3" #starleeter
+    voice "8-2-59.mp3" #starleeter
     lov "Wow, Em, I don’t know if I’ve ever heard you say this much in my life!"
     "She’s probably right."
-    play voice "8-2-60.mp3" #potato
+    voice "8-2-60.mp3" #potato
     pro "I should probably head home."
-    play voice "8-2-61.mp3" #starleeter
+    voice "8-2-61.mp3" #starleeter
     lov "Oh, okay."
-    play voice "8-2-62.mp3" #potato
+    voice "8-2-62.mp3" #potato
     pro "Thanks for listening to me. I really appreciate it."
-    play voice "8-2-63.mp3" #starleeter
+    voice "8-2-63.mp3" #starleeter
     lov "Of course! I was happy to."
-    play voice "8-2-64.mp3" #potato
+    voice "8-2-64.mp3" #potato
     pro "Just don’t go talking about it to anyone else, alright?"
-    play voice "8-2-65.mp3" #starleeter
+    voice "8-2-65.mp3" #starleeter
     lov "My lips are sealed."
-    play voice "8-2-66.mp3" #potato
+    voice "8-2-66.mp3" #potato
     pro "Thanks, Lauren."
-    play voice "8-2-67.mp3" #starleeter
+    voice "8-2-67.mp3" #starleeter
     lov "No problem."
     jump day8s2merge
 
 
 label laurentalk:
 
-    play voice "8-2-68.mp3" #potato
+    voice "8-2-68.mp3" #potato
     pro "Actually… I wanted to hear more about what's new with you."
-    play voice "8-2-69.mp3" #starleeter
+    voice "8-2-69.mp3" #starleeter
     lov "Huh? Why??"
-    play voice "8-2-70.mp3" #potato
+    voice "8-2-70.mp3" #potato
     pro "I mean… I don't really get to listen to you talk much."
-    play voice "8-2-71.mp3" #potato
+    voice "8-2-71.mp3" #potato
     pro "We talk, but not… {i}talk{/i} talk, y'know?"
-    play voice "8-2-72.mp3" #potato
+    voice "8-2-72.mp3" #potato
     pro "So… please? What's up?"
-    play voice "8-2-73.mp3" #starleeter
+    voice "8-2-73.mp3" #starleeter
     lov "...Aww, Em…"
     "She smiles warmly for a moment, before nodding her head."
-    play voice "8-2-74.mp3" #starleeter
+    voice "8-2-74.mp3" #starleeter
     lov "Alright! Ah… gosh, I need to think, um…"
-    play voice "8-2-75.mp3" #starleeter
+    voice "8-2-75.mp3" #starleeter
     lov "Well… mm, I already talk enough about the show…"
-    play voice "8-2-76.mp3" #starleeter
+    voice "8-2-76.mp3" #starleeter
     lov "Ah, but this one guy, Mike, was trying way too hard to impress a girl when we were doing our stretches?"
-    play voice "8-2-77.mp3" #starleeter
+    voice "8-2-77.mp3" #starleeter
     lov "And he must've pulled something…"
-    play voice "8-2-78.mp3" #starleeter
+    voice "8-2-78.mp3" #starleeter
     lov "It was really funny… I shouldn't've laughed, but… heh!"
-    play voice "8-2-79.mp3" #starleeter
+    voice "8-2-79.mp3" #starleeter
     lov "...Wonder if he'll be okay…"
-    play voice "8-2-80.mp3" #potato
+    voice "8-2-80.mp3" #potato
     pro "Boys will be boys."
-    play voice "8-2-81.mp3" #starleeter
+    voice "8-2-81.mp3" #starleeter
     lov "Ha, true!"
-    play voice "8-2-82.mp3" #starleeter
+    voice "8-2-82.mp3" #starleeter
     lov "...Mm… I wish I got to spend more time with my dad, though…" 
-    play voice "8-2-83.mp3" #starleeter
+    voice "8-2-83.mp3" #starleeter
     lov "It's kind of funny, he's able to make time for me, and I… can't, really."
-    play voice "8-2-84.mp3" #starleeter
+    voice "8-2-84.mp3" #starleeter
     lov "He's been super supportive… like, I used to go to drama camp, right?"
-    play voice "8-2-85.mp3" #starleeter
+    voice "8-2-85.mp3" #starleeter
     lov "He'd always get me a rose for every little thing. Even rehearsals…" 
-    play voice "8-2-86.mp3" #starleeter
+    voice "8-2-86.mp3" #starleeter
     lov "It was super embarrassing… but he's kind of mushy like that."
-    play voice "8-2-87.mp3" #starleeter
+    voice "8-2-87.mp3" #starleeter
     lov "Everyone teases me for it too, haha…"
-    play voice "8-2-88.mp3" #potato
+    voice "8-2-88.mp3" #potato
     pro "Ah, that's silly. I thought seeing your family in the audience was every actor's dream."
-    play voice "8-2-89.mp3" #starleeter
+    voice "8-2-89.mp3" #starleeter
     lov "It is!"
-    play voice "8-2-90.mp3" #starleeter
+    voice "8-2-90.mp3" #starleeter
     lov "You're gonna be there too, right?"
-    play voice "8-2-91.mp3" #potato
+    voice "8-2-91.mp3" #potato
     pro "Wouldn't miss it for the world, Lauren."
 
-    play voice "8-2-92.mp3" #starleeter
+    voice "8-2-92.mp3" #starleeter
     lov "Huh? Why?"
-    play voice "8-2-93.mp3" #potato
+    voice "8-2-93.mp3" #potato
     pro "Please?"
-    play voice "8-2-94.mp3" #starleeter
+    voice "8-2-94.mp3" #starleeter
     lov "Well… sure… I guess."
     "Lauren started talking about school today and everything else I might have possibly missed."
     "She then went onto the show, which was still dominating pretty much her entire life outside of school and speaking to me."
@@ -260,20 +260,20 @@ label laurentalk:
     "She was a little embarrassed when she realised the time, but I was happy with it."
     "It was nice to hear about someone else’s life rather than always talking about my own."
     "I think Lauren appreciated it too, although I can’t be sure."
-    play voice "8-2-95.mp3" #starleeter
+    voice "8-2-95.mp3" #starleeter
     lov "We should probably go home now."
-    play voice "8-2-96.mp3" #potato
+    voice "8-2-96.mp3" #potato
     pro "Yeah…"
-    play voice "8-2-97.mp3" #starleeter
+    voice "8-2-97.mp3" #starleeter
     lov "Thanks for listening to all that."
-    play voice "8-2-98.mp3" #starleeter
+    voice "8-2-98.mp3" #starleeter
     lov "Sorry I said so much…"
-    play voice "8-2-99.mp3" #potato
+    voice "8-2-99.mp3" #potato
     pro "Don’t be sorry. I wanted you to tell me about your day."
-    play voice "8-2-100.mp3" #potato
+    voice "8-2-100.mp3" #potato
     pro "I guess you just had a really full day."
     "Lauren giggled awkwardly."
-    play voice "8-2-101.mp3" #starleeter
+    voice "8-2-101.mp3" #starleeter
     lov "I guess so."
     jump day8s2merge
 

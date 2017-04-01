@@ -2,9 +2,9 @@ label day5s4:
 
     scene outsidenight with dissolve
 
-    play voice "5-4-1.mp3" #potato
+    voice "5-4-1.mp3" #potato
     pro "Huff… huff…"
-    play voice "5-4-2.mp3" #potato
+    voice "5-4-2.mp3" #potato
     pro "Almost there… hup!" 
 
     "Lauren doesn't live terribly far away from me, all things considered, but heaving this bulky thing all the way was a goddamn trial."
@@ -15,17 +15,17 @@ label day5s4:
 
     scene laurenhouse with dissolve
 
-    play voice "5-4-3.mp3" #potato
+    voice "5-4-3.mp3" #potato
     pro "...Damn, that's a nice house. Way better than our house."
     "I mean, it's not exactly a mansion, but… they definitely take care of the exterior." 
-    play voice "5-4-4.mp3" #potato
+    voice "5-4-4.mp3" #potato
     pro "...Why am I standing around admiring modern architecture in the suburbs while I'm carrying a hundred pounds of delicate equipment…" 
     "Let's go ring the doorbell."
 
     play sound doorbell
 
     "*Ding dong!*"
-    play voice "5-4-5.mp3" #potato
+    voice "5-4-5.mp3" #potato
     pro "..."
 
     "Holding my breath, I listen carefully for footsteps around the house."
@@ -33,79 +33,79 @@ label day5s4:
 
     play sound unlock
 
-    play voice "5-4-6.mp3" #potato
+    voice "5-4-6.mp3" #potato
     pro "!"
     "It's unlocking!"
 
     play sound dooropen
 
 
-    play voice "5-4-7.mp3" #starleeter
+    voice "5-4-7.mp3" #starleeter
     lov "Hello…? Ah, Emily!?"
-    play voice "5-4-8.mp3" #potato
+    voice "5-4-8.mp3" #potato
     pro "H, hi Lauren. I just came by to drop this off."
 
     "Lauren's eyes lowered to the machine cradling in my arms."
 
-    play voice "5-4-9.mp3" #starleeter
+    voice "5-4-9.mp3" #starleeter
     lov "Ah! O-oh goodness, I completely forgot, I just… l-lemme take that from you!"
-    play voice "5-4-10.mp3" #potato
+    voice "5-4-10.mp3" #potato
     pro "Haha, it's fine, don't worry about it… c-careful, careful!"
 
     "The exchange is a little hastier than I would've liked, but she lets the sewing machine rest on the landing of her home."
 
-    play voice "5-4-11.mp3" #starleeter
+    voice "5-4-11.mp3" #starleeter
     lov "Looks pretty old, where'd you get it?"
-    play voice "5-4-12.mp3" #potato
+    voice "5-4-12.mp3" #potato
     pro "It was, uh, a hand-me-down from grandma, before she died."
-    play voice "5-4-13.mp3" #starleeter
+    voice "5-4-13.mp3" #starleeter
     lov "Oh gosh, I'm so sorry…" 
-    play voice "5-4-14.mp3" #potato
+    voice "5-4-14.mp3" #potato
     pro "Nah, it's okay. I was really young. I wish I got to know her better, but…" 
-    play voice "5-4-15.mp3" #potato
+    voice "5-4-15.mp3" #potato
     pro "Th-that's not important, I… I'm sorry about what happened over at dinner." 
-    play voice "5-4-16.mp3" #starleeter
+    voice "5-4-16.mp3" #starleeter
     lov "Ah… I caused a scene, didn't I?"
-    play voice "5-4-17.mp3" #potato
+    voice "5-4-17.mp3" #potato
     pro "It's Mom, she's…"
-    play voice "5-4-18.mp3" #potato
+    voice "5-4-18.mp3" #potato
     pro "...W-well, she's neurotic, but… she means well."
-    play voice "5-4-19.mp3" #starleeter
+    voice "5-4-19.mp3" #starleeter
     lov "You don't have to cover for her, y'know."
-    play voice "5-4-20.mp3" #starleeter
+    voice "5-4-20.mp3" #starleeter
     lov "I got worried, and we kind of went off on each other, and… I'm really sorry, about everything."
-    play voice "5-4-21.mp3" #potato
+    voice "5-4-21.mp3" #potato
     pro "Honestly, it's okay, I… I didn't really know how to introduce you to the family."
-    play voice "5-4-22.mp3" #starleeter
+    voice "5-4-22.mp3" #starleeter
     lov "Heh. You're funny."
-    play voice "5-4-23.mp3" #starleeter
+    voice "5-4-23.mp3" #starleeter
     lov "Still wish I could've met your folks on a better note than that…"
-    play voice "5-4-24.mp3" #potato
+    voice "5-4-24.mp3" #potato
     pro "It's not you, Mom's just a nutcase…" 
-    play voice "5-4-25.mp3" #starleeter
+    voice "5-4-25.mp3" #starleeter
     lov "Is Maria okay? She looked really scared."
-    play voice "5-4-26.mp3" #potato
+    voice "5-4-26.mp3" #potato
     pro "She's tougher than she looks. We're really close, so I'll look after her, no worries."
-    play voice "5-4-27.mp3" #potato
+    voice "5-4-27.mp3" #potato
     pro "I'm more worried about Alex…"
-    play voice "5-4-28.mp3" #starleeter
+    voice "5-4-28.mp3" #starleeter
     lov "Alex? Your brother? He was lectured by your mom, right?"
-    play voice "5-4-29.mp3" #potato
+    voice "5-4-29.mp3" #potato
     pro "!"
 
     "Shit, did I really say that out loud?"
 
-    play voice "5-4-30.mp3" #potato
+    voice "5-4-30.mp3" #potato
     pro "I, uh… I probably shouldn't've said that."
-    play voice "5-4-31.mp3" #starleeter
+    voice "5-4-31.mp3" #starleeter
     lov "Is anything wrong…?"
 
     "Lauren's looking at me with her big eyes again. She's concerned."
     "When she looks at me like that, it feels like I did something wrong." 
 
-    play voice "5-4-32.mp3" #potato
+    voice "5-4-32.mp3" #potato
     pro "...The other day, I caught my brother with some drugs."
-    play voice "5-4-33.mp3" #starleeter
+    voice "5-4-33.mp3" #starleeter
     lov "...Drugs!? Wh, what kind of drugs?"
 
     "Pausing, I catch myself far too late."
@@ -113,82 +113,82 @@ label day5s4:
     "I know I should trust her, but… could I trust her with something like this?"
     "God, I'm such an idiot… I don't know what came over me. A momentary lapse of judgment?"
     "I'm… so tired of being so two-faced about everything. Taking a breath, I press on."
-    play voice "5-4-34.mp3" #potato
+    voice "5-4-34.mp3" #potato
     pro "...H, heroin I think. There was a needle. Mom doesn't know yet, so he wanted me to keep it a secret, but…"
-    play voice "5-4-35.mp3" #starleeter
+    voice "5-4-35.mp3" #starleeter
     lov "How long has this been going on??" 
-    play voice "5-4-36.mp3" #potato
+    voice "5-4-36.mp3" #potato
     pro "...O, only a few days. I want to help him, but I can't let Mom find out, or she'd probably just… kick him out of the house, or something…" 
 
     "The idea terrifies me. There's a lot about this that terrifies me, and I've just been too cowardly to really do anything about it."
 
-    play voice "5-4-37.mp3" #starleeter
+    voice "5-4-37.mp3" #starleeter
     lov "...I, I see…" 
 
     "Lauren goes quiet. She seems to be thinking."
 
-    play voice "5-4-38.mp3" #starleeter
+    voice "5-4-38.mp3" #starleeter
     lov "...M, maybe an intervention? If it's just you guys, maybe you can change his mind."
-    play voice "5-4-39.mp3" #potato
+    voice "5-4-39.mp3" #potato
     pro "I've tried, but… he's a stubborn idiot…" 
-    play voice "5-4-40.mp3" #starleeter
+    voice "5-4-40.mp3" #starleeter
     lov "Maybe you need more help? I-I can help, I'm pretty persuasive! A-and Maria would probably want to help too…" 
 
     "My voice catches in my throat. I'm skeptical of the idea of involving Maria in something like this, at her age…" 
     "But I'm more concerned about Lauren at this moment, oddly enough."
 
-    play voice "5-4-41.mp3" #potato
+    voice "5-4-41.mp3" #potato
     pro "Why? You don't have to get involved, and you already have so much to do already…"
-    play voice "5-4-42.mp3" #starleeter
+    voice "5-4-42.mp3" #starleeter
     lov "Ah… I can make time for you, Emily. I always do."
-    play voice "5-4-43.mp3" #starleeter
+    voice "5-4-43.mp3" #starleeter
     lov "And I don't think I could sleep with a sound conscience if I just moved on, I mean…" 
-    play voice "5-4-44.mp3" #starleeter
+    voice "5-4-44.mp3" #starleeter
     lov "He's your brother, and if anything bad happened to him, it'd tear you guys apart, right? I don't want you to go through that…" 
 
     "Pain reflects in her expression for a glimmer, but she quickly regains her composure."
     "I wonder if she means anything by that. Maybe that's the poise of an actress…" 
 
-    play voice "5-4-45.mp3" #potato
+    voice "5-4-45.mp3" #potato
     pro "E-even then, you don't have to… I can figure something out." 
-    play voice "5-4-46.mp3" #starleeter
+    voice "5-4-46.mp3" #starleeter
     lov "I know. You're really smart, and you've helped me a lot too in the past stretch."
-    play voice "5-4-47.mp3" #starleeter
+    voice "5-4-47.mp3" #starleeter
     lov "I'm such a klutz, I forgot to grab your sewing machine! Maybe I can pay you back a little for this?"
 
     "I smile softly. She really wants to help me through this, doesn't she…?"
 
-    play voice "5-4-48.mp3" #other
+    voice "5-4-48.mp3" #other
     ldad "Lauren! Who're you talking to? Close the door, you're letting in a draft!"
-    play voice "5-4-49.mp3" #starleeter
+    voice "5-4-49.mp3" #starleeter
     lov "Ah! Sorry Dad, it's just a friend from school! She was bringing something over!"
-    play voice "5-4-50.mp3" #other
+    voice "5-4-50.mp3" #other
     ldad "Oh! Well, when you're done, we should talk about school."
-    play voice "5-4-51.mp3" #starleeter
+    voice "5-4-51.mp3" #starleeter
     lov "Alright, just a sec!"
-    play voice "5-4-52.mp3" #potato
+    voice "5-4-52.mp3" #potato
     pro "...Is that your Dad?"
-    play voice "5-4-53.mp3" #starleeter
+    voice "5-4-53.mp3" #starleeter
     lov "Yes. That's why I called him Dad.~"
-    play voice "5-4-54.mp3" #potato
+    voice "5-4-54.mp3" #potato
     pro "...Point taken."
 
     "Lauren's really serious about this, so it's not like I can say no."
 
-    play voice "5-4-55.mp3" #potato
+    voice "5-4-55.mp3" #potato
     pro "...Alright. Thanks for your help in all this, I… I really appreciate it."
-    play voice "5-4-56.mp3" #starleeter
+    voice "5-4-56.mp3" #starleeter
     lov "It's no problem, really! We'll go to the library and figure something out."
-    play voice "5-4-57.mp3" #starleeter
+    voice "5-4-57.mp3" #starleeter
     lov "I'll see you tomorrow, okay? Please, think about it. I'll find you tomorrow."
-    play voice "5-4-58.mp3" #potato
+    voice "5-4-58.mp3" #potato
     pro "Okay. See you tomorrow. Don't wanna keep you here."
-    play voice "5-4-59.mp3" #starleeter
+    voice "5-4-59.mp3" #starleeter
     lov "Alright! See ya!"
 
     "Lauren closes the door, and I listen for the sound of her light steps growing softer as she retreats back into the household."
     "...It occurs to me that I have to walk home now, instead of asking for a drive."
-    play voice "5-4-60.mp3" #potato
+    voice "5-4-60.mp3" #potato
     pro "...Oh well. It's good exercise…" 
 
     jump day5s5
