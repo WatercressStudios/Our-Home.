@@ -1,33 +1,30 @@
 label dream1:
 
-    scene dlounge
+    scene dream1
 
     #draw inspiration from this article for designing the living space
     #this is a good resource for the kitchen in particular. I adore the first photo, aim for something like that
     #as for music, defining a style might be tricky, but it should probably sound older and not 100% hi def. Aim for something slow. Good examples I can think of are this and this
 
-    #This stuff below is temporary. I'll move it later!
-    show diane angry: 
-        xalign 0.05
-    show brother angry:
-        xalign 0.35
-    show father smirk:
-        xalign 0.65
-    show mother worried:
-        xalign .9
+#     This stuff below is temporary. I'll move it later!
+#     show dlov angry: 
+#         xalign 0.05
+#     show dbro angry:
+#         xalign 0.35
+#     show ddad smirk:
+#         xalign 0.65
+#     show dmom worried:
+#         xalign .9
 
     "I always enjoy coming back to this place."
-
     "Opening the door into the living room, I’m hit with the enchanting fragrance of fresh pine."
 
+    scene dhouse with dissolve
+
     "Dad loves working with pine, and there’s no shortage of evergreens around our house. It shows, as homemade pieces are scattered around the living room."
-
     "I look upon the upholstered club chair dominating the middle of the living room. It’s unoccupied, which piqued my curiosity."
-
     "Normally, Dad will be reading the paper in it and be ready with a greeting, followed shortly by an embarrassing quip. His absence, it seems, hangs in the air like a spectre."
-
     "I can feel the presence of others in this old house. Focusing my hearing, I can pick up dull murmuring coming from… the dining room?"
-
     "I can’t help grinning. They aren’t seriously gonna do that, are they?"
 
     voice "d1-1-1.mp3" #potato
@@ -35,8 +32,7 @@ label dream1:
 
     "Pacing over to the door, I brace myself for the inevitable…"
 
-    scene dkitchen
-    with dissolve
+    scene dlivingroom with dissolve
 
     voice "d1-1-2.mp3" #all
     all "Happy birthday!"
@@ -45,12 +41,10 @@ label dream1:
     pro "Aww, guys…" 
 
     "They remember. It’s my birthday. Number eighteen."
-
     "I guess I'm technically an adult now? It feels weird, but… a good weird."
-
     "I definitely asked them not to make a big event out of it, but here they are. God, my cheeks are flushing..."
 
-    show brother neutral smile
+    show dbro smile
 
     voice "d1-1-4.mp3" #kujira
     dbro "Sweet eighteen, sis! Took your sweet time gettin' here, huh?"
@@ -69,7 +63,6 @@ label dream1:
     hide dbro
 
     "Smiling, I take my seat at the head of the table."
-
     "It’s weird, seeing Dad at the side instead of the head, but I get over that feeling quickly."
 
     show dmom smile at left
@@ -93,7 +86,7 @@ label dream1:
     "Ah well. I'm having fun."
 
     hide dmom
-    hide dad
+    hide ddad
     show dbro smile
 
     voice "d1-1-11.mp3" #kujira
@@ -105,19 +98,18 @@ label dream1:
     show dlov smile
 
     "Sure enough, it’s Diane at the other end of the table, a silent observer, her expression glowing with a warm smile."
-
     "She’s looking right at me too. Our eyes meet."
 
     #close dream girl eyes for a moment, indicate a silent laugh
     
     "Oh gosh, we looked right into each other’s eyes! She quietly laughs as I sink a little into my chair."
-
     "God, she can read me like a book… I feel my cheeks flushing with redness."
 
     voice "d1-1-12.mp3" #potato
     pro "This is too much guys, really…" 
 
-    show dbro excited
+    show dlov at left
+    show dbro happy at right
     #pan dream girl to left before brother comes in
 
     voice "d1-1-13.mp3" #kujira
@@ -130,8 +122,8 @@ label dream1:
 
     hide dlov
     hide dbro
-    show dmom at left
-    show ddad at right
+    show dmom smile at left
+    show ddad smile at right
 
     "I nod. It’s true. Mom and Dad give each other knowing looks."
 

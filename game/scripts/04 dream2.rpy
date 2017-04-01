@@ -1,4 +1,7 @@
 label dream2:
+
+    scene dlaurensroom with dissolve
+
     "I open my eyes to find a face much too close to mine and soft lips against my own."
     voice "d2-1-1.mp3" #potato
     pro "Wha—?"

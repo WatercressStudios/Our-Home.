@@ -1,8 +1,12 @@
 label dream3:
+
+    scene dream2 with dissolve
     
     "The transition is seamless, as expected. The air is a very soothing room temperature; not quite cold, and yet not hot either. It's peaceful."
     
     "A gentle wind brushes against my hair, down my back, kissing my skin, embracing me. Across from me, I find my brother sipping a cup of warm tea."
+
+    scene dlivingroom with dissolve
 
     voice "d3-1-1.mp3" #kujira
     dbro "As you were saying?"

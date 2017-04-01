@@ -1,10 +1,14 @@
 label day1s2:
     
+    scene hallway with dissolve
+
     "You know, why did I ever expect anything different? Of course it'd be the same shit, even on this day. The thought 'today of all days' ruminates in my head for a second, but is quickly replaced with traces of my almost yet not quite forgotten dream."
 
     "Thinking of it, I can't remember any clear events, just the unmistakable feeling of safety, of calm, of peace. Something I can't seem to feel nowadays."
 
     "I haven't been able to feel anything really. It's been that way for a while. Sometimes I'll feel something, but it's always fleeting - and it's normally anger, or frustration."
+
+    scene bedroom night with dissolve
 
     "Or it's something else… but I only feel that around Lauren. It's a strange feeling, a feeling that I can't quite put words to. That doesn't exactly deviate from the norm, however." 
 
@@ -17,7 +21,7 @@ label day1s2:
 
     "I speak out to her calmly. I don't want anyone else to hear me through the thin walls we have in this house."
     
-    show maria cry
+    show sis cry1
     with dissolve
 
     "The door opens slowly, the little one creeping in, her face red from what only could be tears."
@@ -36,7 +40,7 @@ label day1s2:
 
     "She trudges over, sitting next to me, nuzzling in a close hug."
     
-    show maria sad1b
+    show sis sad1b
 
     voice "1-2-4.mp3" #amree
     sis "I hate when they…"
@@ -44,7 +48,7 @@ label day1s2:
     voice "1-2-5.mp3" #potato
     pro "Fight?"
     
-    show maria sad2b
+    show sis sad2b
 
     voice "1-2-6.mp3" #amree
     sis "...Yeah."
@@ -57,7 +61,7 @@ label day1s2:
     voice "1-2-8.mp3" #potato
     pro "Give… give it time, and things will work out, probably."
     
-    show maria worry2b
+    show sis worry2b
 
 
     voice "1-2-9.mp3" #amree
@@ -70,14 +74,14 @@ label day1s2:
     voice "1-2-10.mp3" #potato
     pro "...Yeah. We'll see."
     
-    show maria worry1b
+    show sis worry1b
 
     "She remains quiet. Of course, I can't convince her. Why would I, if I can't even convince myself? I have zero faith in my brother, and even less faith in my mother."
 
     voice "1-2-11.mp3" #potato
     pro "You know what? I can do something to cheer you up. Whaddya say?"
     
-    show maria sad1b
+    show sis sad1b
 
     voice "1-2-12.mp3" #amree
     sis "N-no, I'm okay…"
@@ -85,7 +89,7 @@ label day1s2:
     voice "1-2-13.mp3" #potato
     pro "Nope. I'm going to do something for you, you'll see. How about you catch some rest, huh?"
     
-    show maria worry2b
+    show sis worry2b
 
     voice "1-2-14.mp3" #amree
     sis "But-"
@@ -93,28 +97,30 @@ label day1s2:
     voice "1-2-15.mp3" #potato
     pro "No buts. It's been a long day. You need a warm, comfy bed to sleep in. I'll get to work on something for you, you'll see."
     
-    show maria happy1b
+    show sis happy1b
 
     voice "1-2-16.mp3" #amree
     sis "Fiiine, I guess."
 
     "She wraps her arms further around my waist, hugging me tightly."
     
-    show maria worry1b
+    show sis worry1b
 
     voice "1-2-17.mp3" #amree
     sis "Thank you."
 
     "She reluctantly releases me, giving me one last pitiful look."
     
-    show maria sad1b
+    show sis sad1b
 
     "Standing up, I ruffle her hair a bit before taking a seat at my desk. She situates herself under the covers before dozing off."
     
-    hide maria
+    hide sis
     with dissolve
 
     ##SCENE CHANGE
+    scene sewingkit with dissolve
+
     "Okay, time for me to do something for her."
 
     "Hmm. I can't exactly do anything to fix the situation, nor would it be a good idea to get involved. Maybe I can get her a gift?"
@@ -135,6 +141,8 @@ label day1s2:
 
     "Not a dress, or any article of clothing really. It'd break both of the aforementioned rules that I've set for myself."
 
+    scene bedroom night with dissolve
+
     "I glance back at Maria. Her face is peaceful, but her brow is furrowed. She has one of my pillows clutched tightly in her arms. She's hugging it close to her chest."
 
     "Damn, that brings back memories. Back when she used to bury herself in plushies, dolls, bears, you name it. She fit right in with her toys, too. They'd hug her back, almost like the pillow she's holding now."
@@ -146,6 +154,8 @@ label day1s2:
     "I rummage through the few boxes of materials I have left from the golden ages, and I pull out just what I'll need to make what she needs."
 
     "It'll be a tight fit, but I'm sure I can make it work."
+
+    scene sewingkit with dissolve
 
     "I begin by sketching out a 2D figure of the thing, electing to go with a small ram. The pencil glides across the worn page, over scattered memories and lost progress."
 
@@ -172,22 +182,24 @@ label day1s2:
     "Flipping out my phone, I admire my lock screen. It's a picture of Lauren and I, smiling on a beach. Damn, it's been ages…"
 
     "I find her in my recent contacts before I tap the video call button. It's almost immediately answered."
+
+    show black with dissolve
     
     ##SCENE CHANGE
-    show lauren happy
+    show lov happy
     with dissolve
 
     voice "1-2-18.mp3" #starleeter
     lov "Heya! Took ya long enough! Doesn't matter. How's your day? Err, night by now? Yes. 'Sup?"
     
-    show lauren happy2
+    show lov happy2
 
     "As hyper as always. It takes a bit for the camera to focus on her, struggling with her erratic movements."
 
     voice "1-2-19.mp3" #potato
     pro "Ehh, could've been better. Another fight between my brother and my mom, nothing new."
     
-    show lauren shy2
+    show lov shy2
 
     voice "1-2-20.mp3" #starleeter
     lov "Oh, I'm sorry to hear that. Well, I'm always here, remember that! So. How's she been, your sister? I know she gets a bit nervous."
@@ -195,7 +207,7 @@ label day1s2:
     voice "1-2-21.mp3" #potato
     pro "She's actually sleeping in my bed right now. I've been working on a gift for her to help her feel better, actually."
     
-    show lauren happy2b
+    show lov happy2b
 
     voice "1-2-22.mp3" #starleeter
     lov "Oh? See, this is why I love you. Well, we should keep this chat short then, so we don't wake her up."
@@ -203,7 +215,7 @@ label day1s2:
     voice "1-2-23.mp3" #potato
     pro "Yeah, that would be best."
     
-    show lauren happy2
+    show lov happy2
 
     voice "1-2-24.mp3" #starleeter
     lov "Alrighty, well my day was good. I'll see you tomorrow at school, right?"
@@ -214,15 +226,17 @@ label day1s2:
 
     pro "Don't worry, I'll be there. See you tomorrow?"
     
-    show lauren happy
+    show lov happy
 
     voice "1-2-26.mp3" #starleeter
     lov "See ya!"
     
-    hide lauren
+    hide lov
     with dissolve
 
     ##SCENE CHANGE
+    scene bedroom night with dissolve    
+    
     "She ends the call, just like that."
 
     "I'm tired. Nothing new. At least the bed will be warm, right?"

@@ -1,9 +1,10 @@
-label day1s1:
+﻿label day1s1:
 
-    "BANG BANG BANG"
-    "BANG BANG BANG"
+    "BANG BANG BANG!"
+    "BANG BANG BANG!"
     ##SFX, Large amount of screen shake.  Door banging SFX should begin quietly late into Dream 1 and increase greatly in volume once the scene shifts officially.  Scene should have no BGM early on to contrast with the cheery dream before it.
     ##I’ll be referring to these as a harsh cut – little to no transition time, combined with an SFX and varying degrees of screen shake.  Requires a change in either onscreen sprites or BG.  Used usually with the mother or when a character demands the attention of those around them.
+    scene bedroom sunset with dissolve
 
     "A rattling bang stirs me from my sleep. The ground shakes, and the lamp above me sways from side to side. I try to hide under my blankets before realizing it’s still safe."
     "The tremor of my room stops, if only for a few faint seconds."
@@ -14,6 +15,8 @@ label day1s1:
     "Warm orange beams of sunshine cut through the blinds as the sun begins to dip toward the horizon. I stretch and yawn as I wake from my nap. There are still going to be a few long hours ahead of me."
     "…"
     "Worst birthday ever. And we haven’t even started dinner yet."
+    scene livingroom sunset with dissolve
+
     ##SCENE CHANGE
     ##some sort of consistent/repeating dinner sounding/clackering utensils sound.  Show character sprites as they’re mentioned.
     "The five of us sit around the table."
@@ -22,7 +25,7 @@ label day1s1:
     with dissolve
     show dad neutral2 at left 
     with dissolve
-    show maria happy1 at right
+    show sis happy1 at right
     with dissolve
     
     "Mom sits at the head of the table, opposite of me. Father sits to her right, texting someone, and has a particularly worried look on his face. Alex sits to my right poking at his food with his fork."
@@ -35,33 +38,22 @@ label day1s1:
     with dissolve
     hide dad
     with dissolve
-    hide maria 
+    hide sis 
     with dissolve
-    show maria happy3 
+    show sis happy2
     sis "Emily! How was your trip with Lauren?"
-    show maria happy1 
+    show sis happy1 
     voice "1-1-3.mp3" #potato
     pro "Oh, yeah – it went well, sis."
     "Maria seems so full of energy, barely able to contain herself. Watching her hyperactive ventures is always very entertaining - I choke on my water trying to keep myself from laughing at her."
     voice "1-1-4.mp3" #amree
-    show maria worry1b 
+    show sis worry1b 
     sis "Hey!  What’s so funny?"
     voice "1-1-5.mp3" #potato
-
-    voice "1-1-2.mp3" #amree
-    sis "Emily! How was your trip with Lauren?"
-    voice "1-1-3.mp3" #potato
-    pro "Oh, yeah – it went well, sis."
-    "Maria seems so full of energy, barely able to contain herself. Watching her hyperactive ventures is always very entertaining - I choke on my water trying to keep myself from laughing at her."
-    voice "1-1-4.mp3" #amree
-    sis "Hey!  What’s so funny?"
-    "Oh, shit."
-    voice "1-1-5.mp3" #potato
-
     pro "It’s nothing, Maria. Just thinking about something she said earlier."
-    show maria worry2
+    show sis worry2
     "…"
-    hide maria
+    hide sis
     with dissolve
     "It’s a normal day. It’s not as good as it could have been, but we’re all getting along just fine. I really can't complain with how things are going so far."
     "Maybe…"
@@ -125,13 +117,13 @@ label day1s1:
     mom "I don’t have all day. Get up, and come here or there’s going to be consequences."
     show dad sad2 at left
     with dissolve
-    show maria sad1 at right
+    show sis sad1 at right
     with dissolve
     "Father stares down at his food without the strength to do anything. Maria looks like she doesn’t want to be in the room anymore."
     "Alex gets up from his seat to meet Mom."
     hide dad
     with dissolve
-    hide maria 
+    hide sis 
     with dissolve
     show mom angry2 at left
     with dissolve

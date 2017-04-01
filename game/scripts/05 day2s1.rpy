@@ -4,6 +4,7 @@ label day2s1:
 
     #Emily’s room, but... darker (and edgier?!)
     #Knocking
+    scene bedroom dark with dissolve
 
     voice "2-1-1.mp3" #kujira
     bro "Hey, uh... Emily?"
@@ -28,6 +29,7 @@ label day2s1:
     "Dammit, that was a {i}really good dream{/i}, too."
     
     ##SCENE CHANGE
+    scene bedroom night
     
     "I get the door for my idiot brother."
     
@@ -106,18 +108,21 @@ label d2s1no:
     with dissolve
     
     #SCENE CHANGE
+    scene bedroom dark
     
     "Shutting the door on Alex, I return to bed."
     "Now Diane, where were we...?"
 
    ##SCENE CHANGE
    #Time pass transition to Emily’s room with normal lighting.
+    scene bedroom with dissolve
 
     "I never fell back asleep. This is a cruel, cruel world we live in."
 
     "I somberly get ready for another day at school."
 
    ##SCENE CHANGE #Transition to kitchen with mom and bro
+    scene livingroom with dissolve
 
     "It looks like Alex tried to work on it without me."
 
@@ -131,7 +136,6 @@ label d2s1no:
 label d2s1yes:
 
     "Fine, but you owe me."
-
 
     show bro grin1
     
@@ -159,6 +163,7 @@ label d2s1yes:
 
     #SCENE CHANGE
     #Transition to kitchen, with bro
+    scene livingroom sunset with dissolve
     
     show bro sad1
 
@@ -200,6 +205,7 @@ label d2s1yes:
     "In that half hour, I learned more about the Golgi apparatus than I ever thought possible."
     
     #CHANGE SCENE
+    scene livingroom with dissolve
 
 
     voice "2-1-26.mp3" #kujira

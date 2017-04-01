@@ -2,19 +2,31 @@ label day2s4:
     $ plushie = False
 
     # Home BG
+    scene house with dissolve
+
     "I’m exhausted by the time I get home."
     "It was fun going through the show with Lauren, but it was way more involved than I expected."
+
+    scene livingroom with dissolve
+
     "It’s pretty quiet downstairs. Mom’s in the kitchen... of course she is. I really don't want to see her right now..."
     "We're having dinner as a family again, too. Surpriiiise. Happy birthday to me."
+
+    scene hallway with dissolve
+
     "Maria is in her room and I have no idea where Alex is. Probably at his friend’s, I guess."
     "I'm just gonna duck in my room and lay low until Mom starts hollering..."
     #CHANGE SCENE
     # Transition to Bedroom
+    scene bedroom with dissolve
+
     "What the heck?! My desk is a mess!"
     "Ugh. Alex is always coming in here and ‘borrowing’ my stuff. I can’t count the number of pens and pencils he’s never returned."
     "Well, he’s not here, so I guess I can go into his room and get my things back."
     #CHANGE SCENE
     # Transition to brother’s bedroom
+    scene broroom with dissolve
+
     "There are clothes and candy wrappers scattered everywhere. That boy is basically an animal."
     "There’s bits of paper and worksheets covering what passes for his desk."
     "My things have probably rolled down behind that."
@@ -31,14 +43,19 @@ label day2s4:
     "I wonder if he’s hiding more of my stuff in this box. It kind of looks like a fancy pencil case."
     "I open it."
     # Show drug box (Or don’t, that’s probably a hard picture to get and cgs are hard)
+    show heroin with dissolve
+
     voice "2-4-1.mp3" #potato
     pro "What the fuck is this?!"
     "I’m pretty sure you don’t take adderall with a needle."
     "This looks really, {i}really{/i} sketchy... is this heroin? Like, the stuff you see on cop dramas?"
     "I can't really think of what else it could be, but... Alex can't be doing shit like that, right??"
+
+    hide heroin with dissolve
+
     "I... should probably leave. This really isn't my problem. Let's not get involved."
     # Door Opens
-    show bro angry
+    show bro angry3
     "Shit. Seriously?"
     voice "2-4-2.mp3" #kujira
     bro "What the hell are you doing in here?!"
@@ -68,9 +85,14 @@ label day2s4:
     "We both fall quiet, staring daggers at each other."
     voice "2-4-13.mp3" #potato
     pro "Don’t go into my room again, you hear me?!"
+
+    scene brodoor with dissolve
+
     "I storm out, slamming the door to his room behind me."
     "Maria pokes her head out of her door, but I’m already in my room before she gets a chance to speak."
     # Transition to bedroom
+    scene bedroom with dissolve
+
     "I slam my pencils and pens down on my desk and flop onto my bed."
     "The way Alex exploded on me, I guess it only confirms my suspicions."
     "A sinking feeling wallows in the pit of my stomach."
@@ -82,7 +104,12 @@ label day2s4:
     "I close my eyes and squeeze my pillow."
     "God dammit. Wasn’t this family enough of a mess already?"
     # Transition to dinner
+    scene hallway with dissolve
+
     "I didn’t leave my room until Mom called for dinner."
+
+    scene livingroom sunset with dissolve
+
     "It’s just the four of us, since Dad is working, again."
     "Alex is refusing to look at me, naturally."
     "Maria looks between the both of us before turning her attention to Mom."
@@ -114,6 +141,9 @@ label day2s4:
     "I clear my plate as fast as I can and head straight to my room."
     "Screw Alex. Screw Mom."
     # Transition to bedroom
+
+    scene bedroom night with dissolve
+
     "I start getting changed and ready for bed as soon as I can."
     "I’m done being awake today. It’s about time I get to relax after that shit."
     # Knock at the door
@@ -122,18 +152,30 @@ label day2s4:
     pro "Just a minute."
     "I pull a shirt on and open the door."
     #Probably need a door background here
+    scene hallway with dissolve
+    show bro angry1
+
     voice "2-4-26.mp3" #kujira
     bro "Can I come in?"
     voice "2-4-27.mp3" #potato
     pro "No."
+
+    show bro angry2
+
     voice "2-4-28.mp3" #kujira
     bro "Did you tell her?"
     voice "2-4-29.mp3" #potato
     pro "What do you think?"
+
+    show bro sad2
+
     voice "2-4-30.mp3" #kujira
     bro "Please don’t say anything."
     voice "2-4-31.mp3" #potato
     pro "Whatever, Alex. Just stay away from me."
+
+    scene bedroom night with dissolve
+
     "I slam the door in his face."
     "I finish getting ready for bed before getting under the covers."
     "As I glance over to my desk, I see the materials laid out for the plushie I planned to make."
@@ -146,9 +188,14 @@ label day2s4:
             $ career += 1
             $ plushie = True
             "I hate my conscience sometimes, but it’s right. Maria shouldn’t be punished for what Alex is doing."
+
+            scene sewingkit with dissolve
+
             "I drag myself out of bed and sit down at my desk."
             "It’s still pretty early, so I should be okay to use the sewing machine later."
             # Sewing machine noises. Fade to black and back to bedroom.
+            scene bedroom night with fade
+
             "An hour or so later I have the initial parts done."
             "I’ll need stitch together the limbs and other stuff later but the bulk is done."
             "I yawn."
@@ -160,6 +207,9 @@ label day2s4:
 
     #after choice merge
     "I get into bed and get comfortable under the covers."
+
+    scene bedroom night
+
     "Just go to sleep."
     "It can wait another day or two. It’s not the end of the world."
     "Besides, doing the plush while I’m tired will just mess it up, right?"
