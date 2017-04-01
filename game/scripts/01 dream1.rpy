@@ -7,13 +7,13 @@ label dream1:
     #as for music, defining a style might be tricky, but it should probably sound older and not 100% hi def. Aim for something slow. Good examples I can think of are this and this
 
     #This stuff below is temporary. I'll move it later!
-    show diane_angry: 
+    show diane angry: 
         xalign 0.05
-    show brother_angry:
+    show brother angry:
         xalign 0.35
-    show father_smirk:
+    show father smirk:
         xalign 0.65
-    show mother_worried:
+    show mother worried:
         xalign .9
 
     "I always enjoy coming back to this place."
@@ -50,7 +50,7 @@ label dream1:
 
     "I definitely asked them not to make a big event out of it, but here they are. God, my cheeks are flushing..."
 
-    show brother_neutral_smile
+    show brother neutral smile
 
     voice "d1-1-4.mp3" #kujira
     dbro "Sweet eighteen, sis! Took your sweet time gettin' here, huh?"
