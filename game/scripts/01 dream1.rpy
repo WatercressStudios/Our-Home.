@@ -16,6 +16,8 @@ label dream1:
 #     show dmom worried:
 #         xalign .9
 
+#       Slike was here
+
     "I always enjoy coming back to this place."
     "Opening the door into the living room, I’m hit with the enchanting fragrance of fresh pine."
 
