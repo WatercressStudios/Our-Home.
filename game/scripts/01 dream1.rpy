@@ -7,7 +7,7 @@ label dream1:
     #as for music, defining a style might be tricky, but it should probably sound older and not 100% hi def. Aim for something slow. Good examples I can think of are this and this
 
 #     This stuff below is temporary. I'll move it later!
-#     show dlov angry: 
+#     show dlov angry:
 #         xalign 0.05
 #     show dbro angry:
 #         xalign 0.35
@@ -15,6 +15,7 @@ label dream1:
 #         xalign 0.65
 #     show dmom worried:
 #         xalign .9
+
 
     "I always enjoy coming back to this place."
     "Opening the door into the living room, I’m hit with the enchanting fragrance of fresh pine."
@@ -38,7 +39,7 @@ label dream1:
     all "Happy birthday!"
 
     voice "d1-1-3.mp3" #potato
-    pro "Aww, guys…" 
+    pro "Aww, guys…"
 
     "They remember. It’s my birthday. Number eighteen."
     "I guess I'm technically an adult now? It feels weird, but… a good weird."
@@ -58,7 +59,7 @@ label dream1:
     dbro "Ah, right! Well, uh, regardless, I don't really get your point. Like, every birthday's supposed to be sweet, y'know?"
 
     voice "d1-1-7.mp3" #potato
-    pro "Ah, yes, of course, you're right. My mistake.~" 
+    pro "Ah, yes, of course, you're right. My mistake.~"
 
     hide dbro
 
@@ -69,7 +70,7 @@ label dream1:
     show ddad smile at right
 
     voice "d1-1-8.mp3" #lacTheWatcher
-    ddad "Happy birthday, sweetie. Hate to surprise you like this, but we all got a little ahead of ourselves this year…" 
+    ddad "Happy birthday, sweetie. Hate to surprise you like this, but we all got a little ahead of ourselves this year…"
 
     #mom's mouth should open wide, indicate more excitement
 
@@ -101,12 +102,12 @@ label dream1:
     "She’s looking right at me too. Our eyes meet."
 
     #close dream girl eyes for a moment, indicate a silent laugh
-    
+
     "Oh gosh, we looked right into each other’s eyes! She quietly laughs as I sink a little into my chair."
     "God, she can read me like a book… I feel my cheeks flushing with redness."
 
     voice "d1-1-12.mp3" #potato
-    pro "This is too much guys, really…" 
+    pro "This is too much guys, really…"
 
     show dlov at left
     show dbro happy at right
@@ -127,7 +128,7 @@ label dream1:
 
     "I nod. It’s true. Mom and Dad give each other knowing looks."
 
-    hide dmom 
+    hide dmom
     hide ddad
     show cake
     #can just be a sprite of a cake instead of a cg or w.e
@@ -158,7 +159,7 @@ label dream1:
 
     "What to wish for… I wish…"
 
-    menu: 
+    menu:
 
         "I wish for this moment to last.":
             jump dream1cake
@@ -178,6 +179,5 @@ label dream1cake:
     # play sound "whump.mp3" MAKE SURE TO UNCOMMENT THIS LATER YOU FUCK
 
     "WHUMP!"
-    
-    jump day1s1
 
+    jump day1s1
