@@ -56,8 +56,21 @@ init python in custom_gallery:
         buttons[v.index] = (k, v.images[0].displayables[0])
 
 init python in custom_music:
-    list = [
-        "01 - I'm here.mp3", "02 - in the living room.mp3", "03 - Still alive.mp3"
+    mylist = [
+        ["Funeral Ending", "bgmfuneral - Funeral Ending.mp3"],
+        ["Hijinks Theme", "bgmhijinks - Hijinks Theme.ogg"],
+        ["Love Interest Theme", "bgmlov - Love Interest Theme.mp3"],
+        ["Orchestral Love Interest Theme", "bgmlov2 - Orchestral Love Interest Theme.mp3"],
+        ["Mother Theme", "bgmmom - Mother Theme .ogg"],
+        ["Mood Music", "bgmmood - Mood Music #1.mp3"],
+        ["Neutral Ending", "bgmneutral - Neutral Ending.ogg"],
+        ["Sister Theme", "bgmsis - Sister Theme.mp3"],
+        ["Orchestral Sister Theme", "bgmsis2 - Orchestral Sister Theme.mp3"],
+        ["Suicide End", "bgmsuicide - Suicide End.ogg"],
+        ["Creepy Dream Theme", "bgmcreep - Creepy Dream Theme.mp3"],
+        ["Father Theme", "bgmdad - Father Theme.ogg"],
+        ["Dream", "bgmdream - Dream.ogg"],
+        ["Finale Fight", "bgmfin - Finale Fight.ogg"]
     ]
     pos = 0
     
@@ -67,13 +80,13 @@ init python in custom_music:
         if renpy.music.get_pause():
             renpy.music.stop()
         elif renpy.music.is_playing():
-            renpy.music.play("music/" + list[pos], fadeout = 1.0)
+            renpy.music.play("music/" + mylist[pos][1], fadeout = 1.0)
     
     def play():
         if renpy.music.is_playing():
             renpy.music.set_pause(False)
         else:
-            renpy.music.play("music/" + list[pos])
+            renpy.music.play("music/" + mylist[pos][1])
     
     def pause():
         renpy.music.set_pause(True)
@@ -87,9 +100,9 @@ init python in custom_music:
     def delta_pos(delta):
         delta = pos + delta
         while delta < 0:
-            delta += len(list)
-        while delta >= len(list):
-            delta -= len(list)
+            delta += len(mylist)
+        while delta >= len(mylist):
+            delta -= len(mylist)
         return delta
 
 screen gallery():
@@ -140,14 +153,14 @@ screen music_box():
                     spacing 5
 
                     for i in range(5, 0, -1):
-                        if len(custom_music.list) > (i * 2):
-                            text custom_music.list[custom_music.delta_pos(-i)]
+                        if len(custom_music.mylist) > (i * 2):
+                            text custom_music.mylist[custom_music.delta_pos(-i)][0]
 
-                    text custom_music.list[custom_music.pos]
+                    text custom_music.mylist[custom_music.pos][0]
 
                     for i in range(1, 6):
-                        if len(custom_music.list) > (i * 2):
-                            text custom_music.list[custom_music.delta_pos(i)]
+                        if len(custom_music.mylist) > (i * 2):
+                            text custom_music.mylist[custom_music.delta_pos(i)][0]
 
             hbox:
                 align 0.5, 0.9

@@ -298,6 +298,23 @@ image parkdate dark = "cgs/Park with LI (Night).png"
 #######
 image watercress = "vfx/splashscreen.png"
 
+#######
+# BGM #
+#######
+define bgmlov = "bgmlov - Love Interest Theme.mp3"
+define bgmlov2 = "bgmlov2 - Orchestral Love Interest Theme.mp3"
+define bgmmom = "bgmmom - Mother Theme .ogg"
+define bgmmood = "bgmmood - Mood Music #1.mp3"
+define bgmneutral = "bgmneutral - Neutral Ending.ogg"
+define bgmsis = "bgmsis - Sister Theme.mp3"
+define bgmsis2 = "bgmsis2 - Orchestral Sister Theme.mp3"
+define bgmsuicide = "bgmsuicide - Suicide End.ogg"
+define bgmcreep = "bgmcreep - Creepy Dream Theme.mp3"
+define bgmdad = "bgmdad - Father Theme.ogg"
+define bgmdream = "bgmdream - Dream.ogg"
+define bgmfin = "bgmfin - Finale Fight.ogg"
+define bgmfuneral = "bgmfuneral - Funeral Ending.mp3"
+define bgmhijinks = "bgmhijinks - Hijinks Theme.ogg"
 
 # Flash the splash screen on launch
 label splashscreen:
