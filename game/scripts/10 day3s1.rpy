@@ -4,17 +4,17 @@ label day3s1:
 
     "I awake with a start, tripping over my bed sheets as I rush to her door. I shove the door open."
 
-    play voice "3-1-1.mp3" #amree
+    voice "3-1-1.mp3" #amree
     sis "H-hey? Something up, did I do something wrong?"
 
     "She recoils at my sudden interruption of her morning affairs, frozen with a sock half on her foot."
 
-    play voice "3-1-2.mp3" #potato
+    voice "3-1-2.mp3" #potato
     pro "Yeah, yeah, everything's okay. I thought something had happened to you. Must've been a nightmare or something."
 
     "I reach over to her, pulling her into an embrace."
 
-    play voice "3-1-3.mp3" #amree
+    voice "3-1-3.mp3" #amree
     sis "I, uhh, okay…"
 
     "She hugs back with a fervor that I wasn't quite expecting."
@@ -27,27 +27,27 @@ label day3s1:
   
     "She pulls away, and looks at me inquisitively."
 
-    play voice "3-1-4.mp3" #amree
+    voice "3-1-4.mp3" #amree
     sis "Are you okay? You've been acting kind of funny."
 
-    play voice "3-1-5.mp3" #potato
+    voice "3-1-5.mp3" #potato
     pro "Who, me? No, no, nothing's wrong. Don't worry about me, I'm fine, I promise."
 
-    play voice "3-1-6.mp3" #amree
+    voice "3-1-6.mp3" #amree
     sis "If you say so…"
 
     "She trails off, completely unconvinced. I'm having enough trouble convincing myself, I really doubt I could say anything more to help alleviate her anxieties. It's best to move on, avoid the situation altogether."
 
-    play voice "3-1-7.mp3" #potato
+    voice "3-1-7.mp3" #potato
     pro "Almost ready for school?"
 
-    play voice "3-1-8.mp3" #amree
+    voice "3-1-8.mp3" #amree
     sis "Yep."
 
-    play voice "3-1-9.mp3" #potato
+    voice "3-1-9.mp3" #potato
     pro "Okay, I'll be waiting by the door."
 
-    play voice "3-1-10.mp3" #amree
+    voice "3-1-10.mp3" #amree
     sis "Mmk!"
 
     "I back out of the room after patting her on the head reassuringly. Turning to, return to my room to get dressed - something I forgot to do in my rush to find my sister."
@@ -78,39 +78,39 @@ label day3s1:
 
     "Looking at the time impatiently, I yell out to my sister."
 
-    play voice "3-1-11.mp3" #potato
+    voice "3-1-11.mp3" #potato
     pro "Hey, sis, time to go!"
 
-    play voice "3-1-12.mp3" #amree
+    voice "3-1-12.mp3" #amree
     sis "Sorry!"
 
     "Her door closes, and she approaches me."
 
-    play voice "3-1-13.mp3" #potato
+    voice "3-1-13.mp3" #potato
     pro "Girl, you take forever. You're not even old enough to put makeup on, what on Earth takes you so long?"
 
-    play voice "3-1-14.mp3" #amree
+    voice "3-1-14.mp3" #amree
     sis "I'm just a little sleepy."
 
-    play voice "3-1-15.mp3" #potato
+    voice "3-1-15.mp3" #potato
     pro "Alright, well, take some toast and let's hit the road. Mom'll kill me if you're late for class too."
 
-    play voice "3-1-16.mp3" #amree
+    voice "3-1-16.mp3" #amree
     sis "Thanks for the food…"
 
-    play voice "3-1-17.mp3" #potato
+    voice "3-1-17.mp3" #potato
     pro "Yeah, no prob. Toast's super easy to make anyways."
 
-    play voice "3-1-18.mp3" #amree
+    voice "3-1-18.mp3" #amree
     sis "I guess. Why didn't Mom make food for us?"
 
-    play voice "3-1-19.mp3" #potato
+    voice "3-1-19.mp3" #potato
     pro "I'm not sure. She might be busy getting groceries, or she's catching some sleep, or something like that. I wouldn't worry too much about it."
 
-    play voice "3-1-20.mp3" #amree
+    voice "3-1-20.mp3" #amree
     sis "R-really? I worry about it."
 
-    play voice "3-1-21.mp3" #potato
+    voice "3-1-21.mp3" #potato
     pro "Why? Why would you worry about her? She's an adult, she can handle herself."
     
     #NEED VOICE
@@ -136,13 +136,13 @@ label day3s1:
     #NEED VOICE
     sis "Still, it… it's hard, not to worry, I mean…"
 
-    play voice "3-1-22.mp3" #amree
+    voice "3-1-22.mp3" #amree
     sis "You're an adult, but I still worry about you…"
 
-    play voice "3-1-23.mp3" #potato
+    voice "3-1-23.mp3" #potato
     pro "Well, uhh, you don't really need to."
 
-    play voice "3-1-24.mp3" #amree
+    voice "3-1-24.mp3" #amree
     sis "Are you sure?"
 
     "Why would she worry about me? I'm a bit high strung, but it's not my job to be something of concern to her. Hell, I'd rather it be the opposite."
@@ -155,33 +155,33 @@ label day3s1:
 
     "Yeah, that sounds about right for her."
 
-    play voice "3-1-25.mp3" #potato
+    voice "3-1-25.mp3" #potato
     pro "Yeah, o-of course."
     
     #we're editing a few lines in this to make Maria sound more like a kid and adding some lines
 
     #VOICE REDUB (honestly this existing line take is perfect if we go into audacity and cut "DEAL?" from the end)
-    play voice "3-1-26.mp3" #amree
+    voice "3-1-26.mp3" #amree
     sis "I'll still worry about you… and Mom, and Dad, and everyone else. I swear it! So, don't do anything to make me worry more, please."
 
     #VOICE NEW
-    play voice "3-1-26_2.mp3" #amree
+    voice "3-1-26_2.mp3" #amree
     sis "Promise?"
 
     "Maria extends her pinky to me."
 
     #VOICE REDUB
-    play voice "3-1-27.mp3" #potato
+    voice "3-1-27.mp3" #potato
     pro "Promise."
 
     "We make the pinky promise. The pact is sealed…"
 
     #VOICE NEW
-    play voice "3-1-28.mp3" #amree
+    voice "3-1-28.mp3" #amree
     sis "Okay! Pinkie promises are super important, so now you gotta!"
 
     #VOICE NEW
-    play voice "3-1-29.mp3" #potato
+    voice "3-1-29.mp3" #potato
     pro "Hehe, yeah. I know."
 
     "I'll try to hold myself to that, but I might not have the energy. I'll have to wait and see, I suppose."

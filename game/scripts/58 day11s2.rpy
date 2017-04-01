@@ -2,9 +2,9 @@ label day11s2:
 
     scene classroom with dissolve
 
-    play voice "11-2-1.mp3" #skinimini
+    voice "11-2-1.mp3" #skinimini
     tea "So if we draw two parallel lines like this, and then draw a line transversal through those two lines…"
-    play voice "11-2-2.mp3" #skinimini
+    voice "11-2-2.mp3" #skinimini
     tea "We get eight different angles, and four pairs of corresponding angles. Now, let's look at how these pairs are related…" 
 
     "My head sinks into the palm of my hand. Geography's annoying, I don't want to deal with this."
@@ -20,18 +20,18 @@ label day11s2:
     "And numbers… I'll sneak a peek."
     "...It's from Dad?"
     "'Mom's home. We'll see you tonight.'"
-    play voice "11-2-3.mp3" #potato
+    voice "11-2-3.mp3" #potato
     pro "...What the hell…?"
-    play voice "11-2-4.mp3" #skinimini
+    voice "11-2-4.mp3" #skinimini
     tea "Emily! Is there anything you'd like to share with the class???"
     "In an instant, I hide my phone."
-    play voice "11-2-5.mp3" #potato
+    voice "11-2-5.mp3" #potato
     pro "N-no, nothing!"
-    play voice "11-2-6.mp3" #skinimini
+    voice "11-2-6.mp3" #skinimini
     tea "...You sure? I mean, this is a tricky problem up here."
-    play voice "11-2-7.mp3" #potato
+    voice "11-2-7.mp3" #potato
     pro "...H, have you tried dividing by the hypotenuse?" 
-    play voice "11-2-8.mp3" #skinimini
+    voice "11-2-8.mp3" #skinimini
     tea "...That's a thing? I-I've just been going by the book…"
     "She looks absolutely mystified up there. I kind of just… made that up."
     "She turns her back to me, still trying to figure out the solution to her labyrinth puzzle."
@@ -68,9 +68,9 @@ label day11s2:
     play sound schoolbell
 
     "DOO DO DOO DO!"
-    play voice "11-2-9.mp3" #potato
+    voice "11-2-9.mp3" #potato
     pro "...?"
-    play voice "11-2-10.mp3" #potato
+    voice "11-2-10.mp3" #potato
     pro "...It's over?"
 
     scene classroom with dissolve
@@ -79,9 +79,9 @@ label day11s2:
     "Everyone's packing up their things. Class is over."
     "Miss Reynolds is sitting at her desk, slouching, completely flummoxed."
 
-    play voice "11-2-11.mp3" #potato
+    voice "11-2-11.mp3" #potato
     pro "...I, I guess it's lunch now."
-    play voice "11-2-12.mp3" #potato
+    voice "11-2-12.mp3" #potato
     pro "...Lauren, where's Lauren... ? God, I hope she isn't busy…" 
 
     "Scrambling at a dizzying pace, I grab my stuff and head out the door."
@@ -91,7 +91,7 @@ label day11s2:
 
     "God, there are so many people in the hallway."
 
-    play voice "11-2-13.mp3" #other
+    voice "11-2-13.mp3" #other
     hm "Hey, watch it!"
 
     "I nearly collide headon with the asshole hall monitor from the other day, whatshisname, couldn't give a shit."

@@ -6,7 +6,7 @@ label dreamEpilogue:
 
     "I know that I'm dreaming. I've been here before, but it's different this time."
 
-    play voice "20-6-1.mp3" #potato
+    voice "20-6-1.mp3" #potato
     pro "It's been years…"
 
     dpro "That, it has."
@@ -15,7 +15,7 @@ label dreamEpilogue:
 
     "It's odd. Have I always looked like this? I look better than I used to, back when these types of dreams were a staple of my life."
 
-    play voice "20-6-2.mp3" #potato
+    voice "20-6-2.mp3" #potato
     pro "Why am I here?"
 
     dpro "Because you've been wanting some finality. The dreams you used to have disappeared with little warning."
@@ -28,24 +28,24 @@ label dreamEpilogue:
 
     dpro "I wanted to thank you."
 
-    play voice "20-6-3.mp3" #potato
+    voice "20-6-3.mp3" #potato
     pro "Thank me?"
 
     dpro "Yes. You made a decision, and that single decision brought you to this point. If you would have chosen wrong, you very well could have been in a much, much more tragic place."
 
     dpro "You are here because you decided to make something of yourself. You chose the real world. You chose to go home."
 
-    play voice "20-6-4.mp3" #potato
+    voice "20-6-4.mp3" #potato
     pro "I guess that's true. It's interesting, how a single decision could hold so much weight, especially given how many decisions one makes on a daily basis."
 
     dpro "Many of them don't matter, but sometimes…"
 
-    play voice "20-6-5.mp3" #potato
+    voice "20-6-5.mp3" #potato
     pro "You'll find yourself on a crossroads."
 
     dpro "You'll find yourself asking the {i}right questions{/i}."
 
-    play voice "20-6-6.mp3" #potato
+    voice "20-6-6.mp3" #potato
     pro "And I made the right choice?"
 
     dpro "That, you did."
@@ -54,12 +54,12 @@ label dreamEpilogue:
 
     dpro "You chose to live, and you chose to start living - two things that are not necessarily the same thing."
 
-    play voice "20-6-7.mp3" #potato
+    voice "20-6-7.mp3" #potato
     pro "But they aren't always mutually exclusive, either."
 
     dpro "Right."
 
-    play voice "20-6-8.mp3" #potato
+    voice "20-6-8.mp3" #potato
     pro "Yeah, you're right. I'm in a better place than I used to be."
 
     dpro "And you did that all on your own."
@@ -70,7 +70,7 @@ label dreamEpilogue:
 
     dpro "And Emily?"
 
-    play voice "20-6-9.mp3" #potato
+    voice "20-6-9.mp3" #potato
     pro "Yeah?"
 
     #Next line should occupy the middle of the screen if possible. Larger text, it should stand out. It's the last four words that the player will see each time they get an Act 2 ending.

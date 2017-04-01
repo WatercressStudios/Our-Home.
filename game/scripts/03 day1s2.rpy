@@ -12,7 +12,7 @@ label day1s2:
 
     "I hear a light, almost inaudible knocking on my door. The nervous nature of it betrays the culprit immediately - my sister."
 
-    play voice "1-2-1.mp3" #potato
+    voice "1-2-1.mp3" #potato
     pro "Come in."
 
     "I speak out to her calmly. I don't want anyone else to hear me through the thin walls we have in this house."
@@ -22,14 +22,14 @@ label day1s2:
 
     "The door opens slowly, the little one creeping in, her face red from what only could be tears."
 
-    play voice "1-2-2.mp3" #amree
+    voice "1-2-2.mp3" #amree
     sis "I-I'm sorry to bug you…"
 
     "Ahhh, as shy as ever. She doesn't deal well with, well, anything really. I don't like it seeing her like this."
 
     "She's worried about the argument. I would be too, sis, I would be too, were it not for the regularity of the event."
 
-    play voice "1-2-3.mp3" #potato
+    voice "1-2-3.mp3" #potato
     pro "No, no, you're not bugging me at all, don't you worry about that. Come over here, are you okay?"
 
     "I can't bring myself to leave my bed, but I can at least muster the energy to sit up."
@@ -38,70 +38,71 @@ label day1s2:
     
     show maria sad1b
 
-    play voice "1-2-4.mp3" #amree
+    voice "1-2-4.mp3" #amree
     sis "I hate when they…"
 
-    play voice "1-2-5.mp3" #potato
+    voice "1-2-5.mp3" #potato
     pro "Fight?"
     
     show maria sad2b
 
-    play voice "1-2-6.mp3" #amree
+    voice "1-2-6.mp3" #amree
     sis "...Yeah."
 
-    play voice "1-2-7.mp3" #potato
+    voice "1-2-7.mp3" #potato
     pro "It's okay. I do too, but it's only natural, right? Our mother's very strict, and Alex, well... He's going through a phase right now." 
 
     "I can't help but doubt the very words I speak. I have no faith in either of them, and I find it difficult, lying right to my little sister's face."
 
-    play voice "1-2-8.mp3" #potato
+    voice "1-2-8.mp3" #potato
     pro "Give… give it time, and things will work out, probably."
     
     show maria worry2b
 
-    play voice "1-2-9.mp3" #amree
+
+    voice "1-2-9.mp3" #amree
     sis "Probably?"
 
     "Her voice is shy and reserved. If she weren't so close, I wouldn't be able to hear a single word."
 
     "I continue to give her false hope."
 
-    play voice "1-2-10.mp3" #potato
+    voice "1-2-10.mp3" #potato
     pro "...Yeah. We'll see."
     
     show maria worry1b
 
     "She remains quiet. Of course, I can't convince her. Why would I, if I can't even convince myself? I have zero faith in my brother, and even less faith in my mother."
 
-    play voice "1-2-11.mp3" #potato
+    voice "1-2-11.mp3" #potato
     pro "You know what? I can do something to cheer you up. Whaddya say?"
     
     show maria sad1b
 
-    play voice "1-2-12.mp3" #amree
+    voice "1-2-12.mp3" #amree
     sis "N-no, I'm okay…"
 
-    play voice "1-2-13.mp3" #potato
+    voice "1-2-13.mp3" #potato
     pro "Nope. I'm going to do something for you, you'll see. How about you catch some rest, huh?"
     
     show maria worry2b
 
-    play voice "1-2-14.mp3" #amree
+    voice "1-2-14.mp3" #amree
     sis "But-"
 
-    play voice "1-2-15.mp3" #potato
+    voice "1-2-15.mp3" #potato
     pro "No buts. It's been a long day. You need a warm, comfy bed to sleep in. I'll get to work on something for you, you'll see."
     
     show maria happy1b
 
-    play voice "1-2-16.mp3" #amree
+    voice "1-2-16.mp3" #amree
     sis "Fiiine, I guess."
 
     "She wraps her arms further around my waist, hugging me tightly."
     
     show maria worry1b
 
-    play voice "1-2-17.mp3" #amree
+    voice "1-2-17.mp3" #amree
     sis "Thank you."
 
     "She reluctantly releases me, giving me one last pitiful look."
@@ -176,43 +177,46 @@ label day1s2:
     show lauren happy
     with dissolve
 
-    play voice "1-2-18.mp3" #starleeter
+    voice "1-2-18.mp3" #starleeter
     lov "Heya! Took ya long enough! Doesn't matter. How's your day? Err, night by now? Yes. 'Sup?"
     
     show lauren happy2
 
     "As hyper as always. It takes a bit for the camera to focus on her, struggling with her erratic movements."
 
-    play voice "1-2-19.mp3" #potato
+    voice "1-2-19.mp3" #potato
     pro "Ehh, could've been better. Another fight between my brother and my mom, nothing new."
     
     show lauren shy2
 
-    play voice "1-2-20.mp3" #starleeter
+    voice "1-2-20.mp3" #starleeter
     lov "Oh, I'm sorry to hear that. Well, I'm always here, remember that! So. How's she been, your sister? I know she gets a bit nervous."
 
-    play voice "1-2-21.mp3" #potato
+    voice "1-2-21.mp3" #potato
     pro "She's actually sleeping in my bed right now. I've been working on a gift for her to help her feel better, actually."
     
     show lauren happy2b
 
-    play voice "1-2-22.mp3" #starleeter
+    voice "1-2-22.mp3" #starleeter
     lov "Oh? See, this is why I love you. Well, we should keep this chat short then, so we don't wake her up."
 
-    play voice "1-2-23.mp3" #potato
+    voice "1-2-23.mp3" #potato
     pro "Yeah, that would be best."
     
     show lauren happy2
 
-    play voice "1-2-24.mp3" #starleeter
+    voice "1-2-24.mp3" #starleeter
     lov "Alrighty, well my day was good. I'll see you tomorrow at school, right?"
 
-    play voice "1-2-25.mp3" #potato
+    "She gives me a stern gaze, only breaking it to give a quiet giggle."
+
+    voice "1-2-25.mp3" #potato
+
     pro "Don't worry, I'll be there. See you tomorrow?"
     
     show lauren happy
 
-    play voice "1-2-26.mp3" #starleeter
+    voice "1-2-26.mp3" #starleeter
     lov "See ya!"
     
     hide lauren

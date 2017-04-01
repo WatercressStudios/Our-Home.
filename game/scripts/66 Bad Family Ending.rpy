@@ -2,16 +2,16 @@ label badFamilyEnding:
 
     "She looks at us for a long while, the taxi honking a second time."
 
-    play voice "20-3-1.mp3" #kaito
+    voice "20-3-1.mp3" #kaito
     mom "I'm sorry."
 
-    play voice "20-3-2.mp3" #potato
+    voice "20-3-2.mp3" #potato
     pro "No, wait-"
 
     "I try to protest, but she's already left. Through the open door, I watch her put the bags in the taxi, and ride off."
     "The taxi crests the hill, and it's gone."
 
-    play voice "20-3-3.mp3" #amree
+    voice "20-3-3.mp3" #amree
     sis "Please…"
 
     "It all happened so fast. She's gone, isn't she?"
@@ -19,7 +19,7 @@ label badFamilyEnding:
     "Will her last words to me really be 'I'm sorry'?"
     "Our family sits in silence, frozen still. We don't dare to move."
 
-    play voice "20-3-4.mp3" #kujira
+    voice "20-3-4.mp3" #kujira
     bro "Well… do we go after her?"
 
     jump composite_future1
@@ -38,10 +38,10 @@ label badFamilyEnding_future:
     "She never came back home, and since then we haven't heard a single word from her."
     "We could have filed a missing person's report, or phoned the taxi company, but in the end we were too tired of it all to really give it any effort."
 
-    play voice "20-3-5.mp3" #kujira
+    voice "20-3-5.mp3" #kujira
     bro "Hey, sis, it's time for dinner."
 
-    play voice "20-3-6.mp3" #potato
+    voice "20-3-6.mp3" #potato
     pro "R-right, I'll be right there."
 
     "My brother places a hand on my shoulder with a soft, reassuring squeeze before leaving my room."
@@ -58,10 +58,10 @@ label badFamilyEnding_future:
     "I take my place at my normal spot, next to my sister's chair."
     "Alex sits across from us, lazily scribbling in a textbook, looking like he just woke up himself."
 
-    play voice "20-3-7.mp3" #lacTheWatcher
+    voice "20-3-7.mp3" #lacTheWatcher
     dad "Sorry if the food's not so great, I'm still getting the hang of it…"
 
-    play voice "20-3-8.mp3" #potato
+    voice "20-3-8.mp3" #potato
     pro "Yeah, it's okay dad. It'll be fine, I'm sure."
 
     "I give him a weak smile, hoping that he's recovering better than we are."
@@ -70,17 +70,17 @@ label badFamilyEnding_future:
     "My mom's chair."
     "Grabbing it, I wave over Dad."
 
-    play voice "20-3-9.mp3" #potato
+    voice "20-3-9.mp3" #potato
     pro "You set an extra."
 
     "He looks at me with confusion on his face before he realizes."
 
-    play voice "20-3-10.mp3" #lacTheWatcher
+    voice "20-3-10.mp3" #lacTheWatcher
     dad "Oh, right."
 
     "He closes his eyes, shaking his head slightly. His expression is pained, tired."
 
-    play voice "20-3-11.mp3" #lacTheWatcher
+    voice "20-3-11.mp3" #lacTheWatcher
     dad "You're completely right."
 
     "He takes Mom's plate, putting the food on his own and putting hers in the sink."
@@ -92,12 +92,12 @@ label badFamilyEnding_future:
     else:
         "Fortunately for us, Lauren sometimes helps Dad with the cooking."
 
-    play voice "20-3-12.mp3" #amree
+    voice "20-3-12.mp3" #amree
     sis "So…"
 
     "Looking over to Maria, she's picking at her food, hardly any of it being eaten yet."
 
-    play voice "20-3-13.mp3" #amree
+    voice "20-3-13.mp3" #amree
     sis "Do you think Mom will ever come home?"
 
     #Abrupt scene end

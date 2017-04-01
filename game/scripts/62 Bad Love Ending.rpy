@@ -15,39 +15,39 @@ label badLoveEnding:
     "I love her. I love Lauren, from the bottom of my heart."
     "But… I don't know if I can actually follow through."
 
-    play voice "20-4-1.mp3" #starleeter
+    voice "20-4-1.mp3" #starleeter
     lov "Hey Emily! I'm so happy you came! Wasn't I great?"
 
     "She walks up and gives me a hug, and I pray she doesn't notice my shaking."
 
-    play voice "20-4-2.mp3" #potato
+    voice "20-4-2.mp3" #potato
     pro "Y-yeah, it was great! You're doing great, yes!"
 
     "My voices is a little shaky, and I'm sure she's noticed by now."
 
-    play voice "20-4-3.mp3" #starleeter
+    voice "20-4-3.mp3" #starleeter
     lov "Yep! How're you, Em?"
 
-    play voice "20-4-4.mp3" #potato
+    voice "20-4-4.mp3" #potato
     pro "Uh, me? Why do you ask?"
 
-    play voice "20-4-5.mp3" #starleeter
+    voice "20-4-5.mp3" #starleeter
     lov "You just seem a bit more jittery than usual."
 
     "Fuck, she's got me."
 
-    play voice "20-4-6.mp3" #potato
+    voice "20-4-6.mp3" #potato
     pro "Hmm? Nah, nothing. I'm just happy to see all of your work come to fruition."
 
-    play voice "20-4-7.mp3" #starleeter
+    voice "20-4-7.mp3" #starleeter
     lov "Awww, you're so sweet! This is why I love ya~"
 
     "My skin turns several shades more red, and I wave her off."
 
-    play voice "20-4-8.mp3" #potato
+    voice "20-4-8.mp3" #potato
     pro "Nah, it's just my job as a friend, yeah?"
 
-    play voice "20-4-9.mp3" #starleeter
+    voice "20-4-9.mp3" #starleeter
     lov "As a friend… yeah. Why not?"
 
     "She looks away with a small smile."
@@ -83,43 +83,43 @@ label badLoveEnding:
     "True love was right in front of me, and I fucked it all up."
     "Lauren and her girlfriend stand up from their seats, passing me as they go. I pretend to work on my laptop, hoping they don't notice me."
 
-    play voice "20-4-10.mp3" #starleeter
+    voice "20-4-10.mp3" #starleeter
     lov "Emily! Hey, I didn't expect to see you around!"
 
     "..."
 
     "I lower my laptop lid, facing them with a smile on my face."
 
-    play voice "20-4-11.mp3" #potato
+    voice "20-4-11.mp3" #potato
     pro "I didn't realize you were here, either. How're things?"
 
-    play voice "20-4-12.mp3" #starleeter
+    voice "20-4-12.mp3" #starleeter
     lov "Things are great! Just out on a date."
 
     "She wraps a hand around her lover, hugging her tight."
 
-    play voice "20-4-13.mp3" #potato
+    voice "20-4-13.mp3" #potato
     pro "That's awesome."
 
-    play voice "20-4-14.mp3" #starleeter
+    voice "20-4-14.mp3" #starleeter
     lov "Yeah, it is. I haven't seen you around in aaages. What's up with that?"
 
-    play voice "20-4-15.mp3" #potato
+    voice "20-4-15.mp3" #potato
     pro "I've just been busy is all, I'll have to make time to visit."
 
-    play voice "20-4-16.mp3" #starleeter
+    voice "20-4-16.mp3" #starleeter
     lov "You really should! It'll be fun, just like old times!"
 
-    play voice "20-4-17.mp3" #potato
+    voice "20-4-17.mp3" #potato
     pro "Ehh, I sure hope not…"
 
-    play voice "20-4-18.mp3" #starleeter
+    voice "20-4-18.mp3" #starleeter
     lov "Oh, hehe, right. Well, you know where to find me!"
 
-    play voice "20-4-19.mp3" #potato
+    voice "20-4-19.mp3" #potato
     pro "Yeah, see ya Lauren."
 
-    play voice "20-4-20.mp3" #starleeter
+    voice "20-4-20.mp3" #starleeter
     lov "See ya later!"
 
     "With that, they leave. I couldn't help but notice her significant other was awkwardly quiet the entire time."

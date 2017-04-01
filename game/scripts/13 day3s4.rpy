@@ -9,7 +9,7 @@ label day3s4:
     "Luckily I’ve got everything I need from my leftover materials."
     "I’ll make sure Maria loves it."
     # Sewing machine noises
-    play voice "3-4-1.mp3" #potato
+    voice "3-4-1.mp3" #potato
     pro "There... we... go!"
     "I hold up the hollow plushie."
     "It still looks a little sad, but at least it doesn’t look like someone butchered it."
@@ -26,7 +26,7 @@ label day3s4:
     "The house is pretty much silent right now. It’s a refreshing change of pace, actually."
     "God, I’m tired."
     "I shake my head and slap my cheeks."
-    play voice "3-4-2.mp3" #potato
+    voice "3-4-2.mp3" #potato
     pro "Just get this done."
     "Nodding to myself, I start sketching out some ideas to show to Lauren."
     "I try to think back to the stuff we looked at today."

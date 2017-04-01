@@ -31,7 +31,7 @@ label day2s4:
     "I wonder if he’s hiding more of my stuff in this box. It kind of looks like a fancy pencil case."
     "I open it."
     # Show drug box (Or don’t, that’s probably a hard picture to get and cgs are hard)
-    play voice "2-4-1.mp3" #potato
+    voice "2-4-1.mp3" #potato
     pro "What the fuck is this?!"
     "I’m pretty sure you don’t take adderall with a needle."
     "This looks really, {i}really{/i} sketchy... is this heroin? Like, the stuff you see on cop dramas?"
@@ -40,33 +40,33 @@ label day2s4:
     # Door Opens
     show bro angry
     "Shit. Seriously?"
-    play voice "2-4-2.mp3" #kujira
+    voice "2-4-2.mp3" #kujira
     bro "What the hell are you doing in here?!"
-    play voice "2-4-3.mp3" #potato
+    voice "2-4-3.mp3" #potato
     pro "You borrowed my shit without permission again! And more importantly,"
     "I throw the box on the floor in front of him."
-    play voice "2-4-4.mp3" #potato
+    voice "2-4-4.mp3" #potato
     pro "What the hell is this?!"
     "Alex's eyes lower to the box in my hands. His face contorts painful, before he glares at me."
-    play voice "2-4-5.mp3" #kujira
+    voice "2-4-5.mp3" #kujira
     bro "That’s none of your damn business!"
     "Oh God... Alex, what'd you get yourself into?"
-    play voice "2-4-6.mp3" #potato
+    voice "2-4-6.mp3" #potato
     pro "How the hell did you get ahold of stuff like that?!"
-    play voice "2-4-7.mp3" #kujira
+    voice "2-4-7.mp3" #kujira
     bro "I don’t answer to you!"
-    play voice "2-4-8.mp3" #potato
+    voice "2-4-8.mp3" #potato
     pro "Are you taking it?"
-    play voice "2-4-9.mp3" #kujira
+    voice "2-4-9.mp3" #kujira
     bro "Just get out!"
-    play voice "2-4-10.mp3" #potato
+    voice "2-4-10.mp3" #potato
     pro "Did you steal this from someone?!"
-    play voice "2-4-11.mp3" #kujira
+    voice "2-4-11.mp3" #kujira
     bro "Get out! Get out!"
-    play voice "2-4-12.mp3" #kaito
+    voice "2-4-12.mp3" #kaito
     mom "Will you kids shut up! I can’t hear myself think!"
     "We both fall quiet, staring daggers at each other."
-    play voice "2-4-13.mp3" #potato
+    voice "2-4-13.mp3" #potato
     pro "Don’t go into my room again, you hear me?!"
     "I storm out, slamming the door to his room behind me."
     "Maria pokes her head out of her door, but I’m already in my room before she gets a chance to speak."
@@ -86,28 +86,28 @@ label day2s4:
     "It’s just the four of us, since Dad is working, again."
     "Alex is refusing to look at me, naturally."
     "Maria looks between the both of us before turning her attention to Mom."
-    play voice "2-4-14.mp3" #amree
+    voice "2-4-14.mp3" #amree
     sis "Where’s Dad?"
-    play voice "2-4-15.mp3" #kaito
+    voice "2-4-15.mp3" #kaito
     mom "Alex, eat your dinner."
-    play voice "2-4-16.mp3" #kujira
+    voice "2-4-16.mp3" #kujira
     bro "I am eating it."
-    play voice "2-4-17.mp3" #amree
+    voice "2-4-17.mp3" #amree
     sis "Hey, M-Mom. Where’s Dad?"
-    play voice "2-4-18.mp3" #kaito
+    voice "2-4-18.mp3" #kaito
     mom "You’re just playing with it."
-    play voice "2-4-19.mp3" #kujira
+    voice "2-4-19.mp3" #kujira
     bro "Get off my back! I can eat as slow as I like!"
-    play voice "2-4-20.mp3" #amree
+    voice "2-4-20.mp3" #amree
     sis "Umm Emi, do you know where Dad is?"
-    play voice "2-4-21.mp3" #kaito
+    voice "2-4-21.mp3" #kaito
     mom "You’re not leavin this table until you’ve cleared your plate."
-    play voice "2-4-22.mp3" #kujira
+    voice "2-4-22.mp3" #kujira
     bro "I’m not two, Mom!"
-    play voice "2-4-23.mp3" #kaito
+    voice "2-4-23.mp3" #kaito
     mom "Maybe when you stop throwing tantrums, I’ll believe you."
     "Alex’s expression scrunches up like he’s going to yell, but he relaxes."
-    play voice "2-4-24.mp3" #kujira
+    voice "2-4-24.mp3" #kujira
     bro "Whatever."
     "Ugh."
     "I don’t want to be around this."
@@ -118,26 +118,26 @@ label day2s4:
     "I’m done being awake today. It’s about time I get to relax after that shit."
     # Knock at the door
     "Ugh."
-    play voice "2-4-25.mp3" #potato
+    voice "2-4-25.mp3" #potato
     pro "Just a minute."
     "I pull a shirt on and open the door."
     #Probably need a door background here
-    play voice "2-4-26.mp3" #kujira
+    voice "2-4-26.mp3" #kujira
     bro "Can I come in?"
-    play voice "2-4-27.mp3" #potato
+    voice "2-4-27.mp3" #potato
     pro "No."
-    play voice "2-4-28.mp3" #kujira
+    voice "2-4-28.mp3" #kujira
     bro "Did you tell her?"
-    play voice "2-4-29.mp3" #potato
+    voice "2-4-29.mp3" #potato
     pro "What do you think?"
-    play voice "2-4-30.mp3" #kujira
+    voice "2-4-30.mp3" #kujira
     bro "Please don’t say anything."
-    play voice "2-4-31.mp3" #potato
+    voice "2-4-31.mp3" #potato
     pro "Whatever, Alex. Just stay away from me."
     "I slam the door in his face."
     "I finish getting ready for bed before getting under the covers."
     "As I glance over to my desk, I see the materials laid out for the plushie I planned to make."
-    play voice "2-4-32.mp3" #potato
+    voice "2-4-32.mp3" #potato
     pro "Damn it."
     "I planned to work on it today. All that crap with Alex made me completely forget."
     menu:
