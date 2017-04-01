@@ -13,12 +13,14 @@ init python in custom_gallery:
         ["Park only.png", "Park only (Night).png", "Park with LI.png", "Park with LI (Night).png"],
         ["Plushie.png", "Plushie Damage.png"],
         "Scene 67.png",
-        "sleepdead.png"
+        "sleepdead.png",
+        "out.png",
+        "suicided.png"
     ]
     
     ## Number of rows and columns on the grid. Change this to change gallery size.
-    xgrid = 5
-    ygrid = 4
+    xgrid = 4
+    ygrid = 3
     
     ## Total width and height available for the gallery. Don't mess with those.
     width = 1410
@@ -43,10 +45,10 @@ init python in custom_gallery:
         if isinstance(cgs[i], list):
             room.button("cgs/" + cgs[i][0])
             for cg in cgs[i]:
-                room.image("cgs/" + cg)
+                room.unlock_image("cgs/" + cg)
         else:
             room.button("cgs/" + cgs[i])
-            room.image("cgs/" + cgs[i])
+            room.unlock_image("cgs/" + cgs[i])
     
     ## Create a list of buttons to allow us to create the buttons automatically on the Scene
     buttons = [None] * len(room.buttons)
@@ -107,6 +109,7 @@ screen gallery():
                     add custom_gallery.room.make_button(
                         b[0],
                         im.Scale(b[1], custom_gallery.thumb_width, custom_gallery.thumb_height),
+                        im.Scale("cgs/Locked.png", custom_gallery.thumb_width, custom_gallery.thumb_height),
                         xalign = 0.5, yalign = 0.5, xsize = custom_gallery.thumb_width, ysize = custom_gallery.thumb_height)
                     $ custom_gallery.counter += 1
             for i in range(custom_gallery.xgrid * custom_gallery.ygrid - custom_gallery.counter):
