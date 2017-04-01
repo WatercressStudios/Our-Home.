@@ -21,7 +21,7 @@ label day1s2:
 
     "I speak out to her calmly. I don't want anyone else to hear me through the thin walls we have in this house."
     
-    show sis cry1
+    show sis cry
     with dissolve
 
     "The door opens slowly, the little one creeping in, her face red from what only could be tears."
