@@ -159,11 +159,11 @@ label day5s4:
     "I smile softly. She really wants to help me through this, doesn't she…?"
 
     voice "5-4-48.mp3" #other
-    ldad "Lauren! Who're you talking to? Close the door, you're letting in a draft!"
+    dad "Lauren! Who're you talking to? Close the door, you're letting in a draft!"
     voice "5-4-49.mp3" #starleeter
     lov "Ah! Sorry Dad, it's just a friend from school! She was bringing something over!"
     voice "5-4-50.mp3" #other
-    ldad "Oh! Well, when you're done, we should talk about school."
+    dad "Oh! Well, when you're done, we should talk about school."
     voice "5-4-51.mp3" #starleeter
     lov "Alright, just a sec!"
     voice "5-4-52.mp3" #potato
