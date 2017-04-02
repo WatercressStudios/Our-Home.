@@ -1,5 +1,5 @@
 label day1s2:
-    
+
     scene hallway with dissolve
 
     "You know, why did I ever expect anything different? Of course it'd be the same shit, even on this day. The thought 'today of all days' ruminates in my head for a second, but is quickly replaced with traces of my almost yet not quite forgotten dream."
@@ -10,17 +10,17 @@ label day1s2:
 
     scene bedroom night with dissolve
 
-    "Or it's something else… but I only feel that around Lauren. It's a strange feeling, a feeling that I can't quite put words to. That doesn't exactly deviate from the norm, however." 
+    "Or it's something else… but I only feel that around Lauren. It's a strange feeling, a feeling that I can't quite put words to. That doesn't exactly deviate from the norm, however."
 
     "I've always had difficulty describing my feelings to myself, and to others? Forget about it."
 
     "I hear a light, almost inaudible knocking on my door. The nervous nature of it betrays the culprit immediately - my sister."
-
+    play music bgmsis fadeout 1.0 fadein 0.0
     voice "1-2-1.mp3" #potato
     pro "Come in."
 
     "I speak out to her calmly. I don't want anyone else to hear me through the thin walls we have in this house."
-    
+
     show sis cry
     with dissolve
 
@@ -39,7 +39,7 @@ label day1s2:
     "I can't bring myself to leave my bed, but I can at least muster the energy to sit up."
 
     "She trudges over, sitting next to me, nuzzling in a close hug."
-    
+
     show sis sad1b
 
     voice "1-2-4.mp3" #amree
@@ -47,20 +47,20 @@ label day1s2:
 
     voice "1-2-5.mp3" #potato
     pro "Fight?"
-    
+
     show sis sad2b
 
     voice "1-2-6.mp3" #amree
     sis "...Yeah."
 
     voice "1-2-7.mp3" #potato
-    pro "It's okay. I do too, but it's only natural, right? Our mother's very strict, and Alex, well... He's going through a phase right now." 
+    pro "It's okay. I do too, but it's only natural, right? Our mother's very strict, and Alex, well... He's going through a phase right now."
 
     "I can't help but doubt the very words I speak. I have no faith in either of them, and I find it difficult, lying right to my little sister's face."
 
     voice "1-2-8.mp3" #potato
     pro "Give… give it time, and things will work out, probably."
-    
+
     show sis worry2b
 
 
@@ -73,14 +73,14 @@ label day1s2:
 
     voice "1-2-10.mp3" #potato
     pro "...Yeah. We'll see."
-    
+
     show sis worry1b
 
     "She remains quiet. Of course, I can't convince her. Why would I, if I can't even convince myself? I have zero faith in my brother, and even less faith in my mother."
 
     voice "1-2-11.mp3" #potato
     pro "You know what? I can do something to cheer you up. Whaddya say?"
-    
+
     show sis sad1b
 
     voice "1-2-12.mp3" #amree
@@ -88,7 +88,7 @@ label day1s2:
 
     voice "1-2-13.mp3" #potato
     pro "Nope. I'm going to do something for you, you'll see. How about you catch some rest, huh?"
-    
+
     show sis worry2b
 
     voice "1-2-14.mp3" #amree
@@ -96,25 +96,24 @@ label day1s2:
 
     voice "1-2-15.mp3" #potato
     pro "No buts. It's been a long day. You need a warm, comfy bed to sleep in. I'll get to work on something for you, you'll see."
-    
+
     show sis happy1b
 
     voice "1-2-16.mp3" #amree
     sis "Fiiine, I guess."
 
     "She wraps her arms further around my waist, hugging me tightly."
-    
+
     show sis worry1b
 
     voice "1-2-17.mp3" #amree
     sis "Thank you."
 
     "She reluctantly releases me, giving me one last pitiful look."
-    
+
     show sis sad1b
 
     "Standing up, I ruffle her hair a bit before taking a seat at my desk. She situates herself under the covers before dozing off."
-    
     hide sis
     with dissolve
 
@@ -184,21 +183,21 @@ label day1s2:
     "I find her in my recent contacts before I tap the video call button. It's almost immediately answered."
 
     scene laurensroom with dissolve
-    
+
     ##SCENE CHANGE
     show lov happy
     with dissolve
 
     voice "1-2-18.mp3" #starleeter
     lov "Heya! Took ya long enough! Doesn't matter. How's your day? Err, night by now? Yes. 'Sup?"
-    
+
     show lov happy2
 
     "As hyper as always. It takes a bit for the camera to focus on her, struggling with her erratic movements."
 
     voice "1-2-19.mp3" #potato
     pro "Ehh, could've been better. Another fight between my brother and my mom, nothing new."
-    
+
     show lov shy2
 
     voice "1-2-20.mp3" #starleeter
@@ -206,7 +205,7 @@ label day1s2:
 
     voice "1-2-21.mp3" #potato
     pro "She's actually sleeping in my bed right now. I've been working on a gift for her to help her feel better, actually."
-    
+
     show lov happy2b
 
     voice "1-2-22.mp3" #starleeter
@@ -214,7 +213,7 @@ label day1s2:
 
     voice "1-2-23.mp3" #potato
     pro "Yeah, that would be best."
-    
+
     show lov happy2
 
     voice "1-2-24.mp3" #starleeter
@@ -225,18 +224,18 @@ label day1s2:
     voice "1-2-25.mp3" #potato
 
     pro "Don't worry, I'll be there. See you tomorrow?"
-    
+
     show lov happy
 
     voice "1-2-26.mp3" #starleeter
     lov "See ya!"
-    
+
     hide lov
     with dissolve
 
     ##SCENE CHANGE
-    scene bedroom night with dissolve    
-    
+    scene bedroom night with dissolve
+
     "She ends the call, just like that."
 
     "I'm tired. Nothing new. At least the bed will be warm, right?"
@@ -244,5 +243,5 @@ label day1s2:
     "I swivel the chair around, and I make my way to the bed. As expected, my sister is sound asleep. Gently, I get in bed with her, and I shut my eyes."
 
     "Finally, my favorite part of the day. Sleep."
-    
+
     jump dream2
