@@ -57,20 +57,28 @@ init python in custom_gallery:
 
 init python in custom_music:
     mylist = [
-        ["Funeral Ending", "bgmfuneral - Funeral Ending.mp3"],
-        ["Hijinks Theme", "bgmhijinks - Hijinks Theme.ogg"],
-        ["Love Interest Theme", "bgmlov - Love Interest Theme.mp3"],
-        ["Orchestral Love Interest Theme", "bgmlov2 - Orchestral Love Interest Theme.mp3"],
-        ["Mother Theme", "bgmmom - Mother Theme .ogg"],
+        ["Sister", "bgmsis - Sister Theme.mp3"],
+        ["Sister Orchestral", "bgmsis2 - Orchestral Sister Theme.mp3"],
+        ["Love Interest", "bgmlov - Love Interest Theme.mp3"],
+        ["Love Interest Orchestral", "bgmlov2 - Orchestral Love Interest Theme.mp3"],
+        ["Father", "bgmdad - Father Theme.ogg"],
+        ["Brother", "bgmbroloop - brotherthemeloop.wav"],
+        ["Mother", "bgmmomloop - Mother Theme Loop.ogg"],
+        
+        ["Main Menu", "bgmmenuloop - mainmenuloop.wav"],
+        ["Hijinks", "bgmhijinksloop - Hijinks Theme Loop.ogg"],
         ["Mood Music", "bgmmood - Mood Music #1.mp3"],
-        ["Neutral Ending", "bgmneutral - Neutral Ending.ogg"],
-        ["Sister Theme", "bgmsis - Sister Theme.mp3"],
-        ["Orchestral Sister Theme", "bgmsis2 - Orchestral Sister Theme.mp3"],
-        ["Suicide End", "bgmsuicide - Suicide End.ogg"],
-        ["Creepy Dream Theme", "bgmcreep - Creepy Dream Theme.mp3"],
-        ["Father Theme", "bgmdad - Father Theme.ogg"],
+        ["Creepy Dream", "bgmcreep - Creepy Dream Theme.mp3"],
+        
         ["Dream", "bgmdream - Dream.ogg"],
-        ["Finale Fight", "bgmfin - Finale Fight.ogg"]
+        ["Dream v2", "bgmdream2 - Dream ver2.ogg"],
+        
+        ["Finale", "bgmfinaleloop - Finale Fight Loop.ogg"],
+        ["Good Ending", "bgmgoodending - GoodEnding.ogg"],
+        ["Neutral Ending", "bgmneutralloop - Neutral Ending Loop.ogg"],
+        ["Bad End 1", "bgmfuneralloop - Funeral Ending Loop.ogg"],
+        ["Bad End 2", "bgmsuicide - Suicide End.mp3"],
+        ["Bad End 3", "bgmbadbro - badend-missingbrother.wav"],
     ]
     pos = 0
     
