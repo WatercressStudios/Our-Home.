@@ -1,6 +1,6 @@
 label badCareerEnding:
 
-    scene bedroom dark with dissolve
+    scene bedroom dark with Dissolve(2.0)
     play sound alarm
     "{b}BEEP! BEEP! BEEP!{/b}"
 
