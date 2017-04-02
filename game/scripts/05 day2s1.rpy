@@ -6,6 +6,10 @@ label day2s1:
     #Knocking
     scene bedroom dark with dissolve
 
+    stop music fadeout .5
+    play music bgmbrointro noloop fadeout 1.0 
+    queue music bgmbroloop loop
+
     voice "2-1-1.mp3" #kujira
     bro "Hey, uh... Emily?"
 
@@ -38,7 +42,6 @@ label day2s1:
 
     voice "2-1-5.mp3" #potato
     pro "This had better be good, Alex."
-
 
     show bro grin2
     voice "2-1-6.mp3" #kujira
@@ -126,6 +129,8 @@ label d2s1no:
 
     "It looks like Alex tried to work on it without me."
 
+
+    stop music fadeout .3
     voice "2-1-13.mp3" #kaito
     mom "Alex, what are you doing?"
 
@@ -287,6 +292,8 @@ label d2s1yes:
     hide bro
     with dissolve
 
+    stop music fadeout .3
+
     voice "2-1-42.mp3" #kaito
     mom "What are you two doing up already?"
 
@@ -295,7 +302,8 @@ label d2s1yes:
     # # #
 
 label d2s1merge:
-    
+    play music bgmmomintro noloop fadeout 1.0
+    queue music bgmmomloop loop
     show mom angry2 at left
     show bro sad2 at right
 
@@ -349,6 +357,8 @@ label d2s1merge:
     
     hide mom
     with dissolve
+
+    stop music fadeout .5
 
     "With that, she calms down and the rest of the morning proceeds in silence."
 

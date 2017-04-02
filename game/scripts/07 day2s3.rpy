@@ -110,6 +110,8 @@ label day2s3lecture:
     voice "2-3-17.mp3" #potato
     pro "Finally…" 
 
+    stop ambience fadeout 2.0
+
     "The anxious bodies in the classroom all rush to the door like the wildebeest."
     "I take my sweet time rising from my chair. I'm not exactly in any rush."
 
@@ -175,7 +177,7 @@ label day2s3lecture:
     lov "...?"
 
     "Oh, she saw me. What's that look she's giving me?"
-    
+    play music bgmlov fadeout 1.0 fadein 0.0
     "...She's coming over…!"
 
 #     hide cg_LIdrama2 with dissolve
@@ -285,6 +287,9 @@ label day2s3lecture:
 
     "I narrow my eyes to look at the passage she wants me to go over. Well, here goes nothing…"
 
+    play music bgmhijinksintro noloop fadeout 1.0
+    queue music bgmhijinksloop loop
+
     voice "2-3-56.mp3" #potato
     pro "'My pills, where are my pills. The little white ones I take when I'm overwrought.'"
 
@@ -350,6 +355,8 @@ label day2s3lecture:
     voice "2-3-69.mp3" #potato
     pro "Little shaky on that last one, wanna go again?"
     
+    stop music fadeout .3
+    
     voice "2-3-70.mp3" #other
     cho "Hey, Lauren, can I see you for a bit? Need to work on steps!"
 
@@ -360,6 +367,7 @@ label day2s3lecture:
 
     "Her eyes locked with mine. She must be in a rush."
 
+    play music bgmlov fadeout 1.0 fadein 0.0
 
     show lov shy
     voice "2-3-72.mp3" #starleeter
@@ -501,6 +509,8 @@ label day2s3accept:
     voice "2-3-97.mp3" #starleeter
 
     lov "Mmhm! See ya later!~"
+
+    stop music fadeout .5
 
     hide lov
     with dissolve

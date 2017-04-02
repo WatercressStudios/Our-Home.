@@ -20,6 +20,9 @@ label day2s4:
     # Transition to Bedroom
     scene bedroom with dissolve
 
+    play music bgmmomintro noloop fadeout 1.0
+    queue music bgmmomloop loop
+
     "What the heck?! My desk is a mess!"
     "Ugh. Alex is always coming in here and ‘borrowing’ my stuff. I can’t count the number of pens and pencils he’s never returned."
     "Well, he’s not here, so I guess I can go into his room and get my things back."
@@ -42,6 +45,9 @@ label day2s4:
     "Seriously, why does he never pick up after himself? Is he a toddler or something?"
     "I wonder if he’s hiding more of my stuff in this box. It kind of looks like a fancy pencil case."
     "I open it."
+
+    stop music fadeout .2
+
     # Show drug box (Or don’t, that’s probably a hard picture to get and cgs are hard)
     show heroin with dissolve
 
@@ -55,6 +61,9 @@ label day2s4:
 
     "I... should probably leave. This really isn't my problem. Let's not get involved."
     # Door Opens
+
+    play music bgmmood fadeout 1.0 fadein 0.0
+
     show bro angry3
     "Shit. Seriously?"
     voice "2-4-2.mp3" #kujira
@@ -103,6 +112,9 @@ label day2s4:
     "I guess I need to keep this to myself, for now."
     "I close my eyes and squeeze my pillow."
     "God dammit. Wasn’t this family enough of a mess already?"
+
+    stop music fadeout .5
+
     # Transition to dinner
     scene hallway with dissolve
 
@@ -121,6 +133,10 @@ label day2s4:
     sis "Where’s Dad?"
     voice "2-4-15.mp3" #kaito
     show mom sad3 at center
+
+    play music bgmmomintro noloop fadeout 1.0
+    queue music bgmmomloop loop
+
     mom "Alex, eat your dinner."
     voice "2-4-16.mp3" #kujira
     show bro sad2 at right
@@ -188,7 +204,7 @@ label day2s4:
     bro "Please don’t say anything."
     voice "2-4-31.mp3" #potato
     pro "Whatever, Alex. Just stay away from me."
-
+    stop music fadeout .5
     scene bedroom night with dissolve
 
     "I slam the door in his face."
