@@ -460,10 +460,13 @@ label day3s2future:
         
     show lov confused2
     
-    voice "3-2-104.mp3" #starleeter
+    voice "3-2-111.mp3" #starleeter
     lov "Hoo! I'm bushed!"
-    voice "3-2-105.mp3" #potato
+    voice "3-2-112.mp3" #potato
     pro "We, uh, didn't really do all that much, did we…?"
+#    I think this was removed, so I'm adding it commented, but I'll leave it here 'till I confirm it. ~MatKrulli
+#    voice "3-2-113.mp3" #starleeter
+#    lov "Oh pish posh, you were a big help! You gave me a lot to think about today!"
         
         
     "Lauren leans back in her chair, reclining almost to the point of no return. My hand hovers out, stretched to catch her if she falls, as she is wont to do." 

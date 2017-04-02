@@ -2,6 +2,7 @@ label day7s3:
 
     ##scene should have some sort of foreboding or harrowing OST. Think deadangle from Umineko.
 
+    scene black with dissolve
     "…It got rather cold today."
     "At some point, the sun dipped below the horizon once more. Another freezing night in the middle of the fall has begun."
     "I’m wrapped in my blankets to stave off the cold, huddling my arms together as I shiver from the sensation in the air."
@@ -10,7 +11,7 @@ label day7s3:
 
     "KNOCK~ KNOCK~"
 
-    show bedroom with dissolve
+    scene bedroom night with dissolve
 
     "Someone’s knocking on the wall."
 
@@ -51,6 +52,7 @@ label day7s3:
     "I open up my phone and grab Alex’s number from the contacts list. I’m pretty sure he had his phone on him when he left."
     "Before the call connects, however, Maria suddenly enters my room..."
     # show Maria’s worried/sad expression with bandage around forehead (shouldn’t need any other with bandage)
+    show sis bandage at right
     "BEEP~ The number you are calling is currently unavailable. BEEP~"
     "…did he run out of charge? His friends probably don’t have a charger. That would explain it."
 
@@ -63,6 +65,8 @@ label day7s3:
     pro "Oh, I’m glad to hear you’re doing well! Will you be home soon? Sure, thanks for telling me. Bye Alex—"
     voice "7-3-15.mp3" #amree
     sis "H-hey, let me talk to him!"
+    hide sis
+    show sis bandage
 
     "Maria reaches for the phone and tries to pull it from my hand. I hit the end button with my thumb as it falls to the ground. She picks it up and looks at the screen."
 
@@ -80,11 +84,17 @@ label day7s3:
     pro "No, Maria. You need to rest. For me, please?" 
 
     "She nods. Her face is facing the ground, and she slowly walks back to her room."
+    # Have door sound effect?
+    hide sis
     "However, because of what Maria said, I can’t help but be worried about Alex, too. So I try giving his phone another ring."
     "Hmm… the same automated voice message."
     "..."
     "I’m sure it’s nothing. In any case, Maria needs me here, so I have to stay here."
+    scene black with dissolve
     "Fifteen minutes later, I hear Mom calling for Maria about her bandages. I want to know how Maria’s head is doing, too, so I walk out to the dining room."
+    scene diningroom with dissolve
+    show sis bandage
+    show mom sad2 at left
     "Mom gently inspects the bandages before nodding and saying it’s fine. It occurs to me Mom hasn’t mentioned Alex since the fight this morning."
     "Around the corner, the locks on the front door clang open. Maria immediately turns around."
 
@@ -94,6 +104,7 @@ label day7s3:
     dad "I’m home."
 
     "Dad enters the dining room, walking in small steps. There’s the usual stressed, anxiety-ridden look on his face."
+    show dad neutral2 at right
 
     voice "7-3-24.mp3" #potato
     pro "Oh, you’re back here earlier than usual, even by weekend’s standards."
@@ -103,16 +114,24 @@ label day7s3:
     "Dad stops when he sees Maria."
 
     voice "7-3-26.mp3" #lacTheWatcher
+    show dad angry1 at right
     dad "Maria? What happened to you?"
     voice "7-3-27.mp3" #kaito
+    show dad angry2
+    show mom angry3
     mom "Ask your addict of a son."
     voice "7-3-28.mp3" #lacTheWatcher
+    show mom angry1
+    show dad sad1
     dad "Alex did this?"
     voice "7-3-29.mp3" #amree
     sis "I-It was an accident..."
     voice "7-3-30.mp3" #kaito
+    show mom angry3
     mom "Don’t mince words. We all saw what happened. Alex threw you into a wall."
 
+    show mom angry1
+    show dad sad2
     "Dad looks at me. There’s a horrified expression on his face."
 
     voice "7-3-31.mp3" #lacTheWatcher
@@ -136,22 +155,35 @@ label day7s3:
     voice "7-3-37.mp3" #amree
     sis "No… this feels strange… please… find Alex..."
     voice "7-3-38.mp3" #lacTheWatcher
+    show dad neutral2
     dad "Liz, do you know where Alex is?"
     voice "7-3-39.mp3" #kaito
+    show mom angry3
     mom "No. Probably out doing god-knows-what. He could use some time to reflect on himself, I’d say."
     voice "7-3-40.mp3" #lacTheWatcher
+    show mom angry1
     dad "What about his food? If he’s been gone all day he hasn’t had anything to eat, right?"
     voice "7-3-41.mp3" #kaito
+    show mom angry2
     mom "He’ll come home when he’s hungry."
     voice "7-3-42.mp3" #lacTheWatcher
+    show mom angry1
+    show dad angry1
     dad "Either way, we should find him, Liz. Come on, let’s go."
     voice "7-3-43.mp3" #kaito
+    show dad angry2
+    show mom angry3
     mom "I’m not leaving Maria. She might have a concussion. And the boy needs to learn from his mistakes. If we’re always there to pander to his feelings he won’t ever grow. You’re being too soft on him, Jon."
     voice "7-3-44.mp3" #lacTheWatcher
+    show mom angry1
+    show dad sad1
     dad "But—"
     voice "7-3-45.mp3" #kaito
+    show mom angry3
     mom "Just leave it be! Shooting up drugs is one thing, but hurting Maria… that’s unforgivable."
     voice "7-3-46.mp3" #lacTheWatcher
+    show mom angry1
+    show dad sad2
     dad "Shooting up? What do you mean? It’s just the study pills, right??"
 
     "Mom doesn’t answer Dad. He looks at me pleadingly, and I don’t say anything either. I don’t want to make a bad situation worse by spelling it out."
@@ -159,17 +191,24 @@ label day7s3:
     voice "7-3-47.mp3" #amree
     sis "I-It’s heroin..."
 
+    show mom angry2
+    show dad angry1
     "We all look at Maria at that. Mom’s face stiffens and Dad’s eyes widens."
 
     voice "7-3-48.mp3" #lacTheWatcher
+    show dad angry3
     dad "H-Heroin?!"
     voice "7-3-49.mp3" #kaito
+    show mom surprise
     mom "Maria, you knew about it? Emily… I take it you knew too?"
 
+    show dad neutral2
     "I don’t answer her, but I don’t think I need to. I’m pretty sure it’s a rhetorical question..."
+    show dad sad1
     "Dad turns to me and puts a hand on my shoulder."
 
     voice "7-3-50.mp3" #lacTheWatcher
+    show mom angry1
     dad "This is serious, Emily. We should find Alex."
     voice "7-3-51.mp3" #potato
     pro "I… I should be here with Maria, Dad."
@@ -181,28 +220,45 @@ label day7s3:
     "I look at Maria’s worried face and Dad’s tired face. I guess they’re right. Mom’s taking care of sis so I don’t really have to be here."
 
     voice "7-3-54.mp3" #potato
+    hide mom
+    hide sis
+    show dad neutral2 at center
     pro "...okay. Umm, but where do we look?"
     voice "7-3-55.mp3" #lacTheWatcher
+    show dad angry1
     dad "Everywhere. You take the southern side. That’s where your school and all your friends are, right? I’ll handle the north where all the offices are – grab your phone and call everyone who knows him."
     voice "7-3-56.mp3" #potato
+    show dad angry2
     pro "Everywhere and everyone?"
     voice "7-3-57.mp3" #lacTheWatcher
+    show dad angry1
     dad "Yes. Get your coat on, we’re going."
     voice "7-3-58.mp3" #potato
+    show dad angry2
     pro "…okay."
 
+    scene black with dissolve
+    
     "I put on my coat and grab my phone from my desk before setting out with Dad."
+    scene house dark with dissolve
+    show dad angry1
     "As he starts up the car engine, he tells me to call up Lauren just in case Alex is there. Then he drives away."
+    hide dad
+    # Suggest having a scene of house dark but with the car removed
     "I don’t call Lauren, however, since Alex doesn’t know where she lives or even have her number."
+    scene siswalk with dissolve
     "As I walk down the street, I notice that my heart’s pounding and my hands are trembling. Why?"
+    # Suggest having a scene of a street at night
     "It’s just another fight. There isn’t anything to worry about."
     "Whatever happened will resolve itself, and we’ll go back to the same fucked-up lives we’ve always had and ignore it until another fight happens."
     "That’s how our family works, right? That’s how it’s always worked."
     "There’s nothing to worry about. He’s going to be at that park or something like he was last time. He leaves, he comes home, then everything goes back to normal. If it weren’t for Dad and Maria, I’d still be at home. That’s how this works, right?"
+    scene park dark with dissolve
     "I come up on the park after a ten, fifteen minute walk. My phone says it’s 8:30 PM."
     "Alex isn’t here. He probably never even came here to begin with. If he wanted to go somewhere, he’d have stayed there. He isn’t the kind who moves much if he’s comfortable where he wants to be."
     "I sigh. Maybe I’ll call Lauren after all. I pull out my phone and dial her number."
-
+    # Dialing numbers sound?
+    
     voice "7-3-59.mp3" #starleeter
     lov "Hi Em~! How are you doing tonight?"
     voice "7-3-60.mp3" #potato
@@ -240,12 +296,15 @@ label day7s3:
     "No luck with the contacts Lauren sent me."
     "What about his less savory friends? I think they sometimes hang out behind the school for pot and stuff. Check there, maybe?"
     "I make my way over to the school as soon as I hang up the last call."
+    scene stars with dissolve
     "Up above, the stars shine faintly. A cold, chilling wind sweeps through the street. It’s quieter than usual, today."
     "The walking hurts my legs. How did Alex even get around town with one injured foot? I’d have given up after a few hours at most."
     "…He should have been home long ago. Where is he?"
 
-    play sound cellphonering
-    "<b>DOODLE DOODLE DOODLE DOO DOOT DOOT!</b>"
+    # Exception occurs here
+    # play sound cellphonering
+    "DOODLE DOODLE DOODLE DOO DOOT DOOT!"
+    scene siswalk with dissolve
     "I answer up my phone and Dad’s voice comes up the other end."
 
     voice "7-3-69.mp3" #lacTheWatcher
@@ -253,6 +312,7 @@ label day7s3:
     voice "7-3-70.mp3" #potato
     pro "Yeah, I’m on my way there. I’ll let you know if I see him."
 
+    scene stars with dissolve
     "I’m able to find the group of pot smokers behind the school fairly easily. There’s six, seven of them at least, supposedly with more on the way."
 
     voice "7-3-71.mp3" #potato
@@ -286,6 +346,7 @@ label day7s3:
     "I consider calling Dad and letting him know what I know… but what good would it do if both of us go there?"
     "Alex could be in one of these parks here somewhere, right? There can’t be too many. I look through the map on my phone. There’s one on this side of the city and two on the opposite end."
     "I have Lauren drop me off at the nearest one while she drives off to the ones on the far end. I rush out to the middle of the park as soon as I can."
+    scene park dark with dissolve
     "I check up the time on my phone. Almost 11 PM. Around twelve hours since Alex left the house. It’s going to be another fifteen minutes before Lauren makes it to the second park. Considering how much time it’ll take to search, it’ll be midnight before she makes it to the third."
     "Please, let Alex be here somewhere. He has to be here!"
     "The kid said the drug stash was hidden, right? So he wouldn’t be in plain sight. He’d be around the edges, or in a corner where nobody would see him. He’s more comfortable if he isn’t noticed, right?"
@@ -293,6 +354,7 @@ label day7s3:
     voice "7-3-78.mp3" #potato
     pro "Alex! Where are you!? Alex!"
 
+    scene stars with dissolve
     "I pull out my phone’s flashlight and shine it onto the faroff grass."
     "I can feel my focus blurring this late at night. There’s nothing. No matter how far I look I don’t see anything – where could he be? Did he go home while we were out and Mom didn’t bother to let us know? No, no Maria would call us if he came home. So he should at least be—"
     "A shoe. I recognise that shoe. I shift my eyes a little upwards. Someone has collapsed behind a shrub."
@@ -301,6 +363,7 @@ label day7s3:
     pro "Please, no..."
 
     "His skin is pale. Lifeless and faint, without movement to it at all. His lips are a faint blue color and his eyes are stuck open and staring into nothing. Bags of heroin and needles are littered around an empty box."
+    scene black
     "My heart stops."
     "It’s Alex."
     

@@ -2,6 +2,7 @@ label day10s5:
 
     $ sappyalex = False
 
+#    voice "10-5-0.mp3" #kujira recording
     bro "Hey, Maria?"
 
     "Alex sticks his head into the front door."
@@ -35,7 +36,7 @@ label reunion:
 
     voice "10-5-2.mp3" #potato
     pro "Maria? Are you awake?"
-    voice "10-5-3.mp3" #amree
+#    voice "10-5-3.mp3" #amree silence
     sis "..."
 
     "No response. I glance towards Alex, before taking another breath."
