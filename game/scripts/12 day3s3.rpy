@@ -157,6 +157,7 @@ label day3s3:
 
     "There's something much, much more interesting in store for us."
 
+    play music bgmdad fadeout 1.0 fadein 3.0
     show lov confused2h
 
     voice "3-3-21.mp3" #starleeter
@@ -237,7 +238,7 @@ label day3s3:
     voice "3-3-29.mp3" #starleeter
     lov "Yeah! Emily's been super helpful. She's even going to work on some costumes for us!"
 
-    show dad happy2 at center
+    show dad smile2 at center
     voice "3-3-30.mp3" #lacTheWatcher
     dad "Oh? That's wonderful Emily. You've grown up so much, and you're being so proactive. I'm happy to see you two together. At least you aren't alone while I'm gone."
 
