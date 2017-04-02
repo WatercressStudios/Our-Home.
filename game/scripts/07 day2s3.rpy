@@ -175,10 +175,8 @@ label day2s3lecture:
     lov "...?"
 
     "Oh, she saw me. What's that look she's giving me?"
-
-    hide lov with dissolve
     
-    "She's coming over…!"
+    "...She's coming over…!"
 
 #     hide cg_LIdrama2 with dissolve
     
@@ -325,7 +323,7 @@ label day2s3lecture:
     pro "(What?)"
     show lov confused 
     voice "2-3-62.mp3" #starleeter
-    lov "(It's a glass water.)"
+    lov "(It's a glass of water.)"
     voice "2-3-63.mp3" #potato
     pro "(I was, uh, a little thirsty, maybe you could...)"
     voice "2-3-64.mp3" #starleeter

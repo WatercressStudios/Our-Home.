@@ -183,7 +183,7 @@ label day1s2:
 
     "I find her in my recent contacts before I tap the video call button. It's almost immediately answered."
 
-    show black with dissolve
+    scene laurensroom with dissolve
     
     ##SCENE CHANGE
     show lov happy
