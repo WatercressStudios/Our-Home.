@@ -19,7 +19,7 @@ label dream1:
     "I always enjoy coming back to this place."
     "Opening the door into the living room, I’m hit with the enchanting fragrance of fresh pine."
 
-    scene dhouse with dissolve
+    scene dlivingroom with dissolve
 
     "Dad loves working with pine, and there’s no shortage of evergreens around our house. It shows, as homemade pieces are scattered around the living room."
     "I look upon the upholstered club chair dominating the middle of the living room. It’s unoccupied, which piqued my curiosity."
@@ -32,7 +32,7 @@ label dream1:
 
     "Pacing over to the door, I brace myself for the inevitable…"
 
-    scene dlivingroom with dissolve
+    scene dhallway with dissolve
 
     voice "d1-1-2.mp3" #all
     all "Happy birthday!"
