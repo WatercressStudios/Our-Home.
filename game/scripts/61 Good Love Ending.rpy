@@ -73,10 +73,16 @@ label goodLoveEnding:
     pro "...Y, yeah, like your hair… *cough*"
     voice "20-10-13.mp3" #potato
     pro "W-well, it's… a little on the nose, but… th-the drama teacher said it's better to be big and boisterous, so…"
+
+    show lov angry1bh with dissolve
+
     voice "20-10-14.mp3" #starleeter
     lov "You forgot flamboyant!~"
     voice "20-10-15.mp3" #potato
     pro "Ah, of course, how could I forget…"
+
+    show lov angry1bh with dissolve
+
     "That... kind of set the tone for our relationship going forwards, but I wasn’t upset about it."
     "We dated and things just kept going from strength to strength!"
     
@@ -86,11 +92,17 @@ label goodLoveEnding:
         "Honestly, I didn’t really expect it would go so well. After everything that had happened with Alex and with Mom, it was hard not to fall back into pessimism."
 
     if career > 7:
+        show lov happy1bh with dissolve
         "Once we left school, we moved in together."
+        show lov happy2b with dissolve
         "We’d sort of planned that already for college, but it ended up being for love too."
     else:
+        show lov shy2bh with dissolve
         "Once we left school, Lauren went to college but I had to stay home."
+        show lov happy2b with dissolve
         "We made it work, though. We'd visit each other often and we video chat every night."
+
+    hide lov with dissolve
 
     "It was wonderful, to say the least. I could never feel sad for long with her bubbliness in the air."
     "After a year of dating, Lauren said we should go to a café to celebrate."
@@ -99,18 +111,31 @@ label goodLoveEnding:
 
     #TODO: FLASHBACK FILTER ENDS
 
+    scene cafe with Dissolve(2.0)
+
+    show lov happy2 with dissolve
+
     voice "20-10-16.mp3" #starleeter
     lov "Happy Anniversary, Emily!"
     voice "20-10-17.mp3" #potato
     pro "Happy Anniversary, Lauren!"
+
+    show lov happy1h with dissolve
+
     "We both giggle."
     voice "20-10-18.mp3" #potato
     pro "I know you like this place, but what are we going to do if it ever closes?"
+
+    show lov confused1 with dissolve
+
     voice "20-10-19.mp3" #starleeter
     lov "We can always find another place. We don’t have to celebrate here."
     "I sigh."
     voice "20-10-20.mp3" #potato
     pro "If I knew that, I would have asked to go someplace else last year."
+
+    show lov happy1h with dissolve
+
     "Lauren giggles."
     voice "20-10-21.mp3" #starleeter
     lov "You’re allowed to disagree with me, you know?"
@@ -119,18 +144,33 @@ label goodLoveEnding:
     "I reach out and take her hand."
     voice "20-10-23.mp3" #potato
     pro "I just like seeing how happy you get on days like this."
+
+    show lov shy2b with dissolve
+
     voice "20-10-24.mp3" #starleeter
     lov "Aww!~"
+
+    show lov happy1b with dissolve
+
     "I’m sure we’ve giving everyone else in here diabetes with our performance, but we can’t help it."
     "We get a bit silly when we’re together on dates like this."
     voice "20-10-25.mp3" #potato
     pro "To another year with the best girl in the world."
+
+    show lov angry2h with dissolve
+
     voice "20-10-26.mp3" #starleeter
     lov "You’ve been cheating on me?!"
     "I roll my eyes."
     voice "20-10-27.mp3" #potato
     pro "Idiot."
+
+    show lov happy1b with dissolve
+
     "Lauren laughs and squeezes my hand."
+
+    show lov happy2b with dissolve
+
     voice "20-10-28.mp3" #starleeter
     lov "I love you."
     voice "20-10-29.mp3" #potato
@@ -140,7 +180,6 @@ label goodLoveEnding:
         show neutralminusending with Dissolve(2.0)
     else:
         show neutralplusending with Dissolve(2.0)
-
     # TODO: Credits
 
     jump dreamEpilogue

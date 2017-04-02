@@ -171,11 +171,7 @@ label day2s3lecture:
     #same as above, but looking directly at reader and smiling
     show lov happyh with dissolve
 
-<<<<<<< HEAD
-#     voice "2-3-28.mp3" #starleeter
-=======
 #    voice "2-3-28.mp3" #starleeter silence
->>>>>>> 715d1fd704f25b0a15f5e9ee57ad9351cd1d6bfc
     lov "...?"
 
     "Oh, she saw me. What's that look she's giving me?"
