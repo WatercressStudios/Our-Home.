@@ -1,13 +1,17 @@
 label day3s4:
     scene bedroom
     with dissolve
+
     "After Lauren left, the family all split off into their separate nightly rituals."
     "I'm back in my room. It's late. I really should think of going to bed."
     "I want to sleep, but finishing this plushie for Maria is more important."
     "I glance at my bed."
     "The temptation is strong, but I manage to hang on by the skin of my teeth and pick up the half-made plushie."
+
+    play music bgmsis fadein 3.0
     scene sewingkit
     with dissolve
+
     "It looks pathetic now, but it’s coming along."
     "Just a little bit more sewing to do. Then I stuff it."
     "Luckily I’ve got everything I need from my leftover materials."
@@ -31,8 +35,10 @@ label day3s4:
     "I shake my head and slap my cheeks."
     voice "3-4-2.mp3" #potato
     pro "Just get this done."
+
     show fashionbook
     with dissolve
+
     "I take out the fashion book I found from the library. Some neat stuff in here..."
     "Nodding to myself, I start sketching out some ideas to show to Lauren."
     "I try to think back to the stuff we looked at today."
@@ -43,18 +49,25 @@ label day3s4:
     "I remember you need petticoats to make the circle thing puff out properly, but to hell with that."
     "Way too much work and most of the girls would hate it."
     "At least, that’s what my research said. They’re supposed to itch like crazy."
+
     hide fashionbook
     with dissolve
+
     "It’s just a school play, right? I don’t need to go all out."
     "I sketch a few designs based on what I saw in books and online."
     "They’re pretty rough, but they give a good idea at what I’m aiming for."
     "Yawning, I check the clock and see it’s almost one."
     "Screw it. I’m done."
+
     scene bedroom
     with dissolve
+
     "Getting up from my desk, I can’t even be bothered getting changed for the night."
     "I flop onto my bed."
+
     scene black
     with dissolve
+
     "My head barely touches the pillow before I’m asleep."
+    stop music fadeout 2.0
     jump dream4
