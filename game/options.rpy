@@ -320,4 +320,4 @@ define config.framerate = 144
 define config.mouse_hide_time = 30
 
 init python:
-    renpy.music.register_channel("ambience", "sfx", True, True)
+    renpy.music.register_channel("ambience", mixer="sfx", loop=True, stop_on_mute=True)
