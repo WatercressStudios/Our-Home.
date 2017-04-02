@@ -2,8 +2,7 @@ label day7s1:
 
     $ scoldalex = False
  
-    #Protag’s Bedroom
-    #It’s Saturday, so if any characters normally wear uniforms, they need casual clothes for days 7 and 8.
+    scene bedroom with dissolve
 
     voice "7-1-1.mp3" #kaito
     mom "Alex Westenson! Get your ass over here this instant!"
@@ -15,23 +14,36 @@ label day7s1:
     "Shit. Can he even handle an argument with Mom right now?"
 
     "I shoot out of bed, throw on some clothes, and bolt towards Alex’s room."
+    
+    #####################Fabric SFX########################
 
-    #Transition to Alex’s room, showing the whole family, except the dad.
+    scene broroom
+    show mom angry2 at left
+    show bro angry at center
+    show sis worry at right
+    with dissolve
 
     "I manage to show up just in time."
 
-    #Cue Mom's theme
+    #Cue Argument Theme########################################
 
+    show sis worry2 at right with dissolve
     "Or in other words, at the worst possible time."
-
+    
+    show mom angry at left with dissolve
     voice "7-1-2.mp3" #kaito
     mom "Alex, what the hell is a syringe doing in your room?"
 
     "Oh God."
-
+    
+    show bro angry2 at center with dissolve
     voice "7-1-3.mp3" #kujira
     bro "W-what? Why the hell were you snooping in here?!"
-
+    
+    show mom angry2 at left
+    show sis worry at right
+    show bro angry at center
+    with dissolve
     voice "7-1-4.mp3" #kaito
     mom "What else is a mother supposed to do when she cleans the bathroom and finds some powder she’s never seen before right next to the damn toilet?!"
 
@@ -41,84 +53,133 @@ label day7s1:
 
     "Oh God."
 
-    # TODO: Flashback to d6s4 where the protag rushes and spills the powder.
+    # Start flashback
 
+    scene white with dissolve
+    play sound whoosh 
+    scene bathroom with dissolve
+    
+    "Just gotta flush this shit and forget. Quickly, before someone sees…"
+    "Just need to dump and flush…" 
+
+    play sound vibrate
+    "{b}DOODLE DOODLE DOODLE DOO DOOT DOOT!{/b}"
+
+    play sound thud
+
+    "Jesus Christ that sound! Nearly jumped out of my fucking skin…" 
+    
+    scene white with dissolve
+    
+    play sound whoosh
+    scene broroom
+    show mom angry2 at left
+    show bro angry at center
+    show sis worry at right
+    with dissolve
+
+    #Flashback ends
     "Did I...?"
-
+    
+    show sis worry2 at right with dissolve
     voice "7-1-5.mp3" #amree
     sis "U-um, it wasn't drugs! That was my science project! I-I used water from the sink to make it and then some of the ingredients spilled and"
-
+    
+    show mom angry at left with dissolve
     voice "7-1-6.mp3" #kaito
     mom "Be quiet, Maria!"
-
+    
+    show sis sad2 at right with dissolve
     voice "7-1-7.mp3" #amree
     sis "Uu..."
 
+    show bro angry2 at center with dissolve
     voice "7-1-8.mp3" #kujira
     bro "Fine, you got me! I did some shit I wasn't supposed to, but I'm clean now! I quit!"
-
+    
+    show mom angry3 at left with dissolve
+    show bro angry at center with dissolve
     voice "7-1-9.mp3" #kaito
     mom "Don't give me that bullshit!"
 
     voice "7-1-10.mp3" #kaito
     mom "Why the hell are you doing this?! How can a boy as smart as you grow up to be so stupid?!"
 
+    show mom angry at left with dissolve
     voice "7-1-11.mp3" #kaito
     mom "You would have had such a bright and successful future ahead of you! Don't you know you're throwing it all away?"
 
+    show mom angry2 at left with dissolve
     voice "7-1-12.mp3" #kaito
     mom "Don't you know there are people who care about what you do and get hurt when they see see you ruining yourself?"
 
+    show bro angry2 at center with dissolve
     voice "7-1-13.mp3" #kujira
     bro "I know that! I know all of that shit!"
-
+    
+    show mom angry at left with dissolve
     voice "7-1-14.mp3" #kaito
     mom "Then why? What would make you even consider this?!"
 
     voice "7-1-15.mp3" #kujira
     bro "...You wanna know why? You really wanna know why?!"
-
+    
+    show bro angry3 at center
+    show sis worry at right 
+    with dissolve
     voice "7-1-16.mp3" #kujira
     bro "It's the only thing I can do to stop myself from suffocating under all of your bullshit!"
 
+    show mom angry3 at left with dissolve
     voice "7-1-17.mp3" #kaito
     mom "Don't make this my fault! It's about time you show some responsibility!"
 
+    show mom angry2 at left with dissolve
     voice "7-1-18.mp3" #kujira
     bro "No, I think it's about time you shut your mouth and let me talk!"
-
+    
+    show sis worry2 at right with dissolve
     voice "7-1-19.mp3" #kujira
-    bro "You always complain. You beat me down for every single fucking thing, and not once, not even <i>once</i> have you treated me like an adult."
+    bro "You always complain. You beat me down for every single fucking thing, and not once, not even {i}once{/i} have you treated me like an adult."
 
     "We need to put a stop to this before it gets any worse, but I don’t know what to do. I can’t bring myself to say anything."
-
+    
+    show sis worry at right with dissolve
     voice "7-1-20.mp3" #kujira
-    bro "Yeah, I’m young, so I'll make mistakes every now and then, but Jesus Christ, would it it kill you to admit that I'm right <i>one fucking time?</i>"
+    bro "Yeah, I’m young, so I'll make mistakes every now and then, but Jesus Christ, would it it kill you to admit that I'm right {i}one fucking time?{/i}"
 
+    show sis worry2 at right with dissolve
     voice "7-1-21.mp3" #kujira
     bro "You say you want me to have a successful future, but how am I supposed to believe that if the past and present have all been a living hell?"
-
+    
+    show sis worry at right with dissolve
     "Maria is fidgeting. She must feel even more powerless than I do."
 
+    show bro smirk at center with dissolve
     voice "7-1-22.mp3" #kujira
     bro "So yeah, I'm a fucking deadbeat druggie, and if you don't want to believe that I quit, then you’re always right, so I guess that must be the truth!"
 
+    show bro angry2 at center with dissolve
     voice "7-1-23.mp3" #kujira
-    bro "But hey, I'm nothing but a problem for all of you to solve, so who the hell cares what I thi-"
+    bro "But hey, I'm nothing but a problem for you all solve, so who the hell cares what I thi-"
 
-    #Music cuts out
-
+    #TODO: Music cuts out#
+    
+    
+    show sis sad2 at right with dissolve
     voice "7-1-24.mp3" #amree
     sis "Stop it!"
 
     "Maria jumps at Alex and tries to hug him, but he catches her and"
 
-    #Thudding sound effect
+    play sound slam
 
     hide sis
 
     "throws her into the wall!"
 
+    show mom angry3 at left
+    show bro angry at center
     voice "7-1-25.mp3" #amree
     sis "Aah!"
 
@@ -129,6 +190,7 @@ label day7s1:
 
     "We all run to her at once. Maria’s eyes are closed."
 
+    show mom sad2 with dissolve
     voice "7-1-27.mp3" #kaito
     mom "Maria, wake up!"
 
@@ -156,8 +218,11 @@ label d7s1unforgiveable:
     voice "7-1-29.mp3" #potato
     pro "What the fuck is wrong with you?! She was just trying to help!"
 
+    show bro angry3 at center with dissolve
     voice "7-1-30.mp3" #kujira
     bro "I-I don’t need any help! And there’s nothing you can do to help me anyways! I just... Shut up!"
+
+    show bro sad2 at center with dissolve
 
     jump d7s1merge
 
@@ -175,6 +240,7 @@ label d7s1unfortunate:
 
 label d7s1merge:
 
+    show mom angry3 at left with dissolve
     voice "7-1-31.mp3" #kaito
     mom "You little ingrate!"
 
@@ -182,13 +248,16 @@ label d7s1merge:
     mom "How fucking DARE you lay a hand on her!"
 
     "In one stroke, Mom’s arm floats like the end of a whip tossed in the air."
-
-    #Flash the screen black while cuing a smacking sound effect.
-    #You’re the programmer, though, so feel free to do something else if you have a better idea.
-    #I just want to distract from the fact that the static sprites are contradicting the text.
+    
+    scene black
+    play sound smack
 
     "And then the whip’s cracked."
-
+    
+    scene broroom
+    show mom angry at left
+    show bro angry at center
+    with dissolve
     voice "7-1-33.mp3" #kujira
     bro "..."
 
@@ -199,12 +268,13 @@ label d7s1merge:
 
     "The next moment, he’s sprinting out the door."
 
-    #gimme that melancholic music
-    #it’ll be great
-    #Also, can we have sister sprite with bleeding forehead? Only need sad + crying expressions I believe
+    ####################Music Change#########################
+    
+    show sis bleeding at right with dissolve
 
     "..."
-
+    
+    show mom sad at left with dissolve
     voice "7-1-35.mp3" #kaito
     mom "Maria, honey, are you okay?"
 
@@ -214,6 +284,7 @@ label d7s1merge:
     voice "7-1-37.mp3" #amree
     sis "Alone?"
 
+    show mom sad2 at left with dissolve
     voice "7-1-38.mp3" #kaito
     mom "..."
 
@@ -224,12 +295,12 @@ label d7s1merge:
     mom "I’ll leave. Mama will leave you alone."
 
     hide mom
+    hide sis
+    show sis bleeding at center
+    with dissolve
 
     voice "7-1-41.mp3" #amree
     sis "..."
-
-    #There’s a crying sister sprite, right?
-    #Of course there is.
 
     voice "7-1-42.mp3" #amree
     sis "Emilyyyyyyyyy!"
@@ -239,7 +310,10 @@ label d7s1merge:
 
     "A hug might not have been such a great idea then, but now..."
 
-    #Bring the sister sprite closer
+    show sis bleeding:
+        xalign 0.5
+        zoom 1.0
+        linear 0.5 zoom 1.5
 
     voice "7-1-44.mp3" #potato
     pro "Ssh. It’s alright."
@@ -262,6 +336,7 @@ label d7s1merge:
     pro "All I could bring myself to do was stand there and watch, so please don’t blame yourself for this. I think you were brave."
 
     #Little Sister can stop crying now, I guess.
+        #No she can't, past me. We don't have a non-crying bleeding sprite. You moron.
 
     voice "7-1-50.mp3" #amree
     sis "Okay, but only on one condition."
@@ -291,4 +366,6 @@ label d7s1merge:
 
     "With that, I hug her a bit tighter and let her go. Mom returns with bandages and fusses over Maria. I go back to my room."
 
+    scene black with dissolve
+    
     jump day7s2
