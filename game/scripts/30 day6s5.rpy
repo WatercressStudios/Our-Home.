@@ -1,4 +1,6 @@
 label day6s5:
+    
+    scene park dark with dissolve
 
     "The walk to the park goes straight along my normal school route, which serves to cool my nerves a bit before meeting up with Lauren. After everything we've gone through today, I really need a break."
 
@@ -40,6 +42,7 @@ label day6s5:
 
     "I can't stare too long. I end up giving up the moment, allowing it to be lost to time. I sit next to her, and she turns to me with a smile on her face."
 
+    show lov happy with dissolve
     voice "6-5-1.mp3" #starleeter
     lov "Heyyy."
 
@@ -58,7 +61,8 @@ label day6s5:
 
     voice "6-5-5.mp3" #potato
     pro"Thanks to you."
-
+    
+    show lov shy2bh with dissolve
     "She blushes, looking away, clutching the book closer to her chest."
 
     voice "6-5-6.mp3" #starleeter
@@ -93,7 +97,8 @@ label toofuckincute:
 
     voice "6-5-8.mp3" #potato
     pro"You look really beautiful today, you know that?"
-
+    
+    show lov shy2b
     voice "6-5-9.mp3" #starleeter
     lov "I-uh, thank you! That was-uh, so out of left field! You flatter me..."
 
@@ -101,7 +106,8 @@ label toofuckincute:
 
     voice "6-5-10.mp3" #potato
     pro"It's true! You're a beautiful person, too. I don't think you get to hear that enough… You're always helping me, and everyone else, and you don't get enough praise. You're really my favorite person in the world."
-
+    
+    show lov shybh with dissolve
     voice "6-5-11.mp3" #starleeter
     lov "You don't need to say things like that…"
 
@@ -120,7 +126,8 @@ label toofuckincute:
     "Well, I worry about her."
 
     "Once more, we let go."
-
+    
+    show lov happy2bh
     voice "6-5-12.mp3" #starleeter
     lov "I, uhhh, brought a book. Yeah! So we can learn more about your brother! Yeah, so we are prepared, so we know what he's going through."
 
@@ -136,7 +143,8 @@ label movingforward:
     "While we've already explored a lot of the heroin symptoms, we haven't really touched what it's like to go through withdrawal."
 
     "The list is bleakly long."
-
+    
+    show lov confusedh with dissolve
     voice "6-5-13.mp3" #starleeter
     lov "Oh… He's going through a loooot."
 
@@ -154,7 +162,8 @@ label movingforward:
     "And, most importantly, he took this step on his own. If there ever were a time to be proud of him, it's now."
 
     "We're both silent as we stare at the page."
-
+    
+    show lov confused2h with dissolve
     voice "6-5-15.mp3" #starleeter
     lov "...Drugs are bad, kids."
 
@@ -165,6 +174,7 @@ label movingforward:
     voice "6-5-16.mp3" #potato
     pro"Well, it's really good to know all of this. Thank you for bringing it."
 
+    show lov happy2 with dissolve
     voice "6-5-17.mp3" #starleeter
     lov "Of course! That's what I'm here for~"
 
@@ -175,6 +185,8 @@ label movingforward:
     lov "Fine fine fiiine. If I ever do, I'll talk to you, right away!"
 
     "She closes the book, having absorbed all of the knowledge we needed. She takes a look up at the sky, and I follow suit."
+
+    scene stars with dissolve
 
     "The sky's beautiful. It's an unusually clear night, and the light pollution is very limited this time of day."
 
@@ -200,5 +212,7 @@ label movingforward:
     "I sit back, leaning against her to enjoy this fleeting moment, but it, too, passes."
 
     "We part ways, and for the first time in forever, my mind’s filled with only warm thoughts."
+
+    scene black with dissolve
 
     jump day6s6

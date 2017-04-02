@@ -1,6 +1,8 @@
 label day6s1:
 
-    $ yessister = False
+    scene hallway with dissolve
+
+    $ yessister = False    
 
     pro "Hey, sis, time to go. I need to be at school at a reasonable time this morning, so open up."
 
@@ -11,23 +13,39 @@ label day6s1:
 
     "Thankfully, I'm used to this whole charade by now, so even if I misunderstood her exact words, I can put the puzzle together with relative ease."
 
-    voice "6-1-2.mp3" #potato
+    #voice "6-1-2.mp3" #potato
     pro "Oof!"
+    
+    show sis sad2
 
     "Maria opens the door and runs right into me - she was probably expecting me to wait outside this time."
-
+    
+    ############################
+    #SFX: MARIA RUNS INTO EMILY####################
+    ############################
+    
+    show sis worry
+    with dissolve
+    
     voice "6-1-3.mp3" #amree
     sis "S-sorry!"
 
     "I don't blame her one bit. For some reason, I wanted to keep her a bit close to me this time around."
 
-    voice "6-1-4.mp3" #potato
+    #voice "6-1-4.mp3" #potato
     pro "Ah, don't worry about it. I assume you're ready?"
+    
+    show sis worry2
+    with dissolve
 
     sis "Yeah…"
 
-    voice "6-1-5.mp3" #potato
+    #voice "6-1-5.mp3" #potato
     pro "Alright, good."
+    
+    scene siswalk
+    show sis sad
+    with fade
 
     "Grabbing her hand in mine, we make our way towards her school, as we've done the last hundred times."
 
@@ -35,14 +53,19 @@ label day6s1:
 
     "Something's on her mind."
 
-    voice "6-1-6.mp3" #potato
+    #voice "6-1-6.mp3" #potato
     pro "Hey, Maria?"
+    
+    show sis worry
 
     voice "6-1-7.mp3" #amree
     sis "Yeah?"
 
     voice "6-1-8.mp3" #potato
     pro "What's wrong?"
+    
+    show sis worry2
+    with dissolve
 
     voice "6-1-9.mp3" #amree
     sis "Well…"
@@ -51,12 +74,18 @@ label day6s1:
 
     voice "6-1-10.mp3" #potato
     pro "C'mon, I won't bite"
+    
+    show sis worry
+    with dissolve
 
     voice "6-1-11.mp3" #amree
     sis "I'm… I'm worried about Alex."
 
     voice "6-1-12.mp3" #potato
     pro "Alex?"
+    
+    show sis sad2
+    with dissolve
 
     voice "6-1-13.mp3" #amree
     sis "Yeah. He's been acting really funny, and I don't like it. It's weird and not like him and kinda scary."
@@ -70,9 +99,11 @@ label day6s1:
     "Is she old enough to even handle such a thing? Would she be able to keep it together, and would she be able to add anything to the conversation?"
 
     #Choice: involve her CAREER+1, don't involve her CAREER+0.
+    
 
     menu:
         "We shouldn't subject her to what it could entail.":
+            with dissolve
             jump nosister
 
         "It's her brother, too. It's only fair.":
@@ -93,6 +124,9 @@ label yessister:
 
     voice "6-1-15.mp3" #potato
     pro "If you want to, you're invited. We're doing the research on it today."
+    
+    show sis happy2
+    with dissolve
 
     voice "6-1-16.mp3" #amree
     sis "Oh! I'd love to."
@@ -101,6 +135,9 @@ label yessister:
 
     voice "6-1-17.mp3" #potato
     pro "That settles it then! I'll make sure to pick you up when we're ready."
+    
+    show sis happy
+    with dissolve
 
     voice "6-1-18.mp3" #amree
     sis "Thank you… it means a lot. I really want to help him, even if I can't do too much…"
@@ -110,6 +147,9 @@ label yessister:
     jump aftersister
 
 label aftersister:
+    
+    scene siswalk2
+    with dissolve
 
     "Moving forward, we share some more idle chatter on our way to her school."
 
