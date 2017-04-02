@@ -1,5 +1,7 @@
 label dream8:
 
+    scene dream2 with dissolve
+
     dlov "What's your answer?"
 
     "The words linger in the stagnant air. I don't know how she can be so calm at a time like this. How could she expect an answer after today?"
@@ -10,6 +12,7 @@ label dream8:
 
     "However, I have a choice. A choice she's given me.  A choice I've given myself. Her question echoes in my head, bouncing around, forcing its way to the top."
 
+    show dlov worried
     "She wants an answer. I want an answer. Can I force myself to give it, or am I going to cower forever? I have to move. I can't sit still anymore. I have to decide if this world is worth living for… worth living in. Right?"
 
     "Which do I choose? What should I say?"
@@ -18,13 +21,13 @@ label dream8:
 
     voice "d8-1-1.mp3" #potato
     pro "I don't know how you can ask that, still."
-
+    show dlov happy
     voice "d8-1-2.mp3" #vivi
     dlov "I don't want to… I have to."
-
+    show dlov smile
     voice "d8-1-3.mp3" #potato
     pro "Now?"
-
+    show dlov happy
     voice "d8-1-4.mp3" #vivi
     dlov "Yes."
 
@@ -33,28 +36,28 @@ label dream8:
 
     voice "d8-1-6.mp3" #vivi
     dlov "You're making yourself choose."
-
+    show dlov smile
     voice "d8-1-7.mp3" #potato
     pro "But how? How do I choose?"
-
+    show dlov happy
     voice "d8-1-8.mp3" #vivi
     dlov "Think about everything that's happened up to this point."
-
+    show dlov smile
     voice "d8-1-9.mp3" #potato
     pro "The pain, the hurt…"
-
+    show dlov happy
     voice "d8-1-10.mp3" #vivi
     dlov "And the happiness in between."
-
+    show dlov worried
     voice "d8-1-11.mp3" #potato
     pro "My brother just overdosed. Why would I ever want to return to a world where I'm doomed to live a shitty life?"
-
+    show dlov sad2
     voice "d8-1-12.mp3" #vivi
     dlov "That's up to you to decide, but the choice is solely yours."
 
     voice "d8-1-13.mp3" #vivi
     dlov "Is life in the real world worth living in, if it causes you so much pain?"
-
+    show dlov sad1
     menu:
         "My brother once told me… that pain is a part of life.":
             jump prehomecoming
@@ -102,7 +105,7 @@ label homecoming:
     "Now? I'm different. I'm still broken, I'm still in the same shitty situation that I've always been in, but my eyes have been opened."
 
     "I've come to a powerful realization."
-
+    show dlov smile
     "{i}I'm not alone.{/i}"
 
     "I never had to be."
@@ -132,10 +135,10 @@ label homecoming:
     pro "I can't give up now."
 
     "Pulling me into a close embrace, Diane whispers into my ear."
-
+    show dlov happy
     voice "d8-1-16.mp3" #vivi
     dlov "You've grown so much, you know that?"
-
+    show dlov smile
     "It's an odd feeling, being complimented. It feels…"
 
     "It feels good. I feel good. Even if the world around me is falling apart, I know that, in the end, It'll all work out. There will always be a chance at change."
@@ -182,13 +185,15 @@ label homeless:
 
     voice "d8-1-17.mp3" #potato
     pro "It's not worth it, not at all. The real world is a bad place, and no one is going to force me to stay there. As you said, it's my decision to make."
-
+    show dlov sad2
     voice "d8-1-18.mp3" #vivi
     dlov "Yes, it is."
-
+    hide dlov with Dissolve(1.2)
     "With that, she dissipates."
 
     "She's gone, for now. I'm left with one last question: What now?"
+    
+    scene black with Dissolve(2.0)
 
 #    POINTCHECK -> Love Point Check and Career Point Check
 #    IF: < 3 IN AT LEAST ONE, THEN:
