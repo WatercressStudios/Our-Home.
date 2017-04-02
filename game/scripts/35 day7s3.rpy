@@ -10,11 +10,12 @@ label day7s3:
 
     "KNOCK~ KNOCK~"
 
-    show bedroom with dissolve
+    scene bedroom with dissolve
 
     "Someone’s knocking on the wall."
 
     voice "7-3-1.mp3" #amree
+    show sis happy
     sis "Emi? Are you awake?"
 
     "My sister’s voice is coming through the wall. It makes sense, her bedroom’s behind this wall. It’s the first time she’s doing this, though. There’s an exhaustion in her voice that tells me Maria’s tired and struggling to stay awake."
