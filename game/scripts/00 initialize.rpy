@@ -309,8 +309,8 @@ image watercress = "vfx/splashscreen.png"
 #######
 define bgmfinaleintro = "music/bgmfinaleintro - Finale Fight Intro.ogg",
 define bgmfinaleloop = "music/bgmfinaleloop - Finale Fight Loop.ogg",
-define bgmfuneralintro = "music/bgmfuneralintro - Funeral Ending Intro.ogg",
-define bgmfuneralloop = "music/bgmfuneralloop - Funeral Ending Loop.ogg",
+define bgmsad1intro = "music/bgmsad1intro - Sad Song 1 Intro.ogg",
+define bgmsad1loop = "music/bgmsad1loop - Sad Song 1 Loop.ogg",
 define bgmhijinksintro = "music/bgmhijinksintro - Hijinks Theme Intro.ogg",
 define bgmhijinksloop = "music/bgmhijinksloop - Hijinks Theme Loop.ogg",
 define bgmmenuintro = "music/bgmmenuintro - mainmenuintro.wav",
@@ -329,7 +329,7 @@ define bgmlov2 = "music/bgmlov2 - Orchestral Love Interest Theme.mp3",
 define bgmmood = "music/bgmmood - Mood Music #1.mp3",
 define bgmsis = "music/bgmsis - Sister Theme.mp3",
 define bgmsis2 = "music/bgmsis2 - Orchestral Sister Theme.mp3",
-define bgmsuicide = "music/bgmsuicide - Suicide End.mp3",
+define bgmfuneral = "music/bgmfuneral - Funeral End.mp3",
 define bgmbadbro = "music/bgmbadbro - badend-missingbrother.wav",
 define bgmcreep = "music/bgmcreep - Creepy Dream Theme.mp3",
 define bgmdad = "music/bgmdad - Father Theme.ogg",
@@ -404,4 +404,5 @@ label start:
     $ love = 0
     $ career = 0
     
+#     jump day11s1
     jump dream1

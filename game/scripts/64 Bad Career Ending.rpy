@@ -9,7 +9,8 @@ label badCareerEnding:
 
     scene bedroom with dissolve
     play sound curtains
-    play music bgmneutral
+    play music bgmneutralintro noloop
+    queue music bgmneutralloop loop
 
     "Rising groggily from my bed, I stretch out all the aching bones in my body."
     "Blinking my eyes a few times, I stare across the room."

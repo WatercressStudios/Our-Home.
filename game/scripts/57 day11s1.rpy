@@ -13,7 +13,7 @@ label day11s1:
     
     scene bedroom with dissolve
     play music bgmdad
-    play sound curtain
+    play sound curtains
 
     "Maybe I'm just not a morning person. Or maybe… they're just so much more hectic with Mom gone."
     "...She's still gone, isn't she. It's surreal to think about, but…" 
@@ -236,7 +236,7 @@ label day11s1:
 
     scene house with dissolve
     stop music fadeout 5.0
-    play ambience suburb
+    play ambience suburb fadein 2.0
 
     voice "11-1-49.mp3" #potato
     pro "You ready to go, Maria?"
@@ -368,6 +368,7 @@ label day11s1:
     "I'm done waiting for Mom. After school, I'm gonna  make Dad talk."
 
     stop music fadeout 5.0
+    stop ambience fadeout 5.0
 
     "He knows. And he's making his children worry. What the Hell is he thinking…"
 

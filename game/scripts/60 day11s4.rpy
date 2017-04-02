@@ -361,8 +361,9 @@ label day11finale:
     "I take a moment to breathe."
     "I'm ready."
 
-    play music bgmsuicide
-        
+    play music bgmsad1intro noloop
+    queue music bgmsad1loop loop
+
     voice "11-4-56.mp3" #potato
     pro "We face the problem head on, that's what we can do. Come on, let's go."
 
@@ -472,7 +473,8 @@ label day11finale:
     voice "11-4-71.mp3" #kaito
     mom "It's too late now. The damage is done and… I guess... this is goodbye."
 
-    play music bgmfin fadein 2.0
+    play music bgmfinaleintro noloop fadein 2.0
+    queue music bgmfinaleloop loop
 
     voice "11-4-72.mp3" #potato
     pro "No."
@@ -533,10 +535,12 @@ label day11finale:
     voice "11-4-89.mp3" #kaito
     mom "...I—"
 
-    hide mom with dissolve
     play sound honk
-    stop music fadeout 1
-    "HONK! HONK!"
+    hide mom with dissolve
+    
+    if family < 8:
+        stop music fadeout 1
+    "{b}HONK! HONK!{/b}"
     "Before Mom can give us an answer, a loud honk sounds from the street."
     "Mom's taxi's here."
 
