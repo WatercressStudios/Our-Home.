@@ -1,7 +1,7 @@
 label dream7:
 
     scene dream1 with dissolve
-
+    play music bgmdream2 fadeout 1.0 fadein 0.0
 #    voice "d7-1-0.mp3" #kujira recording
     dbro "Welcome back."
 

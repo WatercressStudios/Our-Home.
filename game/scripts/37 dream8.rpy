@@ -3,7 +3,7 @@ label dream8:
     $ homecoming = False
 
     scene dream2 with dissolve
-
+    play music bgmdream2 fadeout 1.0 fadein 0.0
 #    voice "d8-1-0.mp3" #vivi recording
     dlov "What's your answer?"
 

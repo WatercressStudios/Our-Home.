@@ -1,9 +1,9 @@
 label dream4:
- 
-    # I don’t know what backgrounds you guys have, and since this is a dream I opted to be loose on the context where I could. Either way, new backgrounds shouldn’t be necessary.
-    # Likewise, any calm-feeling song should do.
-     
+
     scene black with dissolve
+
+    play music bgmdream fadeout 1.0 fadein 0.0
+
     voice "d4-1-1.mp3" #vivi
     dlov "Hello? Anyone in there?"
      
