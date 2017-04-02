@@ -1,7 +1,7 @@
 label day3s3:
 
     scene library
-    with dissolve 
+    with dissolve
     "Lauren sits back and stretches loudly, catching the attention of the nearby librarian."
 
     show lov shyh
@@ -35,21 +35,21 @@ label day3s3:
     show lov shyh
     voice "3-3-8.mp3" #starleeter
     lov "But I want some coffee nowww…"
-    
+
     #VOICE EDIT: THE VOICE CLIP REQUIRES AUDACITY SURGERY TO CUT EXTRANEOUS LINES
     voice "3-2-111.mp3" #starleeter
     show lov happy
     lov "There's a cafe not too far from here! Their parfaits are to die for! What do you say?"
-    
+
     voice "3-2-112.mp3" #potato
     pro "Parfaits? ...I guess they'd suit you."
-    
+
     show lov happyh
     voice "3-2-113.mp3" #starleeter
-    lov "Yeah, they're fruity and creamy and perfectly sweet, like me!" 
+    lov "Yeah, they're fruity and creamy and perfectly sweet, like me!"
 
     show lov happy2
-    
+
     "I sigh, avoiding her gaze. I shove my face into my book, closing it around me, my messy hair getting tangled up and matted down."
 
     voice "3-3-9.mp3" #potato
@@ -65,7 +65,7 @@ label day3s3:
     pro "No, it's fine, you don't have to pay for me."
 
     show lov shy2
-    
+
     "I hate it when people pay for me. It's a nice gesture, but it only serves to reinforce my worries. It takes out even the smallest of choice that I have in my life."
 
     "I guess I should listen to my own advice, however. She's being nice, so I should just 'suck it up'."
@@ -84,7 +84,7 @@ label day3s3:
 
     hide lov
     with dissolve
-    
+
     "Sticking my tongue out at her, I pack my shit and motion towards the door."
 
     "Her tongue reaches out just as quickly. I'm sure we look like idiots right now, but it doesn't really bother me. I like Lauren, and she's one of the parts of life that I honestly say I can look forward to."
@@ -93,8 +93,8 @@ label day3s3:
     with dissolve
     voice "3-3-15.mp3" #starleeter
     show lov happy2
-    with dissolve 
-    
+    with dissolve
+
     lov "So, what coffee ya gunna get? The boring old drip coffee? So blaannnd!"
 
     "I'm shoved to the side as she jabs her fingers into my waist. Hey! I'm not thick enough for that…"
@@ -103,7 +103,7 @@ label day3s3:
     pro "Hey, cut it out! That hurts!"
 
     show lov happy1bh
-    
+
     "She giggles, poking harder and harder, joining in with both hands."
 
     "I can't help but laugh back - as much as it hurts, it tickles to all hell."
@@ -128,18 +128,21 @@ label day3s3:
 
     hide lov
     with dissolve
-    
+
     voice "3-3-20.mp3" #potato
     pro "God, why do you have to be so embarrassing?"
-
+    stop ambience fadeout 3.0
     scene black
     with dissolve
+
     "I jog next to her, refusing to give in to her childish tendencies."
 
     scene cafeexterior
-    with dissolve 
+    with dissolve
+    play ambience suburb fadein 1.0
+
     "Thankfully, my own personal hell ends just as quickly as it had started - we arrive at the coffeeshop."
-    
+
     show lov happy1
     with dissolve
 
@@ -147,22 +150,22 @@ label day3s3:
 
     hide lov
     with dissolve
-    
+
     "Thankfully, they don't tend to have a lot of coffee in them. If they did… dear god, I wouldn't know what to do with her."
 
     "Oddly enough, as I gaze at the signs inside the shop, I realize that there isn't a seasonal coffee in stock."
 
     "There's something much, much more interesting in store for us."
-    
+
     show lov confused2h
-    
+
     voice "3-3-21.mp3" #starleeter
     lov "Hey, Emily? Isn't that your father?"
-    
+
     voice "3-3-22.mp3" #potato
     pro "...Yeah, that is."
 
-    "I'm surprised she recognized him. She has a pretty damn good photographic memory, however, so I guess it makes sense. I'm sure she's seen photos of my family, through social media or otherwise."
+    "I'm surprised she recognized him. She has a damn near photographic memory, however, so I guess it makes sense. I'm sure she's seen photos of my family, through social media or otherwise."
 
     show lov happy2
     voice "3-3-23.mp3" #starleeter
@@ -175,14 +178,14 @@ label day3s3:
     "I'm not exactly comfortable in conversation with him. We just don't know each other like we used to. Nowhere near close."
 
     show lov happy1
-    
+
     "Lauren had different ideas, however."
-    
+
     hide lov
     with dissolve
-    
+
     "Whoosh. She's off like a rocket."
-    
+
     voice "3-3-25.mp3" #potato
     pro "Hey! Wait up, don't just walk up to him!"
 
@@ -196,12 +199,12 @@ label day3s3:
     with dissolve
     show lov happy2 at right
     with dissolve
-    
+
     "Begrudgingly, I enter the store and walk up to him."
 
     voice "3-3-26.mp3" #potato
     pro "Heyyy, dad…"
-    
+
     show dad neutral1 at center
 
     voice "3-3-27.mp3" #lacTheWatcher
@@ -238,7 +241,7 @@ label day3s3:
     voice "3-3-30.mp3" #lacTheWatcher
     dad "Oh? That's wonderful Emily. You've grown up so much, and you're being so proactive. I'm happy to see you two together. At least you aren't alone while I'm gone."
 
-    show dad happy1 at center
+    show dad smile1 at center
     "Well. Perhaps being alone would be better than the loneliness that comes with our household. If you were around more, you'd understand."
 
     voice "3-3-31.mp3" #potato
@@ -313,7 +316,7 @@ label day3s3:
     voice "3-3-45.mp3" #lacTheWatcher
     dad "Alright, I have to go back to work. Break's ending soon, and I have a long shift ahead of me, like always. Thanks for stopping by. It's really nice to get to see you, it makes my work seem a little less soul crushingly rough."
 
-    show dad happy at center
+    show dad smile1 at center
     "He looks over to Lauren with a smile."
 
     voice "3-3-46.mp3" #lacTheWatcher
@@ -333,14 +336,14 @@ label day3s3:
     dad "Goodbye all."
 
     hide dad
-    with dissolve 
+    with dissolve
     "And with that, he grabs his cup and leaves. The cafe seems eerily quiet now, despite the constant murmurs emanating from the nearby customers."
 
     "We order ourselves the drinks we neglected earlier, and find a booth to seat ourselves."
 
     hide lov
     with dissolve
-    show lov shy1 
+    show lov shy1
     with dissolve
     voice "3-3-50.mp3" #starleeter
     lov "Your father seems so nice. It's a shame to hear what he's going through…"
@@ -387,13 +390,15 @@ label day3s3:
 
     "I can never keep up with Lauren's energy… I'm so tired. Time to head home."
 
-    hide lov 
+    hide lov
     with dissolve
     scene cafeexterior
     with dissolve
     "I wave farewell to Lauren as we go our separate ways."
 
+    stop music fadeout 2.0
+    stop ambience fadeout 1.0
     scene black
     with dissolve
-    
+
     jump day3s4
