@@ -318,3 +318,4 @@ define config.framerate = 144
 ## If None, the mouse will never be hidden.
 
 define config.mouse_hide_time = 30
+
