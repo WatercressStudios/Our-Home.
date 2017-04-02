@@ -142,7 +142,7 @@ label dream1:
     dmom "Do you know what you're going to wish for?"
 
     voice "d1-1-17.mp3" #kujira
-    dbro "Don't pry it from her, Ma! It's gotta be a secret"
+    dbro "Don't pry it from her, Ma! It's gotta be a secret!"
 
     voice "d1-1-18.mp3" #lacTheWatcher
     ddad "Haha, that is true… you don't have to tell us if you don't want to."

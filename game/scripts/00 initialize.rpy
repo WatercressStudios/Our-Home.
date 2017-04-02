@@ -335,7 +335,7 @@ init python:
         if event == "begin":
             renpy.transition(dissolve, layer="master")
         
-    config.all_character_callbacks = [callback_transition] 
+    config.all_character_callbacks = [callback_transition]
 
 # This jumps us to the first scene
 label start:

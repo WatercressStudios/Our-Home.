@@ -318,3 +318,7 @@ define config.framerate = 144
 ## If None, the mouse will never be hidden.
 
 define config.mouse_hide_time = 30
+
+init python:
+    renpy.music.register_channel("ambience", mixer="sfx", loop=True, stop_on_mute=True)
+
