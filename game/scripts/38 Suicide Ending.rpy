@@ -2,8 +2,10 @@ label suicideending:
     voice "20-1-0.mp3" #potato
     pro "I'm sorry. For everything. I will make things right."
 
-    #Credits
+    #TODO: Credits
     #Epilogue from Love Interest's pov:
+    
+    scene siswalk2
 
     "It's a beautiful day out today! The sun is shining, the trees are blossoming, and school has let us Seniors out for the Summer. It's pretty cool today as well. The breeze feels wonderful on my skin!"
 
@@ -11,6 +13,8 @@ label suicideending:
 
     "Loosening up my top, I make my way to her house."
 
+    scene house
+    
     "It's always strange, seeing it. My chest tightens, and I hesitate just slightly on my path, every time."
 
     "Sometimes, I like to reminisce in the past. Remember just what she was like. How tired she always seemed, how quiet…"
@@ -23,6 +27,8 @@ label suicideending:
 
     "Approaching the door, I knock a few times, and I take a few steps back."
 
+    show sis sad2 with dissolve
+    
     "A few seconds later, a familiar face exits. She looks at me and waves, hanging her head, as she tends to do nowadays."
 
     "Let's have some conversation, shall we?"
@@ -30,6 +36,7 @@ label suicideending:
     voice "20-1-1.mp3" #starleeter
     lov "Hey, Maria! How're you doing today? Doing alright I hope!"
 
+    show sis sad with dissolve
     voice "20-1-2.mp3" #amree
     sis "Y-yeah, I'm okay I guess…"
 
@@ -40,6 +47,7 @@ label suicideending:
     voice "20-1-3.mp3" #starleeter
     lov "Good. Ready for school?"
 
+    show sis sad2 with dissolve
     voice "20-1-4.mp3" #amree
     sis "No one's ever ready for school."
 
@@ -49,44 +57,53 @@ label suicideending:
     "I grab her hand gently, Maria giving little resistance. I get one step off of the porch before I hear the door open behind me."
 
     voice "20-1-6.mp3" #kaito
-    mrs "Lauren?"
-
+    mom "Lauren?"
+    
+    hide sis
+    show sis sad at right
+    show mom sad at left
+    with dissolve
     "I hold in a sigh, turning to meet her. She's looking down at her feet, and she's barely peeking between a crack in the door."
 
     voice "20-1-7.mp3" #starleeter
     lov "'Heya, Mrs. Westenson!"
-
+    
+    show mom sad2 at left with dissolve
     voice "20-1-8.mp3" #kaito
-    mrs "I, uhh, just wanted to say thank you. I know it must be difficult taking over for…"
+    mom "I, uhh, just wanted to say thank you. I know it must be difficult taking over for…"
 
     "Her voice catches. She can't bring herself to say her name."
 
     voice "20-1-9.mp3" #starleeter
     lov "Yeah, of course. It's the least I could do."
 
+    show mom sad at left with dissolve
     "She bows her head, opening the door a little wider."
 
     voice "20-1-10.mp3" #kaito
-    mrs "Maria, come give your mommy a hug, okay?"
+    mom "Maria, come give your mommy a hug, okay?"
 
+    show sis sad2 at right with dissolve
     "Maria hesitates, but gives in, walking up to her and accepting her offer."
 
     "I have to look away."
 
+    show mom sad2 at left with dissolve
     voice "20-1-11.mp3" #kaito
-    mrs "I'm so, so sorry…"
+    mom "I'm so, so sorry…"
 
     voice "20-1-12.mp3" #starleeter
     lov "So am I."
 
     voice "20-1-13.mp3" #kaito
-    mrs "You have no reason to be sorry. You were there for her, and I wasn't…"
+    mom "You have no reason to be sorry. You were there for her, and I wasn't…"
 
+    show mom sad at left with dissolve
     voice "20-1-14.mp3" #kaito
-    mrs "I'm a terrible person. I should have seen the signs earlier. I should have done something. Anything."
+    mom "I'm a terrible person. I should have seen the signs earlier. I should have done something. Anything."
 
     voice "20-1-15.mp3" #kaito
-    mrs "It's all my fault."
+    mom "It's all my fault."
 
     "Boy, do I want to agree, but that wouldn't help this situation at all. I take the moral high ground."
 
@@ -101,8 +118,9 @@ label suicideending:
 
     "She nods, releasing Maria."
 
+    show mom sad2 at left with dissolve
     voice "20-1-19.mp3" #kaito
-    mrs "You're right… I'll be better. I have to be, for her."
+    mom "You're right… I'll be better. I have to be, for her."
 
     "She motions to her remaining daughter before retreating back inside."
 
@@ -113,6 +131,8 @@ label suicideending:
 
     voice "20-1-21.mp3" #amree
     sis "O-Okay…"
+    
+    scene suicideending with dissolve
 
     "With that, we're off. The world around me is a little bit darker than I'm used to, but it's still sunny outside. The birds still chirp, the squirrels still chitter, and Maria still gets walked to school."
 

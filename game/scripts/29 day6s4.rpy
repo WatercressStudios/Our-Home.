@@ -183,16 +183,16 @@ label disposal:
     pro "Alright. To the bathroom."
 
     scene bathroom with dissolve 
-    #play sound footsteps##################################################
+    play sound footsteps
 
     "I make my way over to the bathroom, just across from me. This shouldn't be too hard."
     "Just gotta flush this shit and forget. Quickly, before someone sees…"
     "Just need to dump and flush…" 
 
-    #play sound cellphonering################################################
+    play sound vibrate
     "{b}DOODLE DOODLE DOODLE DOO DOOT DOOT!{/b}"
 
-    #play sound whump###################################################################
+    play sound thud
 
     "Jesus Christ that sound! Nearly jumped out of my fucking skin…" 
 
