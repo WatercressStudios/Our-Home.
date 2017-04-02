@@ -106,7 +106,7 @@ label goodLoveEnding:
         "We made it work, though. We'd visit each other often and we video chat every night."
 
     hide lov with dissolve
-    hide ambience fadeout 2.0
+    stop ambience fadeout 2.0
 
     "It was wonderful, to say the least. I could never feel sad for long with her bubbliness in the air."
     "After a year of dating, Lauren said we should go to a café to celebrate."
@@ -186,5 +186,7 @@ label goodLoveEnding:
     else:
         show neutralplusending with Dissolve(2.0)
     # TODO: Credits
+
+    stop ambience fadeout 2.0
 
     jump dreamEpilogue

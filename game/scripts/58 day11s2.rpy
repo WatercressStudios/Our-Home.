@@ -94,7 +94,7 @@ label day11s2:
 
     play sound schoolbell
 
-    "DOO DO DOO DO!"
+    "{b}DOO DO DOO DO!{/b}"
     voice "11-2-9.mp3" #potato
     pro "...?"
     voice "11-2-10.mp3" #potato

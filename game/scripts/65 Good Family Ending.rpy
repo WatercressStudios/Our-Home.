@@ -96,6 +96,9 @@ label goodFamilyEnding:
         align (0.1, 1.0)
 
     "Mom is sobbing openly now. Maria runs over and hugs her. Laughing with tears in our eyes, the rest of us do the same."
+
+    play sound honk
+
     "The taxi honks angrily at us one last time and drives off, leaving our family intact in our home."
 
     stop music fadeout 5.0

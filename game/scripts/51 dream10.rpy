@@ -1,7 +1,7 @@
 label dream10:
     
     scene dream3 with dissolve
-
+    play music bgmdream2 fadeout 1.0 fadein 0.0
     "...Huh? Isn't this… the world in my dreams?"
     "But… I said goodbye to this world… to my other family, some days ago. Why am I here?"
     "Looking around it feels… so empty. Everything's just as I left it, but…"

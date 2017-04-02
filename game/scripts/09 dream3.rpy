@@ -2,6 +2,8 @@ label dream3:
 
     scene dream2 with dissolve
     
+    play music bgmdream fadeout 1.0 fadein 0.0
+
     "The transition is seamless, as expected. The air is a very soothing room temperature; not quite cold, and yet not hot either. It's peaceful."
     
     "A gentle wind brushes against my hair, down my back, kissing my skin, embracing me. Across from me, I find my brother sipping a cup of warm tea."
