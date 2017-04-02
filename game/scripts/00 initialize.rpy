@@ -242,6 +242,10 @@ image sky = "bgs/Kenta/Sky.png"
 image stars = "bgs/Kenta/Stars.png"
 image parkbench = "bgs/cgs/Park only.png"
 image parkbench dark = "bgs/cgs/Park only (Night).png"
+image kmart = "bgs/Kenta/kmart_interior.png"
+image kmartexterior = "bgs/Kenta/kmart_exterior.png"
+image niagara1 = "bgs/Kenta/niagara_falls1.png"
+image niagara2 = "bgs/Kenta/niagara_falls2.png"
 
 # All of Tutty's
 image bathroom = "bgs/Tutty/bathroom.png"
@@ -316,6 +320,47 @@ define bgmdream = "music/bgmdream - Dream.ogg"
 define bgmfin = "music/bgmfin - Finale Fight.ogg"
 define bgmfuneral = "music/bgmfuneral - Funeral Ending.mp3"
 define bgmhijinks = "music/bgmhijinks - Hijinks Theme.ogg"
+
+#######
+# SFX #
+#######
+define alarm = "sfx/alarm.wav"
+define bangclatter = "sfx/bangclatter.wav"
+define brocry = "sfx/brocry.mp3"
+define cheer = "sfx/cheer.wav"
+define curtains = "sfx/curtains.wav"
+define fabric = "sfx/fabric.wav"
+define flush = "sfx/flush.wav"
+define footsteps = "sfx/footsteps.wav"
+define honk = "sfx/honk.wav"
+define knock = "sfx/knock.wav"
+define lampclick = "sfx/lampclick.wav"
+define loudknock = "sfx/loudknock.wav"
+define opendoor = "sfx/opendoor.wav"
+define paper = "sfx/paper.wav"
+define schoolbell = "sfx/schoolbell.wav"
+define slam = "sfx/slam.wav"
+define slamdoor = "sfx/slamdoor.wav"
+define slap = "sfx/slap.wav"
+define smash = "sfx/smash.wav"
+define sprint = "sfx/sprint.wav"
+define strangenoise = "sfx/strangenoise.wav"
+define swish = "sfx/swish.wav"
+define thud = "sfx/thud.wav"
+define vibrate = "sfx/vibrate.ogg"
+define whoosh = "sfx/whoosh.wav"
+
+############
+# AMBIENCE #
+############
+define blackboard = "sfx/blackboard.wav"
+define crowd = "sfx/crowd.wav"
+define hospital = "sfx/hospital.wav"
+define kmart = "sfx/kmart.wav"
+define nightsuburb = "sfx/nightsuburb.wav"
+define suburb = "sfx/suburb.wav"
+define waterfall = "sfx/waterfall.wav"
+
 
 # Flash the splash screen on launch
 label splashscreen:

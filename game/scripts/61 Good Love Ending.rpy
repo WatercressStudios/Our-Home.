@@ -1,9 +1,15 @@
 label goodLoveEnding:
 
+    scene bedroom with dissolve
+
     "After dinner is over, I sit in my room and think about the past."
     "I think about Lauren's theatre show in highschool."
 
     #TODO: FLASHBACK FILTER
+#     scene drama with dissolve
+    show black with dissolve
+    play sound cheer
+
     "The audience roars with applause as Lauren's time on the center stage comes to an end."
     "The theater is filled to the brim. I'd say this was quite successful for her. Seeing her act on stage was super cute, especially knowing that I'd helped her with many of her lines."
     "She was probably very nervous, but she didn't let it show, not one bit."
@@ -13,10 +19,16 @@ label goodLoveEnding:
     "Today's the day… the day I ask her out."
     "It took a lot of nerve, but eventually I was able to get the words out while Lauren was getting changed out of her costume."
     "I could hear her stop moving behind the sheet they put up to give people something to hide behind while changing."
+
+    show lov shy1bh with dissolve
+
     voice "20-10-1.mp3" #starleeter
     lov "I’d love to!"
     voice "20-10-2.mp3" #potato
     pro "Uh… O-okay… C-cool."
+
+    show lov happy2b with dissolve
+
     "Lauren came changing through the sheets and hugged me tight."
     "It made me blush, but... I didn’t exactly mind."
     "We just held each other for the longest time."
@@ -24,22 +36,37 @@ label goodLoveEnding:
     "When we pulled away, I noticed something I hadn’t noticed before."
     voice "20-10-3.mp3" #potato
     pro "Lauren…"
+
+    show lov happy1b with dissolve
+
     voice "20-10-4.mp3" #starleeter
     lov "Uh-huh?"
     voice "20-10-5.mp3" #potato
     pro "Could you… uh... put some pants on?"
     "Lauren looked down."
+
+    show lov shy1bh with dissolve
+
     voice "20-10-6.mp3" #starleeter
     lov "Gah! Sorry! I was too excited! I forgot I hadn’t finished changing!"
+    
+    show lov shy2bh with dissolve
+    
     "She ducked away behind the sheet while laughing."
     voice "20-10-7.mp3" #potato
     pro "You were great out there, Lauren. I… I-I got you some roses."
     voice "20-10-8.mp3" #potato
     pro "I remember you saying your Dad would always come to your shows with roses…"
+
+    show lov shy2b with dissolve
+
     voice "20-10-9.mp3" #starleeter
     lov "Ohmigosh, really? You're such a sweetheart!~"
     voice "20-10-10.mp3" #potato
     pro "Yeah… they reminded me of you."
+
+    show lov happy2b with dissolve
+
     voice "20-10-11.mp3" #starleeter
     lov "Haha, because they're red, right??"
     voice "20-10-12.mp3" #potato
@@ -108,5 +135,12 @@ label goodLoveEnding:
     lov "I love you."
     voice "20-10-29.mp3" #potato
     pro "I love you, too."
+
+    if career < 8 and family < 8:
+        show neutralminusending with Dissolve(2.0)
+    else:
+        show neutralplusending with Dissolve(2.0)
+
+    # TODO: Credits
 
     jump dreamEpilogue

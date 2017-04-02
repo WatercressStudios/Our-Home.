@@ -533,6 +533,7 @@ label day11finale:
     voice "11-4-89.mp3" #kaito
     mom "...I—"
 
+    hide mom with dissolve
     play sound honk
     stop music fadeout 1
     "HONK! HONK!"

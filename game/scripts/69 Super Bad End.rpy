@@ -1,6 +1,6 @@
 label superBadEnding:
 
-    scene walmart with dissolve 
+    scene walmart with dissolve
 
     voice "20-11-1.mp3" #potato
     pro "Thank you for shopping at Walmart, ma'am. Next person, please."

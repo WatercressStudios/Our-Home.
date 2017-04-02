@@ -19,7 +19,7 @@ label day2s3:
     voice "2-3-4.mp3" #skinimini
     tea "Now, can anyone tell me something about Winston?"
 
-    voice "2-3-5.mp3" #all #probably not going to record this one
+#     voice "2-3-5.mp3" #all #probably not going to record this one
     all "..."
     voice "2-3-6.mp3" #skinimini
     tea "...Well don't all jump up at once, now."
@@ -171,7 +171,7 @@ label day2s3lecture:
     #same as above, but looking directly at reader and smiling
     show lov happyh with dissolve
 
-    voice "2-3-28.mp3" #starleeter
+#     voice "2-3-28.mp3" #starleeter
     lov "...?"
 
     "Oh, she saw me. What's that look she's giving me?"
@@ -236,6 +236,8 @@ label day2s3lecture:
     "Poor Lauren. Horrendously overworked, as per usual, but she keeps her chin up, somehow."
     voice "2-3-46.mp3" #potato
     pro "So, uh… what are you doing in here? I guess you got a role?"
+
+    voice "2-3-46_2.mp3" #starleeter
     lov "Oh, they gave me a huuuge role! We're doing {i}Bye Bye Birdie{/i} this year, and I got one of the lead roles!"
 
     hide lov
@@ -244,11 +246,9 @@ label day2s3lecture:
     "Lauren bent over to lift the script she had left on the carpet, rustling the sheets as she did."
     "That was, uh… a big script. At least a hundred pages."
 
-
     show lov happy
     with dissolve
     voice "2-3-47.mp3" #starleeter
-
     lov "See, look, look! I'm Rose, the secretary! I have all my lines highlighted!"
 
     voice "2-3-48.mp3" #potato

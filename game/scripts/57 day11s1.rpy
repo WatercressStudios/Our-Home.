@@ -13,7 +13,7 @@ label day11s1:
     
     scene bedroom with dissolve
     play music bgmdad
-    # TODO: play sound curtaindrawn
+    play sound curtain
 
     "Maybe I'm just not a morning person. Or maybe… they're just so much more hectic with Mom gone."
     "...She's still gone, isn't she. It's surreal to think about, but…" 
