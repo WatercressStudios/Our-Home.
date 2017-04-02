@@ -831,6 +831,11 @@ screen preferences():
                         hbox:
                             bar value Preference("music volume")
 
+                    label _("Ambience Volume")
+
+                    hbox:
+                        bar value FieldValue(renpy.music.get_channel("ambience"), "chan_volume", 1.0, style="slider_slider")
+
                     if config.has_sound:
 
                         label _("Sound Volume")
