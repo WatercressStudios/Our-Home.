@@ -4,23 +4,12 @@ label funeralending:
 
     # # #
 
-    #If coming from homecoming
-
-    "None of my suffering matters in the grand scheme of things. I have the power to look past it and focus on the things that will make it all worth it."
-
-    # # #
-
-    #If coming from homeless
-
-    "But I can’t just leave."
-
-    "The world is shit, but it’s better than playing make-believe all day."
-
-    "Even if I can only trust myself, that’s still someone. I’ll fight for a life that’s better than this."
-
-    # # #
-
-    #merge
+    if homecoming:
+        "None of my suffering matters in the grand scheme of things. I have the power to look past it and focus on the things that will make it all worth it."
+    else:
+        "But I can’t just leave."
+        "The world is shit, but it’s better than playing make-believe all day."
+        "Even if I can only trust myself, that’s still someone. I’ll fight for a life that’s better than this."
 
     "I’ll be happy that way."
 
@@ -83,8 +72,8 @@ label funeralending:
     "If I had just given him the time of day, I’m sure I could have saved him, somehow."
 
     #Skip the next line if the player took the "unfortunate" route in d7s3. (i.e. if they didn’t yell at him)
-
-    "Plus, the last time I saw him before he died, I completely blew up at him. In a sense, I’m no better than Mom."
+    if scoldalex:
+        "Plus, the last time I saw him before he died, I completely blew up at him. In a sense, I’m no better than Mom."
 
     "But that’s all in the past. There’s no point worrying about what-ifs and might-have-beens. This is the path I’ve chosen. There are flaws, but I can’t let them burden me."
 

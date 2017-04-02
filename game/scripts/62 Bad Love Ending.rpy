@@ -75,7 +75,7 @@ label badLoveEnding:
 
     #TODO: FLASHBACK FILTER ENDS
 
-    scene sky with dissolve
+    scene sky with Dissolve(2.0)
     "That was a long time ago, and of course…"
     "I didn't."
     "I never got around to it."
