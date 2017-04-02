@@ -6,6 +6,7 @@ define dbro = Character('Brother', color="#800000", voice_tag="brother")
 define dmom = Character('Mother', color="#800000", voice_tag="mother")
 define ddad = Character('Father', color="#800000", voice_tag="father")
 define dlov = Character('Diane', color="#800000", voice_tag="diane")
+define dpro = Character('Emily', color="#800000", voice_tag="emily")
 
 
 #########################
