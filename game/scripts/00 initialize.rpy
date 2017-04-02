@@ -335,6 +335,14 @@ define bgmcreep = "music/bgmcreep - Creepy Dream Theme.mp3",
 define bgmdad = "music/bgmdad - Father Theme.ogg",
 define bgmdream = "music/bgmdream - Dream.ogg"
 
+define bgmfinale = [bgmfinaleintro, bgmfinaleloop, bgmfinaleloop, bgmfinaleloop, bgmfinaleloop]
+define bgmfuneral = [bgmfuneralintro, bgmfuneralloop, bgmfuneralloop, bgmfuneralloop, bgmfuneralloop]
+define bgmhijinks = [bgmhijinksintro, bgmhijinksloop, bgmhijinksloop, bgmhijinksloop, bgmhijinksloop]
+define bgmmenu = [bgmmenuintro, bgmmenuloop, bgmmenuloop, bgmmenuloop, bgmmenuloop]
+define bgmmom = [bgmmomintro, bgmmomloop, bgmmomloop, bgmmomloop, bgmmomloop]
+define bgmneutral = [bgmneutralintro, bgmneutralloop, bgmneutralloop, bgmneutralloop, bgmneutralloop]
+define bgmbro = [bgmbrointro, bgmbroloop, bgmbroloop, bgmbroloop, bgmbroloop]
+
 #######
 # SFX #
 #######
