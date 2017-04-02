@@ -243,8 +243,8 @@ screen the_img(img):
 
 #Muting the characters that have no voices.
 init python:
-    SetVoiceMute("emily", True)
-    SetVoiceMute("others", True)
+    renpy.run(SetVoiceMute("emily", True))
+    renpy.run(SetVoiceMute("others", True))
 
 screen voice_toggle:
 
@@ -253,14 +253,21 @@ screen voice_toggle:
     use game_menu(_("Voice"), scroll="viewport"):
         vbox:
             align 0.3, 0.5
-#            textbutton "Mute Emily" action ToggleVoiceMute("emily") hovered ShowTransient("the_img", transition=dissolve, img="sprites/emily/mclineshappy.png") unhovered Hide("the_img", transition=dissolve)
-            textbutton "Mute Lauren" action ToggleVoiceMute("lauren") hovered ShowTransient("the_img", transition=dissolve, img="sprites/lauren/l2happy2b.png") unhovered Hide("the_img", transition=dissolve)
-            textbutton "Mute Diane" action ToggleVoiceMute("diane") hovered ShowTransient("the_img", transition=dissolve, img="sprites/diane/Happy- Speaking.png") unhovered Hide("the_img", transition=dissolve)
-            textbutton "Mute Mother" action ToggleVoiceMute("mother") hovered ShowTransient("the_img", transition=dissolve, img="sprites/mother/Eyes Closed Smile.png") unhovered Hide("the_img", transition=dissolve)
-            textbutton "Mute Father" action ToggleVoiceMute("father") hovered ShowTransient("the_img", transition=dissolve, img="sprites/father/Happy Speaking.png") unhovered Hide("the_img", transition=dissolve)
-            textbutton "Mute Brother" action ToggleVoiceMute("brother") hovered ShowTransient("the_img", transition=dissolve, img="sprites/brother/Happy Speaking.png") unhovered Hide("the_img", transition=dissolve)
+#            textbutton "Mute Emily" action ToggleVoiceMute("emily")
+#            hovered ShowTransient("the_img", transition=dissolve, img="sprites/emily/mclineshappy.png") unhovered Hide("the_img", transition=dissolve)
+            textbutton "Mute Lauren" action ToggleVoiceMute("lauren")
+#            hovered ShowTransient("the_img", transition=dissolve, img="sprites/lauren/l2happy2b.png") unhovered Hide("the_img", transition=dissolve)
+            textbutton "Mute Diane" action ToggleVoiceMute("diane")
+#            hovered ShowTransient("the_img", transition=dissolve, img="sprites/diane/Happy- Speaking.png") unhovered Hide("the_img", transition=dissolve)
+            textbutton "Mute Mother" action ToggleVoiceMute("mother")
+#            hovered ShowTransient("the_img", transition=dissolve, img="sprites/mother/Eyes Closed Smile.png") unhovered Hide("the_img", transition=dissolve)
+            textbutton "Mute Father" action ToggleVoiceMute("father")
+#            hovered ShowTransient("the_img", transition=dissolve, img="sprites/father/Happy Speaking.png") unhovered Hide("the_img", transition=dissolve)
+            textbutton "Mute Brother" action ToggleVoiceMute("brother")
+#            hovered ShowTransient("the_img", transition=dissolve, img="sprites/brother/Happy Speaking.png") unhovered Hide("the_img", transition=dissolve)
             textbutton "Mute Alex" action ToggleVoiceMute("brother")
-            textbutton "Mute Maria" action ToggleVoiceMute("sister") hovered ShowTransient("the_img", transition=dissolve, img="sprites/maria/sishappy2b.png") unhovered Hide("the_img", transition=dissolve)
+            textbutton "Mute Maria" action ToggleVoiceMute("sister")
+#            hovered ShowTransient("the_img", transition=dissolve, img="sprites/maria/sishappy2b.png") unhovered Hide("the_img", transition=dissolve)
             textbutton "Mute Jonathon" action ToggleVoiceMute("father")
             textbutton "Mute Elizabeth" action ToggleVoiceMute("mother")
             textbutton "Mute Teacher" action ToggleVoiceMute("teacher")
