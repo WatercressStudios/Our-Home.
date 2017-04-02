@@ -1,9 +1,9 @@
 label day11s1:
 
     scene bedroom dark with dissolve
-    stop music
+    stop music fadeout 2.0
 
-    play sound bedalarm
+    play sound alarm
     "{b}BEEP! BEEP! BEEP! BEEP!{/b}"
     voice "11-1-1.mp3" #potato
     pro "Ugh… today's another new day…" 
@@ -122,7 +122,7 @@ label day11s1:
     voice "11-1-24.mp3" #lacTheWatcher
     dad "Your mother… had to do some soul-searching alone. Didn't you spend so much time cooped up in your room alone, all that time?"
     voice "11-1-25.mp3" #potato
-    pro "...What? Dad, this is different, without her, we-"
+    pro "...What? Dad, this is different, without her, we—"
 
     show dad neutral1 with dissolve
 
@@ -205,7 +205,7 @@ label day11s1:
     show dad smile1 with dissolve
 
     voice "11-1-41.mp3" #lacTheWatcher
-    dad "Can you take Maria to school? I'll watch Alex and-"
+    dad "Can you take Maria to school? I'll watch Alex and—"
     voice "11-1-42.mp3" #potato
     pro "What about Mom? You've been beating around the bush about her."
 
@@ -235,8 +235,8 @@ label day11s1:
     "It's morning, I'm tired, and he's being cagey. I don't have the time or the energy to deal with this."
 
     scene house with dissolve
-    stop music
-    # TODO: play ambience suburb
+    stop music fadeout 5.0
+    play ambience suburb
 
     voice "11-1-49.mp3" #potato
     pro "You ready to go, Maria?"
@@ -366,6 +366,9 @@ label day11s1:
     scene siswalk2 with dissolve 
 
     "I'm done waiting for Mom. After school, I'm gonna  make Dad talk."
+
+    stop music fadeout 5.0
+
     "He knows. And he's making his children worry. What the Hell is he thinking…"
 
     jump day11s2
