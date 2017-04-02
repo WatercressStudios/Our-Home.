@@ -110,32 +110,47 @@ label day2s4:
 
     scene livingroom sunset with dissolve
 
+    show mom sad1 at center with dissolve
+    show bro sad1 at right with dissolve
+    show sis worry1 at left with dissolve
+    
     "It’s just the four of us, since Dad is working, again."
     "Alex is refusing to look at me, naturally."
     "Maria looks between the both of us before turning her attention to Mom."
     voice "2-4-14.mp3" #amree
     sis "Where’s Dad?"
     voice "2-4-15.mp3" #kaito
+    show mom sad3 at center
     mom "Alex, eat your dinner."
     voice "2-4-16.mp3" #kujira
+    show bro sad2 at right
     bro "I am eating it."
     voice "2-4-17.mp3" #amree
+    show sis worry2 at left
     sis "Hey, M-Mom. Where’s Dad?"
     voice "2-4-18.mp3" #kaito
+    show mom angry1 at center
     mom "You’re just playing with it."
     voice "2-4-19.mp3" #kujira
+    show bro smirk1 at right
     bro "Get off my back! I can eat as slow as I like!"
     voice "2-4-20.mp3" #amree
+    show sis sad1 at left
     sis "Umm Emi, do you know where Dad is?"
     voice "2-4-21.mp3" #kaito
-    mom "You’re not leavin this table until you’ve cleared your plate."
+    mom "You’re not leaving this table until you’ve cleared your plate."
     voice "2-4-22.mp3" #kujira
+    show bro angry2 at right
     bro "I’m not two, Mom!"
     voice "2-4-23.mp3" #kaito
+    show mom angry2 at center
     mom "Maybe when you stop throwing tantrums, I’ll believe you."
+    show bro angry1 at right
     "Alex’s expression scrunches up like he’s going to yell, but he relaxes."
+    show bro sad2 at right
     voice "2-4-24.mp3" #kujira
     bro "Whatever."
+    show mom sad3 at center
     "Ugh."
     "I don’t want to be around this."
     "I clear my plate as fast as I can and head straight to my room."
@@ -167,7 +182,7 @@ label day2s4:
     voice "2-4-29.mp3" #potato
     pro "What do you think?"
 
-    show bro sad2
+    show bro sad1
 
     voice "2-4-30.mp3" #kujira
     bro "Please don’t say anything."
@@ -200,12 +215,15 @@ label day2s4:
             "I’ll need stitch together the limbs and other stuff later but the bulk is done."
             "I yawn."
             "It’s time to go to bed."
+            jump breakyourclock
 
         #option 2
         "I just need a break right now.":
             "I just found out Alex is taking heroin, for God’s sake! There’s no way I can concentrate today.."
+            jump breakyourclock
 
     #after choice merge
+    label breakyourclock:
     "I get into bed and get comfortable under the covers."
 
     scene bedroom night
@@ -214,6 +232,8 @@ label day2s4:
     "It can wait another day or two. It’s not the end of the world."
     "Besides, doing the plush while I’m tired will just mess it up, right?"
     "I roll onto one side, my back to the desk."
+    scene black
+    with dissolve
     "Sleep comes almost immediately."
     "I guess I was more tired than I realised."
     jump dream3

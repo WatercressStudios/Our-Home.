@@ -113,7 +113,7 @@ label day2s2love:
     pro "She's human, and despite her flaws, she's our mother."
 
 
-    show sis smile1
+    show sis happy1
     voice "2-2-23.mp3" #amree
 
     sis "I-I think that makes sense…"

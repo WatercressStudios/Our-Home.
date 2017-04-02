@@ -292,6 +292,7 @@ image suicideending = "cgs/suicided.png"
 image dreamepilogue = "cgs/Scene 67.png"
 image parkdate = "cgs/Park with LI.png"
 image parkdate dark = "cgs/Park with LI (Night).png"
+image fashionbook = "cgs/fashion book.png"
 
 #######
 # VFX #
