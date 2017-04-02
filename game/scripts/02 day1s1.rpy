@@ -1,4 +1,4 @@
-﻿label day1s1:
+label day1s1:
 
     "BANG BANG BANG!"
     "BANG BANG BANG!"
@@ -87,7 +87,7 @@
     show mom angry2
     voice "1-1-10.mp3" #kaito
     mom "Hello?"
-    voice "1-1-11.mp3" #kaito
+#    voice "1-1-11.mp3" #kaito silence
     mom "..."
     show mom happy1
     voice "1-1-12.mp3" #kaito

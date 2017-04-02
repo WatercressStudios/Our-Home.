@@ -4,6 +4,7 @@ label day6s1:
 
     $ yessister = False    
 
+    voice "6-1-0.mp3" #potato
     pro "Hey, sis, time to go. I need to be at school at a reasonable time this morning, so open up."
 
     voice "6-1-1.mp3" #amree

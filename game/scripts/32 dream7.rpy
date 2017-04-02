@@ -2,6 +2,7 @@ label dream7:
 
     scene dream1 with dissolve
 
+#    voice "d7-1-0.mp3" #kujira recording
     dbro "Welcome back."
 
     show dbro smile

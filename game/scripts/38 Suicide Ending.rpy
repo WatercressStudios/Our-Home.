@@ -1,4 +1,5 @@
 label suicideending:
+    voice "20-1-0.mp3" #potato
     pro "I'm sorry. For everything. I will make things right."
 
     #Credits
