@@ -5,7 +5,6 @@ label goodFamilyEnding:
 
     "She looks at us for a long while, the taxi honking a second time."
 
-    play music bgmfin
     show mom sad2 with dissolve
 
     voice "20-9-1.mp3" #kaito
