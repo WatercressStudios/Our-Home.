@@ -1,5 +1,7 @@
 label dream8:
 
+    $ homecoming = False
+
     scene dream2 with dissolve
 
 #    voice "d8-1-0.mp3" #vivi recording
@@ -77,6 +79,9 @@ label prehomecoming:
         jump homecoming
 
 label homecoming:
+
+    $ homecoming = True
+
     "That's just it, though. Throughout each and every one of these dreams, I've had the opportunity to think through what's always troubling me."
 
     "I've designed this world for that very specific purpose, even if it took me this long to realize."
