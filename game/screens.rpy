@@ -241,6 +241,11 @@ screen the_img(img):
 ##
 ## This menu allows the user to toggle mute the voices of our various characters.
 
+#Muting the characters that have no voices.
+init python:
+    SetVoiceMute("emily", True)
+    SetVoiceMute("others", True)
+
 screen voice_toggle:
 
     tag menu
@@ -248,7 +253,7 @@ screen voice_toggle:
     use game_menu(_("Voice"), scroll="viewport"):
         vbox:
             align 0.3, 0.5
-            textbutton "Mute Emily" action ToggleVoiceMute("emily") hovered ShowTransient("the_img", transition=dissolve, img="sprites/emily/mclineshappy.png") unhovered Hide("the_img", transition=dissolve)
+#            textbutton "Mute Emily" action ToggleVoiceMute("emily") hovered ShowTransient("the_img", transition=dissolve, img="sprites/emily/mclineshappy.png") unhovered Hide("the_img", transition=dissolve)
             textbutton "Mute Lauren" action ToggleVoiceMute("lauren") hovered ShowTransient("the_img", transition=dissolve, img="sprites/lauren/l2happy2b.png") unhovered Hide("the_img", transition=dissolve)
             textbutton "Mute Diane" action ToggleVoiceMute("diane") hovered ShowTransient("the_img", transition=dissolve, img="sprites/diane/Happy- Speaking.png") unhovered Hide("the_img", transition=dissolve)
             textbutton "Mute Mother" action ToggleVoiceMute("mother") hovered ShowTransient("the_img", transition=dissolve, img="sprites/mother/Eyes Closed Smile.png") unhovered Hide("the_img", transition=dissolve)
@@ -260,7 +265,7 @@ screen voice_toggle:
             textbutton "Mute Elizabeth" action ToggleVoiceMute("mother")
             textbutton "Mute Teacher" action ToggleVoiceMute("teacher")
             textbutton "Mute Doctor" action ToggleVoiceMute("doctor")
-            textbutton "Mute Others" action ToggleVoiceMute("others")
+#            textbutton "Mute Others" action ToggleVoiceMute("others")
             textbutton "Mute All Chorus" action ToggleVoiceMute("all")
 
 
