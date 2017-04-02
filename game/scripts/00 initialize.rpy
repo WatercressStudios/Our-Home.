@@ -307,20 +307,32 @@ image watercress = "vfx/splashscreen.png"
 #######
 # BGM #
 #######
-define bgmlov = "music/bgmlov - Love Interest Theme.mp3"
-define bgmlov2 = "music/bgmlov2 - Orchestral Love Interest Theme.mp3"
-define bgmmom = "music/bgmmom - Mother Theme .ogg"
-define bgmmood = "music/bgmmood - Mood Music #1.mp3"
-define bgmneutral = "music/bgmneutral - Neutral Ending.ogg"
-define bgmsis = "music/bgmsis - Sister Theme.mp3"
-define bgmsis2 = "music/bgmsis2 - Orchestral Sister Theme.mp3"
-define bgmsuicide = "music/bgmsuicide - Suicide End.ogg"
-define bgmcreep = "music/bgmcreep - Creepy Dream Theme.mp3"
-define bgmdad = "music/bgmdad - Father Theme.ogg"
+define bgmdream2 = "music/bgmdream2 - Dream ver2.ogg",
+define bgmfinaleintro = "music/bgmfinaleintro - Finale Fight Intro.ogg",
+define bgmfinaleloop = "music/bgmfinaleloop - Finale Fight Loop.ogg",
+define bgmfuneralintro = "music/bgmfuneralintro - Funeral Ending Intro.ogg",
+define bgmfuneralloop = "music/bgmfuneralloop - Funeral Ending Loop.ogg",
+define bgmgoodending = "music/bgmgoodending - .ogg",
+define bgmhijinksintro = "music/bgmhijinksintro - Hijinks Theme Intro.ogg",
+define bgmhijinksloop = "music/bgmhijinksloop - Hijinks Theme Loop.ogg",
+define bgmlov = "music/bgmlov - Love Interest Theme.mp3",
+define bgmlov2 = "music/bgmlov2 - Orchestral Love Interest Theme.mp3",
+define bgmmenuintro = "music/bgmmenuintro - mainmenuintro.wav",
+define bgmmenuloop = "music/bgmmenuloop - mainmenuloop.wav",
+define bgmmomintro = "music/bgmmomintro - Mother Theme Intro.ogg",
+define bgmmomloop = "music/bgmmomloop - .ogg",
+define bgmmood = "music/bgmmood - Mood Music #1.mp3",
+define bgmneutralintro = "music/bgmneutralintro - Neutral Ending Intro.ogg",
+define bgmneutralloop = "music/bgmneutralloop - Neutral Ending Loop.ogg",
+define bgmsis = "music/bgmsis - Sister Theme.mp3",
+define bgmsis2 = "music/bgmsis2 - Orchestral Sister Theme.mp3",
+define bgmsuicide = "music/bgmsuicide - Suicide End.ogg",
+define bgmbadbro = "music/bgmbadbro - badend-missingbrother.wav",
+define bgmbrointro = "music/bgmbrointro - brotherthemeintro.wav",
+define bgmbroloop = "music/bgmbroloop - brotherthemeloop.wav",
+define bgmcreep = "music/bgmcreep - Creepy Dream Theme.mp3",
+define bgmdad = "music/bgmdad - Father Theme.ogg",
 define bgmdream = "music/bgmdream - Dream.ogg"
-define bgmfin = "music/bgmfin - Finale Fight.ogg"
-define bgmfuneral = "music/bgmfuneral - Funeral Ending.mp3"
-define bgmhijinks = "music/bgmhijinks - Hijinks Theme.ogg"
 
 #######
 # SFX #
