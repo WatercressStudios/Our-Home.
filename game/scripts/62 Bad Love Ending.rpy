@@ -74,7 +74,7 @@ label badLoveEnding:
     "She looks away with a small smile."
 
     hide lov with dissolve
-    hide ambience fadeout 2.0
+    stop ambience fadeout 2.0
 
     "Maybe it's better if I wait. I'll get around to it eventually…"
     "I really don't want to ruin her good day. If I were to put her in the position where she'd have to say no…"
@@ -178,6 +178,8 @@ label badLoveEnding:
         show neutralplusending with Dissolve(2.0)
     else:
         show neutralminusending with Dissolve(2.0)
+
+    stop ambience fadeout 2.0
 
     # TODO: Credits
     jump dreamEpilogue

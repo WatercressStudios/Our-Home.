@@ -36,6 +36,9 @@ label day11s4:
     play music bgmmood fadein 1.0
 
     "Maria and I stop and look at each other. At that moment, we hear shouting from inside the house. Our parents are fighting again."
+
+    play sound opendoor
+
     "I quickly fish out my keys and throw open the front door."
 
     scene livingroom with dissolve
@@ -440,10 +443,12 @@ label day11finale:
     voice "11-4-67.mp3" #lacTheWatcher
     dad "..."
 
+    "Dad won't even look at Mom."
+
     hide dad with dissolve
     show sis cry with dissolve
 
-    "Dad won't even look at Mom. I look over at Maria, who despite her brave facade, is starting to sob softly."
+    "I look over at Maria, who despite her brave facade, is starting to sob softly."
 
     hide sis with dissolve
     show bro cry with dissolve
