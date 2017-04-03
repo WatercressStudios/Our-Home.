@@ -1,9 +1,9 @@
 label day5s2:
 
     $ jotnotes = False
-    
+    stop music fadeout .5
     scene classroom with dissolve
-
+    play ambience blackboard fadein 2.0
     voice "5-2-1.mp3" #skinimini
     tea "...To wrap up our lecture today, I would like to reflect briefly on the idea of psychological independence."
     voice "5-2-2.mp3" #skinimini
@@ -60,11 +60,11 @@ label lecture1:
     tea "Anyone wanna talk about the book…? We can start a book club. It'll be fun!"
 
     "Trying not to make direct eye contact, I shuffle out of the class…" 
-
+    stop ambience fadeout 2.0
     scene black with dissolve
-
+    
     "..."
-
+    play music bgmlov fadeout 1.0 fadein 0.0
     scene dramaroom with dissolve 
     voice "5-2-11.mp3" #potato
     pro "Hey, Lauren?"
@@ -210,6 +210,6 @@ label lecture1:
     pro "...Heh. Yeah."
 
     "In a sense, yeah. She isn't wrong..."
-
+    stop music fadeout .5
     jump day5s3
 
