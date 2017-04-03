@@ -234,7 +234,7 @@ style choice_button_text is default:
 ## This menu displays an image. 
 
 screen the_img(img):
-    add img xalign .85 yalign -.2 zoom .4
+    add img xalign .65 yalign 1.0
     
 
 ## Voice Toggle screen ###########################################################
@@ -245,6 +245,19 @@ screen the_img(img):
 init python:
     renpy.run(SetVoiceMute("emily", True))
     renpy.run(SetVoiceMute("others", True))
+    voice_toggle_list = [
+#        ["Emily", "emily", "", "emily/mclineshappy.png"],
+        ["Lauren", "lauren", "3-2-113", "lov/happy1bh.png"],
+        ["Diane", "diane", "d2-1-13", "dlov/smile.png"],
+        ["Maria", "sister", "1-1-4", "sis/happy1.png"],
+        ["Alex", "brother", "2-1-22", "bro/smile1.png"],
+        ["Elizabeth", "mother", "1-1-23", "mom/happy2.png"],
+        ["Jonathon", "father", "3-3-27", "dad/smile1.png"],
+        ["Teacher", "teacher", "2-3-3"],
+        ["Doctor", "doctor", "7-4-11"],
+#        ["Others", "others", "", ""],
+        ["All Chorus", "all", "d1-1-2"]
+    ]
 
 screen voice_toggle:
 
@@ -257,28 +270,18 @@ screen voice_toggle:
                 style "main_menu_text"
             text " ":
                 style "main_menu_text"
-                
-#            textbutton "Mute Emily" action ToggleVoiceMute("emily")
-#            hovered ShowTransient("the_img", transition=dissolve, img="sprites/emily/mclineshappy.png") unhovered Hide("the_img", transition=dissolve)
-            textbutton "Lauren" action ToggleVoiceMute("lauren")
-#            hovered ShowTransient("the_img", transition=dissolve, img="sprites/lauren/l2happy2b.png") unhovered Hide("the_img", transition=dissolve)
-            textbutton "Diane" action ToggleVoiceMute("diane")
-#            hovered ShowTransient("the_img", transition=dissolve, img="sprites/diane/Happy- Speaking.png") unhovered Hide("the_img", transition=dissolve)
-            textbutton "Mother" action ToggleVoiceMute("mother")
-#            hovered ShowTransient("the_img", transition=dissolve, img="sprites/mother/Eyes Closed Smile.png") unhovered Hide("the_img", transition=dissolve)
-            textbutton "Father" action ToggleVoiceMute("father")
-#            hovered ShowTransient("the_img", transition=dissolve, img="sprites/father/Happy Speaking.png") unhovered Hide("the_img", transition=dissolve)
-            textbutton "Brother" action ToggleVoiceMute("brother")
-#            hovered ShowTransient("the_img", transition=dissolve, img="sprites/brother/Happy Speaking.png") unhovered Hide("the_img", transition=dissolve)
-            textbutton "Alex" action ToggleVoiceMute("brother")
-            textbutton "Maria" action ToggleVoiceMute("sister")
-#            hovered ShowTransient("the_img", transition=dissolve, img="sprites/maria/sishappy2b.png") unhovered Hide("the_img", transition=dissolve)
-            textbutton "Jonathon" action ToggleVoiceMute("father")
-            textbutton "Elizabeth" action ToggleVoiceMute("mother")
-            textbutton "Teacher" action ToggleVoiceMute("teacher")
-            textbutton "Doctor" action ToggleVoiceMute("doctor")
-#            textbutton "Mute Others" action ToggleVoiceMute("others")
-            textbutton "All Chorus" action ToggleVoiceMute("all")
+
+            for aux_toggle in voice_toggle_list:
+                if aux_toggle[1] in persistent._voice_mute:
+                    textbutton "Un-mute " + aux_toggle[0]:
+                        action [ToggleVoiceMute(aux_toggle[1]), Play("voice", "voice/" + aux_toggle[2] + ".mp3")]
+                        if len(aux_toggle) > 3:
+                            hovered ShowTransient("the_img", transition=Dissolve(0.1), img="sprites/" + aux_toggle[3]) unhovered Hide("the_img", transition=Dissolve(0.1))
+                else:
+                    textbutton "Mute " + aux_toggle[0]:
+                        action [ToggleVoiceMute(aux_toggle[1]), Stop("voice")]
+                        if len(aux_toggle) > 3:
+                            hovered ShowTransient("the_img", transition=Dissolve(0.1), img="sprites/" + aux_toggle[3]) unhovered Hide("the_img", transition=Dissolve(0.1))
 
 
 ## Quick Menu screen ###########################################################
