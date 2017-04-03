@@ -23,7 +23,7 @@ label funeralending:
     
     play ambience waterfall fadein 2.0
     scene funeralending with Dissolve(2.0)
-
+    play music bgmfuneral fadeout 1.0 fadein 0.0
     "The funeral is going about as you’d expect."
 
     "Maria probably hasn’t thought about death before, so she’s a mess right now."
@@ -91,4 +91,4 @@ label funeralending:
     pause
     
     ".:. Funeral Ending (10/11)"
-    return
+    jump credits

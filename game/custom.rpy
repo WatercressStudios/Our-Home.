@@ -8,13 +8,15 @@ init python in custom_gallery:
         "Birthday Cake.png",
         ["Composite 3.png", "InkedComposite 3_LI.png"],
         "Death.png",
+        "fashion book.png",
         ["Heroin Box.png", "Heroin Box 2.png"],
+        "li_mc_kissing_scene.png",
         "Monochrome House.png",
+        "out.png",
         ["Park only.png", "Park only (Night).png", "Park with LI.png", "Park with LI (Night).png"],
         ["Plushie.png", "Plushie Damage.png"],
         "Scene 67.png",
         "sleepdead.png",
-        "out.png",
         "suicided.png"
     ]
     

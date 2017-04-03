@@ -5,7 +5,7 @@ label day10s4:
     scene siswalk2 with dissolve
 
     "Walking Maria home from school again. I think Maria's still worried about Mom, so it's a quiet walk so far…"
-
+    play ambience suburb fadein 2.0
     # TODO cellphone
     # play sound cellphonechime
 
@@ -41,7 +41,7 @@ label day10s4:
     "God, I can't wait to see him."
     "..."
 
-
+    stop ambience fadeout 2.0
     scene livingroom sunset with dissolve
 
     "Later that night, we sit across from one another in dreary silence."
@@ -49,7 +49,7 @@ label day10s4:
     "Alex is supposed to be discharged from the hospital tonight. Why's it taking so long?"
     "Maria's quieter than usual, almost deathly still. On any other night, she'd be asking me question after question, but…" 
     "Let's get her attention." 
-
+    play music bgmsis2 fadeout 1.0 fadein 0.0
     voice "10-4-11.mp3" #potato
     pro "Hey, Maria. What's the matter?"
     voice "10-4-12.mp3" #amree
@@ -125,6 +125,9 @@ label upstairs:
     pro "!"
     "My phone! Who's calling?"
     "I check the ID."
+    stop music fadeout .2
+    play music bgmbrointro noloop fadeout 1.0
+    queue music bgmbroloop loop 
     voice "10-4-29.mp3" #potato
     pro "...Alex???"
     "I pick it up quickly, the force of my sliding motion nearly toppling me from my chair."
@@ -161,7 +164,7 @@ label upstairs:
     bro "Good, good… alright, get back to me when you can."
     voice "10-4-44.mp3" #potato
     pro "Roger."
-
+    stop music fadeout 1.0
     "I hang up the phone, slumping back into my chair."
     "What do I do now? I have to send someone…"
     "Where the Hell is Mom anyway? I open her name up on my contacts and start to peck out an angry message…"
@@ -195,6 +198,7 @@ label carpool:
     pro "Hey, Lauren? It's Emily. Listen, I have a {i}huge{/i} favour I need to ask of you…"
     scene black with dissolve
     "..."
+    play music bgmlov2 fadeout 1.0 fadein 0.0
     scene car with dissolve
     voice "10-4-47.mp3" #starleeter
     show lov confused1
@@ -389,9 +393,12 @@ label carpool:
     show bro grin2
     bro "Sometimes it feels like we're still kids…" 
     jump brohome1
+    stop music fadeout 1.0
 
 label brohome1:
     scene black with dissolve
+    play music bgmbrointro noloop fadeout 1.0
+    queue music bgmbroloop loop
     "We banter like this through most of the drive home."
     "Alex keeps insisting he's tired, but… I think he's just as excited to be back as the rest of us are."
     "Some things never change with this cantankerous loser…" 
@@ -452,6 +459,8 @@ label brohome2:
     voice "10-4-121.mp3" #kujira
     # Unsure about Alex's mood, he's happy for now
     show bro grin1
+    play music bgmbrointro noloop fadeout 1.0
+    queue music bgmbroloop loop
     bro "Hey, Emily. Sorry I'm late…" 
     voice "10-4-122.mp3" #potato
     show bro smile2

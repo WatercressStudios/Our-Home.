@@ -112,8 +112,8 @@ label goodFamilyEnding_future:
 
     scene livingroom with Dissolve(2.0)    
     if career < 8:
-        "I walk in the front door and kick off my shoes. It's been a long day and I can't wait to relax a little."
         play sound slamdoor
+        "I walk in the front door and kick off my shoes. It's been a long day and I can't wait to relax a little."
     else:
         "The long awaited holiday is finally here, and I've come home to see my family."
         scene bedroom with dissolve   

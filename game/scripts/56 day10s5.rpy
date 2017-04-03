@@ -2,7 +2,7 @@ label day10s5:
 
     $ sappyalex = False
 
-#    voice "10-5-0.mp3" #kujira recording
+    voice "10-5-0.mp3" #kujira
     bro "Hey, Maria?"
 
     "Alex sticks his head into the front door."
@@ -258,7 +258,7 @@ label bedtime:
     bro "Of course. Now let me get some sleep, God."
 
     "At least he hasn't changed all too much. Rolling my eyes, I back out of his room and close his door."
-
+    stop music fadeout 1.0
     "Okay, time to check up on one last person before I go to sleep myself."
 
     "Before heading to bed, I notice there's a bit of light trickling from underneath Maria's door."
@@ -266,7 +266,7 @@ label bedtime:
     "Does she have a light on…? What could she be doing at this hour?"
 
     "I knock on Maria's door before entering."
-
+    play music bgmsis fadeout 1.0 fadein 0.0
     voice "10-5-51.mp3" #potato
     pro "Heya, are you awake?"
 
@@ -388,7 +388,7 @@ label bedtime:
 
     else:
         "I head back to the living room, where Lauren sits quietly."
-
+        play music bgmlov2 fadeout 1.0 fadein 0.0
         voice "10-5-76.mp3" #potato
         pro "...Weren't you gonna head home?"
 
@@ -465,5 +465,6 @@ label bedtime:
 label day10s5continue:
 
     "The pieces are finally coming back together. This fragmented home still has hope yet."
+    stop music fadeout 1.0
 
     jump day11s1

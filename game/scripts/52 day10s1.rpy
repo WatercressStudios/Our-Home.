@@ -1,6 +1,7 @@
 label day10s1:
     
     scene bedroom with dissolve 
+    stop music fadeout .5
     #play sound bedalarm
 
     "*BEEP! BEEP! BEEP! BEEP!*"
@@ -20,7 +21,7 @@ label day10s1:
     scene kitchen with dissolve
     #CG with little sister making pancakes, maybe?
 
-
+    play music bgmsis2 fadeout 1.0 fadein 0.0
     voice "10-1-2.mp3" #amree
     show sis happy2
     sis "Good moooooooorning, Emilyyy!~"
@@ -250,7 +251,7 @@ label hotcakes:
     "Maria says she can get to school on her own, so I shouldn't be late for mine, but… is that okay?" 
     "...No. I should trust Maria. She's a smart girl, and can handle herself. And I know she wants to at least try going to school on her own."
     scene black with dissolve
-
+    stop music fadeout 1.0
     "We part ways. This fast-paced morning isn't about to slow down anytime soon. I better book it…" 
 
     jump day10s2

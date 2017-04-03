@@ -13,6 +13,7 @@ define dpro = Character('Emily', color="#800000", voice_tag="emily")
 # Character Declaration #
 #########################
 define n = Character(None, what_color="#FFFFFF", kind=nvl, what_size=32)
+define wol = Character('Wolf', color="#800000")
 define pro = Character('Emily', color="#800000", voice_tag="emily")
 define lov = Character('Lauren', color="#800000", voice_tag="lauren")
 define sis = Character('Maria', color="#800000", voice_tag="sister")
@@ -338,10 +339,10 @@ define bgmcreep = "music/bgmcreep - Creepy Dream Theme.ogg",
 define bgmdad = "music/bgmdad - Father Theme.ogg",
 define bgmdream = "music/bgmdream - Dream.ogg",
 
-define bgmbadendingloop = "music\bgmbadendingloop - BadEndLoop.ogg",
-define bgmcreditsintro = "music\bgmcreditsintro - CreditsIntro.ogg",
-define bgmcreditsloop = "music\bgmcreditsloop - CreditsLoop.ogg",
-define bgmbadendingintro = "music\bgmbadendingintro - BadEndIntro.ogg"
+define bgmbadendingloop = "music/bgmbadendingloop - BadEndLoop.ogg",
+define bgmcreditsintro = "music/bgmcreditsintro - CreditsIntro.ogg",
+define bgmcreditsloop = "music/bgmcreditsloop - CreditsLoop.ogg",
+define bgmbadendingintro = "music/bgmbadendingintro - BadEndIntro.ogg"
 
 #######
 # SFX #
@@ -414,4 +415,4 @@ label start:
     $ career = 0
     
 #     jump endings
-    jump dream1
+    jump foreword

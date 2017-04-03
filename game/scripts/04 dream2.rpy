@@ -194,7 +194,14 @@ label dream2:
     hide dlov
     "I nodded again, closing my eyes and enjoying the feeling of being close to her."
     "She begins caressing my hair, humming along to the music as I start to get tired."
+<<<<<<< HEAD
     play sound loudknock
+=======
+
+    # Bang or clatter sound (This is her brother sneaking in the house?)
+    stop music fadeout 0.3
+    play sound thud
+>>>>>>> 1020f3d4335fbfc62ceab3efb77bc60f7abf78c9
     show black
     "What was that?!"
     jump day2s1

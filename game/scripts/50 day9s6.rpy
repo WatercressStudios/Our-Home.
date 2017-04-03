@@ -1,7 +1,7 @@
 label day9s6:
 
     scene black with dissolve
-    
+    play music bgmlov2 fadeout 1.0 fadein 0.0
     "Today was a good day of work for the two of us. Quality time with Lauren, work done on the sewing machine, and plenty of meaningful discourse."
 
     "Lauren's opening up to me. She's being honest with herself, too. She knows that she takes on more than she should. It's interesting to see why, and it's kinda inspirational."
@@ -29,7 +29,7 @@ label day9s6:
     scene house dark with dissolve
     hide lov
     "We move to the porch for our conversation, the moonlight reflecting off the laminate wood."
-
+    play ambience nightsuburb fadein 2.0
     voice "9-6-5.mp3" #potato
     show lov happy2
     pro "So, I'll be sure to hang out with you soon, though, right? I'm not just going to abandon you for my family."
@@ -118,11 +118,12 @@ label day9s6:
     "I've never really had friends, so this is bold new territory for me."
 
     "Shaking my head and smiling, I go back inside."
-
+    stop music fadeout 1.0
+    stop ambience fadeout 2.0
     scene diningroom dark with dissolve
     show dad neutral1
     "The lights are dim, and my father sits at the dinner table working on his laptop." 
-
+    play music bgmdad fadeout 1.0 fadein 0.0
     voice "9-6-21.mp3" #potato
     pro "Working from home?"
 
@@ -192,7 +193,7 @@ label day9s6:
     scene sisroom dark with dissolve
     hide dad
     "Giving him a quick wave, I make my way to Maria's room. Thankfully, she's tucked away in bed, with her lamp off."
-
+    stop music fadeout 1.0
     show sis sad2 at left
     "Seems Dad helped her to bed. He must've been so, so happy to be able to do that again."
 

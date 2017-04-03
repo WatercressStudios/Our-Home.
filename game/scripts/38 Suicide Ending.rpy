@@ -6,7 +6,8 @@ label suicideending:
     #Epilogue from Love Interest's pov:
     
     scene siswalk2
-
+    play music bgmbadendingintro noloop fadeout 1.0
+    queue music bgmbadendingloop loop
     "It's a beautiful day out today! The sun is shining, the trees are blossoming, and school has let us Seniors out for the Summer. It's pretty cool today as well. The breeze feels wonderful on my skin!"
 
     "I love it. I love days like these. I always have. It's the perfect type of day for a good outing, before I go to work."
@@ -136,9 +137,9 @@ label suicideending:
     "If I weren't paying attention, it could almost seem as if nothing's even changed."
     "Alas, the world still turns, even if the one I love is gone."
     "And no matter how much I cry out, she'll never come back to me."
-
+    stop music fadeout 1.0
     scene suicideending with Dissolve(3.0)
     pause
 
     ".:. Suicide Ending (11/11)"
-    return
+    jump credits

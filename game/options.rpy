@@ -162,18 +162,18 @@ define config.default_wait_for_voice = True
 ## audio channels. This should be a number between 0.0 and 1.0, with 1.0 being
 ## full volume.
 
-default preferences.music_volume = 0.5
+default preferences.music_volume = 0.9
 
 ## The default volume of the sfx mixer, which is used for the sound audio channel.
 ## This should be a number between 0.0 and 1.0, with 1.0 being full volume.
 
-default preferences.sfx_volume = 0.5
+default preferences.sfx_volume = 0.9
 
 ## The default volume of the voice mixer, which is used for the voice audio channel
 ## (And hence the voice statement, auto-voice, etc.). This should be a number
 ## between 0.0 and 1.0, with 1.0 being full volume.
 
-default preferences.voice_volume = 0.5
+default preferences.voice_volume = 1.0
 
 
 ## Save directory ##############################################################
@@ -321,4 +321,8 @@ define config.mouse_hide_time = 30
 
 init python:
     renpy.music.register_channel("ambience", mixer="sfx", loop=True, stop_on_mute=True)
-
+    if not persistent.ambience_volume:
+        renpy.music.get_channel("ambience").chan_volume = 0.8
+        persistent.ambience_volume = 0.8
+    else:
+        renpy.music.get_channel("ambience").chan_volume = persistent.ambience_volume

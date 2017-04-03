@@ -1,7 +1,8 @@
 label day9s2:
 
     scene schoolcafeteria with dissolve
-    
+    play ambience crowd fadein 2.0
+    play music bgmlov2 fadeout 1.0 fadein 0.0
     "My stomach reminds me that it’s lunchtime."
     "Ugh..."
     "I can definitely feel that I never ate breakfast."
@@ -96,7 +97,7 @@ label day9s2:
     pro "Okay."
     
     hide lov
-    
+    stop music fadeout 1.0
     "I watch her go before turning to look out the window."
     "Lauren and I are basically going to be alone together."
     "It’s not like we haven’t been spending time together before, but usually our parents would be across the hall."
@@ -113,4 +114,5 @@ label day9s2:
     "Then, I have to go see Alex and check up on him."
     "After I think that, Lauren comes around."
     "At least I have one thing to look forward to."
+    stop ambience fadeout 2.0
     jump day9s3
