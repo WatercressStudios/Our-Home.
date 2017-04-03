@@ -4,25 +4,28 @@ init python:
 
 init python in custom_gallery:
     cgs = [
-        "BestphotoLI.png",
-        "Birthday Cake.png",
-        ["Composite 3.png", "InkedComposite 3_LI.png"],
-        "Death.png",
-        "fashion book.png",
-        ["Heroin Box.png", "Heroin Box 2.png"],
-        "li_mc_kissing_scene.png",
-        "Monochrome House.png",
-        "out.png",
-        ["Park only.png", "Park only (Night).png", "Park with LI.png", "Park with LI (Night).png"],
-        ["Plushie.png", "Plushie Damage.png"],
-        "Scene 67.png",
-        "sleepdead.png",
-        "suicided.png"
+        ["cgs/BestphotoLI.png", "supergoodending"],
+        ["cgs/Birthday Cake.png", "cake"],
+        ["cgs/Composite 3.png", "neutralminusending", "neutralplusending"],
+        ["cgs/Death.png", "funeralending"],
+        ["cgs/fashion book.png", "fashionbook"],
+        ["cgs/Heroin Box 2.png", "heroin"],
+        ["cgs/li_mc_kissing_scene.png", "kissniagara"],
+        ["cgs/out.png", "superbadending"],
+        ["cgs/Park with LI.png", "parkdate", "parkdate dark"],
+        ["cgs/Plushie.png", "plushie", "plushie damage"],
+        ["cgs/Scene 67.png", "dreamepilogue"],
+        ["cgs/sleepdead.png", "dreamending"],
+        ["cgs/suicided.png", "suicideending"]
+    ]
+    unused_cgs = [
+        ["cgs/Monochrome House.png"],
+        ["cgs/Park only.png", "cgs/Park only (Night).png"],
     ]
     
     ## Number of rows and columns on the grid. Change this to change gallery size.
     xgrid = 4
-    ygrid = 3
+    ygrid = 4
     
     ## Total width and height available for the gallery. Don't mess with those.
     width = 1410
@@ -42,20 +45,22 @@ init python in custom_gallery:
         thumb_width = width / xgrid - border
         thumb_height = thumb_width / aspect_ratio
     
-    ## Add the buttons
-    for i in range(len(cgs)):
-        if isinstance(cgs[i], list):
-            room.button("cgs/" + cgs[i][0])
-            for cg in cgs[i]:
-                room.unlock_image("cgs/" + cg)
-        else:
-            room.button("cgs/" + cgs[i])
-            room.unlock_image("cgs/" + cgs[i])
     
-    ## Create a list of buttons to allow us to create the buttons automatically on the Scene
-    buttons = [None] * len(room.buttons)
-    for k, v in room.buttons.iteritems():
-        buttons[v.index] = (k, v.images[0].displayables[0])
+    ## List of buttons so we can create them automatically in the scene
+    buttons = [None] * (len(cgs) + len(unused_cgs))
+    
+    ## Add the buttons
+    for i in range(len(unused_cgs)):
+        room.button(unused_cgs[i][0])
+        for cg in unused_cgs[i]:
+            room.image(cg)
+        buttons[i] = (unused_cgs[i][0], unused_cgs[i][0])
+
+    for i in range(len(cgs)):
+        room.button(cgs[i][1])
+        for cg in (cgs[i])[1:]:
+            room.unlock_image(cg)
+        buttons[len(unused_cgs) + i] = (cgs[i][1], cgs[i][0])
 
 init python in custom_music:
     mylist = [

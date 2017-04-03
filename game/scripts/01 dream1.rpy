@@ -174,4 +174,12 @@ label dream1cake:
     play sound thud
     "{b}WHUMP!{/b}"
 
+    scene black
+
+    stop music
+
+    $ renpy.movie_cutscene("vfx/dreamtoirl.mpg") # Loads the credit video
+
+    scene black 
+
     jump day1s1

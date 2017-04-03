@@ -158,7 +158,7 @@ label day3s2:
     show lov confused2h
     voice "3-2-28.mp3" #potato
     pro "I think you have some good styles picked out. Polka dots are always cute and go well with the era, uh…"
-    voice "3-2-29.mp3" #starleeter
+#    voice "3-2-29.mp3" #starleeter silence
     show lov confused1h
     lov "..."
     voice "3-2-30.mp3" #potato

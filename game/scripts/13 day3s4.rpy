@@ -2,7 +2,7 @@ label day3s4:
 
     "After Lauren left, the family all split off into their separate nightly rituals."
 
-    scene bedroom
+    scene bedroom night
     with dissolve
 
     "I'm back in my room. It's late. I really should think of going to bed."
@@ -91,9 +91,11 @@ label day3s4:
     play sound fabric
     "I flop onto my bed."
 
+    stop music fadeout 0.5
     scene black
     with dissolve
 
-    stop music fadeout 2.0
-    "My head barely touches the pillow before I’m asleep."
+    $ renpy.movie_cutscene("vfx/irltodream.mpg") # Loads the credit video
+
+    scene black 
     jump dream4

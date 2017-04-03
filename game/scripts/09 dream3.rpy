@@ -163,4 +163,13 @@ label dream3:
     stop music fadeout 0.5
     scene black with dissolve
 
+    scene black
+
+    stop music
+
+    $ renpy.movie_cutscene("vfx/dreamtoirl.mpg") # Loads the credit video
+
+    scene black 
+
+
     jump day3s1

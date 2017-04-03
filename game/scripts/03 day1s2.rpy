@@ -269,4 +269,12 @@ label day1s2:
 
     "Finally, my favorite part of the day. Sleep."
 
+    scene black
+
+    stop music
+
+    $ renpy.movie_cutscene("vfx/irltodream.mpg") # Loads the credit video
+
+    scene black 
+
     jump dream2
