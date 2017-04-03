@@ -1,7 +1,9 @@
-label day1s1:
+﻿label day1s1:
 
-    "BANG BANG BANG!"
-    "BANG BANG BANG!"
+    play sound loudknock
+    "{b}BANG BANG BANG!{/b}"
+    play sound loudknock
+    "{b}BANG BANG BANG!{/b}"
     ##SFX, Large amount of screen shake.  Door banging SFX should begin quietly late into Dream 1 and increase greatly in volume once the scene shifts officially.  Scene should have no BGM early on to contrast with the cheery dream before it.
     ##I’ll be referring to these as a harsh cut – little to no transition time, combined with an SFX and varying degrees of screen shake.  Requires a change in either onscreen sprites or BG.  Used usually with the mother or when a character demands the attention of those around them.
     scene bedroom sunset with dissolve
@@ -12,10 +14,17 @@ label day1s1:
     mom "Emily! Dinner’s ready, it’s time to get up!"
     "She walks away and leaves me to my business."
     "A stack of books lay next to my bed. Some, Alex and I have had since we were kids, which he hasn't bothered to touch since then. Others, I've others I've received from Lauren for my studies."
-    "Warm orange beams of sunshine cut through the blinds as the sun begins to dip toward the horizon. I stretch and yawn as I wake from my nap. There are still going to be a few long hours ahead of me."
+    "Warm orange beams of sunshine cut through the blinds as the sun begins to dip toward the horizon."
+
+    play sound fabric
+
+    "I stretch and yawn as I wake from my nap. There are still going to be a few long hours ahead of me."
     "…"
     "Worst birthday ever. And we haven’t even started dinner yet."
+    scene hallway sunset with dissolve
     scene livingroom sunset with dissolve
+    play music bgmdad fadeout 1.0 fadein 0.0
+    ##maybe some soothing/calming BGM around here.
 
     ##SCENE CHANGE
     ##some sort of consistent/repeating dinner sounding/clackering utensils sound.  Show character sprites as they’re mentioned.
@@ -37,6 +46,8 @@ label day1s1:
     hide dad
     with dissolve
     hide sis
+    with dissolve
+    hide bro
     with dissolve
     show sis happy2
     sis "Emily! How was your trip with Lauren?"
@@ -77,12 +88,13 @@ label day1s1:
 
     show mom sad3
     with dissolve
-    voice "1-1-9.mp3" #kaito
 
+    voice "1-1-9.mp3" #kaito
     mom "I’ve got it."
-    stop music
+
     show mom angry1
     "Mom gets up from the table and picks up the phone."
+
     show mom angry2
     voice "1-1-10.mp3" #kaito
     mom "Hello?"
@@ -105,9 +117,11 @@ label day1s1:
     mom "Come here, Alex."
     voice "1-1-16.mp3" #kujira
     bro "Ah, can't I finish my food first? I—"
-    ##harsh cut, BGM stops
-    voice "1-1-17.mp3" #kaito
 
+    ##harsh cut, BGM stops
+    stop music fadeout 0.3
+
+    voice "1-1-17.mp3" #kaito
     mom "Come here, Alex."
     hide mom
     with dissolve
@@ -123,7 +137,7 @@ label day1s1:
         align (0.25, 1.0)
     show sis sad1 with dissolve:
         align (0.75, 1.0)
-    with dissolve
+
     "Father stares down at his food without the strength to do anything. Maria looks like she doesn’t want to be in the room anymore."
     "Alex gets up from his seat to meet Mom."
     hide dad
@@ -134,7 +148,6 @@ label day1s1:
         align (0.25, 1.0)
     show bro sad2 with dissolve:
         align (0.75, 1.0)
-    with dissolve
     voice "1-1-19.mp3" #kaito
     mom "That was your school. They told me you never showed up for your Sunday detention."
     voice "1-1-20.mp3" #kujira
@@ -190,6 +203,7 @@ label day1s1:
     ##doorslam SFX?
     hide bro
     with dissolve
+    play sound slamdoor
     "Alex stomps off to his room and slams the door, shaking the light fixture hanging over the table."
     voice "1-1-33.mp3" #kaito
     show mom sad1 with dissolve:

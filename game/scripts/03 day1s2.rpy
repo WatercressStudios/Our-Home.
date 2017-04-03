@@ -9,13 +9,14 @@ label day1s2:
     "I haven't been able to feel anything really. It's been that way for a while. Sometimes I'll feel something, but it's always fleeting - and it's normally anger, or frustration."
 
     scene bedroom night with dissolve
+    play sound slamdoor
 
     "Or it's something else… but I only feel that around Lauren. It's a strange feeling, a feeling that I can't quite put words to. That doesn't exactly deviate from the norm, however."
 
     "I've always had difficulty describing my feelings to myself, and to others? Forget about it."
     
-    play music bgmsis fadeout 1.0 fadein 0.0
-
+    stop music fadeout 0.5
+    play sound knock
     "I hear a light, almost inaudible knocking on my door. The nervous nature of it betrays the culprit immediately - my sister."
     
     voice "1-2-1.mp3" #potato
@@ -23,8 +24,10 @@ label day1s2:
 
     "I speak out to her calmly. I don't want anyone else to hear me through the thin walls we have in this house."
 
+    play sound opendoor
     show sis cry
     with dissolve
+    play music bgmsis fadeout 1.0 fadein 0.0
 
     "The door opens slowly, the little one creeping in, her face red from what only could be tears."
 
@@ -126,6 +129,8 @@ label day1s2:
 
     "Hmm. I can't exactly do anything to fix the situation, nor would it be a good idea to get involved. Maybe I can get her a gift?"
 
+    play sound fabric
+
     "Ah, that takes a bit more money than I have, and I'd rather not ask Dad to lend me any. Mom'll just nag me about my unemployment."
 
     "I can hear it now; 'Get a job' 'You're worthless without a career,' 'You're going nowhere with your life!'"
@@ -133,6 +138,8 @@ label day1s2:
     "No thank you."
 
     "So, it'll have to be something that I can make. I could always whip out the old sewing machine. I haven't touched that thing in ages, and I really should."
+
+    play sound fabric
 
     "Reaching over, I carefully pull it close, struggling with the weight of the damned thing. It scatters the random sketches I have sprawled across the table."
 
@@ -157,8 +164,11 @@ label day1s2:
     "It'll be a tight fit, but I'm sure I can make it work."
 
     scene sewingkit with dissolve
+    play ambience blackboard fadein 2.0
 
     "I begin by sketching out a 2D figure of the thing, electing to go with a small ram. The pencil glides across the worn page, over scattered memories and lost progress."
+
+    stop ambience fadeout 0.5
 
     "Eventually, I find that I've finished a good working draft. It's been only a few minutes, but I can already feel the creative high. It feels good to create. It's something I used to get lost in all the time."
 
@@ -168,9 +178,13 @@ label day1s2:
 
     "I move onto a more 3D approach, abandoning the sketch pencil for some colored pens and markers, using a black fine point to note the curves of the creature, ensuring that it'll appear 3D, at least to me."
 
+    play sound fabric
+
     "It's a lot of work. I test out some colors on my previous sketch, moving towards a brown color set. I keep the eyes a nice button black."
 
     "Looking through my materials, I note that I have to make it small, probably something you can cradle - almost like a teddy bear would be."
+
+    stop music fadeout 5.0
 
     "My pace slows, the zealous fervor I had just a minute ago fading quicker than it came."
 
@@ -189,6 +203,8 @@ label day1s2:
     ##SCENE CHANGE
     show lov happy
     with dissolve
+
+    play music bgmlov
 
     voice "1-2-18.mp3" #starleeter
     lov "Heya! Took ya long enough! Doesn't matter. How's your day? Err, night by now? Yes. 'Sup?"
@@ -234,6 +250,7 @@ label day1s2:
 
     hide lov
     with dissolve
+    stop music fadeout 5.0
 
     ##SCENE CHANGE
     scene bedroom night with dissolve
@@ -242,7 +259,11 @@ label day1s2:
 
     "I'm tired. Nothing new. At least the bed will be warm, right?"
 
-    "I swivel the chair around, and I make my way to the bed. As expected, my sister is sound asleep. Gently, I get in bed with her, and I shut my eyes."
+    "I swivel the chair around, and I make my way to the bed. As expected, my sister is sound asleep."
+    
+    play sound fabric
+
+    "Gently, I get in bed with her, and I shut my eyes."
 
     "Finally, my favorite part of the day. Sleep."
 
