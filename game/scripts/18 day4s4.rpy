@@ -1,6 +1,5 @@
 label day4s4:
 
-
     scene black with dissolve
 
     "As I approach my front door, I catch my smiling face in the reflection of a window."
