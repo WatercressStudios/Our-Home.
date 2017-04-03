@@ -102,4 +102,4 @@ label dreamEpilogue:
         ".:. Neutral- Ending B (7/11)"
     elif family > 7 and love < 8 and career < 8:
         ".:. Neutral- Ending C (8/11)"
-    return
+    jump credits
