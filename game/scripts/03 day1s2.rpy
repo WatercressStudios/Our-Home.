@@ -192,6 +192,8 @@ label day1s2:
 
     "Time to chat with Lauren, anyways. She'd bug me all day tomorrow if I were to miss our nightly call."
 
+    play sound paper
+
     "I hide the sketches underneath the rest of the failed experiments, promising to myself to continue tomorrow night."
 
     "Flipping out my phone, I admire my lock screen. It's a picture of Lauren and I, smiling on a beach. Damn, it's been ages…"

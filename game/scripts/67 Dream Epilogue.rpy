@@ -1,6 +1,7 @@
 label dreamEpilogue:
 
-    scene dream3 with Dissolve(2.0)
+    play music bgmdream2 fadeout 2.0 fadein 2.0
+    scene dream3 with Dissolve(4.0)
 
     show emily with dissolve
     dpro "It's been awhile hasn't it?"
