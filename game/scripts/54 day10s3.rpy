@@ -7,7 +7,7 @@ label day10s3:
     "It's homey, comfortable, and a good place of compromise outside of our home. We aren't burdened here."
 
     scene cafe with dissolve
-    
+    play music bgmdad fadeout 1.0 fadein 0.0
     "Dad puts away his laptop as I walk over, drink in hand. He too has a drink - black coffee, probably for the energy."
 
     voice "10-3-1.mp3" #potato
@@ -233,7 +233,7 @@ label atconversationsend:
 
     voice "10-3-43.mp3" #potato
     pro "See you."
-
+    stop music fadeout 2.0
     hide dad
     "I'm left alone with my thoughts."
 
