@@ -261,5 +261,13 @@ label another:
     "I want to see my family again. I want to see Lauren again."
     "It's time to wake up."
 
+    scene black
+
+    stop music
+
+    $ renpy.movie_cutscene("vfx/dreamtoirl.mpg") # Loads the credit video
+
+    scene black 
+
     jump day10s1
 

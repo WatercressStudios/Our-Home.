@@ -200,4 +200,12 @@ label dream2:
     play sound thud
     show black
     "What was that?!"
+    
+    scene black
+
+    stop music
+
+    $ renpy.movie_cutscene("vfx/dreamtoirl.mpg") # Loads the credit video
+
+    scene black 
     jump day2s1

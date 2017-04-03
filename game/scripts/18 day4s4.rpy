@@ -188,6 +188,12 @@ label momcareer:
     scene black with dissolve
 
     "... ... ..."
+    scene black
 
+    stop music
+
+    $ renpy.movie_cutscene("vfx/irltodream.mpg") # Loads the credit video
+
+    scene black 
     jump dream5
 

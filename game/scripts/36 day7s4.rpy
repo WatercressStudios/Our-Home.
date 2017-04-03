@@ -118,5 +118,11 @@ label day7s4:
     "I don't reply either. I stumble away into my room and close my eyes."
 
     scene black with dissolve
+    scene black
 
+    stop music
+
+    $ renpy.movie_cutscene("vfx/irltodream.mpg") # Loads the credit video
+
+    scene black 
     jump dream8
