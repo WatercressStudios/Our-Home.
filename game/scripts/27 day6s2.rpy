@@ -151,28 +151,34 @@ label day6s2:
         "With Lauren waving her over, Maria came over to us in a hurry."
 
     hide lov happyh
-    show lov happy2h at right
-    show sis happy at left
+    show lov happy2h with dissolve:
+        align (0.65, 1.00)
+    show sis happy with dissolve:
+        align (0.35, 1.00)
     with dissolve
     voice "6-2-46.mp3" #potato
     pro "What's that you got there?"
     voice "6-2-47.mp3" #amree
     sis "Um... I wanted to see if there was anything I could help Big Brother with, so I came here." 
-    show sis worry at left
+    show sis worry with dissolve:
+        align (0.35, 1.00)
     with dissolve
     voice "6-2-48.mp3" #amree
     sis "I didn't find anything that would help though… it's hard to find anything."
     voice "6-2-49.mp3" #potato
     pro "The sorting system is a little obtuse, isn't it…"
-    show lov happy at right
+    show lov happy with dissolve:
+        align (0.65, 1.00)
     with dissolve
     voice "6-2-50.mp3" #starleeter
     lov "Hey, Maria, we're gonna have a talk with your brother later. Want to help us rehearse?"
-    show lov happy2h at right
+    show lov happy2h with dissolve:
+        align (0.65, 1.00)
     with dissolve
     voice "6-2-51.mp3" #starleeter
     lov "It'll be a little like… roleplaying!"
-    show sis happy2 at left
+    show sis happy2 with dissolve:
+        align (0.35, 1.00)
     with dissolve
     voice "6-2-52.mp3" #amree
     sis "Oh, like pretend right? I can help!"
@@ -202,26 +208,32 @@ label day6s2:
     "We all find a place to sit at the corner of the library. I reopen one of the pamphlets, scanning its contents."
 
     voice "6-2-60.mp3" #potato
-    show lov shy at right
+    show lov shy with dissolve:
+        align (0.65, 1.00)
     with dissolve
     pro "We should probably prepare personalized speeches to tell Alex when we do the intervention…"
-    show sis worry at left
+    show sis worry with dissolve:
+        align (0.35, 1.00)
     with dissolve
     voice "6-2-61.mp3" #amree
     sis "Ah… I-I'm not good at… speeches…"
-    show lov happy2h at right
+    show lov happy2h with dissolve:
+        align (0.65, 1.00)
     with dissolve
     voice "6-2-62.mp3" #starleeter
     lov "Hm… you can get some practice in with us. How's that sound?"
-    show lov happyh at right
+    show lov happyh with dissolve:
+        align (0.65, 1.00)
     with dissolve
     voice "6-2-63.mp3" #starleeter
     lov "Here, I'll play the role of Alex! It'll be easy!"
-    show sis worry2 at left
+    show sis worry2 with dissolve:
+        align (0.35, 1.00)
     with dissolve
     voice "6-2-64.mp3" #amree
     sis "I… b-but you can't be Alex."
-    show sis happy2 at left
+    show sis happy2 with dissolve:
+        align (0.35, 1.00)
     with dissolve
     voice "6-2-65.mp3" #amree
     sis "You're too nice. Alex is really grumpy..."
@@ -232,11 +244,13 @@ label day6s2:
 
     voice "6-2-67.mp3" #potato
     pro "I know Alex loves you very much, Maria…"
-    show lov happy at right
+    show lov happy with dissolve:
+        align (0.65, 1.00)
     with dissolve
     voice "6-2-68.mp3" #starleeter
     lov "Yeah, how about we just pretend? Pretend I'm Alex, okay?"
-    show sis happy at left 
+    show sis happy with dissolve:
+        align (0.35, 1.00) 
     with dissolve
     voice "6-2-69.mp3" #amree
     sis "...S-sure, I can try."
@@ -251,11 +265,13 @@ label day6s2:
     sis "I… B-Big Bro… Alex…? I-I love you, a-a-a lot, and it…"
     voice "6-2-73.mp3" #potato
     pro "Take a breath, Maria. Take it slow, no rush."
-    show sis worry at left
+    show sis worry with dissolve:
+        align (0.35, 1.00)
     with dissolve
     voice "6-2-74.mp3" #amree
     sis "Ah… I…"
-    show sis happy at left
+    show sis happy with dissolve:
+        align (0.35, 1.00)
     with dissolve
     voice "6-2-75.mp3" #amree
     sis "Alex, I love you, so much… y-you're the only brother I have, and…"
@@ -269,7 +285,8 @@ label day6s2:
 
     "Lauren took Maria's hand."
     
-    show lov happy2 at right
+    show lov happy2 with dissolve:
+        align (0.65, 1.00)
     with dissolve
     voice "6-2-79.mp3" #starleeter
     lov "It'll be okay, sweety. Just speak from the heart and be honest, and you'll do just fine, okay?"
@@ -446,8 +463,10 @@ label differently:
 
 label speechwrite:
     hide lov happy2h
-    show sis happy2 at left
-    show lov happy at right
+    show sis happy2 with dissolve:
+        align (0.35, 1.00)
+    show lov happy with dissolve:
+        align (0.65, 1.00)
     with dissolve
     voice "6-2-140.mp3" #amree
     sis "Hey, Laurie, Big Sis! They don't have writing stuff, s-so I guess we'll have to use a computer…"
@@ -456,7 +475,8 @@ label speechwrite:
     voice "6-2-142.mp3" #potato
     pro "I'm a pretty quick typer. I'll transcribe your speech for you."
     voice "6-2-143.mp3" #amree
-    show sis happy at left
+    show sis happy with dissolve:
+        align (0.35, 1.00)
     with dissolve
     sis "'Transcribe'...?"
     voice "6-2-144.mp3" #starleeter

@@ -81,8 +81,10 @@ label day6s6dad:
     "Dad unlocks the front door and we enter the house."
   
     scene diningroom dark
-    show dad neutral2 at right
-    show mom angry2 at left
+    show dad neutral2 with dissolve:
+        align (0.75, 1.00)
+    show mom angry2 with dissolve:
+        align (0.25, 1.00)
     with dissolve
 
     voice "6-6-12.mp3" #kaito
@@ -93,37 +95,43 @@ label day6s6dad:
   
     voice "6-6-13.mp3" #lacTheWatcher
     dad "Take it easy, Liz, Emily was just—"
-    show mom angry1 at left
+    show mom angry1 with dissolve:
+        align (0.25, 1.00)
     with dissolve
     voice "6-6-14.mp3" #kaito
     mom "Not Emily, Jon. {i}You{/i}. Where were you?"
     
     "Huh?"
     
-    show dad sad at right
+    show dad sad with dissolve:
+        align (0.75, 1.00)
     with dissolve
     voice "6-6-15.mp3" #lacTheWatcher
     dad "I've been busy at work. You know that."
     voice "6-6-16.mp3" #kaito
     mom "You told me you'd be home with this week's groceries. Were you lying?"
     voice "6-6-17.mp3" #lacTheWatcher
-    show dad neutral2 at right
+    show dad neutral2 with dissolve:
+        align (0.75, 1.00)
     with dissolve
     dad "No! It's just that my boss really needs the Farclay account closed."
     voice "6-6-18.mp3" #lacTheWatcher
     dad "In fact, I may need to spend more time at the office for the next week or two."
-    show mom angry2 at left
+    show mom angry2 with dissolve:
+        align (0.25, 1.00)
     with dissolve
     voice "6-6-19.mp3" #kaito
     mom "{i}More?{/i}"
     voice "6-6-20.mp3" #kaito
-    show mom angry at left
+    show mom angry with dissolve:
+        align (0.25, 1.00)
     with dissolve
     mom "Jon, you better be joking."
     voice "6-6-21.mp3" #lacTheWatcher
     dad "There's nothing I can do about it. I'm the one with the career here, Liz."
     voice "6-6-22.mp3" #kaito
-    show mom angry3 at left
+    show mom angry3 with dissolve:
+        align (0.25, 1.00)
     with dissolve
     mom "What... {i}what did you say?!{/i}"
     voice "6-6-23.mp3" #kaito

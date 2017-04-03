@@ -304,8 +304,10 @@ label d2s1yes:
 label d2s1merge:
     play music bgmmomintro noloop fadeout 1.0
     queue music bgmmomloop loop
-    show mom angry2 at left
-    show bro sad2 at right
+    show mom angry2 with dissolve:
+        align (0.25, 1.0)
+    show bro sad2 dissolve:
+        align (0.75, 1.0)
 
     voice "2-1-43.mp3" #kujira
     bro "Well, I have a biology test today, so..."
@@ -313,12 +315,14 @@ label d2s1merge:
     voice "2-1-44.mp3" #kaito
     mom "What?! You said it was later this week!"
     
-    show bro smile2 at right
+    show bro smile2 dissolve:
+        align (0.75, 1.0)
 
     voice "2-1-45.mp3" #kujira
     bro "Well, actually, I said it was this week, and Monday {i}technically{/i}-"
     
-    show mom sad3 at left
+    show mom sad3 dissolve:
+        align (0.25, 1.0)
 
     voice "2-1-46.mp3" #kaito
     mom "Westensons don’t blow things off to the last minute! Don’t ever let me catch you doing this again!"

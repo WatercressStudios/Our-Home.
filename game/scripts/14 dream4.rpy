@@ -157,77 +157,100 @@ label dream4:
     
     scene ddiningroom with Dissolve(1.0)
     
-    show dmom smile1 at left with Dissolve(1.0)
-    show ddad smile at right with Dissolve(1.0)
+    show dmom smile1 with dissolve:
+        align (0.25, 1.0) 
+    show ddad smile with dissolve:
+        align (0.75, 1.0)
     
-    show ddad happy at right
+    show ddad happy with dissolve:
+        align (0.75, 1.0)
     voice "d4-1-37.mp3" #lacTheWatcher
     ddad "Well if it isn’t my favorite daughter! How’re you holding up?"
     
-    show ddad smile at right
+    show ddad smile with dissolve:
+        align (0.75, 1.0)
     voice "d4-1-38.mp3" #potato
     pro "Uh, fine, I guess. I was just... curious about something."
     
-    show dmom happy2 at left 
+    show dmom happy2 with dissolve:
+        align (0.25, 1.0) 
     voice "d4-1-39.mp3" #kaito
     dmom "Go ahead and tell us what’s on your mind, Emily."
     
-    show dmom smile1 at left
+    show dmom smile1 with dissolve:
+        align (0.25, 1.0)
     voice "d4-1-40.mp3" #potato
     pro "I was just wondering how you two do the whole... parenting thing. How are you still so upbeat after all the work you do?"
     
-    show ddad happy at right
+    show ddad happy with dissolve:
+        align (0.75, 1.0)
     voice "d4-1-41.mp3" #lacTheWatcher
     ddad "Hahaha! Is that all? I’m just happy to provide for you kids so that you can be successful, someday."
     
-    show ddad smile at right
-    show dmom happy1 at left 
+    show ddad smile with dissolve:
+        align (0.75, 1.0)
+    show dmom happy1 with dissolve:
+        align (0.25, 1.0) 
     voice "d4-1-42.mp3" #kaito
     dmom "And Watching you and your brother grow up is enough repayment for me."
     
-    show dmom smile1 at left 
-    show ddad happy at right
+    show dmom smile1 with dissolve:
+        align (0.25, 1.0) 
+    show ddad happy with dissolve:
+        align (0.75, 1.0)
     voice "d4-1-43.mp3" #lacTheWatcher
     ddad "That said, maybe the two of you could help pay for our retirement home later."
     
-    show ddad smile at right
-    show dmom happy2 at left 
+    show ddad smile with dissolve:
+        align (0.75, 1.0)
+    show dmom happy2 with dissolve:
+        align (0.25, 1.0) 
     voice "d4-1-44.mp3" #kaito
     dmom "Oh hush. Who would even think of that at a time like this?"
     
-    show dmom smile2 at left 
+    show dmom smile2 with dissolve:
+        align (0.25, 1.0) 
     voice "d4-1-45.mp3" #potato
     pro "...Uh-huh. So you put up with the work itself for that?"
     
-    show ddad happy at right
+    show ddad happy with dissolve:
+        align (0.75, 1.0)
     voice "d4-1-46.mp3" #lacTheWatcher
     ddad "Of course! Sure, my job can drive me nuts, but they wouldn’t pay people to work if it was fun."
     
-    show ddad smile at right
-    show dmom happy1 at left 
+    show ddad smile with dissolve:
+        align (0.75, 1.0)
+    show dmom happy1 with dissolve:
+        align (0.25, 1.0) 
     voice "d4-1-47.mp3" #kaito
     dmom "Ain’t that the truth."
     
-    show dmom smile1 at left 
-    show ddad happy at right
+    show dmom smile1 with dissolve:
+        align (0.25, 1.0) 
+    show ddad happy with dissolve:
+        align (0.75, 1.0)
     voice "d4-1-48.mp3" #lacTheWatcher
     ddad "Some people go insane searching for some dream job that’s fun to do and pays well, but I think they’d be better off just buying lottery tickets."
      
     voice "d4-1-49.mp3" #lacTheWatcher
     ddad "Work isn’t satisfying in itself. providing for your family is satisfying, and work is how you do it."
     
-    show ddad smile at right
+    show ddad smile with dissolve:
+        align (0.75, 1.0)
     "I’m not sure if I want to believe that."
      
     voice "d4-1-50.mp3" #potato
     pro "So providing for the family is important enough for you to spend most of your days doing a job you don’t like?"
     
-    show dmom happy1 at left 
+    show dmom happy1 with dissolve:
+        align (0.25, 1.0) 
     voice "d4-1-51.mp3" #kaito
     dmom "Of course. I’m sure that’s hard to understand now, but you’ll get it when you’re older."
     
-    show dmom smile1 at left 
-    show ddad happy at right
+    show dmom smile1 with dissolve:
+        align (0.25, 1.0) 
+    show ddad happy with dissolve:
+        align (0.75, 1.0)
     voice "d4-1-52.mp3" #lacTheWatcher
     ddad "Yep. I’m a dad, and since I’m a dad, I love my kids and want to see them get degrees and do something with themselves."
      
@@ -241,20 +264,25 @@ label dream4:
      
     "Actually, when I think about it, I’ll probably be dead at that point."
     
-    show ddad smile at right
+    show ddad smile with dissolve:
+        align (0.75, 1.0)
     voice "d4-1-53.mp3" #potato
     pro "So you don’t have any regrets?"
     
-    show dmom happy2 at left 
+    show dmom happy2 with dissolve:
+        align (0.25, 1.0) 
     voice "d4-1-54.mp3" #kaito
     dmom "Of course not!"
     
-    show dmom smile1 at left 
-    show ddad happy at right
+    show dmom smile1 with dissolve:
+        align (0.25, 1.0) 
+    show ddad happy with dissolve:
+        align (0.75, 1.0)
     voice "d4-1-55.mp3" #lacTheWatcher
     ddad "I’ve had my disappointments, but realistically, everything has turned out as well as I could’ve hoped."
     
-    show ddad smile at right
+    show ddad smile with dissolve:
+        align (0.75, 1.0)
     "My gaze swerved toward the fifth seat of the table, standing alone."
      
     voice "d4-1-56.mp3" #potato
@@ -263,20 +291,25 @@ label dream4:
     voice "d4-1-57.mp3" #potato
     pro "Like a daughter, maybe?"
     
-    show ddad happy at right
+    show ddad happy with dissolve:
+        align (0.75, 1.0)
     voice "d4-1-58.mp3" #lacTheWatcher
     ddad "Haha, what’s this all of a sudden? As far as I’m concerned, this family turned out perfectly. And, well, like they all say, if it ain’t broke, don’t fix it."
     
-    show ddad smile at right
-    show dmom happy1 at left 
+    show ddad smile with dissolve:
+        align (0.75, 1.0)
+    show dmom happy1 with dissolve:
+        align (0.25, 1.0) 
     voice "d4-1-59.mp3" #kaito
     dmom "We do love to work for your sakes, but we still have breaking points. An extra mouth to feed and more tuition to save up for might have been too much for us."
     
-    show dmom happy2 at left 
+    show dmom happy2 with dissolve:
+        align (0.25, 1.0) 
     voice "d4-1-60.mp3" #kaito
     dmom "And besides, you and your brother get along so well, it would be a shame if we ended up throwing off what you two have going. But anyways, why do ask?"
     
-    show dmom happy1 at left 
+    show dmom happy1 with dissolve:
+        align (0.25, 1.0) 
     voice "d4-1-61.mp3" #kaito
     dmom "Did you want a little sister?"
     

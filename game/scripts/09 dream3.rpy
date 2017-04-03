@@ -117,24 +117,29 @@ label dream3:
 
     #Family appears next to bro. The dream transitions to a family dinner, with no real regard to sequence of events, as you'd expect in a dream.
     show dbro smile with Dissolve(1.0)
-    show dmom smile1 at left with Dissolve(1.0)
-    show ddad smile at right with Dissolve(1.0)
+    show dmom smile1 with dissolve:
+        align (0.25, 1.0)
+    show ddad smile  with dissolve:
+        align (0.75, 1.0)
     
-    show dmom happy1 at left
+    show dmom happy1 with dissolve:
+        align (0.25, 1.0)
     voice "d3-1-29.mp3" #kaito
     dmom "How's the food, hon?"
 
     voice "d3-1-30.mp3" #potato
     pro "It's swell, thank you!"
 
-    show dmom happy2 at left
+    show dmom happy2 with dissolve:
+        align (0.25, 1.0)
     "I take another helping of mashed potatoes, hoping to have a taste of that sweet apple pie sitting on the kitchen window once I've finished the full course meal."
 
     "Mom's cooking is actually very lovely. An excellent treat for our family, all gathered around the table."
 
     "The smoked ham is perfectly cooked, my knife cutting through it like the butter on my biscuits. Speaking of, those are a perfect golden brown, cut hamburger style with a sizable bit of melted butter nuzzled in there."
 
-    show ddad happy at right
+    show ddad happy with dissolve:
+        align (0.75, 1.0)
     voice "d3-1-31.mp3" #lacTheWatcher
     ddad "This is amazing, honey! I love it, this food is wonderful!"
 

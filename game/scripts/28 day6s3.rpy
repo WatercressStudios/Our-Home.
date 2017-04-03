@@ -3,20 +3,24 @@ label day6s3:
     $ goodtalk = False
  
     scene brodoor
-    show lov angry at right
-    show sis worry at left
+    show lov angry with dissolve:
+        align (0.75, 1.00)
+    show sis worry with dissolve:
+        align (0.25, 1.00)
     with dissolve
      
     "Every inch of my being crawled with apprehension."
      
     "We said we would talk to Alex, but now that his door is staring us in the face, the reality of it all is pushing down on me."
      
-    show lov happy2 at right
+    show lov happy2 angry with dissolve:
+        align (0.75, 1.00)
     with dissolve  
     voice "6-3-1.mp3" #starleeter
     lov "C’mon, Em. All we’re going to do is talk to him. It’ll be fine."
      
-    show sis worry2 at left
+    show sis worry2 with dissolve:
+        align (0.25, 1.00)
     with dissolve
     voice "6-3-2.mp3" #amree
     sis "We just want the best for Alex, so... everything will turn out okay."
@@ -26,14 +30,16 @@ label day6s3:
     voice "6-3-3.mp3" #potato
     pro "You’re right. I’m ready."
      
-    show sis worry at left
+    show sis worry with dissolve:
+        align (0.25, 1.00)
     with dissolve
     "Slowly,"
      
     #Knocking Sound#####################################################################3
     "I knocked on the door."
      
-    show sis worry2 at left
+    show sis worry2 with dissolve:
+        align (0.25, 1.00)
     with dissolve
     voice "6-3-4.mp3" #potato
     pro "Hey, Alex?"
@@ -44,8 +50,10 @@ label day6s3:
     voice "6-3-6.mp3" #potato
     pro "Maria, Lauren, and I want to talk to you. Is that alright?"
     
-    show sis worry at left
-    show lov angryh at right
+    show sis worry with dissolve:
+        align (0.25, 1.00)
+    show lov angryh angry with dissolve:
+        align (0.75, 1.00)
     with dissolve
     "..."
      
@@ -55,24 +63,29 @@ label day6s3:
     #Creaking sound effect############################333333333333##################3
      
     scene broroom
-    show lov happy2h at right
-    show sis worry at left
+    show lov happy2h with dissolve:
+        align (0.85, 1.00)
+    show sis worry with dissolve:
+        align (0.15, 1.00)
     show bro angry at center
     with dissolve
      
     "As filthy as ever, but that’s not what we’re here for right now."
      
-    show sis worry2 at left with dissolve
+    show sis worry2 with dissolve:
+        align (0.15, 1.00)
     "..."
     
     show bro angry2 at center with dissolve
     voice "6-3-8.mp3" #kujira
     bro "So? What do you want?"
      
-    show lov angry2h at right with dissolve
+    show lov angry2h angry with dissolve:
+        align (0.85, 1.00)
     "Lauren elbowed me in the rib. Guess I’m not getting out of this one."
      
-    show lov happy2h at right with dissolve
+    show lov happy2h angry with dissolve:
+        align (0.85, 1.00)
     voice "6-3-9.mp3" #potato
     pro "Well, to get straight to the point... we’re, uh, here about your drug habit."
     
@@ -80,7 +93,8 @@ label day6s3:
     voice "6-3-10.mp3" #kujira
     bro "Tch. Figures..."
     
-    show sis worry at left with dissolve
+    show sis worry with dissolve:
+        align (0.15, 1.00)
     voice "6-3-11.mp3" #amree
     sis "W-we just want to help."
     
@@ -92,8 +106,10 @@ label day6s3:
     pro "This isn’t about her."
      
     show bro angry2 at center
-    show sis worry2 at left
-    show lov angry at right
+    show sis worry2 with dissolve:
+        align (0.15, 1.00)
+    show lov angry with dissolve:
+        align (0.85, 1.00)
     with dissolve
     voice "6-3-14.mp3" #kujira
     bro "Like hell it isn’t. That shit is the only way I can stay sane with her always on my back."
@@ -107,11 +123,13 @@ label day6s3:
      
     "Dammit Alex, don’t make this about me again."
      
-    show lov angry2 at right with dissolve
+    show lov angry2 with dissolve:
+        align (0.85, 1.00)
     voice "6-3-17.mp3" #starleeter
     lov "I can’t really talk about your family situation, but do you really think all the harm you’re doing to yourself is worth it?"
      
-    show sis worry at left with dissolve
+    show sis worry with dissolve:
+        align (0.15, 1.00)
     voice "6-3-18.mp3" #amree
     sis "A-and it’s not just you. We’re worried about you, so..."
      
@@ -119,7 +137,8 @@ label day6s3:
     voice "6-3-19.mp3" #kujira
     bro "None of you have any idea what it is you’re talking about."
      
-    show lov confused at right with dissolve
+    show lov confused with dissolve:
+        align (0.85, 1.00)
     voice "6-3-20.mp3" #starleeter
     lov "Maybe we don’t, but can’t we talk about it? This isn’t something we can ignore."
      
@@ -220,7 +239,8 @@ label d6s3salty:
     voice "6-3-38.mp3" #potato
     pro "Really?!"
     
-    show lov angry2 at right with dissolve
+    show lov angry2 with dissolve:
+        align (0.85, 1.00)
     voice "6-3-39.mp3" #starleeter
     lov "Why didn’t you just say that in the first place?!"
      
@@ -245,8 +265,10 @@ label d6s3sugary:
     voice "6-3-44.mp3" #potato
     pro "I know things can get out of hand, and sometimes it feels like the world can’t offer enough to make it worth it."
     
-    show sis happy at left
-    show lov happy2 at right
+    show sis happy with dissolve:
+        align (0.15, 1.00)
+    show lov happy2 with dissolve:
+        align (0.85, 1.00)
     with dissolve
     voice "6-3-45.mp3" #potato
     pro "But I think maybe there are things worth searching for that you won’t find if you hide behind the easy answers."
@@ -277,7 +299,8 @@ label d6s3sugary:
 
 label d6s3merge2:
     
-    show sis happy2 at left with dissolve
+    show sis happy2 with dissolve:
+        align (0.15, 1.00)
     voice "6-3-52.mp3" #amree
     sis "S-so it’s over? Everything is okay now?"
      
@@ -291,7 +314,8 @@ label d6s3merge2:
     voice "6-3-55.mp3" #kujira
     bro "I don’t really know if I can handle it. It’s hard enough already, and it might only take one outburst from Mom for me to crack."
     
-    show lov happy2h at right with dissolve
+    show lov happy2h with dissolve:
+        align (0.85, 1.00)
     voice "6-3-56.mp3" #starleeter
     lov "That’s no problem! You’ve already finished the hardest step, and you’ve got two adorable sisters who’ll love to support you!"
      

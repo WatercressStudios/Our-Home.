@@ -1,45 +1,46 @@
 label day4s2:
 
-    $ go_hospital = False
-    $ bring_sis = False
+$ go_hospital = False
+$ bring_sis = False
 
-    scene classroom with dissolve
-    play ambience blackboard fadein 2.0
-    # TODO: use whatever music track’s usually used for the classroom
+scene classroom with dissolve
+play ambience blackboard fadein 2.0
+# TODO: use whatever music track’s usually used for the classroom
 
-    voice "4-2-1.mp3" #skinimini
-    tea "...and when you integrate an exponent to the power of three, you should divide it by..."
+voice "4-2-1.mp3" #skinimini
+tea "...and when you integrate an exponent to the power of three, you should divide it by..."
 
-    ### TODO: Math Teacher named Reynolds, who was also the English teacher in Tutty’s scene. We’ll make it a joke.
-    "I'm not really listening to Miss Reynolds, and I doubt anyone else in class is."
+### TODO: Math Teacher named Reynolds, who was also the English teacher in Tutty’s scene. We’ll make it a joke.
+"I'm not really listening to Miss Reynolds, and I doubt anyone else in class is."
 
 
-  voice "4-2-2.mp3" #skinimini
-  tea "...resulting a fraction of three quarters and... oh, someone's raising their hand. Yes, Miss Moodie?"
-  voice "4-2-3.mp3" #starleeter
-  show lov confused2bh with dissolve
-  lov "Can we go back to the previous equation? Where did the minus sign..."
+voice "4-2-2.mp3" #skinimini
+tea "...resulting a fraction of three quarters and... oh, someone's raising their hand. Yes, Miss Moodie?"
+voice "4-2-3.mp3" #starleeter
+show lov confused2bh with dissolve
+lov "Can we go back to the previous equation? Where did the minus sign..."
 
-  "No one apart from Lauren, it seems. Despite barely having any time to herself, she gives her all to everything she does."
-  "I don't know how she does it. Nor do I understand why."
+"No one apart from Lauren, it seems. Despite barely having any time to herself, she gives her all to everything she does."
+"I don't know how she does it. Nor do I understand why."
 
 
     # TODO: sound phone beeping / text message
-    "BEEP~ BEEP~"
+"BEEP~ BEEP~"
 
 
 
-    "I feel my cellphone vibrate and I quickly fish it out before the teacher hears it."
+"I feel my cellphone vibrate and I quickly fish it out before the teacher hears it."
 
 
     # TODO: sound phone beep to indicate it being used
-    "\"Alex in hospital. Mom.\""
+stop music
+"\"Alex in hospital. Mom.\""
 
 
   # TODO: sound phone beep to indicate it being used
-  "{color=#0070BB}\"Alex in hospital. Mom.\"{/color}"
-  "My breath catches, and I freeze, chest tightening up."
-  "This can't be happening..."
+"{color=#0070BB}\"Alex in hospital. Mom.\"{/color}"
+"My breath catches, and I freeze, chest tightening up."
+"This can't be happening..."
 
 scene black with dissolve
 show bro grin1 with dissolve
@@ -56,6 +57,7 @@ scene classroom with dissolve
 "How could I say something like that to him? Fuck!"
 "I shake my head. My hands are trembling."
 "But... maybe he's fine. People overdose all the time, and they turn out fine. Maybe it isn't even an overdose."
+stop ambience fadeout 0.75
 "I'm totally overreacting."
 
 voice "4-2-4.mp3" #skinimini
@@ -64,41 +66,12 @@ tea "Miss Westenson, would you like to share what's on your phone with the class
 "I look up."
 "Everyone's staring at me. Lauren's staring at me."
 
+
 menu:
     "Pretend nothing's happening.":
-      jump carryon
+        jump carryon
     "Go to the hospital.":
-      jump hospital1
-
-    stop music
-
-    "My breath catches, and I freeze, chest tightening up."
-    "This can't be happening..."
-
-    # TODO: flashback to the previous scene where Emily says "you'll die of an overdose" to Alex. As in, literally copy & paste the words, BG and sprites from that scene, and apply a vignette & sepia filter over it for flashback feels.
-
-    "No... what have I done..."
-    "How could I say something like that to him? Fuck!"
-    "I shake my head. My hands are trembling."
-    "But... maybe he's fine. People overdose all the time, and they turn out fine. Maybe it isn't even an overdose."
-
-    stop ambience fadeout 0.75
-
-    "I'm totally overreacting."
-
-    # TODO: flashforward to the funeral CG? I.e. show a flash of the coffin in black and white or sepia filter.
-
-    voice "4-2-4.mp3" #skinimini
-    tea "Miss Westenson, would you like to share what's on your phone with the class?"
-
-    "I look up."
-    "Everyone's staring at me. Lauren's staring at me."
-
-    menu:
-        "Pretend nothing's happening.":
-            jump carryon
-        "Go to the hospital.":
-            jump hospital1
+        jump hospital1
 
 ###########################################
 
@@ -610,67 +583,64 @@ jump day4s3
 
 label carryon:
 
-  "I quickly put my phone away before the teacher decides to confiscate it."
+"I quickly put my phone away before the teacher decides to confiscate it."
   
-  voice "4-2-94.mp3" #potato
-  pro "Sorry, Miss Reynolds."
+voice "4-2-94.mp3" #potato
+pro "Sorry, Miss Reynolds."
   
+"The teacher glares at me briefly before returning to her lesson."
+"Luckily, Miss Reynolds is pretty lenient, despite having a strict demeanor."
   
-  
-  "The teacher glares at me briefly before returning to her lesson."
-  "Luckily, Miss Reynolds is pretty lenient, despite having a strict demeanor."
-  
-  play ambience blackboard fadein 0.5
+play ambience blackboard fadein 0.5
 
-  "As we return to our lesson, however, I feel Lauren tapping on my shoulder."
+"As we return to our lesson, however, I feel Lauren tapping on my shoulder."
   
-  show lov shy2 with dissolve
-  voice "4-2-95.mp3" #starleeter
-  lov "What's wrong?"
-  voice "4-2-96.mp3" #potato
-  pro "Nothing. Nothing's wrong."
-  voice "4-2-97.mp3" #starleeter
-  lov "Are you sure?"
+show lov shy2 with dissolve
+voice "4-2-95.mp3" #starleeter
+lov "What's wrong?"
+voice "4-2-96.mp3" #potato
+pro "Nothing. Nothing's wrong."
+voice "4-2-97.mp3" #starleeter
+lov "Are you sure?"
   
-  show lov confused2 with dissolve
+show lov confused2 with dissolve
   
-  "Lauren glances at where I put my cellphone. It's clear she knows that something's up."
+"Lauren glances at where I put my cellphone. It's clear she knows that something's up."
   
-  show lov confused1 with dissolve
+show lov confused1 with dissolve
   
-  voice "4-2-98.mp3" #potato
-  pro "Nothing's wrong."
+voice "4-2-98.mp3" #potato
+pro "Nothing's wrong."
 
-  hide lov with dissolve
-  "What's the saying?"  
-  "If I say something enough times, it'll become true. Is that right?"
-  "Yes, that sounds right."
-  "Nothing's wrong."
-  "Nothing's wrong."
-  scene black with dissolve
-  "Nothing's wrong..."
+hide lov with dissolve
+"What's the saying?"  
+"If I say something enough times, it'll become true. Is that right?"
+"Yes, that sounds right."
+"Nothing's wrong."
+"Nothing's wrong."
+scene black with dissolve
+"Nothing's wrong..."
 
   # TODO: Fade to a short dream scene at home... foreshadow the bad dream end.
-  scene dlivingroom with dissolve
+scene dlivingroom with dissolve
 
-  show dbro smile with dissolve
-  voice "4-2-99.mp3" #kujira
-  dbro "Hey sis, what are you doing?"
-  voice "4-2-100.mp3" #potato
-  pro "Nothing. Just daydreaming."
-  voice "4-2-101.mp3" #kujira
-  dbro "Is it a good dream?"
-  voice "4-2-102.mp3" #potato
-  pro "..."
-  voice "4-2-103.mp3" #potato
-  pro "No, it isn't."
-  hide dbro
-  scene classroom with dissolve
+show dbro smile with dissolve
+voice "4-2-99.mp3" #kujira
+dbro "Hey sis, what are you doing?"
+voice "4-2-100.mp3" #potato
+pro "Nothing. Just daydreaming."
+voice "4-2-101.mp3" #kujira
+dbro "Is it a good dream?"
+voice "4-2-102.mp3" #potato
+pro "..."
+voice "4-2-103.mp3" #potato
+pro "No, it isn't."
+hide dbro
+scene classroom with dissolve
 
   # TODO: School bell!!
   
-ambience fadeout 0.25
-
+stop ambience fadeout 0.25
 "Before I know it, class is over."
 "I can tell from Miss Reynolds’ expression that she wants to talk to me."
 "So, I gather my things and leave before she has a chance to stop me."

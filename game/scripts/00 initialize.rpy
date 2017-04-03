@@ -245,8 +245,9 @@ image parkbench = "bgs/cgs/Park only.png"
 image parkbench dark = "bgs/cgs/Park only (Night).png"
 image kmart = "bgs/Kenta/kmart_interior.png"
 image kmartexterior = "bgs/Kenta/kmart_exterior.png"
-image niagara1 = "bgs/Kenta/niagara_falls1.png"
-image niagara2 = "bgs/Kenta/niagara_falls2.png"
+image niagara1 = "bgs/Kenta/niagra_falls1.png"
+image niagara2 = "bgs/Kenta/niagra_falls2.png"
+image livingroom night = "bgs/Kenta/living_room_night.png"
 
 # All of Tutty's
 image bathroom = "bgs/Tutty/bathroom.png"
@@ -277,6 +278,7 @@ image sisschool = "bgs/Tutty/mariaschool.png"
 image schoolcafeteria = "bgs/Tutty/schoolcafeteria.png"
 image siswalk = "bgs/Tutty/sisterwalk.png"
 image siswalk2 = "bgs/Tutty/sisterwalk2.png"
+image niagara sunset = "bgs/Tutty/niagara sunset.png"
 
 #######
 # CGs #

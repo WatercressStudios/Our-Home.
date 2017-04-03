@@ -123,8 +123,10 @@ label day2s4:
     scene livingroom sunset with dissolve
 
     show mom sad1 at center with dissolve
-    show bro sad1 at right with dissolve
-    show sis worry1 at left with dissolve
+    show bro sad1 with dissolve:
+        align (0.75, 1.0)
+    show sis worry1 with dissolve:
+        align (0.25, 1.0)
     
     "It’s just the four of us, since Dad is working, again."
     "Alex is refusing to look at me, naturally."
@@ -139,31 +141,38 @@ label day2s4:
 
     mom "Alex, eat your dinner."
     voice "2-4-16.mp3" #kujira
-    show bro sad2 at right
+    show bro sad2 with dissolve:
+        align (0.75, 1.0)
     bro "I am eating it."
     voice "2-4-17.mp3" #amree
-    show sis worry2 at left
+    show sis worry2 with dissolve:
+        align (0.25, 1.0)
     sis "Hey, M-Mom. Where’s Dad?"
     voice "2-4-18.mp3" #kaito
     show mom angry1 at center
     mom "You’re just playing with it."
     voice "2-4-19.mp3" #kujira
-    show bro smirk1 at right
+    show bro smirk1 with dissolve:
+        align (0.75, 1.0)
     bro "Get off my back! I can eat as slow as I like!"
     voice "2-4-20.mp3" #amree
-    show sis sad1 at left
+    show sis sad1 with dissolve:
+        align (0.25, 1.0)
     sis "Umm Emi, do you know where Dad is?"
     voice "2-4-21.mp3" #kaito
     mom "You’re not leaving this table until you’ve cleared your plate."
     voice "2-4-22.mp3" #kujira
-    show bro angry2 at right
+    show bro angry2 with dissolve:
+        align (0.75, 1.0)
     bro "I’m not two, Mom!"
     voice "2-4-23.mp3" #kaito
     show mom angry2 at center
     mom "Maybe when you stop throwing tantrums, I’ll believe you."
-    show bro angry1 at right
+    show bro angry1 with dissolve:
+        align (0.75, 1.0)
     "Alex’s expression scrunches up like he’s going to yell, but he relaxes."
-    show bro sad2 at right
+    show bro sad2 with dissolve:
+        align (0.75, 1.0)
     voice "2-4-24.mp3" #kujira
     bro "Whatever."
     show mom sad3 at center

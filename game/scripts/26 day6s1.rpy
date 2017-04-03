@@ -107,7 +107,7 @@ label day6s1:
             with dissolve
             jump nosister
 
-        "It's her brother, too. It's only fair.":
+        "He's her brother, too. It's only fair.":
             $ yessister = True
             $ career += 1
             jump yessister

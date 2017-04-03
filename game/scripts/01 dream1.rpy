@@ -53,8 +53,10 @@ label dream1:
     "Smiling, I take my seat at the head of the table."
     "It’s weird, seeing Dad at the side instead of the head, but I get over that feeling quickly."
 
-    show dmom smile at left
-    show ddad smile at right
+    show dmom smile with dissolve:
+        align (0.25, 1.0)
+    show ddad smile with dissolve:
+        align (0.75, 1.0)
 
     voice "d1-1-8.mp3" #lacTheWatcher
     ddad "Happy birthday, sweetie. Hate to surprise you like this, but we all got a little ahead of ourselves this year…"
@@ -96,8 +98,10 @@ label dream1:
     voice "d1-1-12.mp3" #potato
     pro "This is too much guys, really…"
 
-    show dlov at left
-    show dbro happy at right
+    show dlov with dissolve:
+        align (0.25, 1.0)
+    show dbro happy with dissolve:
+        align (0.75, 1.0)
     #pan dream girl to left before brother comes in
 
     voice "d1-1-13.mp3" #kujira
@@ -110,8 +114,10 @@ label dream1:
 
     hide dlov
     hide dbro
-    show dmom smile at left
-    show ddad smile at right
+    show dmom smile with dissolve:
+        align (0.25, 1.0)
+    show ddad smile with dissolve:
+        align (0.75, 1.0)
 
     "I nod. It’s true. Mom and Dad give each other knowing looks."
 

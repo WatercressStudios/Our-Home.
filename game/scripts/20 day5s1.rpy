@@ -1,6 +1,6 @@
 label day5s1:
  
-    #bedroom
+    scene bedroom with dissolve
     stop music fadeout .5 
     "The morning sun’s assault on my retinas marks the start of a new day."
     "If today is anything like yesterday, I think I’ll pass."
@@ -9,7 +9,8 @@ label day5s1:
     "..."
     "Slowly."
      
-    #Transition to breakfast
+    scene kitchen with dissolve
+    show bro sad1 with dissolve
      
     "The fact that there was only one person left at the breakfast table when I arrived told me that I was a bit {i}too{/i} slow."
     play music bgmbrointro noloop fadeout 1.0
@@ -17,16 +18,16 @@ label day5s1:
     voice "5-1-1.mp3" #potato
     pro "Morning, sunshine."
      
-    show bro
-     
     #My (extremely minimal) research on withdrawal symptoms shows that the only outward physical symptom is sweating. Some lightly sweating or generally exhausted sprites for bro could be put to good use here.
-     
+    
     voice "5-1-2.mp3" #kujira
     bro "..."
      
     voice "5-1-3.mp3" #potato
     pro "Yesterday scared the crap out of me, you know."
-     
+    
+    show bro angry1 with dissolve
+    
     voice "5-1-4.mp3" #kujira
     bro "Fuck off."
      
@@ -61,12 +62,16 @@ label d5s1bad:
     voice "5-1-5.mp3" #potato
     pro "It’s too damn early for me to put up with that shit, Alex."
      
+    show bro sad2 with dissolve
+    
     voice "5-1-6.mp3" #kujira
     bro "Then leave me alone."
      
     voice "5-1-7.mp3" #potato
     pro "Hey, what do you know. You actually had a good idea for once."
      
+    show bro angry1 with dissolve
+    
     "He gave me a glare and stopped talking."
      
     "Other than tasting a bit worse than usual, the rest of breakfast was uneventful."
@@ -80,6 +85,8 @@ label d5s1good:
     voice "5-1-8.mp3" #potato
     pro "Sorry, Alex. I’m just glad to see you’re okay, is all."
      
+    show bro sad1 with dissolve
+    
     voice "5-1-9.mp3" #kujira
     bro "...Right. Sorry I snapped, I just... I’m not feeling my best right now. If it’s alright, would you mind leaving me alone for a while?"
      
@@ -98,9 +105,10 @@ label d5s1good:
      
 label d5s1merged:
      
+    scene livingroom with dissolve
     "Just as I was about to head for school, a tug on the back of my skirt reminded me of what I was missing."
     play music bgmsis fadeout 1.0 fadein 0.0 
-    show sis
+    show sis worry2 with dissolve
      
     voice "5-1-13.mp3" #potato
     pro "Hey, I haven’t seen you all morning. What’s up?"
@@ -112,7 +120,10 @@ label d5s1merged:
     "I walked out the door with Maria following silently behind me."
      
     #Transition to... well, whatever it is you do for "walking little sister to school" things. You guys are probably familiar with that.
+    
+    scene siswalk with dissolve
     play ambience suburb fadein 2.0 
+    show sis worry1 with dissolve
     voice "5-1-14.mp3" #amree
     sis "Um..."
      
@@ -122,24 +133,32 @@ label d5s1merged:
     voice "5-1-16.mp3" #potato
     pro "I’m pretty sure he’s mad at everything. What happened?"
      
+    show sis sad1 with dissolve
+    
     voice "5-1-17.mp3" #amree
     sis "He seemed tired, so I asked him if he was going to stay home from school, and he was in the hospital yesterday, so I asked if he needed to stay home from school, but, he, uh, yelled at me."
      
     voice "5-1-18.mp3" #potato
     pro "Seriously?"
      
+    show sis worry2 with dissolve
+    
     voice "5-1-19.mp3" #amree
     sis "I-it wasn’t very much! He just kind of snapped at me and I got scared and hid in my room."
      
     voice "5-1-20.mp3" #potato
     pro "Jeez... He snapped at me, too, this morning. I know he’s prickly, but this is just ridiculous."
      
+    show sis happy1 with dissolve
+    
     voice "5-1-21.mp3" #amree
     sis "So he’s not mad at me?"
      
     voice "5-1-22.mp3" #potato
     pro "Nah. Like I said, he’s just... mad."
      
+    show sis happy2 with dissolve
+    
     voice "5-1-23.mp3" #amree
     sis "Phew! He always seems so frustrated; I’d hate it if I made things even worse for him."
      
@@ -152,6 +171,8 @@ label d5s1merged:
      
     "Apparently catching the disgust on my face, Maria changed the subject."
      
+    show sis worry2 with dissolve
+    
     voice "5-1-25.mp3" #amree
     sis "You know, I just remembered something that happened on a show I saw a few days ago!"
      
@@ -160,12 +181,18 @@ label d5s1merged:
      
     "Anything to get my mind off of that asshat."
      
+    show sis worry1 with dissolve
+    
     voice "5-1-27.mp3" #amree
     sis "Well, it was kind of like a mystery episode."
      
+    show sis happy1 with dissolve
+    
     voice "5-1-28.mp3" #amree
     sis "The four girls all went on a camping trip, and they played in the woods, but when they got back to camp,"
      
+    show sis happy2 with dissolve
+    
     voice "5-1-29.mp3" #amree
     sis "One girl’s lunch was gone!"
      
@@ -174,15 +201,21 @@ label d5s1merged:
      
     "The stakes in kids’ shows sure are high."
      
+    show sis happy1 with dissolve
+    
     voice "5-1-31.mp3" #amree
     sis "They were on the land of the rich girl’s family, and she said that one of the four had to have stolen it."
      
     voice "5-1-32.mp3" #amree
     sis "They argued about it and realized that one girl left the group for a few minutes while they were playing and never said why."
      
+    show sis worry2 with dissolve
+    
     voice "5-1-33.mp3" #amree
     sis "The rich girl and the girl whose lunch was stolen got mad at her and said she would have to give up her own lunch so that everyone would get one, even though she said she was innocent."
      
+    show sis happy2 with dissolve
+    
     voice "5-1-34.mp3" #amree
     sis "But! The last girl, her sister couldn’t believe that one of her friends would do something like that and defended her."
      
@@ -192,6 +225,8 @@ label d5s1merged:
     voice "5-1-36.mp3" #potato
     pro "Should those girls really have been camping around wild animals like that?"
      
+    show sis happy1 with dissolve
+    
     voice "5-1-37.mp3" #amree
     sis "No, it’s okay. They have superpowers."
      
@@ -206,9 +241,13 @@ label d5s1merged:
     voice "5-1-40.mp3" #potato
     pro "That’s good. So what made you think about that episode?"
      
+    show sis worry1 with dissolve
+    
     voice "5-1-41.mp3" #amree
     sis "Well, it kind of stood out because that show is normally about fighting bad guys,"
      
+    show sis happy1 with dissolve
+    
     voice "5-1-42.mp3" #amree
     sis "But I mostly liked something that the fourth girl said."
      
@@ -226,13 +265,20 @@ label d5s1merged:
     voice "5-1-46.mp3" #potato
     pro "So would you believe me if I said I was an alien?"
      
+    show sis worry2 with dissolve
+    
     voice "5-1-47.mp3" #amree
     sis "Well... No, not really."
      
+    scene sisschool with dissolve
+    
     "I pitched a few more blatant lies at Maria before I dropped her off at school and went off on my own."
     stop ambience fadeout 2.0 
     "...But man, kids’ shows are sappy."
+    
+    scene black with dissolve
      
     "Way, way, way too sappy."
+    "... ... ..."
 
     jump day5s2

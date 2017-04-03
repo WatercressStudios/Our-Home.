@@ -18,19 +18,23 @@ label day7s1:
     #####################Fabric SFX########################
 
     scene broroom
-    show mom angry2 at left
+    show mom angry2 with dissolve:
+        align (0.25, 1.00)
     show bro angry at center
-    show sis worry at right
+    show sis worry with dissolve:
+        align (0.75, 1.00)
     with dissolve
 
     "I manage to show up just in time."
 
     #Cue Argument Theme########################################
 
-    show sis worry2 at right with dissolve
+    show sis worry2 with dissolve:
+        align (0.75, 1.00)
     "Or in other words, at the worst possible time."
     
-    show mom angry at left with dissolve
+    show mom angry with dissolve:
+        align (0.25, 1.00)
     voice "7-1-2.mp3" #kaito
     mom "Alex, what the hell is a syringe doing in your room?"
 
@@ -40,8 +44,10 @@ label day7s1:
     voice "7-1-3.mp3" #kujira
     bro "W-what? Why the hell were you snooping in here?!"
     
-    show mom angry2 at left
-    show sis worry at right
+    show mom angry2 with dissolve:
+        align (0.25, 1.00)
+    show sis worry with dissolve:
+        align (0.75, 1.00)
     show bro angry at center
     with dissolve
     voice "7-1-4.mp3" #kaito
@@ -73,23 +79,28 @@ label day7s1:
     
     play sound whoosh
     scene broroom
-    show mom angry2 at left
+    show mom angry2 with dissolve:
+        align (0.25, 1.00)
     show bro angry at center
-    show sis worry at right
+    show sis worry with dissolve:
+        align (0.75, 1.00)
     with dissolve
 
     #Flashback ends
     "Did I...?"
     
-    show sis worry2 at right with dissolve
+    show sis worry2 with dissolve:
+        align (0.75, 1.00)
     voice "7-1-5.mp3" #amree
     sis "U-um, it wasn't drugs! That was my science project! I-I used water from the sink to make it and then some of the ingredients spilled and"
     
-    show mom angry at left with dissolve
+    show mom angry with dissolve:
+        align (0.25, 1.00)
     voice "7-1-6.mp3" #kaito
     mom "Be quiet, Maria!"
     
-    show sis sad2 at right with dissolve
+    show sis sad2 with dissolve:
+        align (0.75, 1.00)
     voice "7-1-7.mp3" #amree
     sis "Uu..."
 
@@ -97,7 +108,8 @@ label day7s1:
     voice "7-1-8.mp3" #kujira
     bro "Fine, you got me! I did some shit I wasn't supposed to, but I'm clean now! I quit!"
     
-    show mom angry3 at left with dissolve
+    show mom angry3 with dissolve:
+        align (0.25, 1.00)
     show bro angry at center with dissolve
     voice "7-1-9.mp3" #kaito
     mom "Don't give me that bullshit!"
@@ -105,11 +117,13 @@ label day7s1:
     voice "7-1-10.mp3" #kaito
     mom "Why the hell are you doing this?! How can a boy as smart as you grow up to be so stupid?!"
 
-    show mom angry at left with dissolve
+    show mom angry with dissolve:
+        align (0.25, 1.00)
     voice "7-1-11.mp3" #kaito
     mom "You would have had such a bright and successful future ahead of you! Don't you know you're throwing it all away?"
 
-    show mom angry2 at left with dissolve
+    show mom angry2 with dissolve:
+        align (0.25, 1.00)
     voice "7-1-12.mp3" #kaito
     mom "Don't you know there are people who care about what you do and get hurt when they see see you ruining yourself?"
 
@@ -117,7 +131,8 @@ label day7s1:
     voice "7-1-13.mp3" #kujira
     bro "I know that! I know all of that shit!"
     
-    show mom angry at left with dissolve
+    show mom angry with dissolve:
+        align (0.25, 1.00)
     voice "7-1-14.mp3" #kaito
     mom "Then why? What would make you even consider this?!"
 
@@ -125,34 +140,41 @@ label day7s1:
     bro "...You wanna know why? You really wanna know why?!"
     
     show bro angry3 at center
-    show sis worry at right 
+    show sis worry with dissolve:
+        align (0.75, 1.00)
     with dissolve
     voice "7-1-16.mp3" #kujira
     bro "It's the only thing I can do to stop myself from suffocating under all of your bullshit!"
 
-    show mom angry3 at left with dissolve
+    show mom angry3 with dissolve:
+        align (0.25, 1.00)
     voice "7-1-17.mp3" #kaito
     mom "Don't make this my fault! It's about time you show some responsibility!"
 
-    show mom angry2 at left with dissolve
+    show mom angry2 with dissolve:
+        align (0.25, 1.00)
     voice "7-1-18.mp3" #kujira
     bro "No, I think it's about time you shut your mouth and let me talk!"
     
-    show sis worry2 at right with dissolve
+    show sis worry2 with dissolve:
+        align (0.75, 1.00)
     voice "7-1-19.mp3" #kujira
     bro "You always complain. You beat me down for every single fucking thing, and not once, not even {i}once{/i} have you treated me like an adult."
 
     "We need to put a stop to this before it gets any worse, but I don’t know what to do. I can’t bring myself to say anything."
     
-    show sis worry at right with dissolve
+    show sis worry with dissolve:
+        align (0.75, 1.00)
     voice "7-1-20.mp3" #kujira
     bro "Yeah, I’m young, so I'll make mistakes every now and then, but Jesus Christ, would it it kill you to admit that I'm right {i}one fucking time?{/i}"
 
-    show sis worry2 at right with dissolve
+    show sis worry2 with dissolve:
+        align (0.75, 1.00)
     voice "7-1-21.mp3" #kujira
     bro "You say you want me to have a successful future, but how am I supposed to believe that if the past and present have all been a living hell?"
     
-    show sis worry at right with dissolve
+    show sis worry with dissolve:
+        align (0.75, 1.00)
     "Maria is fidgeting. She must feel even more powerless than I do."
 
     show bro smirk at center with dissolve
@@ -166,7 +188,8 @@ label day7s1:
     #TODO: Music cuts out#
     
     
-    show sis sad2 at right with dissolve
+    show sis sad2 with dissolve:
+        align (0.75, 1.00)
     voice "7-1-24.mp3" #amree
     sis "Stop it!"
 
@@ -178,7 +201,8 @@ label day7s1:
 
     "throws her into the wall!"
 
-    show mom angry3 at left
+    show mom angry3 with dissolve:
+        align (0.25, 1.00)
     show bro angry at center
     voice "7-1-25.mp3" #amree
     sis "Aah!"
@@ -240,7 +264,8 @@ label d7s1unfortunate:
 
 label d7s1merge:
 
-    show mom angry3 at left with dissolve
+    show mom angry3 with dissolve:
+        align (0.25, 1.00)
     voice "7-1-31.mp3" #kaito
     mom "You little ingrate!"
 
@@ -255,7 +280,8 @@ label d7s1merge:
     "And then the whip’s cracked."
     
     scene broroom
-    show mom angry at left
+    show mom angry with dissolve:
+        align (0.25, 1.00)
     show bro angry at center
     with dissolve
     voice "7-1-33.mp3" #kujira
@@ -270,11 +296,13 @@ label d7s1merge:
 
     ####################Music Change#########################
     
-    show sis bleeding at right with dissolve
+    show sis bleeding with dissolve:
+        align (0.75, 1.00)
 
     "..."
     
-    show mom sad at left with dissolve
+    show mom sad with dissolve:
+        align (0.25, 1.00)
     voice "7-1-35.mp3" #kaito
     mom "Maria, honey, are you okay?"
 
@@ -284,7 +312,8 @@ label d7s1merge:
     voice "7-1-37.mp3" #amree
     sis "Alone?"
 
-    show mom sad2 at left with dissolve
+    show mom sad2 with dissolve:
+        align (0.25, 1.00)
     voice "7-1-38.mp3" #kaito
     mom "..."
 

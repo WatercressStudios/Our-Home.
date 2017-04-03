@@ -114,19 +114,23 @@ label brostayno:
 
 label dream5lover:
 
-    show dlov happy at left
+    show dlov happy with dissolve:
+        align (0.25, 1.0)
     voice "d5-1-22.mp3" #vivi
     dlov "Oh, hey Emily."
-    show dlov smile at left
+    show dlov smile with dissolve:
+        align (0.25, 1.0)
     voice "d5-1-23.mp3" #potato
     pro "Diane! When did you get here?"
 
     "Diane smiles timidly and tucks her hair behind her ear."
     "Any anxiety I felt earlier is now gone."
-    show dlov happy at left
+    show dlov happy with dissolve:
+        align (0.25, 1.0)
     voice "d5-1-24.mp3" #vivi
     dlov "Your mom let me in. She's so nice. Oh, hey Alex."
-    show dlov smile at left
+    show dlov smile with dissolve:
+        align (0.25, 1.0)
     show dbro happy
     voice "d5-1-25.mp3" #kujira
     dbro "Hey Diane! Anyway, I'll leave you two alone. Bye!"

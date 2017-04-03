@@ -23,10 +23,10 @@ label day1s1:
 
     show mom sad3 at center
     with dissolve
-    show dad neutral2 at left
-    with dissolve
-    show sis happy1 at right
-    with dissolve
+    show dad neutral2 with dissolve:
+        align (0.25, 1.0)
+    show sis happy1 with dissolve:
+        align (0.75, 1.0)
 
     "Mom sits at the head of the table, opposite of me. Father sits to her right, texting someone, and has a particularly worried look on his face. Alex sits to my right poking at his food with his fork."
     "Maria, my little sister, sits to my right, practically bouncing in her chair."
@@ -122,9 +122,10 @@ label day1s1:
     play music bgmmomintro noloop
     queue music bgmmomloop loop
 
-    show dad sad2 at left
-    with dissolve
-    show sis sad1 at right
+    show dad sad2 with dissolve:
+        align (0.25, 1.0)
+    show sis sad1 with dissolve:
+        align (0.75, 1.0)
     with dissolve
     "Father stares down at his food without the strength to do anything. Maria looks like she doesn’t want to be in the room anymore."
     "Alex gets up from his seat to meet Mom."
@@ -132,58 +133,70 @@ label day1s1:
     with dissolve
     hide sis
     with dissolve
-    show mom angry2 at left
-    with dissolve
-    show bro sad2 at right
+    show mom angry2 with dissolve:
+        align (0.25, 1.0)
+    show bro sad2 with dissolve:
+        align (0.75, 1.0)
     with dissolve
     voice "1-1-19.mp3" #kaito
     mom "That was your school. They told me you never showed up for your Sunday detention."
     voice "1-1-20.mp3" #kujira
-    show bro sad1 at right
+    show bro sad1 with dissolve:
+        align (0.75, 1.0)
     bro "…I tripped and twisted my ankle on my way there. I had to come back home to put ice on it."
     voice "1-1-21.mp3" #kaito
     mom "You had an obligation to hold up to!  If you can’t be responsible for these things now, how will you ever be responsible as an adult?"
     voice "1-1-22.mp3" #kujira
-    show bro smirk1 at right
+    show bro smirk1 with dissolve:
+        align (0.75, 1.0)
     bro "I tried to! You were the one who said not to bother you – Emily was already out with Lauren and Dad was busy with work! That makes this your fault doesn’t it!?"
     ##harsh cut
     voice "1-1-23.mp3" #kaito
-    show mom angry1 at left
+    show mom angry1 with dissolve:
+        align (0.25, 1.0)
     mom "Don't you take that tone with me young man!"
     ##slow transition here to compare the two
-    show bro sad2 at right
+    show bro sad2 with dissolve:
+        align (0.75, 1.0)
     voice "1-1-24.mp3" #kujira
     bro "…Sorry."
     ##sad or depressed looking expression, not a standoffish one.
-    show mom angry2 at left
+    show mom angry2 with dissolve:
+        align (0.25, 1.0)
     voice "1-1-25.mp3" #kaito
     mom "You've been spending too much time with those friends of yours, and don't think I don't know there are drugs involved."
     voice "1-1-26.mp3" #kujira
-    show bro smirk1 at right
+    show bro smirk1 with dissolve:
+        align (0.75, 1.0)
     bro "Why is that important right now!?"
     voice "1-1-27.mp3" #kaito
-    show mom angry1 at left
+    show mom angry1 with dissolve:
+        align (0.25, 1.0)
     mom "Why is that important!? They're a bad influence! When you hang around with them, you might as well be throwing away your future! This behavior of yours is clearly a sign that they've rubbed off on you."
     voice "1-1-28.mp3" #kujira
     bro "My future is mine!   What the fuck do you think you’re doing telling me how to live!?"
     voice "1-1-29.mp3" #kaito
-    show mom angry2 at left
+    show mom angry2 with dissolve:
+        align (0.25, 1.0)
     mom "Yes, your future is yours, but while you live under my roof you will listen. You will be responsible. You will show some Goddamn respect. But if you don't want to do that, you could always go and live on the streets. "
     voice "1-1-30.mp3" #kujira
     show bro angry2
     bro "For all I know, that would be better than being stuck here with you bitching at me all the time."
     voice "1-1-31.mp3" #kaito
-    show mom angry1 at left
+    show mom angry1 with dissolve:
+        align (0.25, 1.0)
     mom "I've had enough of this. Go to your room - now!"
     voice "1-1-32.mp3" #kujira
-    show bro angry1 at right
+    show bro angry1 with dissolve:
+        align (0.75, 1.0)
     bro "Fine.  I’m just as tired of this shit as you are."
     ##doorslam SFX?
     hide bro
     with dissolve
     "Alex stomps off to his room and slams the door, shaking the light fixture hanging over the table."
     voice "1-1-33.mp3" #kaito
-    show mom sad1 at left
+    show mom sad1 with dissolve:
+        align (0.25, 1.0)    
     mom "Sometimes I think he'll never learn."
     voice "1-1-34.mp3" #potato
     pro "He’s still a kid, Mom. And nobody's perfect."

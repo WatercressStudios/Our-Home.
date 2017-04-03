@@ -100,7 +100,7 @@ label keepsilent:
   show mom angry1 with dissolve
   mom "You're not even going to deny it?"
 
-    "I search my head for the right answer, but I come up with nothing. So I continue looking at my feet silently."
+  "I search my head for the right answer, but I come up with nothing. So I continue looking at my feet silently."
 
 
   show mom sad2 with dissolve
@@ -108,7 +108,7 @@ label keepsilent:
   mom "You have no drive for success, girl."
   voice "4-4-19.mp3" #kaito
   mom "It's hard to believe you're my child."
-    jump momcareer
+  jump momcareer
 
 ###########################################
 

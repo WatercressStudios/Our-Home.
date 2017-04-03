@@ -37,7 +37,8 @@ label day7s4:
     dad "What does that mean?! Can't you speak in English?? Liz! Say something to the doctor!"
 #    voice "7-4-9.mp3" #kaito silence
     show dad angry2
-    show mom sad1 at left
+    show mom sad1 with dissolve:
+        align (0.25, 1.00)
     mom "..."
     voice "7-4-10.mp3" #lacTheWatcher
     show dad angry3
@@ -87,7 +88,8 @@ label day7s4:
 
     scene diningroom with dissolve
     voice "7-4-23.mp3" #lacTheWatcher
-    show dad sad1 at right
+    show dad sad1 with dissolve:
+        align (0.65, 1.00)
     dad "Sleep early, Maria. It's late... we'll talk tomorrow."
     voice "7-4-24.mp3" #amree
     show sis bandage at center
@@ -100,7 +102,8 @@ label day7s4:
     show dad sad2
     dad "Liz? Are you okay, honey?"
 #    voice "7-4-26.mp3" #kaito silence
-    show mom sad1 at left
+    show mom sad1 with dissolve:
+        align (0.25, 1.00)
     mom "..."
     voice "7-4-27.mp3" #lacTheWatcher
     dad "Liz?"
