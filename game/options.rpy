@@ -321,6 +321,8 @@ define config.mouse_hide_time = 30
 
 init python:
     renpy.music.register_channel("ambience", mixer="sfx", loop=True, stop_on_mute=True)
-    if not persistent.ambience_volume_set:
+    if not persistent.ambience_volume:
         renpy.music.get_channel("ambience").chan_volume = 0.8
-        persistent.ambience_volume_set = True
+        persistent.ambience_volume = 0.8
+    else:
+        renpy.music.get_channel("ambience").chan_volume = persistent.ambience_volume
