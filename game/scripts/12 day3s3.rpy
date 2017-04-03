@@ -317,6 +317,7 @@ label day3s3:
     voice "3-3-45.mp3" #lacTheWatcher
     dad "Alright, I have to go back to work. Break's ending soon, and I have a long shift ahead of me, like always. Thanks for stopping by. It's really nice to get to see you, it makes my work seem a little less soul crushingly rough."
 
+
     show dad smile1 at center
     "He looks over to Lauren with a smile."
 
