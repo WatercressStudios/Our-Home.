@@ -2,6 +2,8 @@ label day9s3:
 
     #The music here should fit a melancholic tone
     scene hospitalhallway with dissolve
+    play music bgmsad1intro noloop fadeout 1.0
+    queue music bgmsad1loop loop
     "Once again, I find myself heading down the hospital halls."
 
     "However, this time I see something I didn’t expect."
@@ -385,5 +387,5 @@ label d9s3merge:
 
     voice "9-3-103.mp3" #potato
     pro "Later!"
-
+    stop music fadeout 1.0
     jump day9s4

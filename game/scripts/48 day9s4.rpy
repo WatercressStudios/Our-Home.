@@ -3,6 +3,7 @@ label day9s4:
     show lov happy2bh
     "Lauren is hanging around outside by the time I get back from the hospital."
     "Honestly, I didn’t expect her to get here so fast."
+    play music bgmlov2 fadeout 1.0 fadein 0.0
     voice "9-4-1.mp3" #starleeter
     lov "Hey! I was starting to worry the neighbours would call the police."
     "I shake my head and let her in."

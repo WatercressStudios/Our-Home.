@@ -25,7 +25,7 @@ label day9s1:
     "Poke poke poke…"
 
     "Something taps my head lightly. Something small and delicate, but oddly capable."
-
+    play music bgmsis2 fadeout 1.0 fadein 0.0
     show sis happy2 with dissolve
     
     voice "9-1-1.mp3" #amree
@@ -67,7 +67,7 @@ label day9s1:
     sis "Yep."
 
     scene siswalk with dissolve
-    
+    play ambience suburb fadein 2.0
     "With that, we're off. The trip starts off awfully quiet, my sister avoiding eye contact and being her normal shy self."
 
     "It wouldn't be out of the ordinary, if she weren't holding my hand with the strength of a hydraulic press."
@@ -76,12 +76,12 @@ label day9s1:
     pro "Hey, sis, is everything okay?"
 
     show sis worry2 with dissolve
-    
+
     voice "9-1-12.mp3" #amree
     sis "Is Mom ever coming home?"
-
+    stop music fadeout .2
     "Jesuuus."
-
+    play music bgmsis2 fadeout 1.0 fadein 0.0
     voice "9-1-13.mp3" #potato
     pro "That's… that's a complicated question. I hope so."
 
@@ -259,7 +259,8 @@ label day9s1continue:
 
     voice "9-1-47.mp3" #amree
     sis "...I… I know you won't leave me, sis…"
-
+    stop ambience fadeout 2.0
+    stop music fadeout 1.0
     "We hold each other for a little while longer…" 
 
     jump day9s2
