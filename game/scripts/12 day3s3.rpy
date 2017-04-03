@@ -37,15 +37,15 @@ label day3s3:
     lov "But I want some coffee nowww…"
 
     #VOICE EDIT: THE VOICE CLIP REQUIRES AUDACITY SURGERY TO CUT EXTRANEOUS LINES
-    voice "3-2-111.mp3" #starleeter
+    voice "3-3-8_2.mp3" #starleeter
     show lov happy
     lov "There's a cafe not too far from here! Their parfaits are to die for! What do you say?"
 
-    voice "3-2-112.mp3" #potato
+    voice "3-3-8_3.mp3" #potato
     pro "Parfaits? ...I guess they'd suit you."
 
     show lov happyh
-    voice "3-2-113.mp3" #starleeter
+    voice "3-3-8_4.mp3" #starleeter
     lov "Yeah, they're fruity and creamy and perfectly sweet, like me!"
 
     show lov happy2
