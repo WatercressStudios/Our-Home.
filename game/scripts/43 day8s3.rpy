@@ -18,7 +18,7 @@ label day8s3:
     voice "8-3-6.mp3" #lacTheWatcher
     dad "She said we can visit him. But I’m busy with work and won’t be able to make it."
     voice "8-3-7.mp3" #lacTheWatcher
-    Dad "Visiting hours end at 9, can you go visit him?"
+    dad "Visiting hours end at 9, can you go visit him?"
     voice "8-3-8.mp3" #lacTheWatcher
     dad "Maybe you could see if Mom is home? I’m sure she’d drive you."
     voice "8-3-9.mp3" #potato
@@ -54,6 +54,8 @@ label day8s3:
 
     #Transition to bus
 
+    scene bus with dissolve
+    
     "With nothing to do but wait until I make it to the next town, my mind begins to wander."
     "Lauren distracted me for a little while, but now that I’m alone I can’t help but dwell on all that’s happened."
 
@@ -82,11 +84,14 @@ label day8s3:
 
     #Transition to hospital
 
+    scene hospital dark with dissolve
+    
     "A sprawling, twenty-story complex that feels like a cross between a toy store and a funeral, with pristine white walls and windows clear as an untouched ocean."
     "The woman at the front desk lets me know where Alex’s room is. Room 5-22, a solo room in the east wing."
 
     #Transition to hospital hallway
-
+    
+    scene hospitallobby with dissolve
 
     "A door stands ahead of me. When I knock, the inside rings hollow, yet the door barely shakes in response. It feels different from the cheap doors at school."
     voice "8-3-23.mp3" #potato
@@ -95,11 +100,17 @@ label day8s3:
     "The handle on the door feels heavy. Even at the slightest of turns, heavy locks come tumbling and turning to allow passage, swerving into place until the door moves freely."
     #Creaking sound effect
     "I pull it open, creaking along the way until I make it through, releasing my hand as it seals once more."
+    
+    show hospitalroom with dissolve
+    
     voice "8-3-24.mp3" #potato
     pro "…Alex?"
     "A heavy silence blankets the room. Even straining to listen, I can’t hear anything but my own breath."
     "All around, the brilliant white reflects the sunlight from the window into a blinding shimmer from every direction. My arms tremble at the weight of the air. My body shakes from the chilling sensation from every direction."
     "A bed rests in the middle of the room. With white, soothing blankets spread above them and a boy lying gently upon it."
+    
+    show bro sad1 with dissolve
+    
     voice "8-3-25.mp3" #kujira
     bro "Hey, Emily."
     "Alex sits up from his bed and turns his head. His skin is pale – a flushed white color, with arms even thinner than before that might as well be skin and bones, and his hair is even more of a mess than usual."
@@ -210,6 +221,7 @@ label day8s3:
     "He doesn’t reply, so I walk out into the hall and close Alex’s door behind me."
     "Apparently Dad texted me sometime while we were talking."
 
+    scene hospitallobby with dissolve
 
     "‘How’s Alex doing? Did you get to see him?’"
     "I sit down on a nearby chair and start tapping out a response."

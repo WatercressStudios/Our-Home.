@@ -26,7 +26,7 @@ label day9s6:
     show lov happy1
     lov "Yeah, probably. They'd appreciate it I'm sure."
 
-    scene laurenhouse with dissolve
+    scene house dark with dissolve
     hide lov
     "We move to the porch for our conversation, the moonlight reflecting off the laminate wood."
 

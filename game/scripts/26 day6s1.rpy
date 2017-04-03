@@ -2,7 +2,8 @@ label day6s1:
 
     scene hallway with dissolve
 
-    $ yessister = False    
+    $ yessister = False
+    play music bgmsis fadein 2.0
 
     voice "6-1-0.mp3" #potato
     pro "Hey, sis, time to go. I need to be at school at a reasonable time this morning, so open up."
@@ -16,18 +17,18 @@ label day6s1:
 
     #voice "6-1-2.mp3" #potato
     pro "Oof!"
-    
+
     show sis sad2
 
     "Maria opens the door and runs right into me - she was probably expecting me to wait outside this time."
-    
+
     ############################
     #SFX: MARIA RUNS INTO EMILY####################
     ############################
-    
+
     show sis worry
     with dissolve
-    
+
     voice "6-1-3.mp3" #amree
     sis "S-sorry!"
 
@@ -35,7 +36,7 @@ label day6s1:
 
     #voice "6-1-4.mp3" #potato
     pro "Ah, don't worry about it. I assume you're ready?"
-    
+
     show sis worry2
     with dissolve
 
@@ -43,10 +44,11 @@ label day6s1:
 
     #voice "6-1-5.mp3" #potato
     pro "Alright, good."
-    
+
     scene siswalk
     show sis sad
     with fade
+    play ambience suburb fadein 3.0
 
     "Grabbing her hand in mine, we make our way towards her school, as we've done the last hundred times."
 
@@ -56,7 +58,7 @@ label day6s1:
 
     #voice "6-1-6.mp3" #potato
     pro "Hey, Maria?"
-    
+
     show sis worry
 
     voice "6-1-7.mp3" #amree
@@ -64,7 +66,7 @@ label day6s1:
 
     voice "6-1-8.mp3" #potato
     pro "What's wrong?"
-    
+
     show sis worry2
     with dissolve
 
@@ -75,7 +77,7 @@ label day6s1:
 
     voice "6-1-10.mp3" #potato
     pro "C'mon, I won't bite"
-    
+
     show sis worry
     with dissolve
 
@@ -84,7 +86,7 @@ label day6s1:
 
     voice "6-1-12.mp3" #potato
     pro "Alex?"
-    
+
     show sis sad2
     with dissolve
 
@@ -100,7 +102,7 @@ label day6s1:
     "Is she old enough to even handle such a thing? Would she be able to keep it together, and would she be able to add anything to the conversation?"
 
     #Choice: involve her CAREER+1, don't involve her CAREER+0.
-    
+
 
     menu:
         "We shouldn't subject her to what it could entail.":
@@ -125,7 +127,7 @@ label yessister:
 
     voice "6-1-15.mp3" #potato
     pro "If you want to, you're invited. We're doing the research on it today."
-    
+
     show sis happy2
     with dissolve
 
@@ -136,7 +138,7 @@ label yessister:
 
     voice "6-1-17.mp3" #potato
     pro "That settles it then! I'll make sure to pick you up when we're ready."
-    
+
     show sis happy
     with dissolve
 
@@ -148,7 +150,7 @@ label yessister:
     jump aftersister
 
 label aftersister:
-    
+
     scene siswalk2
     with dissolve
 
@@ -164,4 +166,6 @@ label aftersister:
 
     "I'll just have to wait and see."
 
+    stop music fadeout 2.0
+    stop ambience fadeout 1.0
     jump day6s2

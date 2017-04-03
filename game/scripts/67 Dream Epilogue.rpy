@@ -1,6 +1,6 @@
 label dreamEpilogue:
 
-    scene dream3 with Dissolve(1.3)
+    scene dream3 with Dissolve(2.0)
 
     show emily with dissolve
     dpro "It's been awhile hasn't it?"
@@ -80,7 +80,8 @@ label dreamEpilogue:
     show emily happy
     dpro "I'm proud of you."
     
-    scene black with Dissolve(2.5)
+    scene dreamepilogue with Dissolve(3.0)
+    pause
 
     #GAMEEND
 

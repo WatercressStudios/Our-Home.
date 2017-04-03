@@ -1,7 +1,7 @@
 label day9s3:
 
     #The music here should fit a melancholic tone
-
+    scene hospitalhallway with dissolve
     "Once again, I find myself heading down the hospital halls."
 
     "However, this time I see something I didn’t expect."
@@ -11,7 +11,7 @@ label day9s3:
     voice "9-3-1.mp3" #potato
     pro "Mom?"
 
-    show mom
+    show mom sad2
 
     voice "9-3-2.mp3" #kaito
     mom "...Oh. Hi, Emily. You’re here to... to see Alex, right?"
@@ -22,7 +22,7 @@ label day9s3:
     voice "9-3-4.mp3" #kaito
     mom "Mhm. I was just heading out, so... bye."
 
-    hide mom
+    hide mom sad2
 
     voice "9-3-5.mp3" #potato
     pro "Uh... bye?"
@@ -34,6 +34,8 @@ label day9s3:
     "I’ll just let it go and head to Alex’s room."
 
     #Transition
+    scene hospitalroom with dissolve
+    show bro sad1
 
     voice "9-3-6.mp3" #kujira
     bro "Hey, Emily."
@@ -49,7 +51,8 @@ label day9s3:
 
     voice "9-3-10.mp3" #kujira
     bro "I mean, physically she came in here, but... she didn’t do much, and wasn’t really herself."
-
+    hide bro sad1
+    show bro sad2
     voice "9-3-11.mp3" #kujira
     bro "I half expected her to chew me out for causing everyone trouble again, but she just... apologized a few times and left."
 
@@ -102,13 +105,15 @@ label day9s3:
 
     voice "9-3-27.mp3" #potato
     pro "...I can’t deny that."
-
+    hide bro sad2
+    show bro sad1
     voice "9-3-28.mp3" #potato
     pro "But I think this is a good opportunity to move forward."
 
     voice "9-3-29.mp3" #potato
     pro "I think, for the first time, she might be able to understand where we’re coming from... and maybe we can do the same for her."
-
+    hide bro sad1
+    show bro sad2
     voice "9-3-30.mp3" #kujira
     bro "Do you seriously think that’s possible anymore?"
 
@@ -128,7 +133,7 @@ label day9s3:
 
     voice "9-3-35.mp3" #potato
     pro "Then, do you wanna talk about what happened?"
-
+    show bro sad2
     "He gives a small shrug and takes a moment to gather his thoughts."
 
     voice "9-3-36.mp3" #kujira
@@ -151,7 +156,8 @@ label day9s3:
 
     voice "9-3-42.mp3" #kujira
     bro "What if I do something I regret?"
-
+    hide bro sad2
+    show bro angry3
     voice "9-3-43.mp3" #kujira
     bro "What if I almost fucking die again?"
 
@@ -166,7 +172,8 @@ label day9s3:
 
     voice "9-3-47.mp3" #potato
     pro "I’m sure the drugs made it worse for you, but I still think I know what you’re feeling."
-
+    hide bro angry3
+    show bro sad2
     voice "9-3-48.mp3" #potato
     pro "Sometimes I love being alive. Everything feels breezy and fine, and I can’t even imagine being sad."
 
@@ -213,7 +220,8 @@ label day9s3:
 
     voice "9-3-62.mp3" #kujira
     bro "Right then, I knew I had to put the drugs down and hope to God that someone would find me."
-
+    hide bro sad2
+    show bro grin2
     voice "9-3-63.mp3" #kujira
     bro "So in a way, you kind of saved my life. Aside from finding me unconscious, I mean."
 
@@ -284,7 +292,8 @@ label d9s3good:
 
     voice "9-3-76.mp3" #potato
     pro "You can call me."
-
+    hide bro grin2
+    show bro sad2
     voice "9-3-77.mp3" #potato
     pro "There’s no way I’m going to let myself lose you."
 
@@ -296,7 +305,7 @@ label d9s3good:
     # # #
 
 label d9s3merge:
-
+    show bro grin2
     voice "9-3-79.mp3" #kujira
     bro "Come to think of it, there’ve been a lot of people looking out for me, huh? There’s you, Maria, and even that Lauren girl."
 
@@ -363,7 +372,8 @@ label d9s3merge:
 
     voice "9-3-99.mp3" #potato
     pro "Your punishment is sitting on a bed all day?"
-
+    hide bro grin2
+    show bro grin1
     voice "9-3-100.mp3" #kujira
     bro "Exactly! I’m so glad to have someone who understands my suffering."
 

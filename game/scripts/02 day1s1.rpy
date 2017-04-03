@@ -31,9 +31,6 @@ label day1s1:
     "Mom sits at the head of the table, opposite of me. Father sits to her right, texting someone, and has a particularly worried look on his face. Alex sits to my right poking at his food with his fork."
     "Maria, my little sister, sits to my right, practically bouncing in her chair."
 
-    play music bgmsis fadeout 1.0 fadein 0.0
-    ##maybe some soothing/calming BGM around here.
-
     voice "1-1-2.mp3" #amree
     hide mom
     with dissolve
