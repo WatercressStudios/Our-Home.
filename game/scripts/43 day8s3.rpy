@@ -64,11 +64,12 @@ label day8s3:
 
     "Alex almost died last night. Alex almost died because I fucked up. He trusted me to get rid of the drugs, and I fucked up. Mom turned into a lunatic again..."
 
-    #If player yelled at Alex in d7s1
-    "And I even broke down and yelled at him, too."
-
-    #If player didn’t yell at Alex in d7s1
-    "But I didn’t do anything to help him."
+    if scoldalex:
+        #If player yelled at Alex in d7s1
+        "And I even broke down and yelled at him, too."
+    else:
+        #If player didn’t yell at Alex in d7s1
+        "But I didn’t do anything to help him."
 
     "He ran away and almost got himself killed, and I told myself it wouldn’t be a big deal."
     "I failed him. I wanted to ignore it. I avoided thinking about it because I didn’t want to care. I told myself whatever happened to him wouldn’t be a big deal. I justified abandoning him because it was too much of a hassle. I hurt him because I didn’t want to make an effort."

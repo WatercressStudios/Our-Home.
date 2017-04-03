@@ -101,7 +101,7 @@ label day8s2:
     lov "I hope he’ll be okay."
     "I nod."
     "The Barista yells out our names."
-    #voice "8-2-26.mp3" #starleeter
+    voice "8-2-26.mp3" #starleeter
     lov "I’ll get it! You keep our seat!"
     "I nod again. I’m comfortable just letting Lauren do all the work right now."
     "Fortunately, I soon have a coffee in front of me."
