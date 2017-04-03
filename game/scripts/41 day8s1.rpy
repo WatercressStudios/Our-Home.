@@ -3,6 +3,8 @@ label day8s1:
     #depending on contents of previous dream, we should revisit this
 
     scene bedroom with dissolve
+    play music bgmbrointro noloop fadeout 1.0
+    queue music bgmbroloop loop
 
     voice "8-1-1.mp3" #potato
     pro "..."
@@ -155,7 +157,7 @@ label day8s1:
     "He takes another swig of coffee, before turning to Maria."
     voice "8-1-39.mp3" #lacTheWatcher
     dad "That's some good work you did, sweety. I'm proud of you."
-    
+
     show dad angry1 with dissolve
     show sis happy2b at right with dissolve
 
@@ -281,6 +283,8 @@ label helpdad:
     voice "8-1-64.mp3" #potato
     pro "There's nothing else we can do until Alex and Mom come back. Until then, you need to rest. You still have work, right…?"
     voice "8-1-65.mp3" #lacTheWatcher
+
+    stop music fadeout 9.0
 
     hide dad
     show dad sad2 at left with dissolve

@@ -1,6 +1,6 @@
 label day8s2:
     # Bedroom
-    
+
     scene bedroom night with dissolve
     "The walk didn’t end up doing much good."
     "When I got back I went up to my room, I just hid. I really wasn’t in the mood to talk to anyone."
@@ -8,6 +8,9 @@ label day8s2:
     "Was this really worth all the effort?"
     "I sit up in my bed when my phone starts buzzing."
     "I check it and it’s Lauren trying to video call me."
+
+    play music bgmlov2 fadeout 1.0 fadein 0.0
+
     "I sigh. I’m tempted not to answer but I know I should."
     "Lauren would just get worried if I didn’t and that’d just make things worse."
     "I accept the call."
@@ -50,26 +53,27 @@ label day8s2:
     voice "8-2-17.mp3" #starleeter
     lov "I’ll see ya there!"
     "She hangs up and I get ready to go."
-    
+
     scene hallway with dissolve
-    
+
     "It’s quiet in the hallway again. I think Maria is with Dad, but I don’t really know."
     "She should be okay, though."
     "I walk out the door, not bothering to let Mom know where I’m going. I’ve got my phone, so she can get me if she needs me."
     # transition to coffee shop
-    
+
     scene cafe sunset with dissolve
-    
+    play ambience crowd fadein 2.0
+
     "It’s pretty busy in the shop, but I spot Lauren near the back."
-    
+
     show lov happy2 with dissolve
-    
+
     "She’s managed to claim a table, although it’s a tiny one that’s barely big enough for both of us."
     "I shrug, make my order, and join her."
     voice "8-2-18.mp3" #starleeter
-    
-    show lov happy1 with dissolve 
-    
+
+    show lov happy1 with dissolve
+
     lov "Hey!"
     voice "8-2-19.mp3" #potato
     pro "Hi…"
@@ -77,9 +81,9 @@ label day8s2:
     lov "So how's your brother?"
     "Lauren always gets straight to the point, doesn’t she?"
     voice "8-2-21.mp3" #potato
-    
+
     show lov confused1 with dissolve
-    
+
     pro "Well, he's not in critical condition anymore, but… it was a pretty bad overdose."
     voice "8-2-22.mp3" #potato
     pro "The doctors are hopeful it won’t do permanent damage, but there’s no way of knowing with these things."
@@ -91,9 +95,9 @@ label day8s2:
     "I’m still mad at Alex, but... wasn’t he trying to find a way out, like me?."
     "He just chose a less legal way of doing it."
     voice "8-2-25.mp3" #starleeter
-    
+
     show lov shy2 with dissolve
-    
+
     lov "I hope he’ll be okay."
     "I nod."
     "The Barista yells out our names."
@@ -140,15 +144,15 @@ label day8s2:
 
 label listening:
     "Do you mind just listening?"
-    
+
     show lov happy1 with dissolve
-    
+
     voice "8-2-38.mp3" #starleeter
     lov "Of course!"
     voice "8-2-39.mp3" #potato
-    
+
     show lov happy2 with dissolve
-    
+
     pro "I guess I’ll start with what you just said about... about always wanting to be alone."
     voice "8-2-40.mp3" #potato
     pro "I’m not proud of it."
@@ -232,13 +236,13 @@ label laurentalk:
     pro "So… please? What's up?"
     voice "8-2-73.mp3" #starleeter
     lov "...Aww, Em…"
-    
+
     show lov happy2 with dissolve
-    
+
     "She smiles warmly for a moment, before nodding her head."
-    
+
     show lov happy1 with dissolve
-    
+
     voice "8-2-74.mp3" #starleeter
     lov "Alright! Ah… gosh, I need to think, um…"
     voice "8-2-75.mp3" #starleeter
@@ -256,13 +260,13 @@ label laurentalk:
     voice "8-2-81.mp3" #starleeter
     lov "Ha, true!"
     voice "8-2-82.mp3" #starleeter
-    lov "...Mm… I wish I got to spend more time with my dad, though…" 
+    lov "...Mm… I wish I got to spend more time with my dad, though…"
     voice "8-2-83.mp3" #starleeter
     lov "It's kind of funny, he's able to make time for me, and I… can't, really."
     voice "8-2-84.mp3" #starleeter
     lov "He's been super supportive… like, I used to go to drama camp, right?"
     voice "8-2-85.mp3" #starleeter
-    lov "He'd always get me a rose for every little thing. Even rehearsals…" 
+    lov "He'd always get me a rose for every little thing. Even rehearsals…"
     voice "8-2-86.mp3" #starleeter
     lov "It was super embarrassing… but he's kind of mushy like that."
     voice "8-2-87.mp3" #starleeter
@@ -311,10 +315,14 @@ label laurentalk:
 
 label day8s2merge:
     #Merge
-    
+
     scene cafeexterior with dissolve
-    
+
     "We walk outside and say our goodbyes."
     "My walk back doesn’t feel as depressing as I expected."
     "Lauren really helped me out today. I hope I can make it up to her."
+
+    stop music fadeout 2.0
+    stop ambience fadeout 1.5
+
     jump day8s3
