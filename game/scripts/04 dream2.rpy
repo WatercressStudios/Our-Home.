@@ -1,6 +1,6 @@
 label dream2:
 
-    scene dlaurensroom with dissolve
+    scene dlaurensroom with Dissolve(2.0)
 
     play music bgmdream fadeout 1.0 fadein 0.0
 
@@ -194,7 +194,7 @@ label dream2:
     hide dlov
     "I nodded again, closing my eyes and enjoying the feeling of being close to her."
     "She begins caressing my hair, humming along to the music as I start to get tired."
-    # Bang or clatter sound (This is her brother sneaking in the house?)
+    play sound loudknock
     show black
     "What was that?!"
     jump day2s1
