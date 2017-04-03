@@ -210,5 +210,9 @@ label day9s6:
     "Now more than ever."
 
     scene black with dissolve
-    
+    stop music
+
+    $ renpy.movie_cutscene("vfx/irltodream.mpg") # Loads the credit video
+
+    scene black 
     jump dream10

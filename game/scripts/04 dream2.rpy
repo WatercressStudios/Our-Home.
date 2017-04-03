@@ -204,4 +204,12 @@ label dream2:
 >>>>>>> 1020f3d4335fbfc62ceab3efb77bc60f7abf78c9
     show black
     "What was that?!"
+    
+    scene black
+
+    stop music
+
+    $ renpy.movie_cutscene("vfx/dreamtoirl.mpg") # Loads the credit video
+
+    scene black 
     jump day2s1

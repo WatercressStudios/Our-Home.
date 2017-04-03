@@ -288,4 +288,11 @@ label day2s4:
     scene black with Dissolve(2.0)
     "Sleep comes almost immediately."
     "I guess I was more tired than I realised."
+    scene black
+
+    stop music
+
+    $ renpy.movie_cutscene("vfx/irltodream.mpg") # Loads the credit video
+
+    scene black 
     jump dream3

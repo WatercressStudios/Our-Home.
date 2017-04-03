@@ -70,4 +70,11 @@ label day3s4:
 
     "My head barely touches the pillow before I’m asleep."
     stop music fadeout 2.0
+    scene black
+
+    stop music
+
+    $ renpy.movie_cutscene("vfx/irltodream.mpg") # Loads the credit video
+
+    scene black 
     jump dream4
