@@ -80,7 +80,7 @@ label dreamEpilogue:
     show emily happy
     dpro "I'm proud of you."
     
-    scene dreamepilogue with Dissolve(3)
+    scene dreamepilogue with Dissolve(3.0)
     pause
 
     #GAMEEND
