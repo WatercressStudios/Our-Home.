@@ -2,6 +2,9 @@ label day8s3:
 
     #Probably doesn’t require a transition from 8.2
 
+    play ambience nightsuburb fadein 3.0
+    play music bgmdad fadeout 1.0 fadein 0.0
+
     "My phone rings from the pocket of my skirt."
     voice "8-3-1.mp3" #potato
     pro "Yeah, Dad?"
@@ -55,7 +58,7 @@ label day8s3:
     #Transition to bus
 
     scene bus with dissolve
-    
+
     "With nothing to do but wait until I make it to the next town, my mind begins to wander."
     "Lauren distracted me for a little while, but now that I’m alone I can’t help but dwell on all that’s happened."
 
@@ -85,12 +88,12 @@ label day8s3:
     #Transition to hospital
 
     scene hospital dark with dissolve
-    
+
     "A sprawling, twenty-story complex that feels like a cross between a toy store and a funeral, with pristine white walls and windows clear as an untouched ocean."
     "The woman at the front desk lets me know where Alex’s room is. Room 5-22, a solo room in the east wing."
 
     #Transition to hospital hallway
-    
+
     scene hospitallobby with dissolve
 
     "A door stands ahead of me. When I knock, the inside rings hollow, yet the door barely shakes in response. It feels different from the cheap doors at school."
@@ -100,17 +103,17 @@ label day8s3:
     "The handle on the door feels heavy. Even at the slightest of turns, heavy locks come tumbling and turning to allow passage, swerving into place until the door moves freely."
     #Creaking sound effect
     "I pull it open, creaking along the way until I make it through, releasing my hand as it seals once more."
-    
+
     show hospitalroom with dissolve
-    
+
     voice "8-3-24.mp3" #potato
     pro "…Alex?"
     "A heavy silence blankets the room. Even straining to listen, I can’t hear anything but my own breath."
     "All around, the brilliant white reflects the sunlight from the window into a blinding shimmer from every direction. My arms tremble at the weight of the air. My body shakes from the chilling sensation from every direction."
     "A bed rests in the middle of the room. With white, soothing blankets spread above them and a boy lying gently upon it."
-    
+
     show bro sad1 with dissolve
-    
+
     voice "8-3-25.mp3" #kujira
     bro "Hey, Emily."
     "Alex sits up from his bed and turns his head. His skin is pale – a flushed white color, with arms even thinner than before that might as well be skin and bones, and his hair is even more of a mess than usual."
@@ -166,7 +169,7 @@ label day8s3:
     bro "...because standing there and taking it meant losing what little strength I had left."
     voice "8-3-47.mp3" #kujira
     bro "I couldn’t handle that and ended up making it worse for everyone."
-    "We meet in a gentle embrace. A hug of some kind, I’d suppose. It’s been a long time since I've shared something like this with someone other than Maria." 
+    "We meet in a gentle embrace. A hug of some kind, I’d suppose. It’s been a long time since I've shared something like this with someone other than Maria."
     "It’s warm and close, yet it feels… faintly distant, somehow."
     voice "8-3-48.mp3" #kujira
     bro "I’m sorry, Emily. Thank you."
