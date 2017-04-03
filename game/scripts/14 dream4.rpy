@@ -1,12 +1,10 @@
 label dream4:
 
-    scene black with dissolve
-
-    play music bgmdream fadeout 1.0 fadein 0.0
-
     voice "d4-1-1.mp3" #vivi
     dlov "Hello? Anyone in there?"
      
+    play music bgmdream fadeout 1.0 fadein 2.0
+
     "My normally gentle transition was punctuated by a light knocking against my head."
      
     voice "d4-1-2.mp3" #vivi

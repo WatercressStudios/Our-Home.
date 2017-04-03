@@ -2,13 +2,13 @@ label day3s2:
 
     scene library
     with dissolve
-    play music bgmlov fadeout 1.0 fadein 0.0
-    play ambience crowd fadein 2.0
+#     play ambience crowd fadein 2.0
 
     "Finally made it. The library's a nice little home away from home."
     "I should try to find Lauren and get this work done and over pretty quickly. I still got some stuff to do at home. Maria's plushie could use some work…"
     "Oh, there she is. Already picked out a work-station, neat. She's waving me over."
 
+    play music bgmlov fadeout 1.0 fadein 0.0
     show lov happyh
     with dissolve
     voice "3-2-1.mp3" #starleeter
@@ -71,7 +71,6 @@ label day3s2:
     #NEED BG
     #scene library2 with dissolve
 
-
     "I guess this is a convenient way to think about things. probably shouldn't be too long though."
     "I could pretend I don't know where I'm looking, but… nah, wouldn't work, she saw me figure out the searches pretty fast."
     "I'll just find the section quickly. It's not exactly difficult."
@@ -85,10 +84,13 @@ label day3s2:
     show fashionbook
     with dissolve
 
+    play sound paper
     "Thumbing through the pages, I browse its contents."
+    play sound paper
     "Accessories, garments, sportswear, leisurewear… seemed pretty thorough."
     voice "3-2-15.mp3" #potato
     pro "Ugh, dusty thing. Reckon fifties fashion isn't a hot topic for go-getting youths today. {i}Oh God I sound so old...{/i}"
+    play sound paper
     "Some cute stuff in here, too. Mostly sketches, though. Should be good for inspiration."
 
     hide fashionbook
@@ -109,7 +111,6 @@ label day3s2:
 
     voice "3-2-17.mp3" #starleeter
     lov "These outfits are really cute! Come see, come see!"
-
 
     show lov happy2
     "She turned the screen towards me, beaming proudly."
@@ -446,7 +447,6 @@ label day3s2future:
     voice "3-2-103.mp3" #potato
     pro "...Haha… true."
 
-
     if slumberparty:
         show lov happy1h
         voice "3-2-107.mp3" #starleeter
@@ -469,7 +469,6 @@ label day3s2future:
 #    I think this was removed, so I'm adding it commented, but I'll leave it here 'till I confirm it. ~MatKrulli
 #    voice "3-2-113.mp3" #starleeter
 #    lov "Oh pish posh, you were a big help! You gave me a lot to think about today!"
-
 
     "Lauren leans back in her chair, reclining almost to the point of no return. My hand hovers out, stretched to catch her if she falls, as she is wont to do."
     "Is she already losing speed on this homework project!? Oy... time to double down…"

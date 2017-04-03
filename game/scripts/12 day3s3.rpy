@@ -91,6 +91,7 @@ label day3s3:
 
     scene schoolhallway
     with dissolve
+    play ambience crowd fadein 2.0
     voice "3-3-15.mp3" #starleeter
     show lov happy2
     with dissolve
@@ -131,15 +132,14 @@ label day3s3:
 
     voice "3-3-20.mp3" #potato
     pro "God, why do you have to be so embarrassing?"
-    stop ambience fadeout 3.0
-    scene black
+    scene sky
     with dissolve
+    play ambience suburb fadeout 1.0 fadein 1.0
 
     "I jog next to her, refusing to give in to her childish tendencies."
 
     scene cafeexterior
     with dissolve
-    play ambience suburb fadein 1.0
 
     "Thankfully, my own personal hell ends just as quickly as it had started - we arrive at the coffeeshop."
 
@@ -196,6 +196,8 @@ label day3s3:
 
     scene cafe
     with dissolve
+    play ambience crowd fadeout 1.0 fadein 1.0
+
     show dad neutral at center
     with dissolve
     show lov happy2 at right
@@ -396,6 +398,8 @@ label day3s3:
     with dissolve
     scene cafeexterior
     with dissolve
+    play suburb crowd fadeout 1.0 fadein 1.0
+
     "I wave farewell to Lauren as we go our separate ways."
 
     stop music fadeout 2.0
