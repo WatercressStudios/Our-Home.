@@ -3,6 +3,8 @@ label day6s3:
     $ goodtalk = False
  
     scene brodoor
+    play music bgmbrointro noloop fadeout 1.0
+    queue music bgmbroloop loop
     show lov angry with dissolve:
         align (0.75, 1.00)
     show sis worry with dissolve:
@@ -345,7 +347,7 @@ label d6s3merge2:
     lov "Woohoo! I’m sure everything’ll turn out okay for you guys."
 
     "After we settled down and exchanged our goodbyes, everyone went their separate ways."
-    
+    stop music fadeout 1.0
     scene black with dissolve
     
     jump day6s4

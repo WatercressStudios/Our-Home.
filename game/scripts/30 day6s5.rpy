@@ -1,7 +1,7 @@
 label day6s5:
     
     scene park dark with dissolve
-
+    play ambience nightsuburb fadein 2.0
     "The walk to the park goes straight along my normal school route, which serves to cool my nerves a bit before meeting up with Lauren. After everything we've gone through today, I really need a break."
 
     "Too much going on. Too much action, too much excitement, too much activity."
@@ -41,7 +41,7 @@ label day6s5:
     "I take my time getting over to her, appreciating the time I have to gaze at her before she turns back into her normal, bubbly self."
 
     "I can't stare too long. I end up giving up the moment, allowing it to be lost to time. I sit next to her, and she turns to me with a smile on her face."
-
+    play music bgmlov fadeout 1.0 fadein 0.0
     show lov happy with dissolve
     voice "6-5-1.mp3" #starleeter
     lov "Heyyy."
@@ -212,7 +212,7 @@ label movingforward:
     "I sit back, leaning against her to enjoy this fleeting moment, but it, too, passes."
 
     "We part ways, and for the first time in forever, my mind’s filled with only warm thoughts."
-
+    stop music fadeout 1.0
     scene black with dissolve
 
     jump day6s6

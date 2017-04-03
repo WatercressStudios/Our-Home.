@@ -18,7 +18,7 @@ label day6s4:
     "I'll just have to help Alex through this." 
     "And on an even better note, I'm making some really solid progress on this outfit for lauren. Think she's gonna love the polka dot patterns…"
     "Heh. Think I'm smiling. I never smile. I think everything's gonna be okay." 
-
+    play music bgmmood fadeout 1.0 fadein 0.0
     #play sound franticdoorknock###################SOUNDEFFECTS BOYZZZZZZZZZ#########
     voice "6-4-1.mp3" #potato
     pro "Huh? What?"
@@ -195,7 +195,7 @@ label disposal:
     play sound thud
 
     "Jesus Christ that sound! Nearly jumped out of my fucking skin…" 
-
+    stop music fadeout .2
     voice "6-4-42.mp3" #kaito
     mom "EMILY! What's that racket you're making!"
     voice "6-4-43.mp3" #potato
@@ -203,7 +203,7 @@ label disposal:
 
     "Was that a convincing lie? Hopefully. Who's calling me at a time like this?"
     "...Lauren?"
-
+    play music bgmlov fadeout 1.0 fadein 0.0
     #play sound click#######################################################
 
 #    voice "6-4-44.mp3" #starleeter recording
@@ -240,6 +240,7 @@ label disposal:
     pro "Yeah, definitely! See you then!"
 
     "I hang up the phone, realizing I have an empty, overturned ziplock bag. Huh."
+    stop music fadeout 1.0
     "I look in the toilet bowl. Guess the deed's done?"
     "...Wait, I might've spilled some. Lemme look around…"
     "I don't see any on the floor. Guess they all made it into the toilet. Time to flush our troubles away."
