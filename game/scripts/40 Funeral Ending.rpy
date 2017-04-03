@@ -91,4 +91,4 @@ label funeralending:
     pause
     
     ".:. Funeral Ending (10/11)"
-    return
+    jump credits

@@ -196,6 +196,12 @@ label dream5lover:
     hide dlov with dissolve
     
     scene black with dissolve
+
+    stop music
+
+    $ renpy.movie_cutscene("vfx/dreamtoirl.mpg") # Loads the credit video
+
+    scene black 
     
     jump day5s1
 

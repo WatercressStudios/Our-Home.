@@ -13,6 +13,7 @@ define dpro = Character('Emily', color="#800000", voice_tag="emily")
 # Character Declaration #
 #########################
 define n = Character(None, what_color="#FFFFFF", kind=nvl, what_size=32)
+define wol = Character('Wolf', color="#800000")
 define pro = Character('Emily', color="#800000", voice_tag="emily")
 define lov = Character('Lauren', color="#800000", voice_tag="lauren")
 define sis = Character('Maria', color="#800000", voice_tag="sister")
@@ -414,4 +415,4 @@ label start:
     $ career = 0
     
 #     jump endings
-    jump dream1
+    jump foreword

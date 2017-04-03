@@ -306,4 +306,12 @@ label endofafantasy:
 
     "And then I wake up."
 
+    scene black
+
+    stop music
+
+    $ renpy.movie_cutscene("vfx/dreamtoirl.mpg") # Loads the credit video
+
+    scene black 
+
     jump day7s1

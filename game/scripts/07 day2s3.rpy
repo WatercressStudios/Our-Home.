@@ -1,10 +1,7 @@
 label day2s3:
     
     $ teaconcern = False
-
-    scene classroom with dissolve
-
-    #music used in this scene should be pretty chill, lowkey. Potentially use of percussion drums and bass guitar. Musicians can have fun with this one?
+    play ambience blackboard fadein 2.0
 
     voice "2-3-1.mp3" #skinimini
     tea "...Now that we are a few weeks into our required reading, I trust many of you have taken the requisite time to digest the chapters from our assigned readings."
@@ -103,14 +100,15 @@ label day2s3lecture:
 
     scene classroom with dissolve
 
-    #play sound schoolbell
+    play sound schoolbell
+    stop ambience fadeout 0.5
 
-    "DOO DO DOO DO!"
+    "{b}DOO DO DOO DO!{/b}"
 
     voice "2-3-17.mp3" #potato
     pro "Finally…" 
 
-    stop ambience fadeout 2.0
+    play ambience crowd fadein 2.0
 
     "The anxious bodies in the classroom all rush to the door like the wildebeest."
     "I take my sweet time rising from my chair. I'm not exactly in any rush."
@@ -150,6 +148,9 @@ label day2s3lecture:
 
     ##SCENE CHANGE
     scene drama with dissolve
+    stop ambience fadeout 0.5
+    play music bgmhijinksintro noloop fadeout 1.0
+    queue music bgmhijinksloop loop
 
     "There's a lot of energy in this room. The choreographer's running a group of maybe a dozen juniors through a series of motions."
     "They don't look in sync yet. It's a little exhausting to look at. Don't think I'd be cut out for that."
@@ -198,6 +199,8 @@ label day2s3lecture:
     pro "Nah, not quite, acting isn't really for me. Ms. Reynolds wanted me to, uh, deliver some notes to you. For our English class?"
 
     "Raising the folder to my chest, I catch Lauren looking over the folder incredulous, before reaching forward to take it."
+
+    play sound paper
     "Opening it up, she began to thumb through it." 
 
     show lov shy
@@ -510,7 +513,7 @@ label day2s3accept:
 
     lov "Mmhm! See ya later!~"
 
-    stop music fadeout .5
+    stop music fadeout 5.0
 
     hide lov
     with dissolve
@@ -519,6 +522,7 @@ label day2s3accept:
     
     #SCENE CHANGE
     scene schoolhallway with dissolve
+    play ambience crowd fadein 2.0
     
     "I'm getting mixed feelings about this whole thing. She might've dragged me into this, somewhat, I guess, but… she's nice to be around. It won't be all bad."
     "I reach into my pocket, grabbing my phone. Kind of a reflexive tic when I'm alone, I guess."
@@ -527,6 +531,7 @@ label day2s3accept:
     voice "2-3-98.mp3" #potato
     pro "'Family dinner tonight. Don't be late getting home.' To the point as always, mom…"
 
+    play sound fabric
     "I pocket the phone, letting out an exhausted sigh. Why a family dinner today of all days?"
     "Is this about my birthday? The text's from maybe an hour ago."
     "Did she {i}just{/i} realize it? She'll probably act like she said, 'Happy birthday!' this morning, as if she remembered."

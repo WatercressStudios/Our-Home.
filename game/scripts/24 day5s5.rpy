@@ -183,6 +183,13 @@ label sleepinroom:
     scene black with dissolve
     
     "I pull the blanket over us and close my eyes."
+    scene black
+
+    stop music
+
+    $ renpy.movie_cutscene("vfx/irltodream.mpg") # Loads the credit video
+
+    scene black 
     jump dream6
 
 ###########################################
@@ -220,4 +227,11 @@ label dontworry:
     scene black with dissolve
     "I close the door, get into bed, and close my eyes. It's been a long day."
     stop music fadeout .5
+    scene black
+
+    stop music
+
+    $ renpy.movie_cutscene("vfx/irltodream.mpg") # Loads the credit video
+
+    scene black 
     jump dream6
