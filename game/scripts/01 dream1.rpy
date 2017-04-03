@@ -164,6 +164,8 @@ label dream1cake:
     show black
 
     # play sound "whump.mp3" MAKE SURE TO UNCOMMENT THIS LATER YOU FUCK
+    play music bgmsis fadeout 1.0 fadein 0.0
+    ##maybe some soothing/calming BGM around here.
 
     "WHUMP!"
 

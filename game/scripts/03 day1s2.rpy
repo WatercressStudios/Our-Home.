@@ -13,9 +13,11 @@ label day1s2:
     "Or it's something else… but I only feel that around Lauren. It's a strange feeling, a feeling that I can't quite put words to. That doesn't exactly deviate from the norm, however."
 
     "I've always had difficulty describing my feelings to myself, and to others? Forget about it."
+    
+    play music bgmsis fadeout 1.0 fadein 0.0
 
     "I hear a light, almost inaudible knocking on my door. The nervous nature of it betrays the culprit immediately - my sister."
-    play music bgmsis fadeout 1.0 fadein 0.0
+    
     voice "1-2-1.mp3" #potato
     pro "Come in."
 
