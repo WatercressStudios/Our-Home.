@@ -338,10 +338,10 @@ define bgmcreep = "music/bgmcreep - Creepy Dream Theme.ogg",
 define bgmdad = "music/bgmdad - Father Theme.ogg",
 define bgmdream = "music/bgmdream - Dream.ogg",
 
-define bgmbadendingloop = "music\bgmbadendingloop - BadEndLoop.ogg",
-define bgmcreditsintro = "music\bgmcreditsintro - CreditsIntro.ogg",
-define bgmcreditsloop = "music\bgmcreditsloop - CreditsLoop.ogg",
-define bgmbadendingintro = "music\bgmbadendingintro - BadEndIntro.ogg"
+define bgmbadendingloop = "music/bgmbadendingloop - BadEndLoop.ogg",
+define bgmcreditsintro = "music/bgmcreditsintro - CreditsIntro.ogg",
+define bgmcreditsloop = "music/bgmcreditsloop - CreditsLoop.ogg",
+define bgmbadendingintro = "music/bgmbadendingintro - BadEndIntro.ogg"
 
 #######
 # SFX #
