@@ -85,9 +85,16 @@ label day8s3:
 
         "I keep stewing on thoughts like these until I finally make it to the hospital."
 
+    stop music fadeout 1.0
+    stop ambience fadeout 1.5
+
     #Transition to hospital
 
     scene hospital dark with dissolve
+
+    play music bgmbrointro noloop fadeout 1.0
+    queue music bgmbroloop loop
+    play ambience hospital fadein 2.0
 
     "A sprawling, twenty-story complex that feels like a cross between a toy store and a funeral, with pristine white walls and windows clear as an untouched ocean."
     "The woman at the front desk lets me know where Alex’s room is. Room 5-22, a solo room in the east wing."
@@ -235,5 +242,8 @@ label day8s3:
     "...Ah."
     "Crying."
     "He sounds softer than he used to be. I hope he’ll be home soon."
+
+    stop music fadeout 2.0
+    stop ambience fadeout 2.0
 
     jump day8s4
