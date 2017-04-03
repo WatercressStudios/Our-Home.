@@ -293,9 +293,27 @@ label day7s3:
     #### I'm not sure if someone else will heck this, so I'm using the
     #### Bat, I mean, Sagi-signal to make sure it gets checked!
     #### ~MatKrulli
-    ""Can’t say I’ve seen him." "Nope, not here." "Not since yesterday." "Haven’t seen him." "Been out of town." "Who?" "Why do you even care?""
+    "Can’t say I’ve seen him." 
 
-    ""Hope you find him." "Fuck off, I’m busy today." "Don’t know, don’t care." "There’s nothing to worry about, why even bother?z""
+    "Nope, not here." 
+
+    "Not since yesterday." 
+
+    "Haven’t seen him." 
+
+    "Been out of town." 
+
+    "Who?" 
+
+    "Why do you even care?"
+
+    "Hope you find him." 
+
+    "Fuck off, I’m busy today." 
+
+    "Don’t know, don’t care." 
+
+    "There’s nothing to worry about, why even bother?"
     #### Super Zodai clutter end
 
     "No luck with the contacts Lauren sent me."
@@ -363,8 +381,8 @@ label day7s3:
     "I pull out my phone’s flashlight and shine it onto the faroff grass."
     "I can feel my focus blurring this late at night. There’s nothing. No matter how far I look I don’t see anything – where could he be? Did he go home while we were out and Mom didn’t bother to let us know? No, no Maria would call us if he came home. So he should at least be—"
     "A shoe. I recognise that shoe. I shift my eyes a little upwards. Someone has collapsed behind a shrub."
-    music stop fadeout .1
-	stop ambience fadeout .1
+    stop music fadeout .1
+    stop ambience fadeout .1
     voice "7-3-79.mp3" #potato
     pro "Please, no..."
 
