@@ -402,11 +402,11 @@ init python:
 
 # This jumps us to the first scene
 label start:
+    show black
     
     $ family = 0
     $ love = 0
     $ career = 0
     
-#     show black
 #     jump endings
     jump dream1

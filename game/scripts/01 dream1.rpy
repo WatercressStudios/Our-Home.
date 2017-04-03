@@ -1,8 +1,7 @@
 label dream1:
 
-    scene dream1
-
-    play music bgmdream fadeout 1.0 fadein 0.0
+    play music bgmdream fadeout 1.0 fadein 3.0
+    scene dream1 with Dissolve(3.0)
 
     "I always enjoy coming back to this place."
     "Opening the door into the living room, I’m hit with the enchanting fragrance of fresh pine."
@@ -12,7 +11,7 @@ label dream1:
     "Dad loves working with pine, and there’s no shortage of evergreens around our house. It shows, as homemade pieces are scattered around the living room."
     "I look upon the upholstered club chair dominating the middle of the living room. It’s unoccupied, which piqued my curiosity."
     "Normally, Dad will be reading the paper in it and be ready with a greeting, followed shortly by an embarrassing quip. His absence, it seems, hangs in the air like a spectre."
-    "I can feel the presence of others in this old house. Focusing my hearing, I can pick up dull murmuring coming from… the dining room?"
+    "I can feel the presence of others in this old house. Focusing my hearing, I can pick up dull murmuring coming from… the hallway?"
     "I can’t help grinning. They aren’t seriously gonna do that, are they?"
 
     voice "d1-1-1.mp3" #potato
@@ -31,6 +30,8 @@ label dream1:
     "They remember. It’s my birthday. Number eighteen."
     "I guess I'm technically an adult now? It feels weird, but… a good weird."
     "I definitely asked them not to make a big event out of it, but here they are. God, my cheeks are flushing..."
+
+    scene dlivingroom with dissolve
 
     show dbro smile
 
@@ -169,10 +170,8 @@ label dream1cake:
     hide cake
     show black
 
-    # play sound "whump.mp3" MAKE SURE TO UNCOMMENT THIS LATER YOU FUCK
-    play music bgmsis fadeout 1.0 fadein 0.0
-    ##maybe some soothing/calming BGM around here.
-
-    "WHUMP!"
+    stop music fadeout 0.3
+    play sound thud
+    "{b}WHUMP!{/b}"
 
     jump day1s1
