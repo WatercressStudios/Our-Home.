@@ -4,6 +4,7 @@ label day2s1:
 
     #Emily’s room, but... darker (and edgier?!)
     #Knocking
+    play sound knock
     scene bedroom dark with dissolve
 
     stop music fadeout .5

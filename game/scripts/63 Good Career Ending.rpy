@@ -3,7 +3,6 @@ label goodCareerEnding:
     scene drama with Dissolve(2.0)
     play music bgmneutralintro noloop
     queue music bgmneutralloop loop
-    play sound cheer
 
     "I think Lauren's show was a bit of a zeitgeist for me."
     "I was only able to make time for a few costumes, but… they really popped out! People noticed them! They were a hit!"
