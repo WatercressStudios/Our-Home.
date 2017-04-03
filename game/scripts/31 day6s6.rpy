@@ -61,7 +61,7 @@ label day6s6dad:
     scene house dark
     show dad sad2
     with dissolve
-  
+    play music bgmdad fadeout 1.0 fadein 0.0
     voice "6-6-7.mp3" #potato
     pro "Huh? Dad?"
     voice "6-6-8.mp3" #potato
@@ -79,14 +79,15 @@ label day6s6dad:
     dad "Thanks, cookie."
   
     "Dad unlocks the front door and we enter the house."
-  
+    stop ambience fadeout 2.0
     scene diningroom dark
     show dad neutral2 with dissolve:
         align (0.75, 1.00)
     show mom angry2 with dissolve:
         align (0.25, 1.00)
     with dissolve
-
+    play music bgmmomintro noloop fadeout 1.0
+    queue music bgmmomloop loop
     voice "6-6-12.mp3" #kaito
     mom "Where were you?"
     
@@ -142,7 +143,7 @@ label day6s6dad:
     "I enter my room as the fight continues in the dining room."
     "What's going on?"
     "Are they fighting more often now?"
-
+    stop music fadeout 1.0
     # sfx of some strange sounds next door (brother's going through a rough withdrawal)##############YEAH GO GET 'EM
     "TAP! TAP! TAP!"
   

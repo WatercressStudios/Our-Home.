@@ -1,6 +1,6 @@
 label day6s2:
     scene classroom with fade
-
+    play ambience blackboard fadein 2.0
     voice "6-2-1.mp3" #skinimini
     tea "...So, you can see how we continue to tell retellings of the same stories as told from a millenia ago."
     voice "6-2-2.mp3" #skinimini
@@ -19,7 +19,7 @@ label day6s2:
     #play sound schoolbell
     #########################################
     "DOO DO DOO DO!"
-
+    stop ambience fadeout 2.0
     voice "6-2-5.mp3" #skinimini
     tea "W-wait, I didn't get to finish…!"
 
@@ -28,7 +28,8 @@ label day6s2:
     scene schoolhallway
     show lov happy
     with dissolve 
-
+    play music bgmhijinksintro noloop fadeout 1.0
+    queue music bgmhijinksloop loop
     voice "6-2-6.mp3" #starleeter
     lov "Emily, Emily! Ready to go?"
     voice "6-2-7.mp3" #potato
@@ -116,6 +117,7 @@ label day6s2:
     voice "6-2-33.mp3" #potato
     pro "So, I guess we'll just look at something on drug use and-"
     show lov confusedh with dissolve
+    play music bgmsis fadeout 1.0 fadein 0.0
     voice "6-2-34.mp3" #starleeter
     lov "Hey, is that Maria over there…?"
 
@@ -258,7 +260,8 @@ label day6s2:
     lov "Great. How about you tell me what you have on your mind? What do you wanna tell Alex?"
     voice "6-2-71.mp3" #amree
     sis "...I…"
-
+    play music bgmbrointro noloop fadeout 1.0
+    queue music bgmbroloop loop
     "Maria cautiously looks in my direction. I nod slightly, as if to encourage her."
     "She takes a breath."
     voice "6-2-72.mp3" #amree
@@ -347,6 +350,8 @@ label day6s2:
     show lov shy2h with dissolve
     voice "6-2-99.mp3" #starleeter
     lov "She died in childbirth, so it's just been me and Dad."
+    stop music fadeout .3
+    play music bgmmood fadeout 1.0 fadein 0.0
     voice "6-2-100.mp3" #potato
     pro "...What?"
 
@@ -468,6 +473,8 @@ label speechwrite:
     show lov happy with dissolve:
         align (0.65, 1.00)
     with dissolve
+    stop music fadeout .5
+    play music bgmsis fadeout 1.0 fadein 0.0
     voice "6-2-140.mp3" #amree
     sis "Hey, Laurie, Big Sis! They don't have writing stuff, s-so I guess we'll have to use a computer…"
     voice "6-2-141.mp3" #potato
