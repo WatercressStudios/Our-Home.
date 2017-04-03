@@ -13,7 +13,8 @@ label day10s2:
     pro "Aw, shit…" 
 
     "A shrill voice hollers from down the hall. Am I gonna get arrested?"
-
+    play music bgmmomintro noloop fadeout 1.0
+    queue music bgmmomloop loop
     voice "10-2-3.mp3" #other
     hm "You there, what are you doing out here? Do you have a hall pass??"
     voice "10-2-4.mp3" #potato
@@ -78,7 +79,7 @@ label mad:
 
 label runninglate:
     scene classroom with dissolve
-
+    stop music fadeout 0.5
     voice "10-2-21.mp3" #potato
     pro "HiMissReynoldssorryimlate…!"
     #voice "10-2-22.mp3" #skinimini silence
@@ -91,7 +92,7 @@ label runninglate:
     tea "...You may be seated, Emily."
     voice "10-2-24.mp3" #potato
     pro "...Thanks."
-
+    play ambience blackboard fadein 2.0
     "I head to my seat, trying to keep as low a profile as I could, which is difficult, considering the explosive entrance I just made." 
 
     voice "10-2-25.mp3" #skinimini
@@ -121,7 +122,7 @@ label runninglate:
     #play sound schoolbell
 
     "*DOO DO DOO DO!*"
-
+    stop ambience fadeout 2.0
     voice "10-2-32.mp3" #potato
     pro "...Or not."
 

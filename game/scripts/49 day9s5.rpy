@@ -1,5 +1,6 @@
 label day9s5:
     scene black with dissolve
+    play music bgmsis2 fadeout 1.0 fadein 0.0
     "It’s late by the time we realise that no one has come home."
     "Honestly, Lauren and I probably wouldn’t have noticed if Maria hadn’t knocked on the door to say she was hungry."
     scene hallway with dissolve
@@ -14,6 +15,7 @@ label day9s5:
     voice "9-5-3.mp3" #potato
     pro "What do you mean?"
     "At first I’m confused. And then it hits me like a ton of bricks."
+    stop music fadeout .2
     voice "9-5-4.mp3" #potato
     pro "Maria, how did you get home today?"
     hide sis worry1 at left
@@ -35,6 +37,7 @@ label day9s5:
     "I’m about to say something else when we hear Maria’s stomach grumbling. She looks down guiltily and covers her stomach with her hands, as if that’ll stop the grumbling."
     voice "9-5-9.mp3" #starleeter
     hide lov angry2 at right
+    play music bgmlov2 fadeout 1.0 fadein 0.0
     show lov happy2b at right
     lov "I can help you make something if you want."
     voice "9-5-10.mp3" #potato
@@ -68,6 +71,7 @@ label day9s5:
     voice "9-5-20.mp3" #starleeter
     lov "Hehe."
     hide lov happy1h at right
+    play music bgmdad fadeout 1.0 fadein 0.0
     show dad neutral2 at right
     show sis worry1b at left
     "The front door opens and Dad trudges in."

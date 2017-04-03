@@ -1,7 +1,11 @@
 label day9s1:
 
+    scene black with dissolve
+
+    ". . ."
+
     scene bedroom with dissolve
-    
+
     "Nothing, apparently. I'll dream about nothing."
 
     "It's a little disconcerting, but I guess there's a legitimate reasoning behind it."
@@ -11,11 +15,11 @@ label day9s1:
     "It's time to wake up, get ready, and get Maria to school. Everything has to seem okay, even if it's not."
 
     scene hallway with dissolve
-    
+
     "I go through the motions, dressing up and knocking on Maria's door as I pass by."
 
     scene livingroom with dissolve
-    
+
     "Once again, the house is lonely. I rest my back against the couch, resisting my drowsiness without much success."
 
     "Mentally, I'm exhausted. Physically, however, I feel better than I have in a very long time."
@@ -25,9 +29,9 @@ label day9s1:
     "Poke poke poke…"
 
     "Something taps my head lightly. Something small and delicate, but oddly capable."
-
+    play music bgmsis2 fadeout 1.0 fadein 0.0
     show sis happy2 with dissolve
-    
+
     voice "9-1-1.mp3" #amree
     sis "I'm hungry…"
 
@@ -40,7 +44,7 @@ label day9s1:
     pro "Well, fuck, I totally forgot. We don't really have time to get food on the way to school either… I'm sorry."
 
     show sis sad1 with dissolve
-    
+
     "She nods with a pout, offering me a hand to stand up from the couch."
 
     "I accept it, putting most of my weight on the couch so I don't destroy her poor little arms."
@@ -67,7 +71,7 @@ label day9s1:
     sis "Yep."
 
     scene siswalk with dissolve
-    
+    play ambience suburb fadein 2.0
     "With that, we're off. The trip starts off awfully quiet, my sister avoiding eye contact and being her normal shy self."
 
     "It wouldn't be out of the ordinary, if she weren't holding my hand with the strength of a hydraulic press."
@@ -76,12 +80,12 @@ label day9s1:
     pro "Hey, sis, is everything okay?"
 
     show sis worry2 with dissolve
-    
+
     voice "9-1-12.mp3" #amree
     sis "Is Mom ever coming home?"
-
+    stop music fadeout .2
     "Jesuuus."
-
+    play music bgmsis2 fadeout 1.0 fadein 0.0
     voice "9-1-13.mp3" #potato
     pro "That's… that's a complicated question. I hope so."
 
@@ -121,7 +125,7 @@ label day9s1:
 
     "Pulling out my phone with my free hand, I dial her number."
 
-    "The look on my sister's face is nothing short of sheer terror. She's not ready for this, and odds are, neither am I." 
+    "The look on my sister's face is nothing short of sheer terror. She's not ready for this, and odds are, neither am I."
 
     "Perhaps I shouldn't have done this so suddenly, without thoughts of the consequences."
 
@@ -187,7 +191,7 @@ label day9s1continue:
     "I keep glancing over to Maria, her eyes glued to the sidewalk. Her mouth curls."
 
     show sis worry1 with dissolve
-    
+
     "Maria stops along the sidewalk, unmoving. Her head tilts forward. I can't see her face."
 
     voice "9-1-30.mp3" #amree
@@ -206,7 +210,7 @@ label day9s1continue:
     pro "We're still a family. You'll always have me, okay?"
 
     show sis cry with dissolve
-    
+
     "I hear her fighting back tears… she was sobbing."
 
     voice "9-1-35.mp3" #amree
@@ -215,7 +219,7 @@ label day9s1continue:
     voice "9-1-36.mp3" #potato
     pro "No, no, of course he doesn't…! He couldn't hate you! He's just… he's in a lot of pain."
 
-    "I had to think of something. Who knows what the Hell's been crossing his mind lately…" 
+    "I had to think of something. Who knows what the Hell's been crossing his mind lately…"
 
     voice "9-1-37.mp3" #amree
     sis "Mommy told me not to cry in public…!"
@@ -259,7 +263,8 @@ label day9s1continue:
 
     voice "9-1-47.mp3" #amree
     sis "...I… I know you won't leave me, sis…"
-
-    "We hold each other for a little while longer…" 
+    stop ambience fadeout 2.0
+    stop music fadeout 1.0
+    "We hold each other for a little while longer…"
 
     jump day9s2

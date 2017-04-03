@@ -23,7 +23,6 @@ label dreamending:
     "Opening the door into the living room, I’m hit with the enchanting fragrance of fresh pine."
     
     scene dlivingroom with dissolve
-    
     "Dad loves working with pine, and there’s no shortage of evergreens around our house. It shows, as homemade pieces are scattered around the living room."
     "I look upon the upholstered club chair dominating the middle of the living room. It’s unoccupied, which piqued my curiosity."
     "Normally, Dad will be reading the paper in it and be ready with a greeting, followed shortly by an embarrassing quip. His absence, it seems, hangs in the air like a spectre."
