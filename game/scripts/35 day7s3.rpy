@@ -303,7 +303,7 @@ label day7s3:
 
     # Exception occurs here
     # play sound cellphonering
-    "*DOODLE DOODLE DOODLE DOO DOOT DOOT!*"
+    "{b}*DOODLE DOODLE DOODLE DOO DOOT DOOT!*{/b}"
     scene siswalk with dissolve
     "I answer up my phone and Dad’s voice comes up the other end."
 

@@ -2,7 +2,7 @@ label day10s2:
 
     $ detention = False
     
-    scene hallway with dissolve 
+    scene schoolhallway with dissolve 
 
     "Finally made it! Hopefully I didn't miss too much of my classes." 
     "Scrambling to my locker, I sort out the stuff I need for morning classes." 
@@ -55,11 +55,11 @@ label mad:
     voice "10-2-12.mp3" #potato
     pro "I'm running late because my little sister, bless her heart, tried to cook breakfast for the family!"
     voice "10-2-13.mp3" #potato
-    pro "Y'know why? Because our mother ran out on us and hasn't been seen in <i>three days</i>!"
+    pro "Y'know why? Because our mother ran out on us and hasn't been seen in {i}three days!{/i}"
     voice "10-2-14.mp3" #potato
     pro "My brother, idiot that he is, overdosed on heroin and nearly died, our entire family's falling apart, and I'm trying my damndest to hold everything together here!"
     voice "10-2-15.mp3" #potato
-    pro "Where the <i>fuck</i> do you come off, calling me a 'delinquent punk'!? After the shit I've been through the last week!?"
+    pro "Where the {i}fuck{/i} do you come off, calling me a 'delinquent punk'!? After the shit I've been through the last week!?"
     voice "10-2-16.mp3" #other
     hm "Uh, ma'am, control your noise levels, I-"
     voice "10-2-17.mp3" #potato
@@ -81,7 +81,7 @@ label runninglate:
 
     voice "10-2-21.mp3" #potato
     pro "HiMissReynoldssorryimlate…!"
-#    voice "10-2-22.mp3" #skinimini silence
+    #voice "10-2-22.mp3" #skinimini silence
     tea "...?" 
 
     "It occurs to me that this isn't the best way to arrive late to class."
@@ -95,9 +95,9 @@ label runninglate:
     "I head to my seat, trying to keep as low a profile as I could, which is difficult, considering the explosive entrance I just made." 
 
     voice "10-2-25.mp3" #skinimini
-    tea "So, mm, when you're writing your essays, I want you to consider important symbolism, and use those to support your literary analysis."
+    tea "So, um, when you're writing your essays, I want you to consider important symbolism, and use those to support your literary analysis."
     voice "10-2-26.mp3" #skinimini
-    tea "For example, you can explore themes of escapism by examining Winston's use of his diary, a device that offers him little solace in day to day life."
+    tea "For example, you can explore themes of escapism by examining Winston's use of his diary, a device that offers him solace in day to day life."
     voice "10-2-27.mp3" #skinimini
     tea "You can also compare it to the use of the glass paperweight, an otherwise insignificant object that holds remarkable sentimental value."
     voice "10-2-28.mp3" #skinimini
@@ -108,8 +108,8 @@ label runninglate:
     tea "...oh darn, I just gave the lot of you a thesis, didn't I? Okay, argue what you like, but you can't use that, okay?"
 
     "I should probably be paying more attention to Miss Reynolds' lecture, but I'm still fuming over that snafu with the hallway monitor."
-    "That wouldn't have happened if mom hadn't bailed on us. What the fuck is she thinking…" 
-    "It's been days, now. My brother's in the hospital, dad's killing himself at a work desk, and she decides to just disappear?"
+    "That wouldn't have happened if Mom hadn't bailed on us. What the fuck is she thinking…" 
+    "It's been days, now. My brother's in the hospital, Dad's killing himself at a work desk, and she decides to just disappear?"
     "...Maybe she got into trouble. Maybe I should feel a bit more guilty, but… this is her fault."
     "If she didn't push Alex into a corner, he wouldn't have gotten into any seedy business, and we'd still be a family."
     voice "10-2-31.mp3" #potato
@@ -120,12 +120,13 @@ label runninglate:
 
     #play sound schoolbell
 
-    "DOO DO DOO DO!"
+    "*DOO DO DOO DO!*"
 
     voice "10-2-32.mp3" #potato
     pro "...Or not."
 
     "Packing my shit up, I head out the door…" 
+    scene schoolhallway with dissolve
 
     #play sound cellphonechime
 
@@ -139,5 +140,7 @@ label runninglate:
     if detention:
         "...After detention that is. Jackass hall monitor…" 
 
+    scene black with dissolve
+    
     jump day10s3
 

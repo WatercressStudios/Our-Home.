@@ -1,5 +1,5 @@
 label day4s3:
-    
+
     #Might adjust this later for more 1984 talk, but it's really not a priority right now
 
     scene classroom with dissolve
@@ -8,6 +8,9 @@ label day4s3:
 
     "DOO DO DOO DO!"
 
+    play ambience crowd fadein 2.0
+    play music bgmbrointro noloop fadeout 1.0
+    queue music bgmbroloop loop
     "Classes were finally over. What an exhausting day…"
 
     if go_hospital:
@@ -40,7 +43,8 @@ label day4s3:
         "Why does it seem that Miss Reynolds teaches every class in this school??"
         "ANYWAY. Packing my shit, I vacate the premises as quickly as humanly possible."
 
-    scene schoolhallway with dissolve
+
+    scene schoolhallway sunset with dissolve
     #play sound cellphonechime
 
     "My cell vibrates and chimes cheerily. Is that Lauren?"
@@ -54,13 +58,20 @@ label day4s3:
     pro "Well, it sounds pretty urgent, so… alright."
     "After packing my supplies back into my locker, I make a beeline towards the drama room."
 
+    stop ambience fadeout 3.0
     scene black with dissolve
 
     "..."
 
+    stop music fadeout 1.0
+
     scene drama with dissolve
     voice "4-3-6.mp3" #potato
     pro "Hey, Lauren? You wanted me to drop by?"
+
+    play music bgmhijinksintro noloop fadeout 1.0
+    queue music bgmhijinksloop loop
+
     voice "4-3-7.mp3" #potato
     pro "...Oh. Should I come back later?"
 
@@ -91,7 +102,7 @@ label day4s3:
     voice "4-3-14.mp3" #potato
     pro "...I-I'm not sure I can stretch that far, I… I could go down to the knees?"
     voice "4-3-15.mp3" #starleeter
-    lov "No? Alright, leg up like thiiiis…" 
+    lov "No? Alright, leg up like thiiiis…"
     voice "4-3-16.mp3" #potato
     pro "How did you manage that? Isn't this a little excessive for a musical number??"
     voice "4-3-17.mp3" #starleeter
@@ -103,6 +114,7 @@ label day4s3:
     lov "Would I lie to you?? I'm completely serious!"
     "It was then that I realized, yoga was a way weirder hobby than I thought."
     "And, I mean, it was already pretty weird."
+
 
     scene drama with dissolve
     show lov happy1 with dissolve
@@ -117,6 +129,7 @@ label day4s3:
     lov "I, uh… maybe?"
     voice "4-3-24.mp3" #potato
     pro "...You didn't have anything for me to do this time? You made it sound so urgent."
+
     show lov shy2h with dissolve
     voice "4-3-25.mp3" #starleeter
     lov "I just wanted to see how you were doing, that was all."
@@ -151,6 +164,8 @@ label day4s3:
         voice "4-3-34.mp3" #starleeter
         show lov shy2 with dissolve
         lov "Hey, it's family we're talking about! I'll be fine!"
+
+        show lov angryh
         voice "4-3-35.mp3" #starleeter
         show lov angry2 with dissolve
         lov "Seriously, you should go see him right now, or I'm gonna get really mad!"
@@ -265,7 +280,7 @@ label day4s3:
     scene schoolhallway with dissolve
     "I haven't really… told Lauren much about my family, have I? For four years now, it's kind of just been… my business."
     "But there was concern in her eyes. She's worried too, and… I think she's figuring it out."
-    "God, I wish I wasn't such a coward about this. I know I should trust her, she's the sweetest thing in the school, but…" 
+    "God, I wish I wasn't such a coward about this. I know I should trust her, she's the sweetest thing in the school, but…"
     "It would burden her. I don't want to burden her with my problems, I guess. She has so much to take care of already."
     if not go_hospital:
         "I take a breath and head out. I should stop worrying about her for a bit, I know. Alex is probably getting an earful from Mom."
@@ -276,5 +291,6 @@ label day4s3:
     scene black with dissolve
     "... ... ..."
 
-    jump day4s4
+    stop music fadeout 2.5
 
+    jump day4s4
