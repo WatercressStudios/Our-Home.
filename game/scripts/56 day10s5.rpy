@@ -2,7 +2,7 @@ label day10s5:
 
     $ sappyalex = False
 
-#    voice "10-5-0.mp3" #kujira recording
+    voice "10-5-0.mp3" #kujira
     bro "Hey, Maria?"
 
     "Alex sticks his head into the front door."
