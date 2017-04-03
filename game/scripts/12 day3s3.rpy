@@ -234,11 +234,11 @@ label day3s3:
     voice "3-3-29.mp3" #starleeter
     lov "Yeah! Emily's been super helpful. She's even going to work on some costumes for us!"
 
-    show dad happy2 at center
+    show dad smile2 at center
     voice "3-3-30.mp3" #lacTheWatcher
     dad "Oh? That's wonderful Emily. You've grown up so much, and you're being so proactive. I'm happy to see you two together. At least you aren't alone while I'm gone."
 
-    show dad happy1 at center
+    show dad smile1 at center
     "Well. Perhaps being alone would be better than the loneliness that comes with our household. If you were around more, you'd understand."
 
     voice "3-3-31.mp3" #potato
@@ -313,7 +313,7 @@ label day3s3:
     voice "3-3-45.mp3" #lacTheWatcher
     dad "Alright, I have to go back to work. Break's ending soon, and I have a long shift ahead of me, like always. Thanks for stopping by. It's really nice to get to see you, it makes my work seem a little less soul crushingly rough."
 
-    show dad happy at center
+    show dad smile at center
     "He looks over to Lauren with a smile."
 
     voice "3-3-46.mp3" #lacTheWatcher
