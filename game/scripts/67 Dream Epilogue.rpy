@@ -1,6 +1,6 @@
 label dreamEpilogue:
 
-    scene dream3 with Dissolve(2)
+    scene dream3 with Dissolve(2.0)
 
     show emily with dissolve
     dpro "It's been awhile hasn't it?"
