@@ -160,6 +160,7 @@ label dream3:
 
     "Looking next to me, I see a plate set aside with a small meal in front of an empty chair. How odd…"
     
+    stop music fadeout 0.5
     scene black with dissolve
 
     jump day3s1

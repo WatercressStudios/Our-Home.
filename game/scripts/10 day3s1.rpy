@@ -1,17 +1,18 @@
 label day3s1:
-    stop music
-
-    scene bedroom
-    with dissolve
+    scene bedroom dark with dissolve
 
     "Maria! My sister, where is she?"
 
+    play sound fabric
+    pause 1.0
+    play sound opendoor
     "I awake with a start, tripping over my bed sheets as I rush to her door. I shove the door open."
 
-    scene sisroom
-    with dissolve
-    show sis worry1
-    with dissolve
+    scene hallway with dissolve
+    pause 0.5
+    play sound opendoor
+    scene sisroom with dissolve
+    show sis worry1 with dissolve
 
 
     voice "3-1-1.mp3" #amree
