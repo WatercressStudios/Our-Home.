@@ -334,14 +334,20 @@ label superGoodEnding:
     "We lean closer to each other, our shoulders pressing against one another."
     voice "20-12-88.mp3" #potato
     pro "I love you Lauren."
+
+    show lov happy1bh with dissolve
+
     voice "20-12-89.mp3" #starleeter
     lov "I love you too, Emily."
     "Our hands squeeze tighter as our heads draw closer."
+
+    scene kissniagara with Dissolve(2.0)
+    pause
+
     "Our lips touch. Her lipstick tastes sweet, like apples…" 
     "We hold that moment for only a few precious, fleeting moments…"
     "...Am, am I holding this for too long? I haven't done this sort of thing before, especially not in public…"
     "...Ah, I don't care who's watching. This is our own little world to share."
-    
     
     scene niagara sunset with dissolve
     "Lauren draws her head back, flashing me another one of her cheeky smiles."
@@ -383,6 +389,7 @@ label superGoodEnding:
     "I think this is it. It's been a long journey, but…"
     "I'm finally home."
 
+    stop ambience fadeout 5.0
     scene supergoodending with Dissolve(3.0)
     pause
 

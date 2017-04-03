@@ -288,6 +288,7 @@ image cake = "cgs/Birthday Cake.png"
 image heroin = "cgs/Heroin Box 2.png"
 image plushie = "cgs/Plushie.png"
 image plushie damage = "cgs/Plushie Damage.png"
+image fashionbook = "cgs/fashion book.png"
 
 image supergoodending = "cgs/BestphotoLI.png"
 image neutralminusending = "cgs/Composite 3.png"
@@ -299,7 +300,7 @@ image suicideending = "cgs/suicided.png"
 image dreamepilogue = "cgs/Scene 67.png"
 image parkdate = "cgs/Park with LI.png"
 image parkdate dark = "cgs/Park with LI (Night).png"
-image fashionbook = "cgs/fashion book.png"
+image kissniagara = "cgs/li_mc_kissing_scene.png"
 
 #######
 # VFX #

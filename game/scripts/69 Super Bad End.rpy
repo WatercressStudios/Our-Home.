@@ -208,6 +208,7 @@ label superBadEnding:
     voice "20-11-27.mp3" #potato
     pro "Alex! Get the fuck to the dining room. I don't have all day!"
 
+    play sound opendoor
     scene broroom with dissolve     
 
     "I hear an irritated groan behind the door and some footsteps stumbling around, before the door swings open."
