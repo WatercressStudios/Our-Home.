@@ -68,6 +68,7 @@ init python in custom_music:
         ["Main Menu", "bgmmenuloop - mainmenuloop.wav"],
         ["Hijinks", "bgmhijinksloop - Hijinks Theme Loop.ogg"],
         ["Mood Music", "bgmmood - Mood Music #1.mp3"],
+        ["Sad Song", "bgmsad1loop - Sad Song 1 Loop.ogg"],
         ["Creepy Dream", "bgmcreep - Creepy Dream Theme.mp3"],
         
         ["Dream", "bgmdream - Dream.ogg"],
@@ -77,8 +78,8 @@ init python in custom_music:
         ["Good Ending", "bgmgoodending - GoodEnding.ogg"],
         ["Neutral Ending", "bgmneutralloop - Neutral Ending Loop.ogg"],
         ["Bad End 1", "bgmfuneralloop - Funeral Ending Loop.ogg"],
-        ["Bad End 2", "bgmsuicide - Suicide End.mp3"],
-        ["Bad End 3", "bgmbadbro - badend-missingbrother.wav"],
+        ["Bad End 2", "bgmfuneral - Funeral End.mp3"],
+#        ["Bad End 3", "bgmbadbro - badend-missingbrother.wav"],
     ]
     pos = 0
     xgrid = 4

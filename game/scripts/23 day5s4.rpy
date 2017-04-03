@@ -1,7 +1,7 @@
 label day5s4:
 
     scene outsidenight with dissolve
-
+    play ambience nightsuburb fadein 2.0
     voice "5-4-1.mp3" #potato
     pro "Huff… huff…"
     voice "5-4-2.mp3" #potato
@@ -39,7 +39,7 @@ label day5s4:
 
     play sound dooropen
 
-
+    play music bgmlov fadeout 1.0 fadein 0.0
     voice "5-4-7.mp3" #starleeter
     lov "Hello…? Ah, Emily!?"
     voice "5-4-8.mp3" #potato
@@ -185,7 +185,7 @@ label day5s4:
     pro "Okay. See you tomorrow. Don't wanna keep you here."
     voice "5-4-59.mp3" #starleeter
     lov "Alright! See ya!"
-
+    stop music fadeout .5
     "Lauren closes the door, and I listen for the sound of her light steps growing softer as she retreats back into the household."
     "...It occurs to me that I have to walk home now, instead of asking for a drive."
     voice "5-4-60.mp3" #potato
