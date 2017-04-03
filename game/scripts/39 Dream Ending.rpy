@@ -172,6 +172,7 @@ label dreamending:
     "And another..."
 
     scene dreamending with Dissolve(3.0)
+    pause
     
     ".:. Dream Ending (9/11)"
     return

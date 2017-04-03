@@ -3,7 +3,7 @@ label day6s1:
     scene hallway with dissolve
 
     $ yessister = False
-    play bgmsis fadein 2.0
+    play music bgmsis fadein 2.0
 
     voice "6-1-0.mp3" #potato
     pro "Hey, sis, time to go. I need to be at school at a reasonable time this morning, so open up."
@@ -48,7 +48,7 @@ label day6s1:
     scene siswalk
     show sis sad
     with fade
-    play ambience suburb 3.0
+    play ambience suburb fadein 3.0
 
     "Grabbing her hand in mine, we make our way towards her school, as we've done the last hundred times."
 

@@ -175,9 +175,10 @@ label badLoveEnding:
     "Maybe then I could forget you."
 
     if career > 7 and family > 7:
-        show neutralplusending with Dissolve(2.0)
+        scene neutralplusending with Dissolve(3.0)
     else:
-        show neutralminusending with Dissolve(2.0)
+        scene neutralminusending with Dissolve(3.0)
+    pause
 
     stop ambience fadeout 2.0
 

@@ -288,7 +288,8 @@ label superGoodEnding:
     "I think this is it. It's been a long journey, but…"
     "I'm finally home."
 
-    show supergoodending with Dissolve(2.0)
+    scene supergoodending with Dissolve(3.0)
+    pause
 
     # TODO: Credits
     jump dreamEpilogue

@@ -28,22 +28,23 @@ label day8s1:
 
     "Going through my morning routine, maybe a little slower than usual, I muster the courage to see my family once more…"
 
-    scene livingroom with dissolve
+    scene kitchen with dissolve
 
     "Stepping into the kitchen, I expect an earful from my mother on the spot. I know I was sleeping in, but even on a weekend, I need to hit the books hard."
     "Even if Alex is… in the hospital."
     "But I can't say I expected this. It's so… quiet."
     "I don't like it."
 
-    show mom sad2 with dissolve
+    scene livingroom with dissolve
+    show mom sad2 at left with dissolve
 
     "Mom's slumped into her favourite chair, off in a corner of the room. She isn't making eye contact with anyone, just kind of… staring. Off into dead space."
 
-    show dad neutral1 at right with dissolve
+    show dad neutral1 with dissolve
 
     "Dad, surprisingly, is the opposite, sitting at the table. His fingers drumming along the countertop, a strong cup of joe clutched in his other hand."
 
-    show sis worry1 at left with dissolve
+    show sis worry2 at right with dissolve
 
     "Maria's at his side, her small eyes looking up towards his with concern. Both of them turn their attention to me as I enter."
 
@@ -60,7 +61,7 @@ label day8s1:
     pro "You holding up okay, dad? You look exhausted."
     voice "8-1-7.mp3" #lacTheWatcher
 
-    show dad sad1 at right with dissolve
+    show dad sad1 with dissolve
 
     dad "Didn't get much sleep. Liz just… got up in the middle'a the night and… came down."
     voice "8-1-8.mp3" #lacTheWatcher
@@ -113,7 +114,7 @@ label day8s1:
     dad "Yes, but let's… let her have some space. She's in a little shock…"
     voice "8-1-26.mp3" #lacTheWatcher
 
-    show dad angry1 at right with dissolve
+    show dad angry1 with dissolve
 
     dad "So, Emily, can you tell me what you know?"
     voice "8-1-27.mp3" #potato
@@ -125,7 +126,7 @@ label day8s1:
     voice "8-1-30.mp3" #lacTheWatcher
     dad "...Mm… I hadn't realized, I was too busy…"
 
-    show dad angry1 at right with dissolve
+    show dad angry2 with dissolve
 
     "The frustration in his voice is clear. I take a breath and continue."
 
@@ -136,13 +137,11 @@ label day8s1:
     voice "8-1-33.mp3" #lacTheWatcher
     dad "..."
 
-    show dad angry2 at right with dissolve
-
 #     if sishelp = True
 
     voice "8-1-34.mp3" #amree
 
-    show sis worry1b at left with dissolve
+    show sis worry2b at right with dissolve
 
     sis "I helped too! We went to the library and the doctor, and I think it helped a lot."
     voice "8-1-35.mp3" #lacTheWatcher
@@ -156,8 +155,9 @@ label day8s1:
     "He takes another swig of coffee, before turning to Maria."
     voice "8-1-39.mp3" #lacTheWatcher
     dad "That's some good work you did, sweety. I'm proud of you."
-
-    show sis happy2b at left with dissolve
+    
+    show dad angry1 with dissolve
+    show sis happy2b at right with dissolve
 
     "Maria beams in response. God she's the cutest thing…"
 
@@ -170,7 +170,7 @@ label day8s1:
     "I feel tears welling from my eyes."
     voice "8-1-43.mp3" #amree
 
-    show sis worry1 at left with dissolve
+    show sis worry1 at right with dissolve
 
     sis "Don't cry, big sis, it's not your fault."
     voice "8-1-44.mp3" #lacTheWatcher
@@ -178,7 +178,7 @@ label day8s1:
     #REDUB VOICE LINE
     voice "8-1-45.mp3" #lacTheWatcher
 
-    show dad sad1 at right with dissolve
+    show dad sad1 with dissolve
 
     dad "...I just wish I could see him. The doctor's still not allowing family visits."
     voice "8-1-46.mp3" #potato
@@ -189,13 +189,13 @@ label day8s1:
     voice "8-1-47.mp3" #lacTheWatcher
     dad "She suspects the family situation would only aggravate his current condition, but..."
     voice "8-1-48.mp3" #lacTheWatcher
-    show dad cry at right
+    show dad cry with dissolve
     dad "I need to see him… to tell him I'm sorry. I don't know how it got this way, but I'm going to do my damndest to fix it!"
     voice "8-1-49.mp3" #kaito
     mom "...I…"
 
-    hide dad with dissolve
-    hide sis with dissolve
+    show dad sad2 with dissolve
+    show sis worry2 at right with dissolve
     show mom sad1 with dissolve
 
     "Out of the corner of the room, Mom chokes out something softly. All of our eyes turn to her as she slowly, agonizingly rises from her seat."
@@ -215,6 +215,7 @@ label day8s1:
     "We lose track of our ongoing conversation, watching her open the door."
     "...And then close it behind her. It's then that dad realizes what's going on."
 
+    hide mom with dissolve
     show dad cry with dissolve
 
     voice "8-1-53.mp3" #lacTheWatcher
@@ -282,7 +283,7 @@ label helpdad:
     voice "8-1-65.mp3" #lacTheWatcher
 
     hide dad
-    show dad sad2 at right with dissolve
+    show dad sad2 at left with dissolve
 
     dad "...Yeah… yeah, you're right… God, you're sounding so much more grown up than you used to."
     voice "8-1-66.mp3" #lacTheWatcher
@@ -290,7 +291,7 @@ label helpdad:
     voice "8-1-67.mp3" #amree
     sis "Mmhm."
 
-    show sis happy1b at left with dissolve
+    show sis happy1b at center with dissolve
 
     "Maria helps dad up onto his feet, her eyes focusing on his. Her eyes so bright and lively, while his were almost glazing over with exhaustion and fatigue."
 

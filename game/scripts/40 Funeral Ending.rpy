@@ -87,6 +87,8 @@ label funeralending:
     "Just what exactly {i}is{/i} the life that I really want?"
     
     #TODO: Credits
+    scene funeralending with Dissolve(3.0)
+    pause
     
     ".:. Funeral Ending (10/11)"
     return
