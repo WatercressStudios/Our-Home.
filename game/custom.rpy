@@ -57,33 +57,34 @@ init python in custom_gallery:
 
 init python in custom_music:
     mylist = [
-        ["Sister", "bgmsis - Sister Theme.mp3"],
-        ["Sister Orchestral", "bgmsis2 - Orchestral Sister Theme.mp3"],
-        ["Love Interest", "bgmlov - Love Interest Theme.mp3"],
-        ["Love Interest Orchestral", "bgmlov2 - Orchestral Love Interest Theme.mp3"],
-        ["Father", "bgmdad - Father Theme.ogg"],
-        ["Brother", "bgmbroloop - brotherthemeloop.wav"],
-        ["Mother", "bgmmomloop - Mother Theme Loop.ogg"],
-        
-        ["Main Menu", "bgmmenuloop - mainmenuloop.wav"],
+        ["Main Menu", "bgmmenuloop - mainmenuloop.ogg"],
         ["Hijinks", "bgmhijinksloop - Hijinks Theme Loop.ogg"],
-        ["Mood Music", "bgmmood - Mood Music #1.mp3"],
+        ["Mood Music", "bgmmood - Mood Music #1.ogg"],
         ["Sad Song", "bgmsad1loop - Sad Song 1 Loop.ogg"],
-        ["Creepy Dream", "bgmcreep - Creepy Dream Theme.mp3"],
+        ["Creepy Dream", "bgmcreep - Creepy Dream Theme.ogg"],
         
         ["Dream", "bgmdream - Dream.ogg"],
         ["Dream v2", "bgmdream2 - Dream ver2.ogg"],
         
+        ["Brother", "bgmbroloop - brotherthemeloop.ogg"],
+        ["Sister", "bgmsis - Sister Theme.ogg"],
+        ["Sister Orchestral", "bgmsis2 - Orchestral Sister Theme.ogg"],
+        ["Love Interest", "bgmlov - Love Interest Theme.ogg"],
+        ["Love Interest Orchestral", "bgmlov2 - Orchestral Love Interest Theme.ogg"],
+        ["Father", "bgmdad - Father Theme.ogg"],
+        ["Mother", "bgmmomloop - Mother Theme Loop.ogg"],
+        
         ["Finale", "bgmfinaleloop - Finale Fight Loop.ogg"],
         ["Good Ending", "bgmgoodending - GoodEnding.ogg"],
         ["Neutral Ending", "bgmneutralloop - Neutral Ending Loop.ogg"],
-        ["Bad End 1", "bgmfuneralloop - Funeral Ending Loop.ogg"],
-        ["Bad End 2", "bgmfuneral - Funeral End.mp3"],
-#        ["Bad End 3", "bgmbadbro - badend-missingbrother.wav"],
+        ["Bad End 1", "bgmbadendingloop - BadEndLoop.ogg"],
+        ["Bad End 2", "bgmbadbro - badend-missingbrother.ogg"],
+        ["Bad End 3", "bgmfuneral - Funeral End.ogg"],
+        ["Credits", "bgmcreditsloop - CreditsLoop.ogg"]
     ]
     pos = 0
     xgrid = 4
-    ygrid = 5
+    ygrid = 6
     
     def move_to(aux_pos):
         global pos
