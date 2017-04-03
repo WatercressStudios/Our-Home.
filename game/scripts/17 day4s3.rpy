@@ -1,5 +1,5 @@
 label day4s3:
-    
+
     #Might adjust this later for more 1984 talk, but it's really not a priority right now
 
     scene classroom with dissolve
@@ -8,6 +8,9 @@ label day4s3:
 
     "DOO DO DOO DO!"
 
+    play ambience crowd fadein 2.0
+    play music bgmbrointro noloop fadeout 1.0
+    queue music bgmbroloop loop
     "Classes were finally over. What an exhausting day…"
 
     if go_hospital:
@@ -42,7 +45,7 @@ label day4s3:
         "ANYWAY. Packing my shit, I vacate the premises as quickly as humanly possible."
         scene black with dissolve
 
-    scene hallway with dissolve
+    scene schoolhallway sunset with dissolve
     #play sound cellphonechime
 
     "My cell vibrates and chimes cheerily. Is that Lauren?"
@@ -56,13 +59,18 @@ label day4s3:
     pro "Well, it sounds pretty urgent, so… alright."
     "After packing my supplies back into my locker, I make a beeline towards the drama room."
 
+    stop ambience fadeout 3.0
     scene black with dissolve
 
     "..."
-
-    scene dramaroom with dissolve
+    stop music fadeout 1.0
+    scene drama with dissolve
     voice "4-3-6.mp3" #potato
     pro "Hey, Lauren? You wanted me to drop by?"
+
+    play music bgmhijinksintro noloop fadeout 1.0
+    queue music bgmhijinksloop loop
+
     voice "4-3-7.mp3" #potato
     pro "...Oh. Should I come back later?"
 
@@ -87,7 +95,7 @@ label day4s3:
     voice "4-3-14.mp3" #potato
     pro "...I-I'm not sure I can stretch that far, I… I could go down to the knees?"
     voice "4-3-15.mp3" #starleeter
-    lov "No? Alright, leg up like thiiiis…" 
+    lov "No? Alright, leg up like thiiiis…"
     voice "4-3-16.mp3" #potato
     pro "How did you manage that? Isn't this a little excessive for a musical number??"
     voice "4-3-17.mp3" #starleeter
@@ -101,7 +109,7 @@ label day4s3:
     "And, I mean, it was already pretty weird."
 
 
-    show dramaroom with dissolve
+    show drama with dissolve
     voice "4-3-20.mp3" #starleeter
     lov "You should come with me! I have a discount for friends I can use if they come along!~"
     voice "4-3-21.mp3" #potato
@@ -112,7 +120,7 @@ label day4s3:
     lov "I, uh… maybe?"
     voice "4-3-24.mp3" #potato
     pro "...You didn't have anything for me to do this time? You made it sound so urgent."
-    show lauren weaksmile
+    show lov shybh
     voice "4-3-25.mp3" #starleeter
     lov "I just wanted to see how you were doing, that was all."
 
@@ -141,13 +149,13 @@ label day4s3:
         pro "I-I didn't want to cause a scene in class, or… or make you worry."
         voice "4-3-34.mp3" #starleeter
         lov "Hey, it's family we're talking about! I'll be fine!"
-        show lauren pout
+        show lov angryh
         voice "4-3-35.mp3" #starleeter
         lov "Seriously, you should go see him right now, or I'm gonna get really mad!"
         voice "4-3-36.mp3" #potato
         pro "I mean... I was thinking about it, until {i}someone{/i} asked me to rush over here to help with something…"
         voice "4-3-37.mp3" #starleeter
-        lov "Ah? I, ah… I was thinking of you… you could've used a distraction." 
+        lov "Ah? I, ah… I was thinking of you… you could've used a distraction."
         "Oh God, she was an expert at eliciting sympathy. I couldn't stay mad even if I wanted to."
         voice "4-3-38.mp3" #potato
         pro "Hey, it was a joke, no big deal."
@@ -209,7 +217,7 @@ label day4s3:
     pro "Mom's the one who found out, and she's gonna blow a gasket."
     if not go_hospital:
         voice "4-3-64.mp3" #starleeter
-        lov "It can't be that bad, right?? If he was let out the same day, I mean…" 
+        lov "It can't be that bad, right?? If he was let out the same day, I mean…"
     voice "4-3-65.mp3" #potato
     pro "I'm worried, like… she's probably gonna throw him out of the house."
     voice "4-3-66.mp3" #starleeter
@@ -236,13 +244,12 @@ label day4s3:
     "She waves me off as I leave the drama room."
     "I haven't really… told Lauren much about my family, have I? For four years now, it's kind of just been… my business."
     "But there was concern in her eyes. She's worried too, and… I think she's figuring it out."
-    "God, I wish I wasn't such a coward about this. I know I should trust her, she's the sweetest thing in the school, but…" 
+    "God, I wish I wasn't such a coward about this. I know I should trust her, she's the sweetest thing in the school, but…"
     "It would burden her. I don't want to burden her with my problems, I guess. She has so much to take care of already."
     if not go_hospital:
         "I take a breath and head out. I should stop worrying about her for a bit, I know. Alex is probably getting an earful from Mom."
     else:
         "I take a breath and head out. I should stop worrying about her for a bit, I know. Alex is probably getting an earful from Mom, and we didn't get to talk much."
     "I miss him."
-
+    stop music fadeout 2.5
     jump day4s4
-
