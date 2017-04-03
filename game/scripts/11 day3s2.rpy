@@ -2,6 +2,8 @@ label day3s2:
 
     scene library
     with dissolve
+    play music bgmlov fadeout 1.0 fadein 0.0
+    play ambience crowd fadein 2.0
 
     "Finally made it. The library's a nice little home away from home."
     "I should try to find Lauren and get this work done and over pretty quickly. I still got some stuff to do at home. Maria's plushie could use some work…"
@@ -13,24 +15,24 @@ label day3s2:
     lov "Emily!~ Hi, what's up with you?"
     voice "3-2-2.mp3" #potato
     pro "You, uh, do realize we're in a library, right? Indoor voice."
-    
+
     show lov angryb
 
     "I chided her with a slight wink. Her cheeks puffed up in slight annoyance."
-    
+
     show lov confused2b
-    
+
     voice "3-2-3.mp3" #starleeter
     lov "It's not like there's anyone else here…"
-    
+
     show lov confused1b
     voice "3-2-4.mp3" #potato
-    pro "Oh. True. I guess this early in the year, no one's bothering with the cramming part of their studies. Give it time, though…" 
+    pro "Oh. True. I guess this early in the year, no one's bothering with the cramming part of their studies. Give it time, though…"
 
     show lov shy1bh
     "Out of the corner of my eye, I catch the librarian shooting us both a cold glance."
 
-    
+
     show lov shy2bh
     voice "3-2-5.mp3" #potato
     pro "I guess conversing isn't school-appropriate behaviour."
@@ -38,9 +40,9 @@ label day3s2:
     "I tilt my head in the librarian's direction, Lauren's eyes widening."
 
     show lov happy
-    
+
     voice "3-2-6.mp3" #starleeter
-    lov "...O-oh, yeah, let's get started! We got the computer right here…" 
+    lov "...O-oh, yeah, let's get started! We got the computer right here…"
     voice "3-2-7.mp3" #potato
     pro "So you wanted, like, fifties fashion stuff, right?"
     voice "3-2-8.mp3" #potato
@@ -64,11 +66,11 @@ label day3s2:
 
     "It was on the second floor. Guess I got some running around to do."
 
-    hide lov 
+    hide lov
     with dissolve
     #NEED BG
     #scene library2 with dissolve
-    
+
 
     "I guess this is a convenient way to think about things. probably shouldn't be too long though."
     "I could pretend I don't know where I'm looking, but… nah, wouldn't work, she saw me figure out the searches pretty fast."
@@ -83,7 +85,7 @@ label day3s2:
     show fashionbook
     with dissolve
 
-    "Thumbing through the pages, I browse its contents." 
+    "Thumbing through the pages, I browse its contents."
     "Accessories, garments, sportswear, leisurewear… seemed pretty thorough."
     voice "3-2-15.mp3" #potato
     pro "Ugh, dusty thing. Reckon fifties fashion isn't a hot topic for go-getting youths today. {i}Oh God I sound so old...{/i}"
@@ -93,8 +95,8 @@ label day3s2:
     with dissolve
 
     "Alright, let's take this back to Lauren."
-    
-    scene library 
+
+    scene library
     with dissolve
 
     show lov confused2
@@ -107,11 +109,11 @@ label day3s2:
 
     voice "3-2-17.mp3" #starleeter
     lov "These outfits are really cute! Come see, come see!"
-    
-    
+
+
     show lov happy2
     "She turned the screen towards me, beaming proudly."
-     
+
     #think we can slot a comedic CG in here with some lewd outfits on the screen
     #fuck it just save it for an update -TUTTY
 
@@ -130,27 +132,27 @@ label day3s2:
     voice "3-2-22.mp3" #potato
     pro "W-well, I… there's nothing there. Is that even allowed in the dress code?"
     voice "3-2-23.mp3" #potato
-    pro "It's practically a bikini!" 
+    pro "It's practically a bikini!"
     voice "3-2-24.mp3" #starleeter
-    
+
     show lov happy1h
     lov "Yeah, but I'd look good in it, right?"
     voice "3-2-25.mp3" #potato
     pro "Th-that's not the point! It's for a school play!"
     voice "3-2-26.mp3" #starleeter
-    
+
     lov "I mean, I could get a Beach Boys thing going! {i}Babababa Barbara Ann!~{/i}"
     voice "3-2-27.mp3" #potato
     pro "That's from the sixties, Lauren…"
 
     hide lov
     with dissolve
-    scene black 
+    scene black
     with dissolve
 
     "... ... ..."
 
-    scene library 
+    scene library
     with dissolve
     show lov confused2h
     voice "3-2-28.mp3" #potato
@@ -160,7 +162,7 @@ label day3s2:
     lov "..."
     voice "3-2-30.mp3" #potato
     pro "Accessorizing might be hard, I don't think we have much at home, mm… oh?"
-    "Lauren's giving me a really odd look. How long has she been staring at me like that?" 
+    "Lauren's giving me a really odd look. How long has she been staring at me like that?"
     "What do I say?"
 
     menu:
@@ -204,7 +206,7 @@ label day3s2stare:
     voice "3-2-38.mp3" #potato
     pro "...Eh? Really?"
     "My hand reaches up to feel for something, but Lauren reaches out to grab my hand."
-    show lov happy2b 
+    show lov happy2b
     "Her hand was really soft. Gentle."
 
     voice "3-2-39.mp3" #potato
@@ -234,7 +236,7 @@ label day3s2rude:
     show lov shy2h
     voice "3-2-44.mp3" #starleeter
     lov "It's about you though, just… I was looking, and…"
-    jump day3s2bags 
+    jump day3s2bags
 
 label day3s2bags:
     show lov shy2
@@ -252,9 +254,9 @@ label day3s2bags:
     lov "Mm? Well, I stay busy, but..."
     voice "3-2-50.mp3" #potato
     pro "Well, like, the other people in drama keep coming to you to help with all the drama stuff. Script reading, set building, rehearsals, and this…"
-    "It's crazy to think, but…" 
+    "It's crazy to think, but…"
 
-    menu: 
+    menu:
         "Aren't you tired?":
             $ love += 1
             $ slumberparty = True
@@ -285,7 +287,7 @@ label day3s2tired:
     show lov happy2h
     voice "3-2-56.mp3" #starleeter
     lov "I dunno. I feel a lot better afterwards, myself."
-    show lov happy1h 
+    show lov happy1h
     voice "3-2-57.mp3" #starleeter
     lov "It means I hold my head a little higher when I have to face the day. I think that's good enough for me."
 
@@ -391,9 +393,9 @@ label day3s2future:
     voice "3-2-83.mp3" #starleeter
     lov "So I'm just glad you were there to help me out in a pinch.~"
     voice "3-2-84.mp3" #potato
-    pro "It, it was nothing, really…" 
+    pro "It, it was nothing, really…"
 
-    show lov happy1 
+    show lov happy1
 
     voice "3-2-85.mp3" #starleeter
     lov "A-and you're still taking notes for me when I'm off doing drama stuff!"
@@ -457,9 +459,9 @@ label day3s2future:
         show lov happy2b
         voice "3-2-110.mp3" #starleeter
         lov "For a friend, I don't mind. But that's beside the point!"
-        
+
     show lov confused2
-    
+
     voice "3-2-111.mp3" #starleeter
     lov "Hoo! I'm bushed!"
     voice "3-2-112.mp3" #potato
@@ -467,15 +469,15 @@ label day3s2future:
 #    I think this was removed, so I'm adding it commented, but I'll leave it here 'till I confirm it. ~MatKrulli
 #    voice "3-2-113.mp3" #starleeter
 #    lov "Oh pish posh, you were a big help! You gave me a lot to think about today!"
-        
-        
-    "Lauren leans back in her chair, reclining almost to the point of no return. My hand hovers out, stretched to catch her if she falls, as she is wont to do." 
+
+
+    "Lauren leans back in her chair, reclining almost to the point of no return. My hand hovers out, stretched to catch her if she falls, as she is wont to do."
     "Is she already losing speed on this homework project!? Oy... time to double down…"
 
     hide lov
     with dissolve
-    scene black 
+    scene black
     with dissolve
-    
+
     "... ... ..."
     jump day3s3

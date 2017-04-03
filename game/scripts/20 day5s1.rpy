@@ -1,7 +1,7 @@
 label day5s1:
  
     #bedroom
-     
+    stop music fadeout .5 
     "The morning sun’s assault on my retinas marks the start of a new day."
     "If today is anything like yesterday, I think I’ll pass."
     "Okay, okay, I know ‘five more minutes’ is cliche, but it’s a solid compromise."
@@ -12,7 +12,8 @@ label day5s1:
     #Transition to breakfast
      
     "The fact that there was only one person left at the breakfast table when I arrived told me that I was a bit {i}too{/i} slow."
-     
+    play music bgmbrointro noloop fadeout 1.0
+    queue music bgmbroloop loop
     voice "5-1-1.mp3" #potato
     pro "Morning, sunshine."
      
@@ -98,7 +99,7 @@ label d5s1good:
 label d5s1merged:
      
     "Just as I was about to head for school, a tug on the back of my skirt reminded me of what I was missing."
-     
+    play music bgmsis fadeout 1.0 fadein 0.0 
     show sis
      
     voice "5-1-13.mp3" #potato
@@ -111,7 +112,7 @@ label d5s1merged:
     "I walked out the door with Maria following silently behind me."
      
     #Transition to... well, whatever it is you do for "walking little sister to school" things. You guys are probably familiar with that.
-     
+    play ambience suburb fadein 2.0 
     voice "5-1-14.mp3" #amree
     sis "Um..."
      
@@ -229,7 +230,7 @@ label d5s1merged:
     sis "Well... No, not really."
      
     "I pitched a few more blatant lies at Maria before I dropped her off at school and went off on my own."
-     
+    stop ambience fadeout 2.0 
     "...But man, kids’ shows are sappy."
      
     "Way, way, way too sappy."

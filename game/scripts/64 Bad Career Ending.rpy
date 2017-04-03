@@ -1,6 +1,6 @@
 label badCareerEnding:
 
-    scene bedroom dark with dissolve
+    scene bedroom dark with Dissolve(2.0)
     play sound alarm
     "{b}BEEP! BEEP! BEEP!{/b}"
 
@@ -9,7 +9,8 @@ label badCareerEnding:
 
     scene bedroom with dissolve
     play sound curtains
-    play music bgmneutral
+    play music bgmneutralintro noloop
+    queue music bgmneutralloop loop
 
     "Rising groggily from my bed, I stretch out all the aching bones in my body."
     "Blinking my eyes a few times, I stare across the room."

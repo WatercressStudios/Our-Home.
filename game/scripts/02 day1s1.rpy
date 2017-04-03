@@ -9,7 +9,7 @@ label day1s1:
     "A rattling bang stirs me from my sleep. The ground shakes, and the lamp above me sways from side to side. I try to hide under my blankets before realizing it’s still safe."
     "The tremor of my room stops, if only for a few faint seconds."
     voice "1-1-1.mp3" #kaito
-    mom "Emily! Dinner’s ready, it’s time to get up!"  
+    mom "Emily! Dinner’s ready, it’s time to get up!"
     "She walks away and leaves me to my business."
     "A stack of books lay next to my bed. Some, Alex and I have had since we were kids, which he hasn't bothered to touch since then. Others, I've others I've received from Lauren for my studies."
     "Warm orange beams of sunshine cut through the blinds as the sun begins to dip toward the horizon. I stretch and yawn as I wake from my nap. There are still going to be a few long hours ahead of me."
@@ -20,34 +20,35 @@ label day1s1:
     ##SCENE CHANGE
     ##some sort of consistent/repeating dinner sounding/clackering utensils sound.  Show character sprites as they’re mentioned.
     "The five of us sit around the table."
-    
+
     show mom sad3 at center
     with dissolve
-    show dad neutral2 at left 
+    show dad neutral2 at left
     with dissolve
     show sis happy1 at right
     with dissolve
-    
+
     "Mom sits at the head of the table, opposite of me. Father sits to her right, texting someone, and has a particularly worried look on his face. Alex sits to my right poking at his food with his fork."
     "Maria, my little sister, sits to my right, practically bouncing in her chair."
 
+    play music bgmsis fadeout 1.0 fadein 0.0
     ##maybe some soothing/calming BGM around here.
 
     voice "1-1-2.mp3" #amree
-    hide mom 
+    hide mom
     with dissolve
     hide dad
     with dissolve
-    hide sis 
+    hide sis
     with dissolve
     show sis happy2
     sis "Emily! How was your trip with Lauren?"
-    show sis happy1 
+    show sis happy1
     voice "1-1-3.mp3" #potato
     pro "Oh, yeah – it went well, sis."
     "Maria seems so full of energy, barely able to contain herself. Watching her hyperactive ventures is always very entertaining - I choke on my water trying to keep myself from laughing at her."
     voice "1-1-4.mp3" #amree
-    show sis worry1b 
+    show sis worry1b
     sis "Hey!  What’s so funny?"
     voice "1-1-5.mp3" #potato
     pro "It’s nothing, Maria. Just thinking about something she said earlier."
@@ -82,6 +83,7 @@ label day1s1:
     voice "1-1-9.mp3" #kaito
 
     mom "I’ve got it."
+    stop music
     show mom angry1
     "Mom gets up from the table and picks up the phone."
     show mom angry2
@@ -92,7 +94,7 @@ label day1s1:
     show mom happy1
     voice "1-1-12.mp3" #kaito
     mom "Yes, this is Elizabeth."
-    show mom 
+    show mom
     voice "1-1-13.mp3" #kaito
     show mom angry2
     mom "..."
@@ -108,13 +110,18 @@ label day1s1:
     bro "Ah, can't I finish my food first? I—"
     ##harsh cut, BGM stops
     voice "1-1-17.mp3" #kaito
-    
+
     mom "Come here, Alex."
     hide mom
     with dissolve
     "Dinner stops. Whatever we had going here before has died. Plain and simple, like always."
     voice "1-1-18.mp3" #kaito
     mom "I don’t have all day. Get up, and come here or there’s going to be consequences."
+
+    ## Fight starts about here, music should start right after the voice plays?
+    play music bgmmomintro noloop
+    queue music bgmmomloop loop
+
     show dad sad2 at left
     with dissolve
     show sis sad1 at right
@@ -123,7 +130,7 @@ label day1s1:
     "Alex gets up from his seat to meet Mom."
     hide dad
     with dissolve
-    hide sis 
+    hide sis
     with dissolve
     show mom angry2 at left
     with dissolve
@@ -146,7 +153,7 @@ label day1s1:
     ##slow transition here to compare the two
     show bro sad2 at right
     voice "1-1-24.mp3" #kujira
-    bro "…Sorry."  
+    bro "…Sorry."
     ##sad or depressed looking expression, not a standoffish one.
     show mom angry2 at left
     voice "1-1-25.mp3" #kaito
@@ -176,13 +183,13 @@ label day1s1:
     with dissolve
     "Alex stomps off to his room and slams the door, shaking the light fixture hanging over the table."
     voice "1-1-33.mp3" #kaito
-    show mom sad1 at left 
+    show mom sad1 at left
     mom "Sometimes I think he'll never learn."
     voice "1-1-34.mp3" #potato
     pro "He’s still a kid, Mom. And nobody's perfect."
     "I feel like I barely have the strength to speak right now. Maria and Dad don’t seem to want to involve themselves in the conversation."
     voice "1-1-35.mp3" #kaito
-    hide mom 
+    hide mom
     with dissolve
     show mom angry1
     mom "Most people don’t fall asleep high or go missing for a day. You can’t expect a person like that to fix themselves on their own."
@@ -195,17 +202,17 @@ label day1s1:
     show mom angry2
     voice "1-1-39.mp3" #kaito
     mom "Just what?"
-     
+
     ##Fake choice. Agree with the mother’s treatment during the fight or say she shouldn’t have gone that hard on him. If disagree, pressure leads to protagonist saying she agrees anyway.  Has no effect on points, used to show lack of agency in protagonist’s life.
     #I think you were too hard on him.
-     
+
     voice "1-1-40.mp3" #potato
     pro "Well…he had a twisted ankle, right? I’d probably have a hard time walking up the hill if that happened to me."
-          
+
     voice "1-1-41.mp3" #kaito
     show mom sad1
     mom "It doesn't matter. He needs to start growing up. He's getting older and has responsibilities, but he still acts as if he doesn't."
-     
+
     voice "1-1-42.mp3" #potato
     pro "But even so, someone should have helped him—"
     voice "1-1-43.mp3" #kaito

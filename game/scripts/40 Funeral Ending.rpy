@@ -12,18 +12,17 @@ label funeralending:
         "Even if I can only trust myself, that’s still someone. I’ll fight for a life that’s better than this."
 
     "I’ll be happy that way."
-
-    #Cut the music
-    #Cut to black
-    #Sound effect: Slamming Door
+    
+    stop music
+    scene black
+    play sound slamdoor
 
     "..."
 
     "Right?"
-
-    #Fade to the funeral cg. 
-    #I think this scene might work without music, but I’m not sure.
-    #It might be better to have this voice acted even though it’s narration. That said, Emily’s VA already has a lot on her plate, so this is a low priority.
+    
+   # play sound waterfall
+    scene funeralending with Dissolve(2.0)
 
     "The funeral is going about as you’d expect."
 
@@ -81,11 +80,13 @@ label funeralending:
 
     "But... now that I actually start to think about it..."
 
-    "Just what exactly {i}is{/i} the life that I really want?"
+    scene black
+    stop music
+    play sound slamdoor
 
-    #Cut to black
-    #Door slam sound effect
-    #Credits
+    "Just what exactly {i}is{/i} the life that I really want?"
+    
+    #TODO: Credits
     
     ".:. Funeral Ending (10/11)"
     return

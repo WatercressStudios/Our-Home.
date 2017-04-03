@@ -1,7 +1,8 @@
 label goodCareerEnding:
 
-    scene drama with dissolve
-    play music bgmneutral
+    scene drama with Dissolve(2.0)
+    play music bgmneutralintro noloop
+    queue music bgmneutralloop loop
     play sound cheer
 
     "I think Lauren's show was a bit of a zeitgeist for me."

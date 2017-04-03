@@ -5,7 +5,7 @@ label day11s2:
     voice "11-2-1.mp3" #skinimini
     tea "So if we draw two parallel lines like this, and then draw a line transversal through those two lines…"
     
-    play ambience blackboard
+    play ambience blackboard fadein 2.0
     
     voice "11-2-2.mp3" #skinimini
     tea "We get eight different angles, and four pairs of corresponding angles. Now, let's look at how these pairs are related…" 
@@ -33,7 +33,8 @@ label day11s2:
     voice "11-2-3.mp3" #potato
     pro "...What the hell…?"
     
-    play music bgmhijinks
+    play music bgmhijinksintro noloop
+    queue music bgmhijinksloop loop
 
     voice "11-2-4.mp3" #skinimini
     tea "Emily! Is there anything you'd like to share with the class???"
@@ -64,7 +65,8 @@ label day11s2:
     "...What am I even going to say? We'd be better off without her, but… the way Dad was talking about her."
     "I know. He'd want me to forgive her… pretend we're a family again."
 
-    play music bgmmom fadein 5.0
+    play music bgmmomintro noloop fadein 5.0
+    queue music bgmmomloop loop
 
     "I can feel my hands trembling. I try to slip it into my pocket, trying to hold it still just so it would stop…"
     "...And it lands on the screen of my mobile. And I'm instantly reminded why I'm so scared."
@@ -92,7 +94,7 @@ label day11s2:
 
     play sound schoolbell
 
-    "DOO DO DOO DO!"
+    "{b}DOO DO DOO DO!{/b}"
     voice "11-2-9.mp3" #potato
     pro "...?"
     voice "11-2-10.mp3" #potato
@@ -112,7 +114,7 @@ label day11s2:
     "Scrambling at a dizzying pace, I grab my stuff and head out the door."
 
     scene schoolhallway with dissolve
-    play ambience crowd
+    play ambience crowd fadein 2.0
     #do we want background murmuring???
 
     "God, there are so many people in the hallway."

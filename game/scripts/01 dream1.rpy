@@ -2,24 +2,12 @@ label dream1:
 
     scene dream1
 
-    #draw inspiration from this article for designing the living space
-    #this is a good resource for the kitchen in particular. I adore the first photo, aim for something like that
-    #as for music, defining a style might be tricky, but it should probably sound older and not 100% hi def. Aim for something slow. Good examples I can think of are this and this
-
-#     This stuff below is temporary. I'll move it later!
-#     show dlov angry:
-#         xalign 0.05
-#     show dbro angry:
-#         xalign 0.35
-#     show ddad smirk:
-#         xalign 0.65
-#     show dmom worried:
-#         xalign .9
+    play music bgmdream fadeout 1.0 fadein 0.0
 
     "I always enjoy coming back to this place."
     "Opening the door into the living room, I’m hit with the enchanting fragrance of fresh pine."
 
-    scene dhouse with dissolve
+    scene dlivingroom with dissolve
 
     "Dad loves working with pine, and there’s no shortage of evergreens around our house. It shows, as homemade pieces are scattered around the living room."
     "I look upon the upholstered club chair dominating the middle of the living room. It’s unoccupied, which piqued my curiosity."
@@ -32,7 +20,7 @@ label dream1:
 
     "Pacing over to the door, I brace myself for the inevitable…"
 
-    scene dlivingroom with dissolve
+    scene dhallway with dissolve
 
     voice "d1-1-2.mp3" #all
     all "Happy birthday!"

@@ -68,6 +68,7 @@ init python in custom_music:
         ["Main Menu", "bgmmenuloop - mainmenuloop.wav"],
         ["Hijinks", "bgmhijinksloop - Hijinks Theme Loop.ogg"],
         ["Mood Music", "bgmmood - Mood Music #1.mp3"],
+        ["Sad Song", "bgmsad1loop - Sad Song 1 Loop.ogg"],
         ["Creepy Dream", "bgmcreep - Creepy Dream Theme.mp3"],
         
         ["Dream", "bgmdream - Dream.ogg"],
@@ -77,18 +78,23 @@ init python in custom_music:
         ["Good Ending", "bgmgoodending - GoodEnding.ogg"],
         ["Neutral Ending", "bgmneutralloop - Neutral Ending Loop.ogg"],
         ["Bad End 1", "bgmfuneralloop - Funeral Ending Loop.ogg"],
-        ["Bad End 2", "bgmsuicide - Suicide End.mp3"],
-        ["Bad End 3", "bgmbadbro - badend-missingbrother.wav"],
+        ["Bad End 2", "bgmfuneral - Funeral End.mp3"],
+#        ["Bad End 3", "bgmbadbro - badend-missingbrother.wav"],
     ]
     pos = 0
+    xgrid = 4
+    ygrid = 5
     
-    def move(delta):
+    def move_to(aux_pos):
         global pos
-        pos = delta_pos(delta)
+        pos = aux_pos
         if renpy.music.get_pause():
             renpy.music.stop()
         elif renpy.music.is_playing():
             renpy.music.play("music/" + mylist[pos][1], fadeout = 1.0)
+    
+    def move_by(delta):
+        move_to(delta_pos(delta))
     
     def play():
         if renpy.music.is_playing():
@@ -146,8 +152,24 @@ screen music_box():
         
         frame:
             
+            frame:
+                background None
+                area 100, 20, 1210, 600
+                grid custom_music.xgrid custom_music.ygrid:
+                    xfill True
+                    yfill True
+
+                    $ custom_music.counter = 0
+
+                    for bgmpos in range(len(custom_music.mylist)):
+                        if custom_music.counter < custom_music.xgrid * custom_music.ygrid:
+                            textbutton _(custom_music.mylist[bgmpos][0]) action Function(custom_music.move_to, bgmpos) align 0.5, 0.5
+                            $ custom_music.counter += 1
+                    for i in range(custom_music.xgrid * custom_music.ygrid - custom_music.counter):
+                        null
+            
             hbox:
-                align 0.5, 0.4
+                align 0.5, 0.8
 
                 if renpy.music.is_playing():
                     if renpy.music.get_pause():
@@ -157,32 +179,32 @@ screen music_box():
                 else:
                     text "Stopped: " align 0.5, 0.5
 
-                vbox:
-                    spacing 5
+#                vbox:
+#                    spacing 5
+#
+#                    for i in range(5, 0, -1):
+#                        if len(custom_music.mylist) > (i * 2):
+#                            text custom_music.mylist[custom_music.delta_pos(-i)][0]
 
-                    for i in range(5, 0, -1):
-                        if len(custom_music.mylist) > (i * 2):
-                            text custom_music.mylist[custom_music.delta_pos(-i)][0]
+                text custom_music.mylist[custom_music.pos][0]
 
-                    text custom_music.mylist[custom_music.pos][0]
-
-                    for i in range(1, 6):
-                        if len(custom_music.mylist) > (i * 2):
-                            text custom_music.mylist[custom_music.delta_pos(i)][0]
+#                    for i in range(1, 6):
+#                        if len(custom_music.mylist) > (i * 2):
+#                            text custom_music.mylist[custom_music.delta_pos(i)][0]
 
             hbox:
                 align 0.5, 0.9
                 spacing 30
 
-                textbutton _("Previous") action Function(custom_music.move, -1)
+                textbutton _("Previous") action Function(custom_music.move_by, -1)
                 if custom_music.true_playing():
                     textbutton _("Pause") action Function(custom_music.pause)
                 else:
                     textbutton _("Play") action Function(custom_music.play)
                 textbutton _("Stop") action Function(custom_music.stop)
-                textbutton _("Next") action Function(custom_music.move, 1)
+                textbutton _("Next") action Function(custom_music.move_by, 1)
 
 style music_box_frame is empty
 
 style music_box_frame:
-    background Frame(im.MatrixColor("gui/frame.png", im.matrix.opacity(0.7)))
+    background Frame(im.MatrixColor("gui/frame2.png", im.matrix.opacity(0.7)))

@@ -1,6 +1,8 @@
 label day11s3:
     scene schoolcafeteria with dissolve
-    play music bgmsuicide
+
+    play music bgmsad1intro noloop
+    queue music bgmsad1loop loop
 
     "There! There she is."
     "Already feeling better, I walk over and join her at her lunch table."
@@ -181,6 +183,7 @@ label day11s3:
             pro "Yeah…"
 
         "If there’s any time to be cheesy, it’s now.":
+            stop ambience fadeout 4.0
             play music bgmlov2 fadeout 2.0
             $ love += 1
 
@@ -218,7 +221,7 @@ label day11s3:
     pro "Thanks, Lauren."
     
     scene sky with dissolve
-    play ambience suburb fadein 1.0
+    play ambience suburb fadeout 1.0 fadein 1.0
 
     "I start making my way out of school."
     jump day11s4

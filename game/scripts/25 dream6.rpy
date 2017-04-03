@@ -1,5 +1,6 @@
 label dream6:
     scene dlaurensroom with dissolve
+    play music bgmdream fadeout 1.0 fadein 0.0
     # Emily’s Dream Bedroom
     show dlov surprise
     voice "d6-1-1.mp3" #vivi
@@ -50,9 +51,11 @@ label dream6:
     voice "d6-1-16.mp3" #vivi
     dlov "Who’s Lauren?"
     show dlov sad1
+    stop music fadeout 0.2
     voice "d6-1-17.mp3" #potato
     pro "I’m dreaming."
     show dlov sad2
+    play music bgmdream2 fadeout 1.0 fadein 0.0
     voice "d6-1-18.mp3" #vivi
     dlov "You are?"
     show dlov sad1

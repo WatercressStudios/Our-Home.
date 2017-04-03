@@ -11,6 +11,9 @@ label badLoveEnding:
     play sound cheer
 
     "The audience roars with applause as Lauren's time on the center stage comes to an end."
+
+    play ambience crowd fadein 2.0
+    
     "The theater is filled to the brim. I'd say this was quite successful for her. Seeing her act on stage was super cute, especially knowing that I'd helped her with many of her lines."
     "She was probably very nervous, but she didn't let it show, not one bit."
     "She's good like that."
@@ -69,6 +72,10 @@ label badLoveEnding:
     lov "As a friend… yeah. Why not?"
 
     "She looks away with a small smile."
+
+    hide lov with dissolve
+    stop ambience fadeout 2.0
+
     "Maybe it's better if I wait. I'll get around to it eventually…"
     "I really don't want to ruin her good day. If I were to put her in the position where she'd have to say no…"
     "Not today. I will get to it eventually."
@@ -94,6 +101,7 @@ label badLoveEnding:
         "I don't think I was very convincing, though."
     
     scene mallcafeteria with dissolve
+    play ambience crowd fadein 2.0
     "And here I am, today, sitting across the mall, watching Lauren and her girlfriend have their romantic date."
     "And I'm alone."
     "Every once in awhile, I hear Lauren giggle, in the same way she used to around me…"
@@ -170,6 +178,8 @@ label badLoveEnding:
         show neutralplusending with Dissolve(2.0)
     else:
         show neutralminusending with Dissolve(2.0)
+
+    stop ambience fadeout 2.0
 
     # TODO: Credits
     jump dreamEpilogue

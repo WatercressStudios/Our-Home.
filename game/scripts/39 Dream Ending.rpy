@@ -1,4 +1,5 @@
 label forcedreamending:
+    scene dream1
 
     "That's just it, though. Throughout each and every one of these dreams, I've had the opportunity to think through what's always troubling me."
     "I've designed this world for that very specific purpose, even if it took me this long to realize."
@@ -14,10 +15,15 @@ label dreamending:
 
     #Credits
     #Epilogue
+    
+    scene dream1
 
     # I basically stole Tutty's Dream 1 lines here LOL
     "I always enjoy coming back to this place."
     "Opening the door into the living room, I’m hit with the enchanting fragrance of fresh pine."
+    
+    scene dlivingroom with dissolve
+    
     "Dad loves working with pine, and there’s no shortage of evergreens around our house. It shows, as homemade pieces are scattered around the living room."
     "I look upon the upholstered club chair dominating the middle of the living room. It’s unoccupied, which piqued my curiosity."
     "Normally, Dad will be reading the paper in it and be ready with a greeting, followed shortly by an embarrassing quip. His absence, it seems, hangs in the air like a spectre."
@@ -32,8 +38,9 @@ label dreamending:
     "Something about this feels familiar. Like I've lived through this before."
     "Shaking my head, I pace over to the door and brace myself for the inevitable..."
 
-    # play bgm, any creepy-ish song will do. My initial idea was some creep children's song
-    scene dkitchen with dissolve
+    play music bgmcreep fadeout 1.0 fadein 0.0
+    
+    scene ddiningroom with dissolve
 
     voice "d1-1-2.mp3" #all
     all "Happy birthday!"
@@ -61,24 +68,41 @@ label dreamending:
 
     "Smiling, I take my seat at the head of the table. How weird is it that I think I'm older than I am?"
     "We go around the table and talk about our happy day, like we do everyday."
+    
+    show ddad happy
     "Dad just got another promotion in the office, and he only needs to work half days now."
 
-    # show a flash of unhappy/crying dad in the real world, any location
+    show dad cry at right with dissolve
+    hide dad with dissolve
+    
     voice "20-5-9.mp3" #lacTheWatcher
     ddad "...and then, my boss just says, 'Jonathan, you are too good at your job to not promote. You are now the Vice President!'"
 
+    hide ddad with dissolve
+    
     "We clap our hands at Dad's happy story. Alex and I grin at each other. Dad can spend even more time at home with us now."
+    
+    show dmom happy with dissolve
+    
     "It is Mom's turn, next. She tells us about how she has finally finished organizing our month-long vacation to Niagara Falls..."
 
-    # show a flash of unhappy/crying mom in the real world, any location
+    show mom sad2 at left with dissolve
+    hide mom with dissolve
+    
     voice "20-5-10.mp3" #kaito
     dmom "...and we can probably leave in a week or two, kids! Are you excited?"
 
-    "We shout 'yes' and clap our hands at Mom's happy story. Niagara Falls! I've always wanted to go!"
+    hide dmom
 
+    "We shout 'yes' and clap our hands at Mom's happy story. Niagara Falls! I've always wanted to go!"
+    
+    show dbro smile with dissolve
+    
     "Then it is Alex's turn. My genius brother has aced his exams again, but more excitingly, he made a new friend in chemistry class."
 
-    # show a flash of unhappy/crying bro in the real world, any location
+    show bro cry at right with dissolve
+    hide bro with dissolve
+    
     voice "20-5-11.mp3" #kujira
     dbro "...and Charlotte just screams 'Stop!' as I poured the vinegar into the solution! White foam started spewing everywhere and the whole class laughed!"
 
@@ -86,12 +110,16 @@ label dreamending:
 
     voice "20-5-12.mp3" #potato
     pro "What about... umm..."
+    
+    hide dbro
+    
     voice "20-5-13.mp3" #kujira
     dbro "Who?"
     voice "20-5-14.mp3" #potato
     pro "I'm not sure. I feel like we're forgetting someone important. What's her name again..."
 
-    # show a flash of unhappy/crying Lauren in the real world, any location
+    show lov confused at left with dissolve
+    hide lov with dissolve
     "My family laughs good-naturedly."
 
     voice "20-5-15.mp3" #lacTheWatcher
@@ -108,7 +136,8 @@ label dreamending:
     "That’s weird. Why do I think there’s someone else."
     "Not only that... I feel like there’s one more person I’m forgetting on top of that. One more person that’s niggling me in the back of my mind. A little girl?"
 
-    # show a flash of unhappy/crying Maria in the real world, any location
+    show sis cry with dissolve
+    hide sis with dissolve
     "No. There’s no one else. I don’t want to think about this anymore. I don’t like this."
 
     voice "20-5-20.mp3" #lacTheWatcher
@@ -120,12 +149,15 @@ label dreamending:
 
     voice "20-5-22.mp3" #potato
     pro "No, I mean it. I feel like I'm older, somehow..."
+    show dbro happy with dissolve
     voice "20-5-23.mp3" #kujira
     dbro "You {i}are{/i} older, dummy!"
     voice "20-5-24.mp3" #potato
     pro "Yes, but I mean, even older than that."
+    show dmom happy at left with dissolve
     voice "20-5-25.mp3" #kaito
     dmom "Don't worry about it, Emily. Here, have some tea with us."
+    show ddad happy at right with dissolve
     voice "20-5-26.mp3" #lacTheWatcher
     ddad "Yes, tea is a good idea. Have a sip. You'll feel better."
     voice "20-5-27.mp3" #kujira
@@ -139,7 +171,7 @@ label dreamending:
     "And another."
     "And another..."
 
-    # slowly fade into the CG of the dream end... which I believe is the MC in the real world looking blankly at nothing in silence.
+    scene dreamending with Dissolve(3.0)
     
     ".:. Dream Ending (9/11)"
     return

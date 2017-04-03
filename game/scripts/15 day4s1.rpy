@@ -1,18 +1,28 @@
 label day4s1:
 
+
     scene bedroom 
     with dissolve
+
+    stop music fadeout .75
+
     "Sunlight pierces my eyes."
     "My body chills and shivers as blood rushes through my veins, thrusting me into the world of the living once more."
     "…Do I really have to wake up now?"
-    "The effort to keep my eyelids open almost feels like too much, if not for the sunlight that bleeds into my vision and scrapes at my pupils." 
-    "I get up from my bed and loosely stand on my own two feet. My muscles strain and ache as I stretch away whatever ill-fated weights once locked my shoulders in place." 
+    "The effort to keep my eyelids open almost feels like too much, if not for the sunlight that bleeds into my vision and scrapes at my pupils."
+    "I get up from my bed and loosely stand on my own two feet. My muscles strain and ache as I stretch away whatever ill-fated weights once locked my shoulders in place."
     "I grab my uniform, get dressed and get ready for school – it’s like an average, regular day, except my fingers are numb with pain and my back is in desperate need of a spa day."
     "I go outside and knock on my sister’s door before opening it."
+
     scene sisroom
     with dissolve
     show sis sad1
     with dissolve
+
+    # show sister’s bedroom? If not available then hide BG
+
+    play music bgmsis fadein 1.3
+
     voice "4-1-1.mp3" #potato
     pro "Morning, sis."
     show sis sad1
@@ -126,6 +136,12 @@ label day4s1:
     voice "4-1-28.mp3" #kaito
     show sis sad2 with dissolve
     mom "Emily! Maria! Are you done over there!?"
+
+
+    stop music
+
+    "From out of the corner of our eye, mother calls us to the living room."
+
     voice "4-1-29.mp3" #potato
     pro "Coming, mom!"
     hide sis with dissolve
@@ -150,6 +166,10 @@ label day4s1:
         align (0.750, 1.0)
     "An audible gasp escapes Maria’s mouth and she looks to the floor in embarrassment."
     "Mother gazes at each of us. We remember Maria finishing it last night, but it isn’t worth bringing up."
+
+    play music bgmmomintro noloop fadeout 1.0
+    queue music bgmmomloop loop
+
     voice "4-1-31.mp3" #kaito
     show mom angry2 with dissolve:
         align (0.250, 1.0)
@@ -182,7 +202,7 @@ label day4s1:
     bro "Five minutes is plenty of time. Relax."
 
     voice "4-1-38.mp3" #potato
-    pro "That wasn't a request, though…" 
+    pro "That wasn't a request, though…"
 
     show bro smile1 with dissolve
     voice "4-1-39.mp3" #kujira
@@ -193,7 +213,7 @@ label day4s1:
 
     show bro smirk2 with dissolve
     voice "4-1-41.mp3" #kujira
-    bro "News to me…" 
+    bro "News to me…"
 
     "He groans, rising to his feet, stretching himself out."
 
@@ -220,7 +240,7 @@ label day4s1:
 
     show bro smirk2 with dissolve
     voice "4-1-48.mp3" #kujira
-    bro "Just gotta show up. I got it." 
+    bro "Just gotta show up. I got it."
 
     voice "4-1-49.mp3" #potato
     pro "If you got off that stupid shit you've been doing, it'd be easier to get through the day."
@@ -316,16 +336,27 @@ label day4s1:
     with dissolve
     "As if hit by an electric shock, all three of us spring into motion."
 
+
+    stop music fadeout 4.0
+    
     scene siswalk with dissolve
+
+    play ambience suburb fadein 3.0
+
+    play music bgmbrointro noloop fadeout 1.0
+    queue music bgmbroloop loop
+
+
     
     "The air feels heavy as we begin our usual march towards schools. My brother breaks off quickly, not even bothering to say goodbye."
     "I remember that's not the usual route he's supposed to take, but I shake my head. I can't be bothered to deal with him right now."
 
     show sis sad1 with dissolve
+
     voice "4-1-69.mp3" #amree
     sis "Um… wh, what happened with you guys."
     voice "4-1-70.mp3" #potato
-    pro "Not today, Maria. I really don't want to talk about it right now…" 
+    pro "Not today, Maria. I really don't want to talk about it right now…"
     voice "4-1-71.mp3" #amree
     show sis sad2 with dissolve
     sis "I… okay, sorry."

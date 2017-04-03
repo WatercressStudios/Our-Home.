@@ -2,6 +2,8 @@ label dream2:
 
     scene dlaurensroom with dissolve
 
+    play music bgmdream fadeout 1.0 fadein 0.0
+
     "I open my eyes to find a face much too close to mine and soft lips against my own."
     voice "d2-1-1.mp3" #potato
     pro "Wha—?"

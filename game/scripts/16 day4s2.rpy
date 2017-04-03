@@ -1,17 +1,18 @@
 label day4s2:
 
-  $ go_hospital = False
-  $ bring_sis = False
+    $ go_hospital = False
+    $ bring_sis = False
 
-  scene classroom with dissolve
+    scene classroom with dissolve
+    play ambience blackboard fadein 2.0
+    # TODO: use whatever music track’s usually used for the classroom
 
-  # TODO: use whatever music track’s usually used for the classroom
+    voice "4-2-1.mp3" #skinimini
+    tea "...and when you integrate an exponent to the power of three, you should divide it by..."
 
-  voice "4-2-1.mp3" #skinimini
-  tea "...and when you integrate an exponent to the power of three, you should divide it by..."
+    ### TODO: Math Teacher named Reynolds, who was also the English teacher in Tutty’s scene. We’ll make it a joke.
+    "I'm not really listening to Miss Reynolds, and I doubt anyone else in class is."
 
-  ### TODO: Math Teacher named Reynolds, who was also the English teacher in Tutty’s scene. We’ll make it a joke.
-  "I'm not really listening to Miss Reynolds, and I doubt anyone else in class is."
 
   voice "4-2-2.mp3" #skinimini
   tea "...resulting a fraction of three quarters and... oh, someone's raising their hand. Yes, Miss Moodie?"
@@ -22,11 +23,18 @@ label day4s2:
   "No one apart from Lauren, it seems. Despite barely having any time to herself, she gives her all to everything she does."
   "I don't know how she does it. Nor do I understand why."
 
-  hide lov with dissolve
-  # TODO: sound phone beeping / text message
-  "BEEP~ BEEP~"
 
-  "I feel my cellphone vibrate and I quickly fish it out before the teacher hears it."
+    # TODO: sound phone beeping / text message
+    "BEEP~ BEEP~"
+
+
+
+    "I feel my cellphone vibrate and I quickly fish it out before the teacher hears it."
+
+
+    # TODO: sound phone beep to indicate it being used
+    "\"Alex in hospital. Mom.\""
+
 
   # TODO: sound phone beep to indicate it being used
   "{color=#0070BB}\"Alex in hospital. Mom.\"{/color}"
@@ -62,6 +70,36 @@ menu:
     "Go to the hospital.":
       jump hospital1
 
+    stop music
+
+    "My breath catches, and I freeze, chest tightening up."
+    "This can't be happening..."
+
+    # TODO: flashback to the previous scene where Emily says "you'll die of an overdose" to Alex. As in, literally copy & paste the words, BG and sprites from that scene, and apply a vignette & sepia filter over it for flashback feels.
+
+    "No... what have I done..."
+    "How could I say something like that to him? Fuck!"
+    "I shake my head. My hands are trembling."
+    "But... maybe he's fine. People overdose all the time, and they turn out fine. Maybe it isn't even an overdose."
+
+    stop ambience fadeout 0.75
+
+    "I'm totally overreacting."
+
+    # TODO: flashforward to the funeral CG? I.e. show a flash of the coffin in black and white or sepia filter.
+
+    voice "4-2-4.mp3" #skinimini
+    tea "Miss Westenson, would you like to share what's on your phone with the class?"
+
+    "I look up."
+    "Everyone's staring at me. Lauren's staring at me."
+
+    menu:
+        "Pretend nothing's happening.":
+            jump carryon
+        "Go to the hospital.":
+            jump hospital1
+
 ###########################################
 
 label hospital1:
@@ -71,6 +109,9 @@ label hospital1:
   $ family += 1
   $ love += 1
 
+  play music bgmbrointro noloop fadeout 1.0
+  queue music bgmbroloop loop
+  
   "No! What am I thinking? I have to get to the hospital!"
   "I quickly push my chair back and stand up. I consider saying something to the teacher, but I don't."
   "Instead, I snatch my bag and dash out of the classroom."
@@ -154,9 +195,11 @@ label hospital1:
     "\"We need to get Maria.\"":
       jump withsister
       
+   
 ###########################################
 
 label day4s2nosister:
+
 
   voice "4-2-19.mp3" #starleeter
   show lov happy1 with dissolve
@@ -168,9 +211,11 @@ label day4s2nosister:
   hide lov with dissolve
   jump hospital2
 
+
 ###########################################
 
 label withsister:
+
 
   $ bring_sis = True
 
@@ -191,11 +236,14 @@ label withsister:
   hide lov with dissolve
   jump hospital2
   
+
 ###########################################
 
 label hospital2:
 
   scene hospitallobby with dissolve
+  
+  play ambience hospital fadein 2.0
 
   if bring_sis:
     "As soon as we reach the hospital, Maria and I jump out of the car and run into the lobby."
@@ -350,9 +398,11 @@ label hospital2:
     "\"No need. I'll see him at home.\"":
       jump nobrother
 
+
 ###########################################
-      
+
 label talkbrother:
+
 
   $ family += 1
   scene hospitalhallway with dissolve
@@ -533,6 +583,7 @@ label talkbrother:
 
   jump day4s3
 
+
 ###########################################
 
 label nobrother:
@@ -553,6 +604,8 @@ pro "Yes. Let's head back to school."
   
 jump day4s3
   
+
+
 ###########################################
 
 label carryon:
@@ -562,9 +615,13 @@ label carryon:
   voice "4-2-94.mp3" #potato
   pro "Sorry, Miss Reynolds."
   
+  
+  
   "The teacher glares at me briefly before returning to her lesson."
   "Luckily, Miss Reynolds is pretty lenient, despite having a strict demeanor."
-  ### TODO: Lauren sitting next to or behind Emily in class?
+  
+  play ambience blackboard fadein 0.5
+
   "As we return to our lesson, however, I feel Lauren tapping on my shoulder."
   
   show lov shy2 with dissolve
@@ -612,15 +669,16 @@ label carryon:
 
   # TODO: School bell!!
   
-  "Before I know it, class is over."
-  "I can tell from Miss Reynolds’ expression that she wants to talk to me."
-  "So, I gather my things and leave before she has a chance to stop me."
+ambience fadeout 0.25
 
-  jump day4s3
+"Before I know it, class is over."
+"I can tell from Miss Reynolds’ expression that she wants to talk to me."
+"So, I gather my things and leave before she has a chance to stop me."
+
+jump day4s3
 
 ###########################################
 
 ##label day4s3:
 
-  #### JUMP TO DAY 4 SCENE 3, CLAIMED BY TUTTY
-
+    #### JUMP TO DAY 4 SCENE 3, CLAIMED BY TUTTY

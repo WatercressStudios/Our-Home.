@@ -11,6 +11,9 @@ label goodLoveEnding:
     play sound cheer
 
     "The audience roars with applause as Lauren's time on the center stage comes to an end."
+
+    play ambience crowd fadein 2.0
+
     "The theater is filled to the brim. I'd say this was quite successful for her. Seeing her act on stage was super cute, especially knowing that I'd helped her with many of her lines."
     "She was probably very nervous, but she didn't let it show, not one bit."
     "She's good like that."
@@ -103,6 +106,7 @@ label goodLoveEnding:
         "We made it work, though. We'd visit each other often and we video chat every night."
 
     hide lov with dissolve
+    stop ambience fadeout 2.0
 
     "It was wonderful, to say the least. I could never feel sad for long with her bubbliness in the air."
     "After a year of dating, Lauren said we should go to a café to celebrate."
@@ -112,6 +116,7 @@ label goodLoveEnding:
     #TODO: FLASHBACK FILTER ENDS
 
     scene cafe with Dissolve(2.0)
+    play ambience crowd fadein 2.0
 
     show lov happy2 with dissolve
 
@@ -181,5 +186,7 @@ label goodLoveEnding:
     else:
         show neutralplusending with Dissolve(2.0)
     # TODO: Credits
+    
+    stop ambience fadeout 2.0
 
     jump dreamEpilogue
