@@ -7,7 +7,9 @@ label superGoodEnding:
     "My brother in the hospital, my father broken and battered from work, my mother's sudden disappearance, my little sister trying to put on a brave face."
     "And me, in the middle of it all. Wondering what happened."
     "It's exhausting to even think about it all, but… even trying to connect the dots, I never thought in a million years that it would ever come to this."
-    scene niagara with dissolve
+    scene niagara1 with dissolve
+    play ambience waterfall fadein 2.0
+
     #gonna be on a boat
 
     voice "20-12-1.mp3" #potato
@@ -25,6 +27,8 @@ label superGoodEnding:
     dad "Maybe when you're older, sweety.~"
     voice "20-12-7.mp3" #kaito
     mom "Oh, don't give her ideas like that…" 
+
+    play music bgmgoodending
 
     "It's something else. I thought they had spent most of his savings on Alex's treatment, but…" 
     "Apparently he had enough left over for a road trip to Niagara Falls. It's… a little less out of the way than Florida, he said."
@@ -284,4 +288,7 @@ label superGoodEnding:
     "I think this is it. It's been a long journey, but…"
     "I'm finally home."
 
+    show supergoodending with Dissolve(2.0)
+
+    # TODO: Credits
     jump dreamEpilogue

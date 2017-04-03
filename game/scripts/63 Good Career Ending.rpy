@@ -1,6 +1,6 @@
 label goodCareerEnding:
 
-    scene drama with dissolve
+    scene drama with Dissolve(2.0)
     play music bgmneutralintro noloop
     queue music bgmneutralloop loop
     play sound cheer

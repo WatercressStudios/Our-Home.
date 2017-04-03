@@ -404,5 +404,6 @@ label start:
     $ love = 0
     $ career = 0
     
-#     jump day11s1
+#     show black
+#     jump endings
     jump dream1
