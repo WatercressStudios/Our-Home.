@@ -3,6 +3,8 @@ label day7s3:
     ##scene should have some sort of foreboding or harrowing OST. Think deadangle from Umineko.
 
     scene black with dissolve
+    play music bgmbrointro noloop fadeout 1.0
+    queue music bgmbroloop loop
     "…It got rather cold today."
     "At some point, the sun dipped below the horizon once more. Another freezing night in the middle of the fall has begun."
     "I’m wrapped in my blankets to stave off the cold, huddling my arms together as I shiver from the sensation in the air."
@@ -112,7 +114,8 @@ label day7s3:
     dad "Yeah. Work was…hellish, to put it bluntly. Twelve hours straight of crunch and by-the-minute deadlines. But, we finished. Boss let me head home early today for that."
 
     "Dad stops when he sees Maria."
-
+    play music bgmmomintro noloop fadeout 1.0
+    queue music bgmmomloop loop
     voice "7-3-26.mp3" #lacTheWatcher
     show dad angry1 at right
     dad "Maria? What happened to you?"
@@ -238,7 +241,7 @@ label day7s3:
     pro "…okay."
 
     scene black with dissolve
-    
+    play ambience nightsuburb fadein 2.0
     "I put on my coat and grab my phone from my desk before setting out with Dad."
     scene house dark with dissolve
     show dad angry1
@@ -290,7 +293,9 @@ label day7s3:
     #### I'm not sure if someone else will heck this, so I'm using the
     #### Bat, I mean, Sagi-signal to make sure it gets checked!
     #### ~MatKrulli
-    '"Can’t say I’ve seen him." "Nope, not here." "Not since yesterday." "Haven’t seen him." "Been out of town." "Who?" "Why do you even care?" "Hope you find him." "Fuck off, I’m busy today." "Don’t know, don’t care." "There’s nothing to worry about, why even bother?"'
+    ""Can’t say I’ve seen him." "Nope, not here." "Not since yesterday." "Haven’t seen him." "Been out of town." "Who?" "Why do you even care?""
+
+    ""Hope you find him." "Fuck off, I’m busy today." "Don’t know, don’t care." "There’s nothing to worry about, why even bother?z""
     #### Super Zodai clutter end
 
     "No luck with the contacts Lauren sent me."
@@ -358,7 +363,8 @@ label day7s3:
     "I pull out my phone’s flashlight and shine it onto the faroff grass."
     "I can feel my focus blurring this late at night. There’s nothing. No matter how far I look I don’t see anything – where could he be? Did he go home while we were out and Mom didn’t bother to let us know? No, no Maria would call us if he came home. So he should at least be—"
     "A shoe. I recognise that shoe. I shift my eyes a little upwards. Someone has collapsed behind a shrub."
-
+    music stop fadeout .1
+	stop ambience fadeout .1
     voice "7-3-79.mp3" #potato
     pro "Please, no..."
 

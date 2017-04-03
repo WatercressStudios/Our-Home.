@@ -3,10 +3,11 @@ label day7s1:
     $ scoldalex = False
  
     scene bedroom with dissolve
-
+    play music bgmmomintro noloop fadeout 1.0
+    queue music bgmmomloop loop
     voice "7-1-1.mp3" #kaito
     mom "Alex Westenson! Get your ass over here this instant!"
-
+    
     "Ugh. Even on Saturday, extra sleep is a rare luxury under this roof."
 
     "Wait. Alex?"
@@ -163,7 +164,7 @@ label day7s1:
     voice "7-1-23.mp3" #kujira
     bro "But hey, I'm nothing but a problem for you all solve, so who the hell cares what I thi-"
 
-    #TODO: Music cuts out#
+    stop music fadeout .2
     
     
     show sis sad2 at right with dissolve
@@ -283,7 +284,7 @@ label d7s1merge:
 
     voice "7-1-37.mp3" #amree
     sis "Alone?"
-
+    play music bgmmood fadeout 1.0 fadein 0.0
     show mom sad2 at left with dissolve
     voice "7-1-38.mp3" #kaito
     mom "..."
