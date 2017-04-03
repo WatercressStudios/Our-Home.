@@ -1,13 +1,17 @@
 label day4s1:
 
+    stop music fadeout .75
     "Sunlight pierces my eyes."
     "My body chills and shivers as blood rushes through my veins, thrusting me into the world of the living once more."
     "…Do I really have to wake up now?"
-    "The effort to keep my eyelids open almost feels like too much, if not for the sunlight that bleeds into my vision and scrapes at my pupils." 
-    "I get up from my bed and loosely stand on my own two feet. My muscles strain and ache as I stretch away whatever ill-fated weights once locked my shoulders in place." 
+    "The effort to keep my eyelids open almost feels like too much, if not for the sunlight that bleeds into my vision and scrapes at my pupils."
+    "I get up from my bed and loosely stand on my own two feet. My muscles strain and ache as I stretch away whatever ill-fated weights once locked my shoulders in place."
     "I grab my uniform, get dressed and get ready for school – it’s like an average, regular day, except my fingers are numb with pain and my back is in desperate need of a spa day."
     "I go outside and knock on my sister’s door before opening it."
     # show sister’s bedroom? If not available then hide BG
+
+    play music bgmsis fadein 1.3
+
     voice "4-1-1.mp3" #potato
     pro "Morning, sis."
     "Maria yawns and stretches into the air. She rubs her eyes trying to wake up."
@@ -93,6 +97,9 @@ label day4s1:
         sis "I love it, even if it isn't perfect…"
     voice "4-1-28.mp3" #kaito
     mom "Emily! Maria! Are you done over there!?"
+
+    stop music
+
     "From out of the corner of our eye, mother calls us to the living room."
     voice "4-1-29.mp3" #potato
     pro "Coming, mom!"
@@ -101,6 +108,10 @@ label day4s1:
     mom "Children – breakfast will be late today. Someone drank the last of the orange juice and put it back in the fridge. You know how much that irks me, don't you?"
     "An audible gasp escapes Maria’s mouth and she looks to the floor in embarrassment."
     "Mother gazes at each of us. We remember Maria finishing it last night, but it isn’t worth bringing up."
+
+    play music bgmmomintro noloop fadeout 1.0
+    queue music bgmmomloop loop
+
     voice "4-1-31.mp3" #kaito
     mom "I'm going to the store. I’ll be back in five minutes – Emily, you’re responsible for getting them ready when I’m out."
     voice "4-1-32.mp3" #potato
@@ -123,7 +134,7 @@ label day4s1:
     bro "Five minutes is plenty of time. Relax."
 
     voice "4-1-38.mp3" #potato
-    pro "That wasn't a request, though…" 
+    pro "That wasn't a request, though…"
 
     voice "4-1-39.mp3" #kujira
     bro "Pfft, what? Who the hell made you the boss of me?"
@@ -132,7 +143,7 @@ label day4s1:
     pro "Uhhh… Mom did, technically."
 
     voice "4-1-41.mp3" #kujira
-    bro "News to me…" 
+    bro "News to me…"
 
     "He groans, rising to his feet, stretching himself out."
 
@@ -155,7 +166,7 @@ label day4s1:
     pro "You look like shit, though. How are you going to survive classes?"
 
     voice "4-1-48.mp3" #kujira
-    bro "Just gotta show up. I got it." 
+    bro "Just gotta show up. I got it."
 
     voice "4-1-49.mp3" #potato
     pro "If you got off that stupid shit you've been doing, it'd be easier to get through the day."
@@ -227,15 +238,21 @@ label day4s1:
 
     "As if hit by an electric shock, all three of us spring into motion."
 
+    stop music fadeout 4.0
+
     scene outdoors
+    play ambience suburb fadein 3.0
 
     "The air feels heavy as we begin our usual march towards schools. My brother breaks off quickly, not even bothering to say goodbye."
     "I remember that's not the usual route he's supposed to take, but I shake my head. I can't be bothered to deal with him right now."
 
+    play music bgmbrointro noloop fadeout 1.0
+    queue music bgmbroloop loop
+
     voice "4-1-69.mp3" #amree
     sis "Um… wh, what happened with you guys."
     voice "4-1-70.mp3" #potato
-    pro "Not today, Maria. I really don't want to talk about it right now…" 
+    pro "Not today, Maria. I really don't want to talk about it right now…"
     voice "4-1-71.mp3" #amree
     sis "I… okay, sorry."
     voice "4-1-72.mp3" #potato
