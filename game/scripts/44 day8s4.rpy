@@ -1,5 +1,7 @@
 label day8s4:
 
+    scene house dark with dissolve
+
     "Stepping out of the cab, I find myself back at our home. It looks different than I remember, oddly enough. It's dark, vacant, lifeless."
 
     "I hate my mother, and yet, the house is fragmented without her. It's missing its heart."
@@ -14,12 +16,19 @@ label day8s4:
 
     "I make my way inside, finding it to be much more solitary than I had originally thought."
 
+    scene livingroom sunset with dissolve
+    
     "No one's home… except for a lone figure huddled up on the couch."
 
     "She's normally never left alone, but I guess desperate times, right?"
+    
+    show sis sad1b with dissolve
 
     "I approach her carefully, trying to avoid waking her. I gently pull her close to me, lifting her from the couch, carrying her to her room."
 
+    scene sisroom dark with dissolve
+    show sis sad1b with dissolve
+    
     voice "8-4-1.mp3" #amree
     sis "Daddy… had to go to work. He said he's sorry…"
 
@@ -70,6 +79,8 @@ label day8s4:
     "She gives me one last pained look before turning away, covering herself with the warm blankets and pillows surrounding her."
 
     "Patting her on the head, I give her my farewells and head off to my room."
+    
+    scene bedroom dark with dissolve
 
     "My bed is as comfortable as ever, and my dreams call to me…"
 

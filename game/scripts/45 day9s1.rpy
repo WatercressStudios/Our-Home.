@@ -1,5 +1,7 @@
 label day9s1:
 
+    scene bedroom with dissolve
+    
     "Nothing, apparently. I'll dream about nothing."
 
     "It's a little disconcerting, but I guess there's a legitimate reasoning behind it."
@@ -8,8 +10,12 @@ label day9s1:
 
     "It's time to wake up, get ready, and get Maria to school. Everything has to seem okay, even if it's not."
 
+    scene hallway with dissolve
+    
     "I go through the motions, dressing up and knocking on Maria's door as I pass by."
 
+    scene livingroom with dissolve
+    
     "Once again, the house is lonely. I rest my back against the couch, resisting my drowsiness without much success."
 
     "Mentally, I'm exhausted. Physically, however, I feel better than I have in a very long time."
@@ -20,6 +26,8 @@ label day9s1:
 
     "Something taps my head lightly. Something small and delicate, but oddly capable."
 
+    show sis happy2 with dissolve
+    
     voice "9-1-1.mp3" #amree
     sis "I'm hungry…"
 
@@ -31,6 +39,8 @@ label day9s1:
     voice "9-1-3.mp3" #potato
     pro "Well, fuck, I totally forgot. We don't really have time to get food on the way to school either… I'm sorry."
 
+    show sis sad1 with dissolve
+    
     "She nods with a pout, offering me a hand to stand up from the couch."
 
     "I accept it, putting most of my weight on the couch so I don't destroy her poor little arms."
@@ -56,6 +66,8 @@ label day9s1:
     voice "9-1-10.mp3" #amree
     sis "Yep."
 
+    scene siswalk with dissolve
+    
     "With that, we're off. The trip starts off awfully quiet, my sister avoiding eye contact and being her normal shy self."
 
     "It wouldn't be out of the ordinary, if she weren't holding my hand with the strength of a hydraulic press."
@@ -63,6 +75,8 @@ label day9s1:
     voice "9-1-11.mp3" #potato
     pro "Hey, sis, is everything okay?"
 
+    show sis worry2 with dissolve
+    
     voice "9-1-12.mp3" #amree
     sis "Is Mom ever coming home?"
 
@@ -172,6 +186,8 @@ label day9s1continue:
 
     "I keep glancing over to Maria, her eyes glued to the sidewalk. Her mouth curls."
 
+    show sis worry1 with dissolve
+    
     "Maria stops along the sidewalk, unmoving. Her head tilts forward. I can't see her face."
 
     voice "9-1-30.mp3" #amree
@@ -189,6 +205,8 @@ label day9s1continue:
     voice "9-1-34.mp3" #potato
     pro "We're still a family. You'll always have me, okay?"
 
+    show sis cry with dissolve
+    
     "I hear her fighting back tears… she was sobbing."
 
     voice "9-1-35.mp3" #amree
