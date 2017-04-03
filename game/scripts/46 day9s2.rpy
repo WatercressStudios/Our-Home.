@@ -1,7 +1,13 @@
 label day9s2:
+
+    scene schoolcafeteria with dissolve
+    
     "My stomach reminds me that it’s lunchtime."
     "Ugh..."
     "I can definitely feel that I never ate breakfast."
+    
+    show lov happy2 with dissolve
+    
     "Lauren joins me and starts taking her lunch out of her bag."
     voice "9-2-1.mp3" #starleeter
     lov "Aren’t you hungry?"
@@ -9,12 +15,18 @@ label day9s2:
     pro "..."
     "I can’t just say I have nothing to eat or that I’m hungry. Lauren does enough for me."
     voice "9-2-3.mp3" #starleeter
+    
+    show lov shy1 with love
+    
     lov "You don’t have anything, do you?"
     "I look away."
     voice "9-2-4.mp3" #starleeter
     lov "Hey, look at me."
     "Sighing, I meet her gaze."
     voice "9-2-5.mp3" #starleeter
+    
+    show lov happy 1 with dissolve
+    
     lov "We can split mine. It’s fine."
     "She giggles."
     voice "9-2-6.mp3" #starleeter
@@ -26,7 +38,10 @@ label day9s2:
     "Oh, yeah. I haven’t talked to Lauren since we realized Mom didn’t come back."
     voice "9-2-8.mp3" #potato
     pro "Well, my mom stormed off yesterday morning and hasn’t come back."
-    love "Seriously? That’s terrible!"
+    
+    show lov shy1 with dissolve
+    
+    lov "Seriously? That’s terrible!"
     voice "9-2-9.mp3" #potato
     pro "She always makes my lunch for me, and I just kinda... took it for granted."
     voice "9-2-10.mp3" #starleeter
@@ -79,6 +94,9 @@ label day9s2:
     lov "I’ll be right back. Got to go to the bathroom."
     voice "9-2-31.mp3" #potato
     pro "Okay."
+    
+    hide lov
+    
     "I watch her go before turning to look out the window."
     "Lauren and I are basically going to be alone together."
     "It’s not like we haven’t been spending time together before, but usually our parents would be across the hall."
