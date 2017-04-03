@@ -340,7 +340,8 @@ label superBadEnding:
     "After cleaning up the bowls, I stop by a wall mirror in the hallway."
     "Slowly, I turn to it and look at myself, and what I've become..."
 
-    show superbadending with Dissolve(2.0)
+    scene superbadending with Dissolve(3.0)
+    pause
 
     # TODO: Credits
     jump dreamEpilogue

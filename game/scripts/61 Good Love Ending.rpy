@@ -182,9 +182,10 @@ label goodLoveEnding:
     pro "I love you, too."
 
     if career < 8 and family < 8:
-        show neutralminusending with Dissolve(2.0)
+        scene neutralminusending with Dissolve(3.0)
     else:
-        show neutralplusending with Dissolve(2.0)
+        scene neutralplusending with Dissolve(3.0)
+    pause
     # TODO: Credits
     
     stop ambience fadeout 2.0

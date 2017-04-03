@@ -132,15 +132,13 @@ label suicideending:
     voice "20-1-21.mp3" #amree
     sis "O-Okay…"
     
-    scene suicideending with dissolve
-
     "With that, we're off. The world around me is a little bit darker than I'm used to, but it's still sunny outside. The birds still chirp, the squirrels still chitter, and Maria still gets walked to school."
-
     "If I weren't paying attention, it could almost seem as if nothing's even changed."
-
     "Alas, the world still turns, even if the one I love is gone."
-
     "And no matter how much I cry out, she'll never come back to me."
+
+    scene suicideending with Dissolve(3.0)
+    pause
 
     ".:. Suicide Ending (11/11)"
     return
