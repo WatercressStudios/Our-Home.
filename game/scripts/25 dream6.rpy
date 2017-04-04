@@ -191,4 +191,12 @@ label dream6:
     voice "d6-1-61.mp3" #potato
     pro "But—"
 
+    scene black
+
+    stop music
+
+    $ renpy.movie_cutscene("vfx/dreamtoirl.mpg") # Loads the credit video
+
+    scene black 
+    
     jump day6s1

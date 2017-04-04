@@ -194,7 +194,19 @@ label dream2:
     hide dlov
     "I nodded again, closing my eyes and enjoying the feeling of being close to her."
     "She begins caressing my hair, humming along to the music as I start to get tired."
-    play sound knock
+
+    # Bang or clatter sound (This is her brother sneaking in the house?)
+    stop music fadeout 0.3
+    play sound thud
     show black
-    "What was that..."
+    "What was that?!"
+    
+    scene black
+
+    stop music
+
+    $ renpy.movie_cutscene("vfx/dreamtoirl.mpg") # Loads the credit video
+
+    scene black 
+
     jump day2s1

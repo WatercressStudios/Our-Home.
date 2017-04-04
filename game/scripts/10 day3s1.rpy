@@ -1,17 +1,18 @@
 label day3s1:
-    stop music
-
-    scene bedroom
-    with dissolve
+    scene bedroom dark with dissolve
 
     "Maria! My sister, where is she?"
 
+    play sound fabric
+    pause 1.0
+    play sound opendoor
     "I awake with a start, tripping over my bed sheets as I rush to her door. I shove the door open."
 
-    scene sisroom
-    with dissolve
-    show sis worry1
-    with dissolve
+    scene hallway with dissolve
+    pause 0.5
+    play sound opendoor
+    scene sisroom with dissolve
+    show sis worry1 with dissolve
 
 
     voice "3-1-1.mp3" #amree
@@ -79,10 +80,17 @@ label day3s1:
     scene bedroom
     with dissolve
 
+    play sound fabric
     "Now to return to my room to get dressed - something I forgot to do in my rush to find my sister."
 
     "Ugh, I hate this uniform. Skirts are just… I don't like them. Guess I'll force myself to wear it anyways..."
 
+    scene hallway with dissolve
+    play sound slamdoor
+    pause 0.5
+    scene livingroom with dissolve
+    pause 0.5
+    
     scene kitchen
     with dissolve
 
@@ -121,6 +129,7 @@ label day3s1:
     show sis worry1
     with dissolve
 
+    play sound slamdoor
     "Her door closes, and she approaches me."
 
     voice "3-1-13.mp3" #potato
@@ -253,7 +262,7 @@ label day3s1:
     "I'll try to hold myself to that, but I might not have the energy. I'll have to wait and see, I suppose."
 
     stop ambience fadeout 2.0
-    stop music fadeout .5
+    stop music fadeout 5.0
     hide sis
     with dissolve
     scene black

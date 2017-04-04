@@ -1,8 +1,6 @@
 label day2s2:
 
     scene house with dissolve
-
-    play music bgmsis fadeout 1.0 fadein 0.0
     play ambience suburb fadein 2.0
 
     "I rock back and forth on my heels, rubbing my sides to keep warm in this chilly morning air."
@@ -10,7 +8,10 @@ label day2s2:
     voice "2-2-1.mp3" #potato
     pro "Hurry up! You're going to be late!"
 
+    play sound slamdoor
     "I yell into the house through the front door, hoping Maria will hurry her little ass up. The door slams as she rushes out, slinging her bag onto her back as she goes."
+
+    play music bgmsis fadeout 1.0 fadein 0.0
 
     show sis worry1
     with dissolve 
@@ -142,7 +143,7 @@ label day2s2movingon:
 
     "The rest of the walk is relatively uneventful, and I make my way to my own school after I've dropped Maria off."
 
-    stop music fadeout .5
+    stop music fadeout 5.0
 
     scene siswalk2 with dissolve
 
@@ -155,7 +156,7 @@ label day2s2movingon:
     #SCENE CHANGE
     scene schoolhallway with dissolve
 
-    stop ambience fadeout .5
+    play ambience crowd fadeout 1.0 fadein 1.0
 
     "I arrive at the school, moving quickly towards the senior lockers - Lauren'll be nearby, surely. We have a habit of meeting up before class, and it always brightens my day."
     "Okay. I need to wake up. I've practically been dragging myself through the motions this morning, and I'd rather not 'go through the motions' with Lauren. That'd be a disservice."
@@ -227,17 +228,16 @@ label day2s2movingon:
     hide lov
     with dissolve
 
-    stop music fadeout .5
+    stop music fadeout 2.0
 
     "As she scampers off, I linger a bit at her locker, leaning against it."
     "Agh, screw class. I'm not thrilled at all for this. It's been a crummy few days, and I feel like I'm in molasses."
     "Even my thoughts are slow, dragging on today."
-    "...But I have to go anyways. I don't want to deal with the blowback of yet another absence. Mother would kill me."
+    "...But I have to go anyways. I don't want to deal with the blowback of yet another absence. Mother would kill me."    
     "Well, that'd probably be preferable to the alternative."
 
     scene classroom with dissolve
-
-    play ambience blackboard fadein 2.0
+    stop ambience fadeout 0.5
 
     "Oh well. I suck it up and make my way into the classroom, making sure to avoid any and all human interaction on the way. I'm not exactly the most popular person here."
     "Sitting down, I pull out my class supplies, including the books that weigh down my bag."

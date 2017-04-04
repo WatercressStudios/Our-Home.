@@ -180,6 +180,6 @@ label dreamending:
     pause
     
     ".:. Dream Ending (9/11)"
-    return
+    jump credits
 
     #### THE END

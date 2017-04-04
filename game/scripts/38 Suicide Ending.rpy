@@ -142,4 +142,4 @@ label suicideending:
     pause
 
     ".:. Suicide Ending (11/11)"
-    return
+    jump credits

@@ -175,6 +175,11 @@ label day6s6dad:
         
         scene black with dissolve
 
+        stop music
+
+        $ renpy.movie_cutscene("vfx/irltodream.mpg") # Loads the credit video
+
+        scene black 
         jump dream7
 
     else:
@@ -182,6 +187,12 @@ label day6s6dad:
         "There's nothing else I can do for Alex, so I walk over to my bed."
         "I lift the blanket and jump in."
         "I can't help but think about Lauren in the moonlight as I fall asleep."
+        scene black
 
+        stop music
+
+        $ renpy.movie_cutscene("vfx/irltodream.mpg") # Loads the credit video
+
+        scene black 
         jump dream7
 

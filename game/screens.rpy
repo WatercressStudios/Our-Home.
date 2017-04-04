@@ -761,6 +761,10 @@ style slot_button:
 style slot_button_text:
     properties gui.button_text_properties("slot_button")
 
+init python:
+    def update_ambience_volume():
+        persistent.ambience_volume = renpy.music.get_channel("ambience").chan_volume
+        renpy.save_persistent()
 
 ## Preferences screen ##########################################################
 ##
@@ -837,7 +841,9 @@ screen preferences():
                     label _("Ambience Volume")
 
                     hbox:
-                        bar value FieldValue(renpy.music.get_channel("ambience"), "chan_volume", 1.0, style="slider_slider")
+                        bar:
+                            value FieldValue(renpy.music.get_channel("ambience"), "chan_volume", 1.0, style="slider_slider")
+                            changed update_ambience_volume()
 
                     if config.has_sound:
 

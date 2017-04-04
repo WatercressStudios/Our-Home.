@@ -162,6 +162,9 @@ label badLoveEnding:
     lov "See ya later!"
 
     "With that, they leave. I couldn't help but notice her significant other was awkwardly quiet the entire time."
+    
+    stop ambience fadeout 2.0
+    
     "I really can't follow through with my promise. I'm sorry Lauren, but I can't do it."
     "It's best if we just… never see each other again."
     if career > 7:
@@ -179,7 +182,6 @@ label badLoveEnding:
         scene neutralminusending with Dissolve(3.0)
     pause
 
-    stop ambience fadeout 2.0
 
     # TODO: Credits
     jump dreamEpilogue

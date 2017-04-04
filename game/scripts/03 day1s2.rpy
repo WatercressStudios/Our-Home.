@@ -192,6 +192,8 @@ label day1s2:
 
     "Time to chat with Lauren, anyways. She'd bug me all day tomorrow if I were to miss our nightly call."
 
+    play sound paper
+
     "I hide the sketches underneath the rest of the failed experiments, promising to myself to continue tomorrow night."
 
     "Flipping out my phone, I admire my lock screen. It's a picture of Lauren and I, smiling on a beach. Damn, it's been ages…"
@@ -266,5 +268,13 @@ label day1s2:
     "Gently, I get in bed with her, and I shut my eyes."
 
     "Finally, my favorite part of the day. Sleep."
+
+    scene black
+
+    stop music
+
+    $ renpy.movie_cutscene("vfx/irltodream.mpg") # Loads the credit video
+
+    scene black 
 
     jump dream2

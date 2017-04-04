@@ -2,12 +2,15 @@ label day2s4:
     $ plushie = False
 
     # Home BG
+    play ambience suburb fadeout 1.0 fadein 1.0
     scene house with dissolve
 
     "I’m exhausted by the time I get home."
     "It was fun going through the show with Lauren, but it was way more involved than I expected."
 
     scene livingroom with dissolve
+    stop ambience fadeout 0.5
+    play sound slamdoor
 
     "It’s pretty quiet downstairs. Mom’s in the kitchen... of course she is. I really don't want to see her right now..."
     "We're having dinner as a family again, too. Surpriiiise. Happy birthday to me."
@@ -28,7 +31,14 @@ label day2s4:
     "Well, he’s not here, so I guess I can go into his room and get my things back."
     #CHANGE SCENE
     # Transition to brother’s bedroom
+    scene hallway with dissolve
+    pause 0.5
+    scene brodoor with dissolve
+    pause 0.5
+    play sound opendoor
     scene broroom with dissolve
+    pause 0.5
+    play sound slamdoor
 
     "There are clothes and candy wrappers scattered everywhere. That boy is basically an animal."
     "There’s bits of paper and worksheets covering what passes for his desk."
@@ -46,7 +56,7 @@ label day2s4:
     "I wonder if he’s hiding more of my stuff in this box. It kind of looks like a fancy pencil case."
     "I open it."
 
-    stop music fadeout .2
+    stop music fadeout .3
 
     # Show drug box (Or don’t, that’s probably a hard picture to get and cgs are hard)
     show heroin with dissolve
@@ -61,11 +71,11 @@ label day2s4:
 
     "I... should probably leave. This really isn't my problem. Let's not get involved."
     # Door Opens
-
-    play music bgmmood fadeout 1.0 fadein 0.0
-
+    play sound opendoor
     show bro angry3
     "Shit. Seriously?"
+    play music bgmmood fadeout 1.0 fadein 1.0
+
     voice "2-4-2.mp3" #kujira
     bro "What the hell are you doing in here?!"
     voice "2-4-3.mp3" #potato
@@ -97,11 +107,13 @@ label day2s4:
 
     scene brodoor with dissolve
 
+    play sound slamdoor
     "I storm out, slamming the door to his room behind me."
     "Maria pokes her head out of her door, but I’m already in my room before she gets a chance to speak."
     # Transition to bedroom
     scene bedroom with dissolve
 
+    play sound fabric
     "I slam my pencils and pens down on my desk and flop onto my bed."
     "The way Alex exploded on me, I guess it only confirms my suspicions."
     "A sinking feeling wallows in the pit of my stomach."
@@ -109,24 +121,30 @@ label day2s4:
     "What should I do?"
     "I’d tell Mom, but she might actually kill Alex if I told her."
     "I sigh."
+
+    stop music fadeout 5.0
+
     "I guess I need to keep this to myself, for now."
+    
+    show black with dissolve
     "I close my eyes and squeeze my pillow."
     "God dammit. Wasn’t this family enough of a mess already?"
 
-    stop music fadeout .5
-
     # Transition to dinner
-    scene hallway with dissolve
+    scene bedroom with dissolve
 
     "I didn’t leave my room until Mom called for dinner."
 
+    scene hallway with dissolve
+    play sound slamdoor
+    pause 0.5
     scene livingroom sunset with dissolve
 
     show mom sad1 at center with dissolve
     show bro sad1 with dissolve:
-        align (0.75, 1.0)
+        align (0.8, 1.0)
     show sis worry1 with dissolve:
-        align (0.25, 1.0)
+        align (0.2, 1.0)
     
     "It’s just the four of us, since Dad is working, again."
     "Alex is refusing to look at me, naturally."
@@ -136,43 +154,43 @@ label day2s4:
     voice "2-4-15.mp3" #kaito
     show mom sad3 at center
 
-    play music bgmmomintro noloop fadeout 1.0
-    queue music bgmmomloop loop
+    play music bgmbrointro noloop fadeout 1.0
+    queue music bgmbroloop loop
 
     mom "Alex, eat your dinner."
     voice "2-4-16.mp3" #kujira
     show bro sad2 with dissolve:
-        align (0.75, 1.0)
+        align (0.8, 1.0)
     bro "I am eating it."
     voice "2-4-17.mp3" #amree
     show sis worry2 with dissolve:
-        align (0.25, 1.0)
+        align (0.2, 1.0)
     sis "Hey, M-Mom. Where’s Dad?"
     voice "2-4-18.mp3" #kaito
     show mom angry1 at center
     mom "You’re just playing with it."
     voice "2-4-19.mp3" #kujira
     show bro smirk1 with dissolve:
-        align (0.75, 1.0)
+        align (0.8, 1.0)
     bro "Get off my back! I can eat as slow as I like!"
     voice "2-4-20.mp3" #amree
     show sis sad1 with dissolve:
-        align (0.25, 1.0)
+        align (0.2, 1.0)
     sis "Umm Emi, do you know where Dad is?"
     voice "2-4-21.mp3" #kaito
     mom "You’re not leaving this table until you’ve cleared your plate."
     voice "2-4-22.mp3" #kujira
     show bro angry2 with dissolve:
-        align (0.75, 1.0)
+        align (0.8, 1.0)
     bro "I’m not two, Mom!"
     voice "2-4-23.mp3" #kaito
     show mom angry2 at center
     mom "Maybe when you stop throwing tantrums, I’ll believe you."
     show bro angry1 with dissolve:
-        align (0.75, 1.0)
+        align (0.8, 1.0)
     "Alex’s expression scrunches up like he’s going to yell, but he relaxes."
     show bro sad2 with dissolve:
-        align (0.75, 1.0)
+        align (0.8, 1.0)
     voice "2-4-24.mp3" #kujira
     bro "Whatever."
     show mom sad3 at center
@@ -183,13 +201,21 @@ label day2s4:
     # Transition to bedroom
 
     scene bedroom night with dissolve
+    play sound slamdoor
+    pause 1.0
+    play sound fabric
 
     "I start getting changed and ready for bed as soon as I can."
     "I’m done being awake today. It’s about time I get to relax after that shit."
     # Knock at the door
+    play sound knock
     "Ugh."
     voice "2-4-25.mp3" #potato
     pro "Just a minute."
+    
+    play sound fabric
+    pause 2.0
+    play sound opendoor
     "I pull a shirt on and open the door."
     #Probably need a door background here
     scene hallway with dissolve
@@ -213,10 +239,13 @@ label day2s4:
     bro "Please don’t say anything."
     voice "2-4-31.mp3" #potato
     pro "Whatever, Alex. Just stay away from me."
-    stop music fadeout .5
     scene bedroom night with dissolve
-
+    play sound slamdoor
+    stop music fadeout .5
     "I slam the door in his face."
+
+    play sound fabric
+
     "I finish getting ready for bed before getting under the covers."
     "As I glance over to my desk, I see the materials laid out for the plushie I planned to make."
     voice "2-4-32.mp3" #potato
@@ -240,25 +269,30 @@ label day2s4:
             "I’ll need stitch together the limbs and other stuff later but the bulk is done."
             "I yawn."
             "It’s time to go to bed."
-            jump breakyourclock
 
         #option 2
         "I just need a break right now.":
             "I just found out Alex is taking heroin, for God’s sake! There’s no way I can concentrate today.."
-            jump breakyourclock
 
     #after choice merge
-    label breakyourclock:
+    play sound fabric
     "I get into bed and get comfortable under the covers."
 
-    scene bedroom night
+    scene bedroom dark
+    play sound lampclick
 
     "Just go to sleep."
     "It can wait another day or two. It’s not the end of the world."
     "Besides, doing the plush while I’m tired will just mess it up, right?"
     "I roll onto one side, my back to the desk."
-    scene black
-    with dissolve
+    scene black with Dissolve(2.0)
     "Sleep comes almost immediately."
     "I guess I was more tired than I realised."
+    scene black
+
+    stop music
+
+    $ renpy.movie_cutscene("vfx/irltodream.mpg") # Loads the credit video
+
+    scene black 
     jump dream3

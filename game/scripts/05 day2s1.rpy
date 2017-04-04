@@ -4,11 +4,8 @@ label day2s1:
 
     #Emily’s room, but... darker (and edgier?!)
     #Knocking
+    play sound knock
     scene bedroom dark with dissolve
-
-    stop music fadeout .5
-    play music bgmbrointro noloop fadeout 1.0 
-    queue music bgmbroloop loop
 
     voice "2-1-1.mp3" #kujira
     bro "Hey, uh... Emily?"
@@ -35,12 +32,20 @@ label day2s1:
     ##SCENE CHANGE
     scene bedroom night
     
+    play sound lampclick
+    pause 1.0
+    play sound fabric
+    pause 2.0
+    play sound opendoor
     "I get the door for my idiot brother."
     
     play sound knock
     
     "Ugh, I'm getting it, I'm getting it, God damn..."
-    
+
+    play music bgmbrointro noloop fadeout 1.0 
+    queue music bgmbroloop loop
+
     show bro sad2
     with dissolve
 
@@ -100,7 +105,6 @@ label d2s1no:
 
     "You dug this hole for yourself. Don’t drag me in with you."
 
-
     show bro angry1
     voice "2-1-11.mp3" #kujira
 
@@ -111,18 +115,24 @@ label d2s1no:
     voice "2-1-12.mp3" #potato
     pro "Five forty-eight. Sleep time. Don’t care."
 
+    stop music fadeout 0.3
+    play sound slamdoor
     hide bro
     with dissolve
     
     #SCENE CHANGE
     scene bedroom dark
+    play sound lampclick
+    pause 1.0
+    play sound fabric
+    pause 2.0
     
     "Shutting the door on Alex, I return to bed."
     "Now Diane, where were we...?"
 
    ##SCENE CHANGE
    #Time pass transition to Emily’s room with normal lighting.
-    scene bedroom with dissolve
+    scene bedroom with Dissolve(3.0)
 
     "I never fell back asleep. This is a cruel, cruel world we live in."
 
@@ -133,8 +143,6 @@ label d2s1no:
 
     "It looks like Alex tried to work on it without me."
 
-
-    stop music fadeout .3
     voice "2-1-13.mp3" #kaito
     mom "Alex, what are you doing?"
 
@@ -214,11 +222,11 @@ label d2s1yes:
     "In that half hour, I learned more about the Golgi apparatus than I ever thought possible."
     
     #CHANGE SCENE
-    scene livingroom with dissolve
-
+    scene livingroom with Dissolve(3.0)
+    pause 1.5
 
     voice "2-1-26.mp3" #kujira
-    show bro smile2
+    show bro smile2 with dissolve
 
     bro "Alright, I think I understand it all now."
 
@@ -296,7 +304,7 @@ label d2s1yes:
     hide bro
     with dissolve
 
-    stop music fadeout .3
+    stop music fadeout 0.3
 
     voice "2-1-42.mp3" #kaito
     mom "What are you two doing up already?"
@@ -366,7 +374,7 @@ label d2s1merge:
     hide mom
     with dissolve
 
-    stop music fadeout .5
+    stop music fadeout 2.0
 
     "With that, she calms down and the rest of the morning proceeds in silence."
 
