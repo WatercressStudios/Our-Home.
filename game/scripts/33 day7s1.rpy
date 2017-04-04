@@ -276,7 +276,7 @@ label d7s1merge:
     "In one stroke, Mom’s arm floats like the end of a whip tossed in the air."
     
     scene black
-    play sound smack
+    play sound slap
 
     "And then the whip’s cracked."
     

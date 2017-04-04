@@ -10,7 +10,7 @@ label day5s3:
     "I can get the sewing machine from my room when Lauren gets here. She's arriving any minute now."
     "Quick. Easy. Efficient exchange."
 
-    # TODO: sound phone beeping / text message
+    play sound vibrate
     "BEEP~ BEEP~"
     "{color=#FF69B4}\"oh noes~! got stuck @ rush hour traffic! sorryyyy Em!!! Be there in 10, promise <33333\"{/color}"
     "Aww, I was looking forward to seeing her. Now I have to wait for another ten minutes."
@@ -136,12 +136,11 @@ label carrots:
     
     "Of course. It wouldn't be Mom if she didn't find something about us to criticize..."
     
-    # TODO: sfx of a doorbell
+    play sound knock
     show dad smile1 with dissolve:
         align (0.33, 1.0)
     show sis worry1 with dissolve:
         align (0.66, 1.0)
-    "DING~ DONG~"
 
     "I look up from the unfinished carrots."
     "Lauren's here!"
