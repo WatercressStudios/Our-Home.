@@ -352,7 +352,7 @@ label bedtime:
 
     play sound opendoor
     scene sisroom dark with dissolve
-    show maria cry with dissolve
+    show sis cry with dissolve
     
     "She's sitting on her bed with a piece of paper in her hands."
 
