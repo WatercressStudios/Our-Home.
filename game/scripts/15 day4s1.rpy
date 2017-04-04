@@ -12,33 +12,34 @@ label day4s1:
     "The effort to keep my eyelids open almost feels like too much, if not for the sunlight that bleeds into my vision and scrapes at my pupils."
     "I get up from my bed and loosely stand on my own two feet. My muscles strain and ache as I stretch away whatever ill-fated weights once locked my shoulders in place."
     "I grab my uniform, get dressed and get ready for school – it’s like an average, regular day, except my fingers are numb with pain and my back is in desperate need of a spa day."
-    "I go outside and knock on my sister’s door before opening it."
+    "But first, the fruit of my labors"
 
-    scene sisroom
-    with dissolve
-    show sis sad1
-    with dissolve
+#    scene sisroom
+#    with dissolve
+#    show sis sad1
+#    with dissolve
 
     # show sister’s bedroom? If not available then hide BG
 
-    play music bgmsis fadein 1.3
+    play music bgmsis fadein 2.0
 
-    voice "4-1-1.mp3" #potato
-    pro "Morning, sis."
-    show sis sad1
-    "Maria yawns and stretches into the air. She rubs her eyes trying to wake up."
-    voice "4-1-2.mp3" #potato
-    pro "How are you today, Maria?"
-    show sis worry1
-    sis "I wanna go back to sleep."
-    "Her hair's a mess, and her face seems to hang in its expression like it hasn’t woken up yet."
-    voice "4-1-3.mp3" #potato
-    pro "Hey, stay right there for a moment okay? I’m gonna go grab something."
-    show sis worry2
-    sis "E-eh?"
-    hide sis with dissolve
-    scene bedroom with dissolve
-    "I run back to my room to grab the plushie – placed on top of a shelf so it could be a worthwhile surprise."
+   #commented to avoid unvoiced lines
+#    voice "4-1-1.mp3" #potato
+#    pro "Morning, sis."
+#    show sis sad1
+#    "Maria yawns and stretches into the air. She rubs her eyes trying to wake up."
+#    voice "4-1-2.mp3" #potato
+#    pro "How are you today, Maria?"
+#    show sis worry1
+#    sis "I wanna go back to sleep."
+#    "Her hair's a mess, and her face seems to hang in its expression like it hasn’t woken up yet."
+#    voice "4-1-3.mp3" #potato
+#    pro "Hey, stay right there for a moment okay? I’m gonna go grab something."
+#    show sis worry2
+#    sis "E-eh?"
+#    hide sis with dissolve
+#    scene bedroom with dissolve
+#    "I run back to my room to grab the plushie – placed on top of a shelf so it could be a worthwhile surprise."
 
     if not plushie:
         show plushie damage with dissolve

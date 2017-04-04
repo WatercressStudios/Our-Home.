@@ -4,7 +4,7 @@ label day4s3:
 
     scene classroom with dissolve
     #REMEMBER TO UNCOMMENT THE SOUND ONCE WE HAVE IT!!
-    #play sound schoolbell
+    play sound schoolbell
 
     "DOO DO DOO DO!"
 

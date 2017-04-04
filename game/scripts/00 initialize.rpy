@@ -2,31 +2,31 @@
 # Dream Character Declaration #
 ###############################
 define dn = Character(None, what_color="#FFFFFF", kind=nvl, what_size=32)
-define dbro = Character('Brother', color="#800000", voice_tag="brother")
-define dmom = Character('Mother', color="#800000", voice_tag="mother")
-define ddad = Character('Father', color="#800000", voice_tag="father")
-define dlov = Character('Diane', color="#800000", voice_tag="diane")
-define dpro = Character('Emily', color="#800000", voice_tag="emily")
+define dbro = Character('Brother', color="#0099cc", voice_tag="brother")
+define dmom = Character('Mother', color="#0099cc", voice_tag="mother")
+define ddad = Character('Father', color="#0099cc", voice_tag="father")
+define dlov = Character('Diane', color="#0099cc", voice_tag="diane")
+define dpro = Character('Emily', color="#0099cc", voice_tag="emily")
 
 
 #########################
 # Character Declaration #
 #########################
 define n = Character(None, what_color="#FFFFFF", kind=nvl, what_size=32)
-define wol = Character('Wolf', color="#800000")
-define pro = Character('Emily', color="#800000", voice_tag="emily")
-define lov = Character('Lauren', color="#800000", voice_tag="lauren")
-define sis = Character('Maria', color="#800000", voice_tag="sister")
-define bro = Character('Alex', color="#800000", voice_tag="brother")
-define mom = Character('Elizabeth', color="#800000", voice_tag="mother")
-define dad = Character('Jonathan', color="#800000", voice_tag="father")
-define tea = Character('Miss Reynolds', color="#800000", voice_tag="teacher")
-define doc = Character('Dr. Harriet', color="#800000", voice_tag="doctor") #Make doctor and nurse the same color
-define nur = Character('Nurse', color="#800000", voice_tag="doctor") #Make doctor and nurse the same color
-define all = Character('All', color="#800000", voice_tag="all")
-define cho = Character('Choreographer', color="#800000", voice_tag="others")
-define hm = Character('Hall Monitor', color="#800000", voice_tag="others")
-define pot = Character('Pot head', color="#800000", voice_tag="others")
+define wol = Character('Wolf', color="#0099cc")
+define pro = Character('Emily', color="#0099cc", voice_tag="emily")
+define lov = Character('Lauren', color="#0099cc", voice_tag="lauren")
+define sis = Character('Maria', color="#0099cc", voice_tag="sister")
+define bro = Character('Alex', color="#0099cc", voice_tag="brother")
+define mom = Character('Elizabeth', color="#0099cc", voice_tag="mother")
+define dad = Character('Jonathan', color="#0099cc", voice_tag="father")
+define tea = Character('Miss Reynolds', color="#0099cc", voice_tag="teacher")
+define doc = Character('Dr. Harriet', color="#0099cc", voice_tag="doctor") #Make doctor and nurse the same color
+define nur = Character('Nurse', color="#0099cc", voice_tag="doctor") #Make doctor and nurse the same color
+define all = Character('All', color="#0099cc", voice_tag="all")
+define cho = Character('Choreographer', color="#0099cc", voice_tag="others")
+define hm = Character('Hall Monitor', color="#0099cc", voice_tag="others")
+define pot = Character('Pot head', color="#0099cc", voice_tag="others")
 
 
 ############################
@@ -305,11 +305,14 @@ image parkdate = "cgs/Park with LI.png"
 image parkdate dark = "cgs/Park with LI (Night).png"
 image kissniagara = "cgs/li_mc_kissing_scene.png"
 image drawing = "cgs/date.png"
+image drawingli = "cgs/dateLI.png"
+image flowers = "cgs/flwoers.png"
 
 #######
 # VFX #
 #######
 image watercress = "vfx/splashscreen.png"
+image secondsplash = "vfx/second splash.jpg"
 
 #######
 # BGM #
@@ -398,6 +401,13 @@ label splashscreen:
 
     scene black with dissolve
     with Pause(1)
+   
+    show secondsplash with dissolve
+    with Pause(2)
+
+    scene black with dissolve
+    with Pause(1)
+
 
     return
 

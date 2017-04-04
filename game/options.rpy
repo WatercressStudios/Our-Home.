@@ -30,7 +30,7 @@ define config.version = "1.0"
 ## Text that is placed on the game's about screen. To insert a blank line
 ## between paragraphs, write \n\n.
 
-define gui.about = _("")
+define gui.about = _("Check out our collaborators!\n{a=http://watercressstudios.com/}Watercress{/a}\n{a=http://www.vanguardagames.com/}Vanguarda Games{/a}\n{a=https://newwestgames.com/}NewWestGames{/a}\n{a=http://tinmangames.com.au/blog/}Tin Man Games{/a}\n{a=http://sugoikentaproject.weebly.com/}SugoiKentaProject{/a}\n\nFeeling Down? Troubles at home? Need help?\n{a=http://projecturok.org/resources/}Click here{/a}")
 
 
 ## A short name for the game used for executables and directories in the built
@@ -52,7 +52,7 @@ define config.has_voice = True
 
 ## To allow the user to play a test sound on the sound or voice channel,
 ## uncomment a line below and use it to set a sample sound to play.
-## I'd like to implement these later, don't forget!
+## I'do like to implement these later, don't forget!
 
 # define config.sample_sound = "sample-sound.ogg"
 # define config.sample_voice = "sample-voice.ogg"

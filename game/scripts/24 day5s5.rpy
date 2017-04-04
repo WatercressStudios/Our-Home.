@@ -97,7 +97,7 @@ label day5s5:
     stop music fadeout .5
     scene bedroom dark with dissolve
     
-    # sfx of some strange sounds next door (brother's going through a rough withdrawal)
+    play sound strangenoise
     "TAP! TAP! TAP!"
     
     voice "5-5-19.mp3" #potato

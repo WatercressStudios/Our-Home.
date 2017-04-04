@@ -2,12 +2,14 @@ label day3s2:
 
     scene library
     with dissolve
-#     play ambience crowd fadein 2.0
+    play ambience crowd fadein 2.0
+    
+    $ slumberparty = False
 
     "Finally made it. The library's a nice little home away from home."
     "I should try to find Lauren and get this work done and over pretty quickly. I still got some stuff to do at home. Maria's plushie could use some work…"
     "Oh, there she is. Already picked out a work-station, neat. She's waving me over."
-
+    
     play music bgmlov fadeout 1.0 fadein 0.0
     show lov happyh
     with dissolve
@@ -307,7 +309,7 @@ label day3s2used:
     voice "3-2-60.mp3" #potato
     pro "Agh. Sorry, I…"
 
-    "I winced sharply, right there. Never seen her take on that tone with me before.It's forceful and… unlike her."
+    "I winced sharply, right there. Never seen her take on that tone with me before. It's forceful and… unlike her."
 
     show lov angry1
 

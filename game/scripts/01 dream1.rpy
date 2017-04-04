@@ -179,7 +179,8 @@ label dream1cake:
     stop music
 
     $ renpy.movie_cutscene("vfx/dreamtoirl.mpg") # Loads the credit video
-
+  
+    
     scene black 
 
     jump day1s1

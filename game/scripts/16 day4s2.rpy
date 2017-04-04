@@ -243,6 +243,7 @@ label hospital2:
     if bring_sis:
         show mom sad1 with dissolve: 
             align (0.300, 1.0)
+        voice "4-2-33_2.mp3" #kaito
         "And... you brought Maria with you?"
         voice "4-2-34.mp3" #amree
         show sis sad2 with dissolve:
@@ -635,13 +636,6 @@ voice "4-2-103.mp3" #potato
 pro "No, it isn't."
 hide dbro
 scene classroom with dissolve
-
-  # TODO: School bell!!
-  
-stop ambience fadeout 0.25
-"Before I know it, class is over."
-"I can tell from Miss Reynolds’ expression that she wants to talk to me."
-"So, I gather my things and leave before she has a chance to stop me."
 
 jump day4s3
 

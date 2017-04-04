@@ -7,7 +7,7 @@ label day5s2:
     voice "5-2-1.mp3" #skinimini
     tea "...To wrap up our lecture today, I would like to reflect briefly on the idea of psychological independence."
     voice "5-2-2.mp3" #skinimini
-    tea "In our readings, you will have noted that, in <i>Nineteen Eighty-Four</i>, the Party brings this equation to bear."
+    tea "In our readings, you will have noted that, in {i}Nineteen Eighty-Four{/i}, the Party brings this equation to bear."
     "She writes 2 + 2 = 5 on the blackboard. We're going through this book really quickly, aren't we…" 
     "I should be taking notes for Lauren. She really doesn't have the time to be reading so much of this book at once. Even if she didn't have the show to worry about."
     "Wonder how thorough I should be. I can copy my notes over, but how..." 
@@ -46,7 +46,7 @@ label lecture1:
 
     "Miss Reynolds' passion and enthusiasm for the material is apparently lost on us troglodytes."
 
-    #play sound schoolbell
+    play sound schoolbell
 
     "DOO DO DOO DO!"
 

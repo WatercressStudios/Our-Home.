@@ -169,7 +169,7 @@ label momcareer:
 
     scene bedroom night with dissolve
 
-    # sfx of some strange sounds next door (brother's going through a rough withdrawal)
+    play sound strangenoise
     "TAP! TAP! TAP!"
 
     voice "4-4-31.mp3" #potato
