@@ -162,7 +162,7 @@ label superGoodEnding:
         pro "...Wait, what's this? Why is this bill purple...?"
         show bro grin1 with dissolve
         voice "20-12-36.mp3" #kujira
-        Bro "It's a ten dollar bill! A legitimate one!"
+        bro "It's a ten dollar bill! A legitimate one!"
         voice "20-12-37.mp3" #kujira
         show bro smirk2 with dissolve
         bro "...A legit Canadian one, at least."
