@@ -310,6 +310,7 @@ image drawing = "cgs/date.png"
 # VFX #
 #######
 image watercress = "vfx/splashscreen.png"
+image secondsplash = "vfx/second splash.jpg"
 
 #######
 # BGM #
@@ -398,6 +399,13 @@ label splashscreen:
 
     scene black with dissolve
     with Pause(1)
+   
+    show secondsplash with dissolve
+    with Pause(2)
+
+    scene black with dissolve
+    with Pause(1)
+
 
     return
 
