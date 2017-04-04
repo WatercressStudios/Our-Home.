@@ -336,7 +336,7 @@ label hospital2:
     lov "Not at all."
 
     hide mom with dissolve
-    hide lauren with dissolve
+    hide lov with dissolve
     "Despite wasting Lauren's precious time for what turned out to be nothing, she seems to be in a much better mood than I am."
 
     if bring_sis:
