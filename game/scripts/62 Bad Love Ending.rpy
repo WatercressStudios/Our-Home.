@@ -6,8 +6,7 @@ label badLoveEnding:
     "I think about Lauren's theatre show in highschool."
 
     #TODO: FLASHBACK FILTER
-#     scene drama with dissolve
-    show black with dissolve
+    scene theatre with dissolve
     play sound cheer
 
     "The audience roars with applause as Lauren's time on the center stage comes to an end."
@@ -17,14 +16,16 @@ label badLoveEnding:
     "The theater is filled to the brim. I'd say this was quite successful for her. Seeing her act on stage was super cute, especially knowing that I'd helped her with many of her lines."
     "She was probably very nervous, but she didn't let it show, not one bit."
     "She's good like that."
-    "The applause finishes, and I go out to meet up with her after the performance."
+    "The applause finishes, and I go out to meet up with her backstage after the performance."
     "Compared to her, I'm a nervous wreck."
+    scene black with dissolve
     "Today's the day… the day I ask her out."
     "I've had these feelings for a while now, but I only recently realized just what the feelings were."
     "I love her. I love Lauren, from the bottom of my heart."
     "But… I don't know if I can actually follow through."
 
-    show lov happy1h with dissolve
+    scene changingroom with dissolve
+    show lov happy1h
 
     voice "20-4-1.mp3" #starleeter
     lov "Hey Emily! I'm so happy you came! Wasn't I great?"
@@ -72,15 +73,13 @@ label badLoveEnding:
     lov "As a friend… yeah. Why not?"
 
     "She looks away with a small smile."
-
-    hide lov with dissolve
+    
+    scene black with dissolve
     stop ambience fadeout 2.0
 
     "Maybe it's better if I wait. I'll get around to it eventually…"
     "I really don't want to ruin her good day. If I were to put her in the position where she'd have to say no…"
     "Not today. I will get to it eventually."
-
-    #TODO: FLASHBACK FILTER ENDS
 
     scene sky with Dissolve(2.0)
     "That was a long time ago, and of course…"

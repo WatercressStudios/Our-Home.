@@ -158,7 +158,7 @@ label day2s2movingon:
 
     play ambience crowd fadeout 1.0 fadein 1.0
 
-    "I arrive at the school, moving quickly towards the senior lockers - Lauren'll be nearby, surely. We  have a habit of meeting up before class, and it always brightens my day."
+    "I arrive at the school, moving quickly towards the senior lockers - Lauren'll be nearby, surely. We have a habit of meeting up before class, and it always brightens my day."
     "Okay. I need to wake up. I've practically been dragging myself through the motions this morning, and I'd rather not 'go through the motions' with Lauren. That'd be a disservice."
     "I move past the huddled masses, weaving through the waves of students that occupy this part of the school every morning."
     "I skip right by my locker, carrying everything I need with me."

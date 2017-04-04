@@ -55,6 +55,9 @@ label badFamilyEnding_future:
     "We could have filed a missing person's report, or phoned the taxi company, but in the end we were too tired of it all to really give it any effort."
 
     play sound knock
+    pause 1.0
+    play sound opendoor
+    pause 1.0
 
     voice "20-3-5.mp3" #kujira
     bro "Hey, sis, it's time for dinner."
@@ -81,6 +84,7 @@ label badFamilyEnding_future:
     "Time to eat, then."
 
     scene hallway with dissolve
+    play sound slamdoor
 
     "I can smell the food from the kitchen. It… it's some sort of meat? Bacon, probably. Eggs, too. Smells like we're having breakfast for dinner again."
     "I don't mind, it's something simple that my dad hopefully won't mess up."

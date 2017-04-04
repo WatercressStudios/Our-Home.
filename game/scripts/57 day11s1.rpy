@@ -27,9 +27,10 @@ label day11s1:
 
     scene livingroom with dissolve
 
+    "I go to the living room to get a little piece and quiet after a quick examination of the kitchen."
     "The kitchen is… exactly how I was hoping it'd be. No mess, no dirty dishes, no exuberant little sister emptying our entire pantry…" 
     "Oh God, I’m turning into my mother, aren't I? I didn't ask for this…" 
-    "The only weird thing about the kitchen is…"
+    "The only thing I wasn't expecting was…"
 
     #cg of dad looking out the window somberly would be lit
     show dad sad1 with dissolve
@@ -146,52 +147,62 @@ label day11s1:
     "As that moment of silence consumed the room, Maria traipsed on in, bubbly as ever. Dad and I look in her direction, before glowering at each other one more time."
     "Dad's keeping something from me, but…"
 
-    show sis happy1 at left with dissolve
-    show dad neutral2 at right with dissolve
+    show sis happy1 with dissolve:
+        align (0.35, 1.00)
+    show dad neutral2 with dissolve:
+        align (0.65, 1.00)
 
     voice "11-1-30.mp3" #amree
     sis "Dad? Emily? What are you guys talking about?"
 
-    show dad smile1 at right with dissolve
+    show dad smile1 with dissolve:
+        align (0.65, 1.00)
 
     voice "11-1-31.mp3" #lacTheWatcher
     dad "...Hey, Maria, if we all went together on a family trip… where'd you want to go?"
 
-    show sis worry2 at left with dissolve
+    show sis worry2 with dissolve:
+        align (0.35, 1.00)
 
     voice "11-1-32.mp3" #amree
     sis "...Mm? Is that all…?"
     voice "11-1-33.mp3" #potato
     pro "...Yeah. Like to Delaware, or something."
 
-    show sis worry1 at left with dissolve
+    show sis worry1 with dissolve:
+        align (0.35, 1.00)
 
     voice "11-1-34.mp3" #amree
     sis "Huh. You guys looked really serious too…"
 
-    show sis happy2 at left with dissolve
+    show sis happy2 with dissolve:
+        align (0.35, 1.00)
 
     voice "11-1-35.mp3" #amree
     sis "I-I don't mind, as long as we get to do it all together. Like a real family!"
 
-    show dad smile2 at right with dissolve
+    show dad smile2 with dissolve:
+        align (0.65, 1.00)
 
     voice "11-1-36.mp3" #lacTheWatcher
     dad "...Haha, of course. Like a real family."
 
-    show sis happy1 at left with dissolve
+    show sis happy1 with dissolve:
+        align (0.35, 1.00)
 
     voice "11-1-37.mp3" #amree
     sis "We could see a movie! Like the one with the LEGOs!"
     voice "11-1-38.mp3" #potato
     pro "Hey, Dad, you're the adult here, shouldn't you be fixing breakfast for us…?"
 
-    show sis happy2 at left with dissolve
+    show sis happy2 with dissolve:
+        align (0.35, 1.00)
 
     voice "11-1-39.mp3" #amree
     sis "Hey, yeah, Emily has a point! C'mon Dad, I cooked for everyone yesterday!"
 
-    show dad angry1 at right with dissolve
+    show dad angry1 with dissolve:
+        align (0.65, 1.00)
 
     voice "11-1-40.mp3" #lacTheWatcher
     dad "Ahah, yeah, I remember, but… all I was really good for in college was how to use a toaster…" 

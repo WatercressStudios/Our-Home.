@@ -208,4 +208,5 @@ label dream2:
     $ renpy.movie_cutscene("vfx/dreamtoirl.mpg") # Loads the credit video
 
     scene black 
+
     jump day2s1

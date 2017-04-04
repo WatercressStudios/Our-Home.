@@ -104,7 +104,7 @@ label scared:
     jump upstairs
 
 label upstairs:
-    voice "10-4-24.mp3" #amree
+    voice "10-4-24.mp3" #amree 
     show sis worry1
     sis "Can I go upstairs? I… I was doing something."
     voice "10-4-25.mp3" #potato
@@ -201,34 +201,43 @@ label carpool:
     play music bgmlov2 fadeout 1.0 fadein 0.0
     scene car with dissolve
     voice "10-4-47.mp3" #starleeter
-    show lov confused1
+    show lov confused1 with dissolve:
+        align (0.25, 1.00)
     lov "...So your brother was left at the hospital for {i}how long{/i}??"
     voice "10-4-48.mp3" #potato
     pro "Few hours… I completely forgot about the thing with my mother…"
     voice "10-4-49.mp3" #starleeter
-    show lov happy1h
+    show lov happy1h with dissolve:
+        align (0.25, 1.00)
     lov "Ah well! Not to fear, cavalry's here! Dun dun DAAAAA!~"
     voice "10-4-50.mp3" #potato
-    show lov happy2h
+    show lov happy2h with dissolve:
+        align (0.25, 1.00)
     pro "Haha, it's so late, Lauren, how do you maintain this much pep at this hour…?"
     voice "10-4-51.mp3" #starleeter
-    show lov happy1h
+    show lov happy1h with dissolve:
+        align (0.25, 1.00)
     lov "That's for me to know and for you to find out."
     "I hope she didn't, like, pound back an entire cappuccino…" 
     voice "10-4-52.mp3" #potato
-    show lov happy2
+    show lov happy2 with dissolve:
+        align (0.25, 1.00)
     pro "I really appreciate you doing this for me, Lauren."
     voice "10-4-53.mp3" #starleeter
-    show lov happy1
+    show lov happy1 with dissolve:
+        align (0.25, 1.00)
     lov "Hey, if I was at the hospital, I'd want to get out of there as quickly as possible too!"
     voice "10-4-54.mp3" #potato
-    show lov happy2
+    show lov happy2 with dissolve:
+        align (0.25, 1.00)
     pro "Y-yeah, but... I don't want it to be like I'm using you as a personal chauffeur or anything…" 
     voice "10-4-55.mp3" #starleeter
-    show lov confused2h
+    show lov confused2h with dissolve:
+        align (0.25, 1.00)
     lov "Huh? I didn't think of that."
     voice "10-4-56.mp3" #starleeter
-    show lov happy1h
+    show lov happy1h with dissolve:
+        align (0.25, 1.00)
     lov "...Though now that you mention it, I guess it'd be okay if I got a cute little black suit…" 
     voice "10-4-57.mp3" #potato
     pro "!"
@@ -238,29 +247,34 @@ label carpool:
     "I'm speechless, my cheeks flushing right up."
     "Lauren catches this, and lets out a cheery giggle."
     voice "10-4-59.mp3" #starleeter
-    show lov happy1
+    show lov happy1 with dissolve:
+        align (0.25, 1.00)
     lov "It's fine, it's fine! It's an emergency, right?"
     voice "10-4-60.mp3" #starleeter
-    show lov shy2
+    show lov shy2 with dissolve:
+        align (0.25, 1.00)
     lov "And... I guess I have some ulterior motives. I wanted to see your brother again."
     voice "10-4-61.mp3" #potato
     pro "...Really?"
     voice "10-4-62.mp3" #starleeter
     lov "Well, yeah, I don't think I've seen him since the intervention the first time…"
     voice "10-4-63.mp3" #starleeter
-    show lov shy1
+    show lov shy1 with dissolve:
+        align (0.25, 1.00)
     lov "Maybe it was… presumptuous of me to assume everything would be sunshine and rainbows after that peptalk…" 
     voice "10-4-64.mp3" #potato
     pro "No, Lauren, it was a big help. You don't have to beat yourself up about it."
     voice "10-4-65.mp3" #starleeter
-    show lov shy2
+    show lov shy2 with dissolve:
+        align (0.25, 1.00)
     lov "...Mm… well, he's all better now, right?"
     voice "10-4-66.mp3" #potato
     pro "...Dunno. He still sounded out of it over the phone, but…"
     voice "10-4-67.mp3" #potato
     pro "It's okay. We'll work through this, together."
     voice "10-4-68.mp3" #starleeter
-    show lov happy2
+    show lov happy2 with dissolve:
+        align (0.25, 1.00)
     lov "Right!"
     voice "10-4-69.mp3" #starleeter
     lov "...Oh! Next turn, almost there…" 

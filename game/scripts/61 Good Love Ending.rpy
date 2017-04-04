@@ -5,16 +5,15 @@ label goodLoveEnding:
     "After dinner is over, I sit in my room and think about the past."
     "I think about Lauren's theatre show in highschool."
 
-    #TODO: FLASHBACK FILTER
-#     scene drama with dissolve
-    show black with dissolve
+    scene theatre with dissolve
     play sound cheer
 
     "The audience roars with applause as Lauren's time on the center stage comes to an end."
 
     play ambience crowd fadein 2.0
 
-    "The theater is filled to the brim. I'd say this was quite successful for her. Seeing her act on stage was super cute, especially knowing that I'd helped her with many of her lines."
+    "There are a ton of people here, thrilled to see the show."
+    "I'd say this was quite successful for her. Seeing her act on stage was super cute, especially knowing that I'd helped her with many of her lines."
     "She was probably very nervous, but she didn't let it show, not one bit."
     "She's good like that."
     "The applause finishes, and I go out to meet up with her after the performance."
@@ -23,7 +22,8 @@ label goodLoveEnding:
     "It took a lot of nerve, but eventually I was able to get the words out while Lauren was getting changed out of her costume."
     "I could hear her stop moving behind the sheet they put up to give people something to hide behind while changing."
 
-    show lov shy1bh with dissolve
+    scene changingroom with dissolve
+    show lov shy1bh
 
     voice "20-10-1.mp3" #starleeter
     lov "I’d love to!"
@@ -32,7 +32,7 @@ label goodLoveEnding:
 
     show lov happy2b with dissolve
 
-    "Lauren came changing through the sheets and hugged me tight."
+    "Lauren came charging out and hugged me tight."
     "It made me blush, but... I didn’t exactly mind."
     "We just held each other for the longest time."
     "I guess we both wanted this, but neither of us was brave enough to ask."
@@ -53,9 +53,8 @@ label goodLoveEnding:
     voice "20-10-6.mp3" #starleeter
     lov "Gah! Sorry! I was too excited! I forgot I hadn’t finished changing!"
     
-    show lov shy2bh with dissolve
-    
-    "She ducked away behind the sheet while laughing."
+    hide lov with dissolve
+    "She ducked away into the other room while laughing."
     voice "20-10-7.mp3" #potato
     pro "You were great out there, Lauren. I… I-I got you some roses."
     voice "20-10-8.mp3" #potato
@@ -84,7 +83,7 @@ label goodLoveEnding:
     voice "20-10-15.mp3" #potato
     pro "Ah, of course, how could I forget…"
 
-    show lov angry1bh with dissolve
+    scene black with dissolve
 
     "That... kind of set the tone for our relationship going forwards, but I wasn’t upset about it."
     "We dated and things just kept going from strength to strength!"

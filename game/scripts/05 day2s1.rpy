@@ -10,7 +10,7 @@ label day2s1:
     voice "2-1-1.mp3" #kujira
     bro "Hey, uh... Emily?"
 
-    #protag is still half asleep
+    play sound knock
 
     voice "2-1-2.mp3" #potato
     pro "Mm... What is it, Diane?"
@@ -38,6 +38,10 @@ label day2s1:
     pause 2.0
     play sound opendoor
     "I get the door for my idiot brother."
+    
+    play sound knock
+    
+    "Ugh, I'm getting it, I'm getting it, God damn..."
 
     play music bgmbrointro noloop fadeout 1.0 
     queue music bgmbroloop loop
@@ -188,7 +192,7 @@ label d2s1yes:
 
     "He hands me the study guide."
 
-    #A paper sound effect might be appropriate here
+    play sound paper
 
     "He hasn’t written on it at all, and I don’t remember any of this. I sigh"
 

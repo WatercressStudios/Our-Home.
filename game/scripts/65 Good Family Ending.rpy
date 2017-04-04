@@ -31,12 +31,14 @@ label goodFamilyEnding:
     mom "No, that's not possible. I'm too busy with housework..."
 
     hide mom with dissolve
-    show sis happy1 at left with dissolve
+    show sis happy1 with dissolve:
+        align (0.35, 1.00)
 
     voice "20-9-7.mp3" #amree
     sis "We'll h-help! We can fold the clothes, do the dishes..."
 
-    show bro smile2 at right with dissolve
+    show bro smile2 with dissolve:
+        align (0.65, 1.00)
 
     voice "20-9-8.mp3" #kujira
     bro "...take out the trash, do the washing..."
@@ -50,8 +52,10 @@ label goodFamilyEnding:
     "The taxi honks at us for the third time. Mom looks out the window indecisively, torn between choices."
 
     hide mom with dissolve
-    show sis happy1 at left with dissolve
-    show bro smile2 at right with dissolve
+    show sis happy1 with dissolve:
+        align (0.3, 1.00)
+    show bro smile2 with dissolve:
+        align (0.65, 1.00)
     show dad neutral1 with dissolve
 
     voice "20-9-9.mp3" #lacTheWatcher
@@ -61,8 +65,10 @@ label goodFamilyEnding:
     voice "20-9-11.mp3" #potato
     pro "We'll all go to counselling. As a family."
 
-    show sis happy2 at left with dissolve
-    show bro smirk2 at right with dissolve
+    show sis happy2 with dissolve:
+        align (0.3, 1.00)
+    show bro smirk2 with dissolve:
+        align (0.65, 1.00)
 
     "Maria and Alex nod in agreement."
     

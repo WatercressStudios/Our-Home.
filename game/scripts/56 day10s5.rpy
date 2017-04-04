@@ -1,24 +1,28 @@
 label day10s5:
 
-    $ sappyalex = False
+$ sappyalex = False
+scene livingroom night
 
-    voice "10-5-0.mp3" #kujira
-    bro "Hey, Maria?"
+show bro smirk1 with dissolve:
+    align (0.65, 1.0)
+voice "10-5-0.mp3" #kujira
+bro "Hey, Maria?"
 
-    "Alex sticks his head into the front door."
+"Alex sticks his head into the front door."
 
+"No response. Is Maria asleep…?"
+show bro sad1 with dissolve:
+    align (0.65, 1.0)
 
-    "No response. Is Maria asleep…?"
+"Alex really wants to see her, huh…"
 
-    "Alex really wants to see her, huh…"
+menu:
+    "See Maria":
+        $ sappyalex = True
+        jump reunion
 
-    menu:
-        "See Maria":
-            $ sappyalex = True
-            jump reunion
-
-        "Take Alex to his room":
-            jump bedtime
+    "Take Alex to his room":
+        jump bedtime
 
 label reunion:
     voice "10-5-1.mp3" #potato
@@ -28,7 +32,7 @@ label reunion:
 
     "We ascend the staircase. Alex has a little more spring to his step than he did on the way in."
 
-    scene hallway with dissolve 
+    scene brodoor dark with dissolve 
 
     "Stepping outside Maria's door, I notice something odd."
 
@@ -50,8 +54,12 @@ label reunion:
 
     "...Ah! I hear movement! She's getting up!"
 
+    play sound opendoor
     "The door cracks open slowly… agonizingly slow."
 
+    scene sisroom dark with dissolve
+    show sis cry with dissolve:
+        align (0.35, 1.0)
     "My posture is lowered to try and meet her eyes, so I was the first to notice."
 
     "She's crying. She raises her wrist to rub at her eyes."
@@ -73,6 +81,9 @@ label reunion:
     voice "10-5-9.mp3" #kujira
     bro "Maria, Maria, it's… it's okay! I'm here, it's okay…" 
 
+    show bro sad1 with dissolve:
+        align (0.65, 1.0)
+    
     "Alex kneels down to get a better look at Maria, raising a hand to her face to wipe away some of the tears."
 
     "She fidgets slightly with the contact, but settles down, her wet eyes looking up at his."
@@ -85,9 +96,13 @@ label reunion:
     voice "10-5-11.mp3" #amree
     sis "...I'm sorry…"
 
+    show bro sad2 with dissolve:
+        align (0.65, 1.0)
     voice "10-5-12.mp3" #kujira
     bro "What? No, it's… it's I who should be apologizing to you, I…"
 
+    show bro angry1 with dissolve:
+        align (0.65, 1.0)
     voice "10-5-13.mp3" #kujira
     bro "...I feel… awful, about what happened, and…"
 
@@ -97,12 +112,16 @@ label reunion:
     voice "10-5-15.mp3" #amree
     sis "But… but I only made things worse, didn't I?"
 
+    show bro sad1 with dissolve:
+        align (0.65, 1.0)
     voice "10-5-16.mp3" #amree
     sis "I-I didn't know what to do, and I…"
 
     voice "10-5-17.mp3" #kujira
     bro "It's… it's not your fault. Your big bro made some big mistakes, and…"
 
+    show bro cry with dissolve:
+        align (0.65, 1.0)
     voice "10-5-18.mp3" #kujira
     bro "He's gonna get better, okay? So you don't have to be afraid anymore."
 
@@ -116,15 +135,22 @@ label reunion:
     voice "10-5-20.mp3" #potato
     pro "H-hey, Maria. What's that in your hand…?"
 
+    show sis sad1 with dissolve:
+        align (0.35, 1.0)
     voice "10-5-21.mp3" #amree
     sis "Ah? It's… I drew it for you."
 
+    show sis sad2 with dissolve:
+        align (0.35, 1.0)
     voice "10-5-22.mp3" #amree
     sis "A-and Alex. And… everyone."
 
+    play sound paper
     "Standing up straight, she carefully unfolded the picture, holding it up for us to see."
+    
+    show drawing with dissolve
 
-    "A hand drawn picture of our family. It's surprisingly good, given her age. Well done."
+    "A hand drawn picture of our family. It's... adorable. Heartbreaking..."
 
     "The top's dated. She's been working on it for over a week…"
 
@@ -149,6 +175,13 @@ label reunion:
     voice "10-5-29.mp3" #kujira
     bro "...Heh. Yeah. Figured the {i}artiste{/i} like some constructive critique, y'know…?"
 
+    hide drawing with dissolve
+    
+    show sis happy1:
+        align (0.35, 1.0)
+    show bro smile2:
+        align (0.65, 1.0)
+    
     "Maria's finally smiling again. Even through her tears, her smile shines so radiantly."
 
     voice "10-5-30.mp3" #amree
@@ -159,6 +192,11 @@ label reunion:
 
     "I squeeze Alex's hand. He glances over to me, nodding affirmatively."
 
+    show sis sad2 with dissolve:
+        align (0.40, 1.0)
+    show bro sad1 with dissolve:
+        align (0.60, 1.0)
+    
     "We both wrap Maria in a great big hug. Her small, trembling body, enveloped in warmth, is gently sandwiched between us."
 
     "This is the least we can give her. To the girl who believed in our family this whole time. Who still believes, with all her heart."
@@ -168,9 +206,13 @@ label reunion:
     voice "10-5-32.mp3" #amree
     sis "Are we a family again…?"
 
+    show sis cry with dissolve:
+        align (0.40, 1.0)
     voice "10-5-33.mp3" #potato
     pro "We're getting there… we have each other now."
 
+    show bro cry with dissolve:
+        align (0.60, 1.0)
     voice "10-5-34.mp3" #kujira
     bro "God, I missed you guys…"
 
@@ -182,11 +224,15 @@ label reunion:
 
     "I think Alex felt it too, himself. He'd never admit it, though."
 
-    scene hallway with dissolve
+    scene sisroom dark with dissolve
 
+    show bro grin2 with dissolve:
+        align (0.65, 1.0)
     voice "10-5-35.mp3" #kujira
     bro "Hey, Em. Maria and I got a lot to catch up on. How about you post her drawing up on the fridge for us?"
 
+    show sis worry2 with dissolve:
+        align (0.35, 1.0)
     voice "10-5-36.mp3" #amree
     sis "What!? The fridge!? But Mom only uses that space for important things."
 
@@ -196,26 +242,46 @@ label reunion:
     voice "10-5-38.mp3" #potato
     pro "Alex, shouldn't you get some rest? And you too, Maria?"
 
+    show bro grin1 with dissolve:
+        align (0.65, 1.0)
     voice "10-5-39.mp3" #kujira
     bro "Em, look at it this way… our parents aren't home, and I just got out of several days of strictly regimented hospital life."
 
+    show bro smile2 with dissolve:
+        align (0.65, 1.0)
     voice "10-5-40.mp3" #kujira
     bro "Lemme have a bit with my lil sister, okay?"
+    
+    show sis happy2 with dissolve:
+        align (0.35, 1.0)
 
     voice "10-5-41.mp3" #potato
     pro "...Okay. But don't stay up too late. I'm coming to check up on you two in a bit."
 
+    show bro smirk2 with dissolve:
+        align (0.65, 1.0)
     voice "10-5-42.mp3" #kujira
     bro "Ugh, you sound like Mom…"
 
+    show sis happy1b with dissolve:
+        align (0.35, 1.0)
+    
     "Maria lets out a short giggle."
 
-    "All of us with smiling faces again, I unfold Maria's drawing, and look it over one more time."
+    "All of us with smiling faces again."
+    
+    
+    play sound paper
+    show drawing with dissolve
+    
+    "I unfold Maria's drawing, and look it over one more time."
 
     "This… this is what Maria dreams of, isn't it? The whole family back together?"
 
     "...No. This isn't just her dream."
 
+    scene black with dissolve
+    
     "It's our dream, too."
 
     jump day10s5continue
@@ -233,17 +299,23 @@ label bedtime:
 
     "..."
 
-    #brothers room transition with dissolve
+    scene broroom dark with dissolve
 
+    show bro sad1 with dissolve
+    
     voice "10-5-45.mp3" #potato
     pro "You going to be okay in here, Alex?"
-
+    
+    show bro happy2 with dissolve
+    
     voice "10-5-46.mp3" #kujira
     bro "Yeah, yeah. You dote on me too much."
 
     voice "10-5-47.mp3" #potato
     pro "I know. It's just… we almost lost you, okay? I don't want to lose you for real this time."
 
+    show bro grin2 with dissolve
+    
     voice "10-5-48.mp3" #kujira
     bro "If anything, I wouldn't die alone in this room, would I? I'm out of the hospital for a reason. I'm cleared to be alone, now. I won't leave you guys this time."
 
@@ -254,12 +326,17 @@ label bedtime:
     voice "10-5-49.mp3" #potato
     pro "You promise?"
 
+    show bro smirk2 with dissolve
     voice "10-5-50.mp3" #kujira
     bro "Of course. Now let me get some sleep, God."
 
     "At least he hasn't changed all too much. Rolling my eyes, I back out of his room and close his door."
     stop music fadeout 1.0
+    
+    scene black with dissolve
     "Okay, time to check up on one last person before I go to sleep myself."
+    
+    scene brodoor dark with dissolve
 
     "Before heading to bed, I notice there's a bit of light trickling from underneath Maria's door."
 
@@ -273,6 +350,10 @@ label bedtime:
     voice "10-5-52.mp3" #amree
     sis "Yeah…"
 
+    play sound opendoor
+    scene sisroom dark with dissolve
+    show maria cry with dissolve
+    
     "She's sitting on her bed with a piece of paper in her hands."
 
     voice "10-5-53.mp3" #amree
@@ -308,11 +389,14 @@ label bedtime:
     voice "10-5-59.mp3" #potato
     pro "He missed you too. He just needs a bit of time to rest up, now that he's home. He'll be around tomorrow."
 
+    show sis sad1 with dissolve
+    
     voice "10-5-60.mp3" #amree
     sis "But I don't know that! He almost left us once, he could do it again."
 
     "I pull her into a bearhug, rocking her back and forth."
 
+    show sis cry with dissolve
     voice "10-5-61.mp3" #potato
     pro "He won't. He won't ever leave us, not again. He's better, now. We're better now."
 
@@ -322,16 +406,19 @@ label bedtime:
 
     voice "10-5-62.mp3" #potato
     pro "Oh, you got your paper all wet…"
-
+    
     voice "10-5-63.mp3" #amree
     sis "O-oh…"
 
-    "She continues to ball."
+    "She continues to bawl her eyes out."
 
     voice "10-5-64.mp3" #amree
     sis "T-that was for you…"
 
-    "I grab it from her hands, unwrinkling it. It's a picture."
+    "I grab it from her hands, unwrinkling it."
+    ###HOLDING OUT FOR DRAWING CG##
+    
+    "...It's a picture."
 
     "A hand drawn picture of our family. It's surprisingly good, given her age. Well done."
 
@@ -360,6 +447,7 @@ label bedtime:
 
     "No matter the flaws, it's beautiful in my eyes."
 
+    show sis happy2b with dissolve
     "I kiss her on her forehead, pulling her plushie close to her."
 
     voice "10-5-70.mp3" #potato
@@ -374,12 +462,15 @@ label bedtime:
     voice "10-5-73.mp3" #potato
     pro "I'm going to go put this in a frame in my room. Get some good sleep, okay? I'll see you tomorrow."
 
+    show sis happy1b with dissolve
     voice "10-5-74.mp3" #amree
     sis "Night…"
 
     voice "10-5-75.mp3" #potato
     pro "Goodnight."
 
+    scene black with dissolve
+    
     "I turn off her lamp, giving her one last look before backing out."
 
     if not laurendrives:
@@ -387,11 +478,14 @@ label bedtime:
         "It's best if I get to bed now. It's been a long day, and I have to be ready for whatever comes my way tomorrow."
 
     else:
+        scene livingroom night with dissolve
+        show lov happy2 with dissolve
         "I head back to the living room, where Lauren sits quietly."
         play music bgmlov2 fadeout 1.0 fadein 0.0
         voice "10-5-76.mp3" #potato
         pro "...Weren't you gonna head home?"
 
+        show lov happy2h with dissolve
         voice "10-5-77.mp3" #starleeter
         lov "Ohhh, I snuck in. I didn't wanna miss the happy reunion. How're they doing?"
 
@@ -401,6 +495,7 @@ label bedtime:
         voice "10-5-79.mp3" #potato
         pro "Maria is really, really happy to see that Alex is back home."
 
+        show drawing with dissolve
         "I sit next to her, showing her the picture Maria drew for me"
 
         voice "10-5-80.mp3" #potato
@@ -415,6 +510,9 @@ label bedtime:
         voice "10-5-83.mp3" #potato
         pro "Yeah, I'm going to frame it in my room. It's something really small, but it's from her, which makes it the world to me."
 
+        hide drawing with dissolve
+        
+        show lov happy1b with dissolve
         voice "10-5-84.mp3" #starleeter
         lov "It's like a photo a mom would put on a fridge. We're like parents now!"
 
@@ -423,6 +521,7 @@ label bedtime:
         voice "10-5-85.mp3" #potato
         pro "Yeah, right? If she hadn't given it to me as a special gift, I really would have put it on the fridge."
 
+        show lov happy2 with dissolve
         voice "10-5-86.mp3" #starleeter
         lov "Maybe you can when you get a fridge of your own~"
 
@@ -437,27 +536,33 @@ label bedtime:
         voice "10-5-89.mp3" #potato
         pro "Well, one day. In the meantime, it's dark and you need to get to sleep young ma'am!"
 
+        show lov shy2 with dissolve 
         voice "10-5-90.mp3" #starleeter
         lov "Awwww, I wanted to spend more quallliiity time with my bestest friend in the whole world!"
 
         voice "10-5-91.mp3" #potato
         pro "Your pouting won't get to me, missy. Go get some sleep!"
 
+        show lov shy1b with dissolve
         voice "10-5-92.mp3" #starleeter
         lov "Fiiiiine, yes ma'am."
 
         "She gives an exaggerated flourish as she turns to the door."
 
+        show lov happy2 with dissolve
         voice "10-5-93.mp3" #starleeter
         lov "Be seein' ya soon!"
 
         voice "10-5-94.mp3" #potato
         pro "See ya."
 
+        hide lov with dissolve
         "Now that she's gone, I should really be taking my own advice."
 
         "It's best if I get to bed now. It's been a long day, and I have to be ready for whatever comes my way tomorrow."
 
+        scene black with dissolve
+        play sound paper
         "I go back to my room, putting the picture in a frame large enough to fit it. I rest it center stage of my desk, serving as a reminder as to just why I'm here."
 
     jump day10s5continue

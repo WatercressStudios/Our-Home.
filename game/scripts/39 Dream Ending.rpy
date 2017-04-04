@@ -71,7 +71,8 @@ label dreamending:
     show ddad happy
     "Dad just got another promotion in the office, and he only needs to work half days now."
 
-    show dad cry at right with dissolve
+    show dad cry with dissolve:
+        align (0.65, 1.0)
     hide dad with dissolve
     
     voice "20-5-9.mp3" #lacTheWatcher
@@ -85,7 +86,8 @@ label dreamending:
     
     "It is Mom's turn, next. She tells us about how she has finally finished organizing our month-long vacation to Niagara Falls..."
 
-    show mom sad2 at left with dissolve
+    show mom sad2 with dissolve:
+        align (0.35, 1.0)
     hide mom with dissolve
     
     voice "20-5-10.mp3" #kaito
@@ -99,7 +101,8 @@ label dreamending:
     
     "Then it is Alex's turn. My genius brother has aced his exams again, but more excitingly, he made a new friend in chemistry class."
 
-    show bro cry at right with dissolve
+    show bro cry with dissolve:
+        align (0.65, 1.0)
     hide bro with dissolve
     
     voice "20-5-11.mp3" #kujira
@@ -117,7 +120,8 @@ label dreamending:
     voice "20-5-14.mp3" #potato
     pro "I'm not sure. I feel like we're forgetting someone important. What's her name again..."
 
-    show lov confused at left with dissolve
+    show lov confused with dissolve:
+        align (0.35, 1.0)
     hide lov with dissolve
     "My family laughs good-naturedly."
 
@@ -153,10 +157,12 @@ label dreamending:
     dbro "You {i}are{/i} older, dummy!"
     voice "20-5-24.mp3" #potato
     pro "Yes, but I mean, even older than that."
-    show dmom happy at left with dissolve
+    show dmom happy with dissolve:
+        align (0.35, 1.0)
     voice "20-5-25.mp3" #kaito
     dmom "Don't worry about it, Emily. Here, have some tea with us."
-    show ddad happy at right with dissolve
+    show ddad happy with dissolve:
+        align (0.65, 1.0)
     voice "20-5-26.mp3" #lacTheWatcher
     ddad "Yes, tea is a good idea. Have a sip. You'll feel better."
     voice "20-5-27.mp3" #kujira
