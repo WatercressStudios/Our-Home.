@@ -53,7 +53,7 @@ label goodFamilyEnding:
 
     hide mom with dissolve
     show sis happy1 with dissolve:
-        align (0.35, 1.00)
+        align (0.3, 1.00)
     show bro smile2 with dissolve:
         align (0.65, 1.00)
     show dad neutral1 with dissolve
@@ -66,7 +66,7 @@ label goodFamilyEnding:
     pro "We'll all go to counselling. As a family."
 
     show sis happy2 with dissolve:
-        align (0.35, 1.00)
+        align (0.3, 1.00)
     show bro smirk2 with dissolve:
         align (0.65, 1.00)
 
