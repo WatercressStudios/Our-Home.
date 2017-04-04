@@ -55,24 +55,33 @@ label goodLoveEnding:
     
     hide lov with dissolve
     "She ducked away into the other room while laughing."
+    "After a few moments, she skipped back out, a giddy grin on her face."
+    
+    show lov happy2 with dissolve
+    
     voice "20-10-7.mp3" #potato
     pro "You were great out there, Lauren. I… I-I got you some roses."
+    
+    show flowers with dissolve
     voice "20-10-8.mp3" #potato
     pro "I remember you saying your Dad would always come to your shows with roses…"
 
-    show lov shy2b with dissolve
+    show lov happy1bh with dissolve
 
     voice "20-10-9.mp3" #starleeter
     lov "Ohmigosh, really? You're such a sweetheart!~"
     voice "20-10-10.mp3" #potato
     pro "Yeah… they reminded me of you."
 
-    show lov happy2b with dissolve
+    show lov happy2bh with dissolve
 
     voice "20-10-11.mp3" #starleeter
     lov "Haha, because they're red, right??"
     voice "20-10-12.mp3" #potato
     pro "...Y, yeah, like your hair… *cough*"
+    
+    hide flowers with dissolve
+    
     voice "20-10-13.mp3" #potato
     pro "W-well, it's… a little on the nose, but… th-the drama teacher said it's better to be big and boisterous, so…"
 

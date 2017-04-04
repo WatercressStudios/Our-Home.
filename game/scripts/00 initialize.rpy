@@ -305,6 +305,8 @@ image parkdate = "cgs/Park with LI.png"
 image parkdate dark = "cgs/Park with LI (Night).png"
 image kissniagara = "cgs/li_mc_kissing_scene.png"
 image drawing = "cgs/date.png"
+image drawingli = "cgs/dateLI.png"
+image flowers = "cgs/flwoers.png"
 
 #######
 # VFX #
