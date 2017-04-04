@@ -115,7 +115,7 @@ label dream4:
     
     show dlov laugh
     voice "d4-1-27.mp3" #vivi
-    dlov "Hm... Idunno!"
+    dlov "Hm... I don't know!"
      
     show dlov smile
     voice "d4-1-28.mp3" #potato

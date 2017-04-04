@@ -1,5 +1,5 @@
 label day3s4:
-    scene bedroom
+    scene bedroom night
     with dissolve
 
     "After Lauren left, the family all split off into their separate nightly rituals."
@@ -59,7 +59,7 @@ label day3s4:
     "Yawning, I check the clock and see it’s almost one."
     "Screw it. I’m done."
 
-    scene bedroom
+    scene bedroom night
     with dissolve
 
     "Getting up from my desk, I can’t even be bothered getting changed for the night."
