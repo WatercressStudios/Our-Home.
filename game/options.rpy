@@ -52,7 +52,7 @@ define config.has_voice = True
 
 ## To allow the user to play a test sound on the sound or voice channel,
 ## uncomment a line below and use it to set a sample sound to play.
-## I'd like to implement these later, don't forget!
+## I'do like to implement these later, don't forget!
 
 # define config.sample_sound = "sample-sound.ogg"
 # define config.sample_voice = "sample-voice.ogg"

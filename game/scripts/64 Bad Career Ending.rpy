@@ -41,17 +41,24 @@ label badCareerEnding:
 
     "Packing my bag, I nearly head out the door, before something catches my eye."
     
-    #MODIFY THIS WITH AN UPDATED DRAWING BASED ON CONDITIONAL FLAGS
-    show drawing with dissolve
+    if love > 7:
+        show drawingli with dissolve
+    
+    else:
+        show drawing with dissolve
     
     "Maria's drawing. Of all of us, together."
    
     if love > 7:
-        "Maria mentioned she wanted to take it down and put in Lauren as well. She's basically part of the family now, isn't she...?"
+        "Look, Maria even added Lauren as well! She's basically part of the family now, isn't she..."
 
     "Yeah. I put this up here to remind myself of what's important. Why I'm putting myself through these trials."
 
-    hide drawing with dissolve
+    if love > 7:
+        hide drawingli with dissolve
+    
+    else:
+        hide drawing with dissolve
     
     scene house
     play sound slamdoor
