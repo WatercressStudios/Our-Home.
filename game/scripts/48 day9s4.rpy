@@ -14,9 +14,10 @@ label day9s4:
     pro "Maria? Are you in here?"
     "I hear some movement down the corridor and a door opening."
     voice "9-4-4.mp3" #amree
-    show sis worry2 at right
-    hide lov happy2bh
-    show lov happy2 at left
+    show sis worry2 with dissolve:
+        align (0.65, 1.00)
+    show lov happy2 with dissolve:
+        align (0.35, 1.00)
     sis "Emily?"
     voice "9-4-5.mp3" #potato
     pro "It’s me and Lauren. Are you okay?"
@@ -30,13 +31,13 @@ label day9s4:
     voice "9-4-9.mp3" #potato
     pro "There’s no need for that. They’ll probably let him out soon."
     voice "9-4-10.mp3" #amree
-    hide sis worry2 at right
-    show sis happy2 at right
+    show sis happy2 with dissolve:
+        align (0.65, 1.00)
     sis "Oh… okay!"
     "I walk inside with Lauren in tow."
     "Maria is standing at her door. She’s looking happier."
     "I gesture for Lauren to go into my room to set up while I talk to Maria."
-    hide lov happy2 at left
+    hide lov with dissolve
     "Once we’re alone, I take Maria back into her room."
     scene sisroom with dissolve
     show sis happy1

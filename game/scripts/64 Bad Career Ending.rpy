@@ -40,39 +40,20 @@ label badCareerEnding:
     scene livingroom with dissolve
 
     "Packing my bag, I nearly head out the door, before something catches my eye."
-    "Maria's drawing. Of all of us, together."
     
-    show black with dissolve
-
-    if family > 7:
-        show mom happy2 with dissolve:
-            align (0.1, 1.0)
-        show dad smile2 with dissolve:
-            align (0.3, 1.0)
-        show bro smirk2 with dissolve:
-            align (0.5, 1.0)
-        show sis happy1 with dissolve:
-            align (0.7, 1.0)
-        "Mom, Dad, Alex, Maria, and me."
-    else:
-        show mom sad2 with dissolve:
-            align (0.1, 1.0)
-        show dad sad2 with dissolve:
-            align (0.3, 1.0)
-        show bro sad1 with dissolve:
-            align (0.5, 1.0)
-        show sis sad2 with dissolve:
-            align (0.7, 1.0)
-        "Mom's in the drawing, too. I wonder if Maria misses her."
-
+    #MODIFY THIS WITH AN UPDATED DRAWING BASED ON CONDITIONAL FLAGS
+    show drawing with dissolve
+    
+    "Maria's drawing. Of all of us, together."
+   
     if love > 7:
-        show lov happy1 with dissolve:
-            align (0.9, 1.0)
-        "And look, she added Lauren in a little after. She's basically part of the family now, isn't she…"
+        "Maria mentioned she wanted to take it down and put in Lauren as well. She's basically part of the family now, isn't she...?"
 
     "Yeah. I put this up here to remind myself of what's important. Why I'm putting myself through these trials."
 
-    scene house with dissolve
+    hide drawing with dissolve
+    
+    scene house
     play sound slamdoor
 
     "It can be a personal hell just to drag myself out of day, crawl over to work to work hours cobbled together by a monkey using a dart board…"

@@ -46,7 +46,8 @@ label day8s1:
 
     "Dad, surprisingly, is the opposite, sitting at the table. His fingers drumming along the countertop, a strong cup of joe clutched in his other hand."
 
-    show sis worry2 at right with dissolve
+    show sis worry2 with dissolve:
+        align (0.7, 1.0)
 
     "Maria's at his side, her small eyes looking up towards his with concern. Both of them turn their attention to me as I enter."
 
@@ -143,7 +144,8 @@ label day8s1:
 
     voice "8-1-34.mp3" #amree
 
-    show sis worry2b at right with dissolve
+    show sis worry2b with dissolve:
+        align (0.7, 1.0)
 
     sis "I helped too! We went to the library and the doctor, and I think it helped a lot."
     voice "8-1-35.mp3" #lacTheWatcher
@@ -159,7 +161,8 @@ label day8s1:
     dad "That's some good work you did, sweety. I'm proud of you."
 
     show dad angry1 with dissolve
-    show sis happy2b at right with dissolve
+    show sis happy2b with dissolve:
+        align (0.7, 1.0)
 
     "Maria beams in response. God she's the cutest thing…"
 
@@ -172,7 +175,8 @@ label day8s1:
     "I feel tears welling from my eyes."
     voice "8-1-43.mp3" #amree
 
-    show sis worry1 at right with dissolve
+    show sis worry1 with dissolve:
+        align (0.7, 1.0)
 
     sis "Don't cry, big sis, it's not your fault."
     voice "8-1-44.mp3" #lacTheWatcher
@@ -197,7 +201,8 @@ label day8s1:
     mom "...I…"
 
     show dad sad2 with dissolve
-    show sis worry2 at right with dissolve
+    show sis worry2 with dissolve:
+        align (0.7, 1.0)
     show mom sad1 with dissolve
 
     "Out of the corner of the room, Mom chokes out something softly. All of our eyes turn to her as she slowly, agonizingly rises from her seat."
@@ -287,7 +292,8 @@ label helpdad:
     stop music fadeout 9.0
 
     hide dad
-    show dad sad2 at left with dissolve
+    show dad sad2 with dissolve:
+        align (0.35, 1.0)
 
     dad "...Yeah… yeah, you're right… God, you're sounding so much more grown up than you used to."
     voice "8-1-66.mp3" #lacTheWatcher

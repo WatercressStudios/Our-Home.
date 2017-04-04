@@ -4,8 +4,10 @@ label day9s5:
     "It’s late by the time we realise that no one has come home."
     "Honestly, Lauren and I probably wouldn’t have noticed if Maria hadn’t knocked on the door to say she was hungry."
     scene hallway with dissolve
-    show sis worry1 at left
-    show lov confused1b at right
+    show sis worry1 with dissolve:
+        align (0.35, 1.00)
+    show lov confused1b with dissolve:
+        align (0.65, 1.00)
     "I checked my phone and sure enough, it was way past our usual dinner time."
     "Where the heck is Mom?"
     voice "9-5-1.mp3" #potato
@@ -18,27 +20,27 @@ label day9s5:
     stop music fadeout .2
     voice "9-5-4.mp3" #potato
     pro "Maria, how did you get home today?"
-    hide sis worry1 at left
-    show sis worry1b at left
+    show sis worry1b with dissolve:
+        align (0.35, 1.00)
     "She shrugs shyly."
     voice "9-5-5.mp3" #amree
     sis "I… I walked..."
     voice "9-5-6.mp3" #starleeter
-    hide lov confused1b at right
-    show lov angry2 at right
+    show lov angry2 with dissolve:
+        align (0.65, 1.00)
     lov "Alone?"
     voice "9-5-7.mp3" #amree
-    hide sis worry1b at left
-    show sis sad1b at left
+    show sis sad1b with dissolve:
+        align (0.35, 1.00)
     sis "I-I’m sorry, I-I know I’m not supposed to… I waited for two hours but no one came..."
     voice "9-5-8.mp3" #potato
     pro "T-Two hours?!"
     "What the hell is going on?!"
     "I’m about to say something else when we hear Maria’s stomach grumbling. She looks down guiltily and covers her stomach with her hands, as if that’ll stop the grumbling."
     voice "9-5-9.mp3" #starleeter
-    hide lov angry2 at right
     play music bgmlov2 fadeout 1.0 fadein 0.0
-    show lov happy2b at right
+    show lov happy2b with dissolve:
+        align (0.65, 1.00)
     lov "I can help you make something if you want."
     voice "9-5-10.mp3" #potato
     pro "Uh… I guess."
@@ -61,8 +63,10 @@ label day9s5:
     lov "Alright, you put some water onto boil and I’ll see if you have anything for a sauce."
     "The three of us worked together for the next little while. Lauren was a lot better at cooking than she let on and soon enough, we were eating dinner at the table."
     voice "9-5-17.mp3" #amree
-    show sis happy2b at left
-    show lov happy1h at right
+    show lov happy1h with dissolve:
+        align (0.65, 1.00)
+    show sis happy2b with dissolve:
+        align (0.35, 1.00)
     sis "This is great!"
     voice "9-5-18.mp3" #starleeter
     lov "They say hunger is the best sauce!"
@@ -70,10 +74,12 @@ label day9s5:
     pro "I don’t think that’s a compliment."
     voice "9-5-20.mp3" #starleeter
     lov "Hehe."
-    hide lov happy1h at right
+    scene diningroom with dissolve
     play music bgmdad fadeout 1.0 fadein 0.0
-    show dad neutral2 at right
-    show sis worry1b at left
+    show dad neutral2 with dissolve:
+        align (0.65, 1.00)
+    show sis worry1b with dissolve:
+        align (0.35, 1.00)
     "The front door opens and Dad trudges in."
     voice "9-5-21.mp3" #lacTheWatcher
     dad "Hey, girls."
@@ -92,8 +98,8 @@ label day9s5:
     "He starts eating as the rest of us return to our meals."
     voice "9-5-27.mp3" #potato
     pro "You never said where Mom was."
-    hide dad neutral2 at right
-    show dad sad2 at right
+    show dad sad2 with dissolve:
+        align (0.65, 1.00)
     "He visibly winces."
     voice "9-5-28.mp3" #lacTheWatcher
     dad "I don’t know where she is. She’s not returning my calls, and I had to be the one to make dinner for Maria yesterday."
@@ -118,8 +124,8 @@ label day9s5:
     pro "You don’t need to be so hard on yourself. No one made Alex..."
     voice "9-5-37.mp3" #lacTheWatcher
     dad "I know."
-    hide sis worry1b at left
-    show sis happy1b at left
+    show sis happy1b with dissolve:
+        align (0.45, 1.00)
     "Maria got out of her chair and hugged Dad."
     "He hugged her back."
     voice "9-5-38.mp3" #lacTheWatcher
@@ -131,8 +137,8 @@ label day9s5:
     voice "9-5-41.mp3" #potato
     pro "What are we going to do while Mom is… wherever she is?"
     voice "9-5-42.mp3" #lacTheWatcher
-    hide dad sad2 at right
-    show dad sad1 at right
+    show dad sad1 with dissolve:
+        align (0.65, 1.00)
     dad "She might be back tomorrow, so don’t worry about it for now."
     voice "9-5-43.mp3" #potato
     pro "Are you sure?"
@@ -141,10 +147,9 @@ label day9s5:
     dad "I dunno… This is the best I can do."
     voice "9-5-45.mp3" #potato
     pro "Alright."
-    hide dad sad1 at right
-    show dad neutral2 at right
+    show dad neutral2 with dissolve:
+        align (0.65, 1.00)
     "He glances at Lauren as if noticing her for the first time."
-    hide sis happy1b at left
     show lov confused2 at left
     voice "9-5-46.mp3" #lacTheWatcher
     dad "Oh… sorry, Lauren. I never said hello to you."
@@ -166,10 +171,8 @@ label day9s5:
     "Lauren nods, glancing at me as if wanting me to ask her to stay."
     "I say nothing. It’s probably best if she does go home. She’s done enough today.."
     voice "9-5-51.mp3" #potato
-    hide dad neutral2 at right
     pro "C'mon, I'll show you to the door."
     voice "9-5-52.mp3" #starleeter
-    hide lov confused1b at left
-    show lov happy2b
+    show lov happy2b at left
     lov "Aww… alright…"
     jump day9s6

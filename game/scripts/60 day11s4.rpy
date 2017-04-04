@@ -44,8 +44,10 @@ label day11s4:
     scene livingroom with dissolve
     stop ambience fadeout 0.5
 
-    show dad angry3 at left with dissolve
-    show mom sad2 at right with dissolve
+    show dad angry3 with dissolve:
+        align (0.25, 1.00)
+    show mom sad2 with dissolve:
+        align (0.75, 1.00)
 
     voice "11-4-5.mp3" #lacTheWatcher
     dad "{i}After all this time? Why, Liz? Why?!{/i}"
@@ -60,8 +62,10 @@ label day11s4:
     "The vase just inside our front door is smashed to pieces on the floor. Alex is quietly staring into the wall, looking shellshocked."
 
     hide bro with dissolve
-    show dad angry3 at left with dissolve
-    show mom sad2 at right with dissolve    
+    show dad angry3 with dissolve:
+        align (0.25, 1.00)
+    show mom sad2 with dissolve:
+        align (0.75, 1.00)    
 
     "Dad's emotional and upset, and he's shouting a lot. And Mom... she looks distant, almost emotionless, as if she's not in the fight at all... as if she's not here."
 
@@ -80,8 +84,10 @@ label day11s4:
     sis "S-Stop, please!"
 
     hide sis with dissolve
-    show dad angry3 at left with dissolve
-    show mom sad2 at right with dissolve    
+    show dad angry3 with dissolve:
+        align (0.25, 1.00)
+    show mom sad2 with dissolve:
+        align (0.75, 1.00)    
 
     voice "11-4-9.mp3" #lacTheWatcher
     dad "{i}If you go then don't bother coming back!!{/i}"
@@ -89,7 +95,8 @@ label day11s4:
     "Desperate to stop the fight, I swipe a plate from the table and..."
     
     play sound smash
-    show dad angry1 at left with dissolve
+    show dad angry1 with dissolve:
+        align (0.25, 1.00)
 
     "{b}SMASH!!{/b}"
     "Dad stops shouting and looks at me in surprise."
@@ -97,7 +104,8 @@ label day11s4:
     voice "11-4-10.mp3" #lacTheWatcher
     dad "E-Emily? Maria?"
 
-    show dad angry2 at left with dissolve
+    show dad angry2 with dissolve:
+        align (0.25, 1.00)
 
     voice "11-4-11.mp3" #lacTheWatcher
     dad "Alex?"
@@ -226,56 +234,66 @@ label day11s4:
     pro "Y-Yeah. I just needed to get out of there."
 
     # show Alex's worried/sad sprite
-    show sis worry1 at left with dissolve
-    show bro sad2 at right with dissolve
+    show sis worry1 with dissolve:
+        align (0.25, 1.00)
+    show bro sad2 with dissolve:
+        align (0.75, 1.00)
 
     voice "11-4-35.mp3" #potato
     pro "Alex? You, too, huh."
 
-    show bro sad1 at right with dissolve
+    show bro sad1 with dissolve:
+        align (0.75, 1.00)
 
     voice "11-4-36.mp3" #kujira
     bro "It's really tense out there. Mom and Dad aren't talking to each other at all."
 
-    show sis sad2 at left with dissolve
+    show sis sad2 with dissolve:
+        align (0.25, 1.00)
 
     voice "11-4-37.mp3" #amree
     sis "I hope daddy's okay..."
     voice "11-4-38.mp3" #potato
     pro "Dad's probably glad he's about to be free from all the nagging and fighting."
 
-    show sis worry2 at left with dissolve
+    show sis worry2 with dissolve:
+        align (0.25, 1.00)
 
     voice "11-4-39.mp3" #amree
     sis "E-Emi!"
     voice "11-4-40.mp3" #potato
     pro "I-I'm sorry... I don't mean that. Alex, how are you holding up?"
 
-    show bro sad2 at right with dissolve
+    show bro sad2 with dissolve:
+        align (0.75, 1.00)
 
     voice "11-4-41.mp3" #kujira
     bro "..."
     voice "11-4-42.mp3" #potato
     pro "Alex?"
 
-    show bro sad1 at right with dissolve
+    show bro sad1 with dissolve:
+        align (0.75, 1.00)
 
     voice "11-4-43.mp3" #kujira
     bro "This... this is all my fault, isn't it? If I hadn't gotten into the shit I did..."
     voice "11-4-44.mp3" #potato
     pro "Alex, stop. You can't think like that."
 
-    show bro angry1 at right with dissolve
+    show bro angry1 with dissolve:
+        align (0.75, 1.00)
 
     voice "11-4-45.mp3" #kujira
     bro "You're right. I have to stay positive. Positive action equals positive reaction."
 
-    show bro sad2 at right with dissolve
+    show bro sad2 with dissolve:
+        align (0.75, 1.00)
 
     voice "11-4-46.mp3" #kujira
     bro "This is something I gotta do. To make up for everything that happened…"
 
-    show bro smile1 at right with dissolve
+    show bro smile1 with dissolve:
+        align (0.75, 1.00)
 
     voice "11-4-47.mp3" #kujira
     bro "I'll fix this. I'll talk to Mom and convince her to stay."
@@ -547,7 +565,7 @@ label day11finale:
         stop music fadeout 1
     "{b}HONK! HONK!{/b}"
     "Before Mom can give us an answer, a loud honk sounds from the street."
-    "Mom's taxi's here."
+    "Mom's taxi is here."
 
     jump endings
 

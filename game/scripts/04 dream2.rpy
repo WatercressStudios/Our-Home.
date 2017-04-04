@@ -194,7 +194,7 @@ label dream2:
     hide dlov
     "I nodded again, closing my eyes and enjoying the feeling of being close to her."
     "She begins caressing my hair, humming along to the music as I start to get tired."
-    # Bang or clatter sound (This is her brother sneaking in the house?)
+    play sound knock
     show black
-    "What was that?!"
+    "What was that..."
     jump day2s1

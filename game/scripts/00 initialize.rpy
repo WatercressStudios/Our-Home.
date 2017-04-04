@@ -279,6 +279,8 @@ image schoolcafeteria = "bgs/Tutty/schoolcafeteria.png"
 image siswalk = "bgs/Tutty/sisterwalk.png"
 image siswalk2 = "bgs/Tutty/sisterwalk2.png"
 image niagara sunset = "bgs/Tutty/niagara sunset.png"
+image changingroom = "bgs/Tutty/changingroom.png"
+image theatre = "bgs/Tutty/theatre.png"
 
 #######
 # CGs #
@@ -301,6 +303,7 @@ image dreamepilogue = "cgs/Scene 67.png"
 image parkdate = "cgs/Park with LI.png"
 image parkdate dark = "cgs/Park with LI (Night).png"
 image kissniagara = "cgs/li_mc_kissing_scene.png"
+image drawing = "cgs/date.png"
 
 #######
 # VFX #

@@ -100,7 +100,7 @@ label day9s3:
     bro "I think that’s what’s happening now. If she did hate us, she wouldn’t be so torn up about this."
 
     voice "9-3-25.mp3" #kujira
-    bro "But if she really does care about our futures and all that, then... then the risk of one of us not <i>having</i> a future..."
+    bro "But if she really does care about our futures and all that, then... then the risk of one of us not {i}having{/i} a future..."
 
     voice "9-3-26.mp3" #kujira
     bro "I feel like I did something horrible to her."

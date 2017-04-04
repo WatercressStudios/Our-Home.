@@ -55,7 +55,7 @@ label day7s3:
     "Before the call connects, however, Maria suddenly enters my room..."
     # show Maria’s worried/sad expression with bandage around forehead (shouldn’t need any other with bandage)
     show sis bandage with dissolve:
-        align (0.65, 1.00)
+        align (0.70, 1.00)
     "BEEP~ The number you are calling is currently unavailable. BEEP~"
     "…did he run out of charge? His friends probably don’t have a charger. That would explain it."
 
@@ -98,7 +98,7 @@ label day7s3:
     scene diningroom with dissolve
     show sis bandage
     show mom sad2 with dissolve:
-        align (0.35, 1.00)
+        align (0.30, 1.00)
     "Mom gently inspects the bandages before nodding and saying it’s fine. It occurs to me Mom hasn’t mentioned Alex since the fight this morning."
     "Around the corner, the locks on the front door clang open. Maria immediately turns around."
 
@@ -109,7 +109,7 @@ label day7s3:
 
     "Dad enters the dining room, walking in small steps. There’s the usual stressed, anxiety-ridden look on his face."
     show dad neutral2 with dissolve:
-        align (0.65, 1.00)
+        align (0.70, 1.00)
 
     voice "7-3-24.mp3" #potato
     pro "Oh, you’re back here earlier than usual, even by weekend’s standards."
@@ -121,7 +121,7 @@ label day7s3:
     queue music bgmmomloop loop
     voice "7-3-26.mp3" #lacTheWatcher
     show dad angry1 with dissolve:
-        align (0.65, 1.00)
+        align (0.70, 1.00)
     dad "Maria? What happened to you?"
     voice "7-3-27.mp3" #kaito
     show dad angry2
