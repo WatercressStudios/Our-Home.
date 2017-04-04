@@ -62,7 +62,7 @@ label day7s1:
 
     # Start flashback
 
-    scene white with dissolve
+    scene black with dissolve
     play sound whoosh 
     scene bathroom with dissolve
     
@@ -76,7 +76,7 @@ label day7s1:
 
     "Jesus Christ that sound! Nearly jumped out of my fucking skin…" 
     
-    scene white with dissolve
+    scene black with dissolve
     
     play sound whoosh
     scene broroom
