@@ -272,7 +272,7 @@ label day2s4:
 
         #option 2
         "I just need a break right now.":
-            "I just found out Alex is taking heroin, for God’s sake! There’s no way I can concentrate today.."
+            "I just found out Alex is taking heroin, for God’s sake! There’s no way I can concentrate today."
 
     #after choice merge
     play sound fabric

@@ -17,7 +17,7 @@ label day9s2:
     "I can’t just say I have nothing to eat or that I’m hungry. Lauren does enough for me."
     voice "9-2-3.mp3" #starleeter
     
-    show lov shy1 with love
+    show lov shy1 with dissolve
     
     lov "You don’t have anything, do you?"
     "I look away."

@@ -3,7 +3,7 @@ label dreamEpilogue:
     play music bgmdream2 fadeout 2.0 fadein 2.0
     scene dream3 with Dissolve(4.0)
 
-    show emily with dissolve
+    show emily with Dissolve(2.0)
     dpro "It's been awhile hasn't it?"
 
     "The world around me is bright, but not blindingly so. It's new, and it's refreshing."

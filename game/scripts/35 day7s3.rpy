@@ -95,7 +95,7 @@ label day7s3:
     "I’m sure it’s nothing. In any case, Maria needs me here, so I have to stay here."
     scene black with dissolve
     "Fifteen minutes later, I hear Mom calling for Maria about her bandages. I want to know how Maria’s head is doing, too, so I walk out to the dining room."
-    scene diningroom with dissolve
+    scene diningroom dark with dissolve
     show sis bandage
     show mom sad2 with dissolve:
         align (0.30, 1.00)

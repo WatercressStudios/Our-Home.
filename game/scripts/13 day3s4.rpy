@@ -1,5 +1,9 @@
 label day3s4:
 
+    scene bedroom night
+    with dissolve
+
+
     "After Lauren left, the family all split off into their separate nightly rituals."
 
     scene bedroom night

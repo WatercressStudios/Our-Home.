@@ -379,7 +379,7 @@ screen navigation():
         
         textbutton _("Voices") action ShowMenu('voice_toggle')
         
-#        textbutton _("Credits") action Start(credits)
+        textbutton _("Credits") action Start("credits")
         
         
         if renpy.variant("pc"):
