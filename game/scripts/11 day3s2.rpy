@@ -442,7 +442,6 @@ label day3s2future:
     lov "I really wanna be an actress, Em. And every bit of experience is good experience, right?"
     voice "3-2-101.mp3" #potato
     pro "Y, yeah, definitely, just… just don't throw your back out overworking yourself. I, ah... worry, about you."
-    show lov big smile
     voice "3-2-102.mp3" #starleeter
     show lov happy1
     lov "Huh. Funny. I was thinking the same thing!~"
