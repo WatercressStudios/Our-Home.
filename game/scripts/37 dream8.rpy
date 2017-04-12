@@ -4,7 +4,7 @@ label dream8:
 
     scene dream2 with dissolve
     play music bgmdream2 fadeout 1.0 fadein 0.0
-    voice "d8-1-0.mp3" #vivi recording
+    voice "d8-1-0.mp3" #vivi
     dlov "What's your answer?"
 
     "The words linger in the stagnant air. I don't know how she can be so calm at a time like this. How could she expect an answer after today?"
