@@ -206,23 +206,23 @@ label disposal:
     play music bgmlov fadeout 1.0 fadein 0.0
     #play sound click#######################################################
 
-#    voice "6-4-44.mp3" #starleeter recording
+    voice "6-4-44.mp3" #starleeter
     lov "Hey, Em!!!" 
     voice "6-4-45.mp3" #potato
     pro "Heyyyyy, Lauren…"
-#    voice "6-4-46.mp3" #starleeter recording
+    voice "6-4-46.mp3" #starleeter
     lov "Today was pretty exciting right? Think we made a lot of progress! I'm really proud of you guys."
     voice "6-4-47.mp3" #potato
     pro "Hahaha, thanks! Um, why are you calling, it's really late…"
-#    voice "6-4-48.mp3" #starleeter recording
+    voice "6-4-48.mp3" #starleeter
     lov "OH! Yeah, I wanted to ask, are you free tonight?"
     voice "6-4-49.mp3" #potato
     pro "...Free? Like, right now? It's, uh, almost ten."
-#    voice "6-4-50.mp3" #starleeter recording
+    voice "6-4-50.mp3" #starleeter
     lov "Yeah, exactly! You wanna meet me in the park in like, ah, 10 minutes? You know, Amethyst Park?"
     voice "6-4-51.mp3" #potato
     pro "Huh? What for?"
-#    voice "6-4-52.mp3" #starleeter recording
+    voice "6-4-52.mp3" #starleeter
     lov "The night sky! It's really clear, and full of stars! I sent you a picture!"
     voice "6-4-53.mp3" #potato
     pro "You did… I didn't get any picture-"
@@ -234,7 +234,7 @@ label disposal:
 
     voice "6-4-55.mp3" #potato
     pro "Wow, you weren't kidding, it's really nice out!"
-#    voice "6-4-56.mp3" #starleeter recording
+    voice "6-4-56.mp3" #starleeter
     lov "Yeah, right? Anyway, I'm out here right now, so come and join me!"
     voice "6-4-57.mp3" #potato
     pro "Yeah, definitely! See you then!"

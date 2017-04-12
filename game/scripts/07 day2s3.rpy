@@ -241,7 +241,7 @@ label day2s3lecture:
     "Poor Lauren. Horrendously overworked, as per usual, but she keeps her chin up, somehow."
     voice "2-3-46.mp3" #potato
     pro "So, uh… what are you doing in here? I guess you got a role?"
-#    voice "2-3-46_2.mp3" #starleeter recording
+    voice "2-3-46_2.mp3" #starleeter
     lov "Oh, they gave me a huuuge role! We're doing {i}Bye Bye Birdie{/i} this year, and I got one of the lead roles!"
 
     hide lov
