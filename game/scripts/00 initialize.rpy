@@ -428,4 +428,4 @@ label start:
     $ career = 0
     
 #     jump endings
-    jump foreword
+    jump dream1

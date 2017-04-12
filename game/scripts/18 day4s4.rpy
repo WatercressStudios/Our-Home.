@@ -23,8 +23,12 @@
     # TODO: play clicking SFX of a lamp being turned on.
     # TODO: show diningroom background instantly
 
-    scene diningroom dark with dissolve
-    show mom angry2 with dissolve
+    scene diningroom dark
+    show mom angry2
+    play sound lampclick
+    play music bgmmomintro noloop fadein 2.0
+    queue music bgmmomloop loop
+
     voice "4-4-2.mp3" #kaito
     mom "What do you think you're doing?"
     voice "4-4-3.mp3" #potato
@@ -95,17 +99,19 @@ label helplauren:
 
 label keepsilent:
 
-voice "4-4-17.mp3" #kaito
-show mom angry1 with dissolve
-mom "You're not even going to deny it?"
+    voice "4-4-17.mp3" #kaito
+    show mom angry1 with dissolve
+    mom "You're not even going to deny it?"
 
-"I search my head for the right answer, but I come up with nothing. So I continue looking at my feet silently."
+    "I search my head for the right answer, but I come up with nothing. So I continue looking at my feet silently."
 
-show mom sad2 with dissolve
-voice "4-4-18.mp3" #kaito
-mom "You have no drive for success, girl."
-voice "4-4-19.mp3" #kaito
-mom "It's hard to believe you're my child."
+    show mom sad2 with dissolve
+    voice "4-4-18.mp3" #kaito
+    mom "You have no drive for success, girl."
+    voice "4-4-19.mp3" #kaito
+    mom "It's hard to believe you're my child."
+
+    jump momcareer
 
 
 ###########################################
@@ -125,7 +131,7 @@ label momcareer:
     mom "You're supposed to be at home taking care of your siblings."
     voice "4-4-24.mp3" #kaito
     show mom sad3 with dissolve
-    mom "Honestly, I take my eyes off for a minute and one of you manage to stab yourself in the foot."
+    mom "Honestly, I take my eyes off for a minute and one of you manages to stab yourself in the foot."
     voice "4-4-25.mp3" #kaito
     show mom angry2 with dissolve
     mom "I don't have time to deal with all of your shenanigans, which is why you need to stop acting like a child and step up for once, Emily."
@@ -144,11 +150,12 @@ label momcareer:
 
     scene black with dissolve
     "Mom continues her lecture for a few more minutes as I tune out everything around me."
-    "By the time she finally finishes, it's already past nine thirty.."
+    "By the time she finally finishes, it's already past nine thirty."
 
     scene bedroom night with dissolve
+    stop music fadeout 5.0
 
-    "I solemnly return to my room, having been thoroughly talked at but good."
+    "I solemnly return to my room, having been thoroughly talked at."
     "Whatever good mood I had before is thoroughly rinsed away."
 
     voice "4-4-29.mp3" #potato
@@ -188,9 +195,6 @@ label momcareer:
     scene black with dissolve
 
     "... ... ..."
-    scene black
-
-    stop music
 
     $ renpy.movie_cutscene("vfx/irltodream.mpg") # Loads the credit video
 

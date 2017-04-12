@@ -291,6 +291,6 @@ label day4s3:
     scene black with dissolve
     "... ... ..."
 
-    stop music fadeout 2.5
+    stop music fadeout 5.0
 
     jump day4s4
