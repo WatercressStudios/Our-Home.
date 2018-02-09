@@ -357,7 +357,7 @@ label carrots:
     scene livingroom sunset
     show sis worry1 with dissolve
     
-    "Maria gentle pulls me out of the dining room, and out of earshot of the others. What is going on...?"
+    "Maria gently pulls me out of the dining room, and out of earshot of the others. What is going on...?"
     
     voice "5-3-57.mp3" #amree
     show sis worry2 with dissolve
@@ -367,7 +367,7 @@ label carrots:
     "I glance over at Mom. I understand why Maria wants to keep this quiet."
     "What is Alex doing out? Isn’t his foot injured?"
     hide sis with dissolve
-    "I pull out my phone and send a quick text to him, asking him where he is."
+    "I pull out my phone and type out a quick text to him, asking him where he is."
     "He replies almost instantly."
     "{color=#568203}\"Front door. Can you let me in quietly?\"{/color}"
     "I glance over at Mom again. She's busy scooping up stir-fried kale onto a large platter. It's now or never."

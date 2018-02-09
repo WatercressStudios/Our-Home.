@@ -11,8 +11,9 @@ label day7s4:
     scene hospitalhallway with dissolve
     voice "7-4-1.mp3" #skinimini
     doc "Alex's heart stopped on the way to the hospital. The paramedics were unable to revive him while in the ambulance."
+    # TODO VA: SKINIMINI (also possible to crop the audio ourselves)
     voice "7-4-2.mp3" #skinimini
-    doc "The hospital's ER team managed to revive and stabilize him, but he's still in critical condition. Moreover, you need to know that his brain was deprived of oxygen for a long time."
+    doc "The hospital's ER team managed to revive and stabilize him, but he's still in critical condition."
 
     # TODO: hide background with dissolve
     "The beeping of heart monitors. The shuffling of feet as medical staff rush from one hallway to another."
