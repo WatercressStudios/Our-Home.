@@ -358,7 +358,6 @@ label hospital2:
     
 	show lov confused1 with dissolve
 
-        voice "4-2-55.mp3" #starleeter
 	voice "4-2-55.mp3" #starleeter
 	lov "Emily, don't you want to talk to your brother before we leave?"
 
