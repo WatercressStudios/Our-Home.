@@ -167,7 +167,7 @@ label day11s4:
     #voice "11-4-23.mp3" #kaito
     #mom "What kind of mother takes out her misery on her kids? You three should've had the happier upbringing that I wasn't able to give to you."
 
-	# TODO VA: Kaito -- finally fixed the cringey lines I wrote
+    # TODO VA: Kaito -- finally fixed the cringey lines I wrote
     mom "I've failed your father. Your brother. Your sister. You."
     mom "I don't know what's wrong with me. Why wasn't I satisfied with my life? I have everything a mother should want, anyone would've said I was lucky to have what I have."
 
