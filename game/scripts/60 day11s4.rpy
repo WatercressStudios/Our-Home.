@@ -155,17 +155,27 @@ label day11s4:
 
     show mom sad2 with dissolve
 
-    voice "11-4-20.mp3" #kaito
-    mom "I've been such a failure as a mother. I was never able to find satisfaction as a housewife, unlike the other women in the neighborhood."
-    voice "11-4-21.mp3" #kaito
-    mom "And I'm filled with so much greed. Being a mother to three healthy children should've been enough for me... but instead, I find myself wanting my old career back."
+    #voice "11-4-20.mp3" #kaito
+    #mom "I've been such a failure as a mother. I was never able to find satisfaction as a housewife, unlike the other women in the neighborhood."
+    #voice "11-4-21.mp3" #kaito
+    #mom "And I'm filled with so much greed. Being a mother to three healthy children should've been enough for me... but instead, I find myself wanting my old career back."
 
-    show mom sad2 with dissolve
+    #show mom sad2 with dissolve
 
-    voice "11-4-22.mp3" #kaito
-    mom "How conceited was I, to try and turn my kids into me? You three deserve to choose your own futures, not be a proxy for my own selfish needs."
-    voice "11-4-23.mp3" #kaito
-    mom "What kind of mother takes out her misery on her kids? You three should've had the happier upbringing that I wasn't able to give to you."
+    #voice "11-4-22.mp3" #kaito
+    #mom "How conceited was I, to try and turn my kids into me? You three deserve to choose your own futures, not be a proxy for my own selfish needs."
+    #voice "11-4-23.mp3" #kaito
+    #mom "What kind of mother takes out her misery on her kids? You three should've had the happier upbringing that I wasn't able to give to you."
+
+    # TODO VA: Kaito -- finally fixed the cringey lines I wrote
+    mom "I've failed your father. Your brother. Your sister. You."
+    mom "I don't know what's wrong with me. Why wasn't I satisfied with my life? I have everything a mother should want, anyone would've said I was lucky to have what I have."
+
+    show mom sad1 with dissolve
+    
+    mom "But all I can think of is how much I regret my decision to quit my job when I had you."
+    mom "And I pushed all of my regret onto all of you... especially you, Emily."
+    mom "This isn't the life I imagined for you."
 
     show mom sad2 with dissolve
 

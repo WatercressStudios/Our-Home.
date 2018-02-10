@@ -356,19 +356,19 @@ label hospital2:
         "I smile at my little sister. She's incredibly strong for a girl her age."
         hide sis with dissolve
     
-        show lov confused1 with dissolve
+    show lov confused1 with dissolve
 
-        voice "4-2-55.mp3" #starleeter
-        lov "Emily, don't you want to talk to your brother before we leave?"
+    voice "4-2-55.mp3" #starleeter
+    lov "Emily, don't you want to talk to your brother before we leave?"
 
-        "Do I?"
-        "I'm not sure what I want, or how I'm feeling. My feelings are in a heap of mess."
+    "Do I?"
+    "I'm not sure what I want, or how I'm feeling. My feelings are in a heap of mess."
 
-        menu:
-            "\"Yes, if you don't mind waiting.\"":
-                jump talkbrother
-            "\"No need. I'll see him at home.\"":
-                jump nobrother
+    menu:
+        "\"Yes, if you don't mind waiting.\"":
+            jump talkbrother
+        "\"No need. I'll see him at home.\"":
+            jump nobrother
 
 
 ###########################################
